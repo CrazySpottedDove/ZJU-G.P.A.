@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.25)  5 NOV 2024 22:17
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.12.3)  3 DEC 2024 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,11 +9,11 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (./Physics_H_Notes.cls
 Document Class: Physics_H_Notes 
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/ctexbook.cls (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+(/usr/share/texmf-dist/tex/latex/ctex/ctexbook.cls (/usr/share/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 \g__graphics_track_int=\count184
 \l__pdf_internal_box=\box51
@@ -22,13 +22,13 @@ File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 \g__pdf_backend_link_int=\count187
 ))
 Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTEX)
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
+(/usr/share/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (/usr/share/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+) (/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+ (/usr/share/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
@@ -37,11 +37,11 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \l__ctex_tmp_dim=\dimen140
 \g__ctex_section_depth_int=\count189
 \g__ctex_font_size_int=\count190
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (/usr/share/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/book.cls
+) (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+(/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count191
@@ -56,11 +56,11 @@ File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen141
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+) (/usr/share/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
- (d:/Lan/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10.sty
+ (/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty (/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10.sty
 Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen142
 \l__xtemplate_tmp_int=\count266
@@ -127,11 +127,11 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count277
 \l__xeCJK_verb_case_int=\count278
 \l__xeCJK_verb_exspace_skip=\skip57
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+ (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count279
 \l__fontspec_language_int=\count280
@@ -147,69 +147,62 @@ Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpa_dim=\dimen170
 \l__fontspec_tmpb_dim=\dimen171
 \l__fontspec_tmpc_dim=\dimen172
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+ (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (d:/Lan/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 \ccwd=\dimen173
 \l__ctex_ccglue_skip=\skip58
 )
 \l__ctex_ziju_dim=\dimen174
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (/usr/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count290
 \l__zhnum_tmp_int=\count291
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (/usr/share/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
 \l__ctex_heading_skip=\skip59
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
+ (/usr/share/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
 File: ctex-scheme-chinese-book.def 2022/07/14 v2.5.10 Chinese scheme for book (CTEX)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+ (/usr/share/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
-
-Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
-(fontspec)             exist).
+)) (/usr/share/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+File: ctex-fontset-fandol.def 2022/07/14 v2.5.10 Fandol fonts definition (CTEX)
 
 
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
-(fontspec)             exist).
+Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
+(fontspec)                Script "CJK".
 
 
-Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
-(fontspec)             options
-(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
+(fontspec)             'FandolSong-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolKai-Regular}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
+)) (/usr/share/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count292
@@ -224,39 +217,39 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen181
 \Gm@layoutvoffset=\dimen182
 \Gm@dimlist=\toks18
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen183
 \pgfutil@tempdimb=\dimen184
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box55
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+ (/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen185
 \Gin@req@width=\dimen186
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks22
 ))
 \pgf@x=\dimen187
@@ -279,31 +272,31 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
 \pgf@sys@id@count=\count299
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-xetex.def
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
 File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
 \pgfsys@objnum=\count300
-))) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count301
 \pgfsyssoftpath@bigbuffer@items=\count302
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
@@ -312,18 +305,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen197
 \pgfmath@count=\count303
 \pgfmath@box=\box56
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count304
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen198
 \pgf@picmaxx=\dimen199
@@ -339,75 +332,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen265
 \pgf@zx=\dimen266
 \pgf@zy=\dimen267
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen268
 \pgf@path@lasty=\dimen269
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen270
 \pgf@shorten@start@additional=\dimen271
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
 \pgf@picture@serial@count=\count305
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen272
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen273
 \pgf@pt@y=\dimen274
 \pgf@pt@temp=\dimen275
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen276
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen277
 \pgf@sys@shading@range@num=\count306
 \pgf@shadingcount=\count307
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box60
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box61
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen278
 \pgf@nodesepend=\dimen279
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen280
 \pgffor@skip=\dimen281
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen282
@@ -428,96 +421,68 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count310
 \tikznumberofcurrentchild=\count311
 \tikz@fig@count=\count312
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count313
 \pgfmatrixcurrentcolumn=\count314
 \pgf@matrix@numberofcolumns=\count315
 )
 \tikz@expandcount=\count316
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (d:/Lan/texlive/2024/texmf-dist/tex/latex/float/float.sty
+))) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count317
 \float@exts=\toks31
 \float@box=\box66
 \@float@everytoks=\toks32
 \@floatcapt=\box67
-)
-
-Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=TeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
-(fontspec)             New
-(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count318
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count319
 )
 \@linkdim=\dimen291
 \Hy@linkcounter=\count320
 \Hy@pagecounter=\count321
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count322
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4062.
@@ -533,15 +498,15 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count323
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/url/url.sty
+ (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen292
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count324
@@ -554,7 +519,7 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -562,9 +527,9 @@ package with kernel methods
 \c@Item=\count326
 )
 Package hyperref Info: Driver (autodetected): hxetex.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
+ (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+ (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box68
@@ -572,22 +537,22 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \HyField@AnnotCount=\count328
 \Fld@listcount=\count329
 \c@bookmark@seq@number=\count330
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip60
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgx2.sty
+) (/usr/share/texmf-dist/tex/latex/ocgx2/ocgx2.sty
 Package: ocgx2 2022/12/16 v0.56 ports`ocgx'functionalitytodvips+ps2pdf,xelatexanddvipdfmx
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+ (/usr/share/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/media9/pdfbase.sty
+ (/usr/share/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF features
 \g_pbs_page_int=\count331
 \g_pbs_obj_int=\count332
@@ -599,7 +564,7 @@ Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fea
 \l_ocgxii_ve_cnt_int=\count336
 \g_ocgxii_page_int=\count337
 \g_ocgxii_widcount_int=\count338
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count339
 \calc@Bcount=\count340
@@ -623,16 +588,16 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip69
 \pyy=\skip70
 \pxx=\skip71
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+ (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
 \verbatim@line=\toks34
 \verbatim@in@stream=\read3
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks35
@@ -652,15 +617,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box77
 ) (./mgnote.sty
 Package: mgnote enhanced margin notes
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 \c@OverAllMgCtr=\count346
 \MgOffset=\skip72
 \c@MgCtr=\count347
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip73
 \f@nch@O@elh=\skip74
@@ -671,21 +636,21 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip79
 \f@nch@O@olf=\skip80
 \f@nch@O@orf=\skip81
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip82
 
 For additional information on amsmath, use the `?' option.
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks36
 \ex@=\dimen298
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen299
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count348
@@ -735,7 +700,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
+) (/usr/share/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -745,7 +710,7 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (./reftree.sty
 Package: reftree strong label and ref
 \c@RTCtr=\count360
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/cleveref/cleveref.sty
+ (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -761,7 +726,7 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
 \RTLabelOffset=\skip85
 \RTRefOffset=\skip86
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty
+) (/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_a_int=\count361
 \l__tblr_c_int=\count362
@@ -852,26 +817,26 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen347
 \l__tblr_cell_ht_dim=\dimen348
 \l__tblr_diag_box=\box103
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
 \c@tcbrastercolumn=\count384
 \c@tcbrasterrow=\count385
 \c@tcbrasternum=\count386
 \c@tcbraster=\count387
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+(/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+ (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box104
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
@@ -879,21 +844,21 @@ Package pdfcol Info: pdfTeX's color stacks are not available.
 \tcb@testbox=\box105
 \tcb@totalupperbox=\box106
 \tcb@totallowerbox=\box107
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
 \tcbfitdim=\dimen349
 \tcb@lowerfitdim=\dimen350
 \tcb@upperfitdim=\dimen351
 \tcb@cur@hbadness=\count388
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count389
 \lst@gtempboxa=\box108
 \lst@token=\toks41
@@ -906,40 +871,40 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 \lst@newlines=\count393
 \lst@lineno=\count394
 \lst@maxwidth=\dimen355
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+ (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 \c@lstnumber=\count395
 \lst@skipnumbers=\count396
 \lst@framebox=\box109
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
 ))
 Package: listings 2024/02/21 1.10 (Carsten Heinz)
- (d:/Lan/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+ (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count397
 \l__xeCJK_listings_flag_int=\count398
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
 \c@tcblisting=\count399
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
 Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
 Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
-(d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 )
 \c@law=\count400
@@ -949,42 +914,42 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 \c@solution=\count404
 \c@so=\count405
 \c@apart=\count406
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
+) (/usr/share/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-) (./tikzit.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+) (./tikzit.sty (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerbox@background=\box110
 \pgf@layerboxsaved@background=\box111
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen356
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartlowerbox=\box112
 \pgfnodeparttwobox=\box113
@@ -1011,32 +976,32 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerboxsaved@edgelayer=\box133
 \pgf@layerbox@nodelayer=\box134
 \pgf@layerboxsaved@nodelayer=\box135
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
+) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (d:/Lan/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks42
 \t@pgfplots@tokb=\toks43
 \t@pgfplots@tokc=\toks44
 \pgfplots@tmpa=\dimen357
 \c@pgfplots@coordindex=\count407
 \c@pgfplots@scanlineindex=\count408
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+ (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks45
 \t@pgf@tokb=\toks46
 \t@pgf@tokc=\toks47
-(d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count409
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count410
 \t@pgfplotstable@a=\toks48
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count411
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+ (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
 \c@pgfplotslibrarysurf@streamlen=\count412
-)))) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+)))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen358
 \pgfdecoratedremainingdistance=\dimen359
 \pgfdecoratedinputsegmentcompleteddistance=\dimen360
@@ -1047,7 +1012,7 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen364
 )
 \tikz@lib@dec@box=\box136
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count414
 \pgfplots@xmin@reg=\dimen365
 \pgfplots@xmax@reg=\dimen366
@@ -1055,15 +1020,15 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen368
 \pgfplots@zmin@reg=\dimen369
 \pgfplots@zmax@reg=\dimen370
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (d:/Lan/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (d:/Lan/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+))) (/usr/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (d:/Lan/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+)) (/usr/share/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -1097,9 +1062,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
 \pgf@intersect@solutions=\count415
-)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (./arrow.tikzstyles) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.fractals.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.fractals.code.tex)) (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (d:/Lan/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
+)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (./arrow.tikzstyles) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.fractals.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.fractals.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
 \pgf@lib@dec@text@box=\box137
 )
 \tikz@lib@dec@te@box=\box138
@@ -1191,75 +1156,54 @@ Package hyperref Info: Link coloring ON on input line 20.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+ (/usr/share/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 \c@lstlisting=\count416
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-(../chapters/titlepage/titlepage.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
- (d:/Lan/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 82.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 82.
-
-
-LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <20.74> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 84.
-
-) [0
+(../chapters/titlepage/titlepage.tex) [0
 
 ]
 
-Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
+(fontspec)                Script "CJK".
 
 
-Package fontspec Info: Could not resolve font "Microsoft YaHei/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
-(fontspec)             'Microsoft YaHei' with options
-(fontspec)             [Script={CJK},BoldFont={* Bold}].
+Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
+(fontspec)             'FandolHei-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
-(fontspec)             Bold/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
- (build/main.toc
+(build/main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1288,8 +1232,8 @@ LaTeX Warning: Unexpected alignment  on input line 37.
 
 \c@RT:frontmatter:ref=\count417
 )
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 25.
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line 25.
  [3]
 Missing character: There is no ^^89 ("89) in font nullfont!
 Missing character: There is no ^^89 ("89) in font nullfont!
@@ -1298,7 +1242,7 @@ Missing character: There is no ^^89 ("89) in font nullfont!
 ]
 第一章
 LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 1.
-(d:/Lan/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pzc.fd
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
@@ -1314,36 +1258,25 @@ LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.28> not available
 LaTeX Warning: Unexpected alignment  on input line 1.
 
 
-LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <17.28> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 3.
-
-
 LaTeX Warning: Unexpected alignment  on input line 9.
 
 [2
 
 ]
 
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
-(fontspec)             doesn't exist).
+Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
+(fontspec)                Script "CJK".
 
 
-Package fontspec Info: Could not resolve font "FangSong/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
-(fontspec)             with options [Script={CJK}].
+Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
+(fontspec)             'FandolFang-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 ) (../chapters/chapter1/chapter1_exercise.tex
@@ -1368,10 +1301,6 @@ Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
  [][][]
  []
 
-
-LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <14.4> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 9.
-
 [4
 
 ]
@@ -1386,15 +1315,21 @@ LaTeX Warning: Unexpected alignment  on input line 68.
 
 LaTeX Warning: Unexpected alignment  on input line 79.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+\TU/FandolSong-Regular(0)/m/n/12 个
+ []
+
 [7]
 
 LaTeX Warning: Unexpected alignment  on input line 113.
 
+[8]
 \c@RT:chapter2_vector_expression=\count419
+
 
 LaTeX Warning: Unexpected alignment  on input line 132.
 
-[8]
 
 LaTeX Warning: Unexpected alignment  on input line 142.
 
@@ -1404,6 +1339,8 @@ LaTeX Warning: Unexpected alignment  on input line 144.
 
 LaTeX Warning: Unexpected alignment  on input line 145.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 172.
 
 LaTeX Warning: Unexpected alignment  on input line 172.
 
@@ -1414,8 +1351,8 @@ Missing character: There is no ; ("3B) in font nullfont!
 LaTeX Warning: Unexpected alignment  on input line 277.
 
 [12] [13]
-File: ../figures/figure2/inversed_chapter2_uniform circular motion.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_uniform circular motion.png>
+File: ../figures/figure2/chapter2_uniform circular motion.png Graphic file (type bmp)
+<../figures/figure2/chapter2_uniform circular motion.png>
  [14] [15]
 \c@RT:prove2.1=\count420
 
@@ -1425,12 +1362,12 @@ LaTeX Warning: Unexpected alignment  on input line 480.
 \c@RT:prove2.2=\count421
 \c@RT:prove2.3=\count422
 
-Overfull \hbox (3.72446pt too wide) in paragraph at lines 492--492
+Overfull \hbox (49.17082pt too wide) in paragraph at lines 492--492
 [] []
  []
 
 
-Overfull \hbox (0.52765pt too wide) in paragraph at lines 492--492
+Overfull \hbox (45.57082pt too wide) in paragraph at lines 492--492
 [] 
  []
 
@@ -1482,18 +1419,20 @@ LaTeX Warning: Unexpected alignment  on input line 788.
 
 LaTeX Warning: Unexpected alignment  on input line 796.
 
-File: ../figures/figure2/inversed_chapter2_conic_section.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_conic_section.png>
+File: ../figures/figure2/chapter2_conic_section.png Graphic file (type bmp)
+<../figures/figure2/chapter2_conic_section.png>
 [28]
-File: ../figures/figure2/inversed_chapter2_cavendish.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_cavendish.png>
+File: ../figures/figure2/chapter2_cavendish.png Graphic file (type bmp)
+<../figures/figure2/chapter2_cavendish.png>
  [29] [30]
 
 LaTeX Warning: Unexpected alignment  on input line 848.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 862.
 [31]
-File: ../figures/figure2/inversed_chapter2_rocket.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_rocket.png>
+File: ../figures/figure2/chapter2_rocket.png Graphic file (type bmp)
+<../figures/figure2/chapter2_rocket.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 888.
@@ -1503,12 +1442,12 @@ LaTeX Warning: Unexpected alignment  on input line 888.
 \c@RT:solution2.2=\count434
 \c@RT:solution2.3=\count435
 \c@RT:solution2.4=\count436
-File: ../figures/figure2/inversed_chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem3.png>
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
  [33]
 \c@RT:solution2.5=\count437
-File: ../figures/figure2/inversed_chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem4.png>
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
 ) (../chapters/chapter3/chapter3_main.tex [34]
 第三章
 
@@ -1525,11 +1464,10 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 14.
 
+\c@RT:chapter2_polar_coordinate=\count438
 [35
 
-]
-\c@RT:chapter2_polar_coordinate=\count438
- (./figures/chapter3_polar_coordinate.tikz)
+] (./figures/chapter3_polar_coordinate.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 28.
 
@@ -1545,8 +1483,8 @@ LaTeX Warning: Unexpected alignment  on input line 181.
 LaTeX Warning: Unexpected alignment  on input line 185.
 
 [37]
-File: ../figures/figure3/inversed_chapter3_right_hand_rule.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_right_hand_rule.jpg>
+File: ../figures/figure3/chapter3_right_hand_rule.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_right_hand_rule.jpg>
 
 
 LaTeX Warning: Unexpected alignment  on input line 201.
@@ -1572,16 +1510,16 @@ LaTeX Warning: Unexpected alignment  on input line 238.
 
 LaTeX Warning: Unexpected alignment  on input line 251.
 
-File: ../figures/figure3/inversed_chapter3_torque.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_torque.png>
+File: ../figures/figure3/chapter3_torque.png Graphic file (type bmp)
+<../figures/figure3/chapter3_torque.png>
 [40]
 \c@RT:prove3.1=\count441
  (./figures/chapter3_moment_arm.tikz)
-File: ../figures/figure3/inversed_chapter3_moment_inertia1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_moment_inertia1.jpg>
+File: ../figures/figure3/chapter3_moment_inertia1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia1.jpg>
  [41]
-File: ../figures/figure3/inversed_chapter3_moment_inertia2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_moment_inertia2.png>
+File: ../figures/figure3/chapter3_moment_inertia2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia2.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 282.
@@ -1607,12 +1545,12 @@ LaTeX Warning: Unexpected alignment  on input line 318.
 \c@RT:prove3.4=\count445
 \c@RT:prove3.5=\count446
 [44]
-File: ../figures/figure3/inversed_chapter3_kepler's_second_law.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_kepler's_second_law.png>
+File: ../figures/figure3/chapter3_kepler's_second_law.png Graphic file (type bmp)
+<../figures/figure3/chapter3_kepler's_second_law.png>
 \c@RT:prove3.6=\count447
 
 Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]\TU/SimSun(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .3[][]|   [] [][]—
+[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .3[][]|   [] [][]—
  []
 
 [45]
@@ -1627,8 +1565,8 @@ LaTeX Warning: Unexpected alignment  on input line 376.
 
 \c@RT:prove3.8=\count450
 [46]
-File: ../figures/figure3/inversed_chapter3_earth.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_earth.png>
+File: ../figures/figure3/chapter3_earth.png Graphic file (type bmp)
+<../figures/figure3/chapter3_earth.png>
 
 Overfull \hbox (40.4824pt too wide) detected at line 409
   [][]
@@ -1636,26 +1574,26 @@ Overfull \hbox (40.4824pt too wide) detected at line 409
 
 [47]) (../chapters/chapter3/chapter3_exercise.tex [48]
 \c@RT:solution3.1=\count451
-File: ../figures/figure3/inversed_chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_1.jpg>
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
 \c@RT:solution3.2=\count452
-File: ../figures/figure3/inversed_chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_2.png>
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
  [49]
 \c@RT:solution3.3=\count453
  (./figures/chapter3_example_3_3.tikz)
 \c@RT:solution3.4=\count454
-File: ../figures/figure3/inversed_chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_massive_pulley.png>
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
  [50]
 \c@RT:solution3.5=\count455
 
 Underfull \hbox (badness 8170) in paragraph at lines 55--55
-[]\TU/SimSun(0)/m/it/12 习 题 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .5[][]|  Object rotating on a string of changing length—
+[]\TU/FandolSong-Regular(0)/m/it/12 习 题 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .5[][]|  Object rotating on a string of changing length—
  []
 
-File: ../figures/figure3/inversed_chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_string.png>
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
 \c@RT:solution3.6=\count456
 (./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
 Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
@@ -1673,12 +1611,12 @@ LaTeX Warning: Unexpected alignment  on input line 6.
 
 ] [54]) (../chapters/chapter4/chapter4_exercise.tex
 \c@RT:solution4.1=\count457
-File: ../figures/figure4/inversed_chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体静力学.png>
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
  [55]
 \c@RT:solution4.2=\count458
-File: ../figures/figure4/inversed_chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体动力学.png>
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
  [56]) (../chapters/chapter5/chapter5_main.tex [57]
 第五章
 
@@ -1710,23 +1648,23 @@ LaTeX Warning: Unexpected alignment  on input line 61.
 \c@RT:prove6.1=\count459
 (./figures/chapter6_framess.tikz) [61]
 Underfull \hbox (badness 2735) in paragraph at lines 79--80
-[]\TU/SimSun(0)/m/n/12 利 用 洛 伦 兹 变 换，|  我 们 可 以 进 一 步 解 释 两 个 著 名 的 相 对 论 效 应，|  即
+[]\TU/FandolSong-Regular(0)/m/n/12 利 用 洛 伦 兹 变 换，|  我 们 可 以 进 一 步 解 释 两 个 著 名 的 相 对 论 效 应，|  即
  []
 
-File: ../figures/figure6/inversed_chapter_6_2.png Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_2.png>
-[62]
+File: ../figures/figure6/chapter_6_2.png Graphic file (type bmp)
+<../figures/figure6/chapter_6_2.png>
+[62] [63]
 
 LaTeX Warning: Unexpected alignment  on input line 120.
 
 \c@RT:prove6.2=\count460
-[63] (./figures/chapter6_frames.tikz)
+(./figures/chapter6_frames.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 130.
 
 [64]
 \c@RT:prove6.3=\count461
- (./figures/chapter6_example_6_2.tikz) [65]
+ [65] (./figures/chapter6_example_6_2.tikz)
 \c@RT:chapter6_length_contraction=\count462
 
 
@@ -1736,16 +1674,16 @@ LaTeX Warning: Unexpected alignment  on input line 189.
 
 LaTeX Warning: Unexpected alignment  on input line 199.
 
+[66]
 
 LaTeX Warning: Unexpected alignment  on input line 204.
 
 \c@RT:prove6.4=\count464
-[66]
-File: ../figures/figure6/inversed_chapter_6_3.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_3.jpg>
- [67]
+File: ../figures/figure6/chapter_6_3.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_3.jpg>
+[67]
 \c@RT:prove6.5=\count465
-
+ [68]
 
 LaTeX Warning: Unexpected alignment  on input line 241.
 
@@ -1753,19 +1691,20 @@ LaTeX Warning: Unexpected alignment  on input line 241.
 LaTeX Warning: Unexpected alignment  on input line 245.
 
 \c@RT:prove6.6=\count466
-(./figures/chapter6_framess.tikz) [68] (./figures/chapter6_framess.tikz) [69]
+(./figures/chapter6_framess.tikz) [69] (./figures/chapter6_framess.tikz) [70]
 
 LaTeX Warning: Unexpected alignment  on input line 282.
 
 
 Overfull \hbox (5.3116pt too wide) in paragraph at lines 282--282
-[]\TU/SimSun(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 6\TU/lmr/m/it/12 .5[][][][][]|   []
+[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 6\TU/lmr/m/it/12 .5[][][][][]|   []
  []
 
-(./figures/chapter6_framess.tikz) [70]
+(./figures/chapter6_framess.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 296.
 
+[71]
 
 LaTeX Warning: Unexpected alignment  on input line 297.
 
@@ -1775,65 +1714,75 @@ LaTeX Warning: Unexpected alignment  on input line 297.
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
-[71] (./figures/chapter6_dpl.tikz)
+(./figures/chapter6_dpl.tikz) [72]
 \c@RT:chapter6_principle_of_relativity=\count467
 
 
 LaTeX Warning: Unexpected alignment  on input line 333.
 
-[72]
+
+Overfull \hbox (35.33261pt too wide) in paragraph at lines 335--335
+ [] 
+ []
+
+
+Overfull \hbox (35.33261pt too wide) in paragraph at lines 335--335
+ [] 
+ []
+
+[73]
 \c@RT:chapter6_invariant=\count468
 
 
 LaTeX Warning: Unexpected alignment  on input line 338.
 
-[73] (./figures/chapter6_mins1.tikz)
+(./figures/chapter6_mins1.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 361.
 
 
 LaTeX Warning: Unexpected alignment  on input line 362.
 
-(./figures/chapter6_mins4.tikz) [74] (./figures/chapter6_mins2.tikz)
+[74] (./figures/chapter6_mins4.tikz) (./figures/chapter6_mins2.tikz) [75]
 
 LaTeX Warning: Unexpected alignment  on input line 381.
 
-[75] (./figures/chapter6_mins3.tikz)
+[76] (./figures/chapter6_mins3.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 397.
 
-(./figures/chapter6_mins5.tikz) [76] (./figures/chapter6_mins6.tikz) [77]
+(./figures/chapter6_mins5.tikz) [77] (./figures/chapter6_mins6.tikz) [78]
 \c@RT:prove6.7=\count469
- (./figures/chapter6_mins7.tikz) (./figures/chapter6_mins8.tikz) [78] [79] [80]
+ (./figures/chapter6_mins7.tikz) (./figures/chapter6_mins8.tikz) [79] [80] [81]
 
 LaTeX Warning: Unexpected alignment  on input line 497.
 
 
 LaTeX Warning: Unexpected alignment  on input line 497.
 
-(./figures/chapter6_mins9.tikz) [81]) (../chapters/chapter6/chapter6_exercise.tex
+(./figures/chapter6_mins9.tikz) [82]) (../chapters/chapter6/chapter6_exercise.tex
 \c@RT:solution6.1=\count470
-File: ../figures/figure6/inversed_chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_7.jpg>
- [82]
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
+ [83]
 \c@RT:solution6.2=\count471
  (./figures/chapter6_solution_6_2_1.tikz)
 \c@RT:solution6.3=\count472
- [83]
-\c@RT:solution6.4=\count473
-File: ../figures/figure6/inversed_chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_20.jpg>
  [84]
-\c@RT:solution6.5=\count474
-File: ../figures/figure6/inversed_chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_23.jpg>
+\c@RT:solution6.4=\count473
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
  [85]
-\c@RT:solution6.6=\count475
-File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_24.jpg>
+\c@RT:solution6.5=\count474
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
  [86]
+\c@RT:solution6.6=\count475
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
+ [87]
 \c@RT:solution6.7=\count476
- [87]) (../chapters/chapter7/chapter7_main.tex [88]
+ [88]) (../chapters/chapter7/Chapter7_main.tex [89]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -1843,7 +1792,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 1.
 
-[89
+[90
 
 ]
 
@@ -1851,22 +1800,22 @@ LaTeX Warning: Unexpected alignment  on input line 28.
 
 \c@RT:prove7.11=\count477
 \c@RT:prove7.1=\count478
-[90]
+[91]
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
-[91]
+[92]
 \c@RT:prove7.10=\count479
- [92]
-\c@RT:prove7.9=\count480
  [93]
-\c@RT:prove7.2=\count481
+\c@RT:prove7.9=\count480
  [94]
+\c@RT:prove7.2=\count481
+ [95]
 Underfull \hbox (badness 10000) in paragraph at lines 200--202
 [] []
  []
 
-[95]
+[96]
 \c@RT:chapter7_thermodynamic_temperature=\count482
 
 
@@ -1875,9 +1824,9 @@ LaTeX Warning: Unexpected alignment  on input line 223.
 
 LaTeX Warning: Unexpected alignment  on input line 223.
 
-[96]
+[97]
 \c@RT:prove7.3=\count483
- [97]
+ [98]
 
 LaTeX Warning: Unexpected alignment  on input line 265.
 
@@ -1885,12 +1834,12 @@ LaTeX Warning: Unexpected alignment  on input line 265.
 LaTeX Warning: Unexpected alignment  on input line 278.
 
 \c@RT:prove7.4=\count484
-[98]
+[99]
 \c@RT:prove7.5=\count485
 \c@RT:prove7.6=\count486
- [99] (./figures/chapter7_otto_cycle.tikz)
+ [100] (./figures/chapter7_otto_cycle.tikz)
 \c@RT:prove7.7=\count487
- [100] (./figures/chapter7_carnot_cycle.tikz)
+ [101] (./figures/chapter7_carnot_cycle.tikz)
 \c@RT:prove7.8=\count488
 
 
@@ -1899,13 +1848,13 @@ LaTeX Warning: Unexpected alignment  on input line 385.
 
 LaTeX Warning: Unexpected alignment  on input line 387.
 
-[101]
+[102]
 \c@RT:example7.6=\count489
 
 
 LaTeX Warning: Unexpected alignment  on input line 419.
 
-[102] [103]) (../chapters/chapter7/chapter7_exercise.tex
+[103] [104]) (../chapters/chapter7/Chapter7_exercise.tex
 \c@RT:solution7.1=\count490
 \c@RT:solution7.2=\count491
 \c@RT:solution7.3=\count492
@@ -1914,31 +1863,31 @@ Underfull \hbox (badness 1331) in paragraph at lines 29--34
 \TU/lmr/m/n/12 Hint: The isothermal compressibility $\OML/lmm/m/it/12 ^^T[]$ \TU/lmr/m/n/12 is defined through $\OML/lmm/m/it/12 ^^T[] \OT1/lmr/m/n/12 =
  []
 
-[104]
+[105]
 \c@RT:solution7.4=\count493
- (./figures/chapter7_solution_7_4.tikz) [105]
+ (./figures/chapter7_solution_7_4.tikz) [106]
 \c@RT:solution7.5=\count494
  (./figures/chapter7_solution_7_5.tikz)
 Underfull \hbox (badness 1354) in paragraph at lines 71--78
 \TU/lmr/m/n/12 (c) For a Carnot engine with efficiency $\OML/lmm/m/it/12 ^^O \OT1/lmr/m/n/12 = 1 \OMS/lmsy/m/n/12 ^^@ []$\TU/lmr/m/n/12 , verify the
  []
 
-[106]
+[107]
 
 LaTeX Warning: Unexpected alignment  on input line 83.
 
 \c@RT:solution7.6=\count495
-[107]) [108]
+[108]) [109]
 Missing character: There is no ^^89 ("89) in font nullfont!
 Missing character: There is no ^^89 ("89) in font nullfont!
-(../chapters/chapter1/chapter1_prove.tex [109]
+(../chapters/chapter1/chapter1_prove.tex [110]
 第一章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter2/chapter2_prove.tex [110
+) (../chapters/chapter2/chapter2_prove.tex [111
 
 ]
 第二章
@@ -1960,35 +1909,35 @@ Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-(./figures/chapter2_newton's first law.tikz) [111
+(./figures/chapter2_newton's first law.tikz) [112
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 24.
 
-[112]
+[113]
 
 LaTeX Warning: Unexpected alignment  on input line 32.
 
 
 LaTeX Warning: Unexpected alignment  on input line 37.
 
-[113]
+[114]
 
 LaTeX Warning: Unexpected alignment  on input line 49.
 
-[114]
+[115]
 
 LaTeX Warning: Unexpected alignment  on input line 61.
 
 
 LaTeX Warning: Unexpected alignment  on input line 73.
 
-[115]
+[116]
 
 LaTeX Warning: Unexpected alignment  on input line 129.
 
-[116]) (../chapters/chapter3/chapter3_prove.tex [117]
+[117]) (../chapters/chapter3/chapter3_prove.tex [118]
 第三章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2003,7 +1952,7 @@ LaTeX Warning: Unexpected alignment  on input line 3.
 
 LaTeX Warning: Unexpected alignment  on input line 21.
 
-[118
+[119
 
 ]
 
@@ -2016,7 +1965,7 @@ LaTeX Warning: Unexpected alignment  on input line 44.
 
 LaTeX Warning: Unexpected alignment  on input line 53.
 
-[119]
+[120]
 
 LaTeX Warning: Unexpected alignment  on input line 58.
 
@@ -2024,7 +1973,7 @@ LaTeX Warning: Unexpected alignment  on input line 58.
 LaTeX Warning: Unexpected alignment  on input line 65.
 
 \c@RT:chapter3_derivation=\count499
-[120]
+[121]
 
 LaTeX Warning: Unexpected alignment  on input line 83.
 
@@ -2034,7 +1983,7 @@ LaTeX Warning: Unexpected alignment  on input line 97.
 
 LaTeX Warning: Unexpected alignment  on input line 97.
 
-[121]
+[122]
 
 LaTeX Warning: Unexpected alignment  on input line 111.
 
@@ -2044,14 +1993,14 @@ LaTeX Warning: Unexpected alignment  on input line 179.
 
 LaTeX Warning: Unexpected alignment  on input line 179.
 
-[122] [123] [124]) (../chapters/chapter4/chapter4_prove.tex [125]
+[123] [124] [125]) (../chapters/chapter4/chapter4_prove.tex [126]
 第四章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 2--2
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter5/chapter5_prove.tex [126
+) (../chapters/chapter5/chapter5_prove.tex [127
 
 ]
 第五章
@@ -2060,7 +2009,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter6/chapter6_prove.tex [127
+) (../chapters/chapter6/chapter6_prove.tex [128
 
 ]
 第六章
@@ -2072,13 +2021,13 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-(./figures/chapter6_framess.tikz) [128
+(./figures/chapter6_framess.tikz) [129
 
-] [129]
+] [130]
 
 LaTeX Warning: Unexpected alignment  on input line 76.
 
-(./figures/chapter6_length_contraction.tikz) [130]
+(./figures/chapter6_length_contraction.tikz) [131]
 
 LaTeX Warning: Unexpected alignment  on input line 114.
 
@@ -2089,7 +2038,7 @@ LaTeX Warning: Unexpected alignment  on input line 131.
 
 LaTeX Warning: Unexpected alignment  on input line 156.
 
-[131] [132] [133]
+[132] [133] [134]
 
 LaTeX Warning: Unexpected alignment  on input line 186.
 
@@ -2099,11 +2048,11 @@ LaTeX Warning: Unexpected alignment  on input line 204.
 
 LaTeX Warning: Unexpected alignment  on input line 204.
 
-(./figures/chapter6_framess.tikz) [134]
+(./figures/chapter6_framess.tikz) [135]
 
 LaTeX Warning: Unexpected alignment  on input line 229.
 
-[135]) (../chapters/chapter7/chapter7_prove.tex [136]
+[136]) (../chapters/chapter7/Chapter7_prove.tex [137]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2113,23 +2062,23 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 6.
 
-[137
+[138
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 40.
 
-File: ../figures/figure7/inversed_chapter7_mean_path.png Graphic file (type bmp)
-<../figures/figure7/inversed_chapter7_mean_path.png>
+File: ../figures/figure7/chapter7_mean_path.png Graphic file (type bmp)
+<../figures/figure7/chapter7_mean_path.png>
 \c@RT:prove7.13=\count500
 
 LaTeX Warning: Unexpected alignment  on input line 56.
 
-[138]
+[139]
 
 LaTeX Warning: Unexpected alignment  on input line 65.
 
-[139]
+[140]
 
 LaTeX Warning: Unexpected alignment  on input line 87.
 
@@ -2145,7 +2094,7 @@ LaTeX Warning: Unexpected alignment  on input line 106.
 
 LaTeX Warning: Unexpected alignment  on input line 106.
 
-[140]
+[141]
 
 LaTeX Warning: Unexpected alignment  on input line 142.
 
@@ -2153,21 +2102,21 @@ LaTeX Warning: Unexpected alignment  on input line 142.
 
 LaTeX Warning: Unexpected alignment  on input line 159.
 
-(./figures/chapter7_carnot_cycle.tikz) [141]
+(./figures/chapter7_carnot_cycle.tikz) [142]
 
 LaTeX Warning: Unexpected alignment  on input line 194.
 
 
 LaTeX Warning: Unexpected alignment  on input line 223.
 
-[142] [143] [144]
+[143] [144] [145]
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
-[145] [146]
+[146] [147]
 
 LaTeX Warning: Unexpected alignment  on input line 359.
 
@@ -2180,19 +2129,19 @@ LaTeX Warning: Unexpected alignment  on input line 369.
 
 LaTeX Warning: Unexpected alignment  on input line 374.
 
-[147
+[148
 
-] [148]
+] [149]
 
 LaTeX Warning: Unexpected alignment  on input line 435.
 
 
 LaTeX Warning: Unexpected alignment  on input line 457.
 
-[149] [150])
+[150] [151])
 Missing character: There is no ^^89 ("89) in font nullfont!
 Missing character: There is no ^^89 ("89) in font nullfont!
-(../chapters/chapter1/chapter1_answer.tex [151
+(../chapters/chapter1/chapter1_answer.tex [152
 
 ]
 第一章
@@ -2204,7 +2153,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-) (../chapters/chapter2/chapter2_answer.tex [152
+) (../chapters/chapter2/chapter2_answer.tex [153
 
 ]
 第二章
@@ -2229,30 +2178,30 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 21.
 
-[153
+[154
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 40.
 
-[154]
+[155]
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
-File: ../figures/figure2/inversed_chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem3.png>
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
 
 Overfull \hbox (8.62373pt too wide) detected at line 90
 []
  []
 
-[155]
+[156]
 
 LaTeX Warning: Unexpected alignment  on input line 106.
 
-File: ../figures/figure2/inversed_chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem4.png>
-) (../chapters/chapter3/chapter3_answer.tex [156]
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
+) (../chapters/chapter3/chapter3_answer.tex [157]
 第三章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2262,47 +2211,47 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure3/inversed_chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_1.jpg>
-[157
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
+[158
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 34.
 
-File: ../figures/figure3/inversed_chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_2.png>
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
 \c@RT:chapter3_moment_inertia2=\count501
 
 LaTeX Warning: Unexpected alignment  on input line 74.
 
-[158] [159]
+[159] [160]
 
 LaTeX Warning: Unexpected alignment  on input line 85.
 
 (./figures/chapter3_example_3_3.tikz)
 \c@RT:law3.1=\count502
- [160
+ [161
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 116.
 
-File: ../figures/figure3/inversed_chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_massive_pulley.png>
-[161]
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
+[162]
 
 LaTeX Warning: Unexpected alignment  on input line 158.
 
-File: ../figures/figure3/inversed_chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_string.png>
-[162]
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
+[163]
 
 LaTeX Warning: Unexpected alignment  on input line 176.
 
 (./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
 Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
-[163] [164] [165]) (../chapters/chapter4/chapter4_answer.tex [166]
+[164] [165] [166]) (../chapters/chapter4/chapter4_answer.tex [167]
 第四章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2312,28 +2261,26 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure4/inversed_chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体静力学.png>
-File: ../figures/figure4/inversed_chapter4_E1_A1.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_E1_A1.png>
-[167
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
+File: ../figures/figure4/chapter4_E1_A1.png Graphic file (type bmp)
+<../figures/figure4/chapter4_E1_A1.png>
+[168
 
-] [168]
+] [169]
 
 LaTeX Warning: Unexpected alignment  on input line 38.
 
-File: ../figures/figure4/inversed_chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体动力学.png>
-[169
-
-]) (../chapters/chapter5/chapter5_answer.tex [170]
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
+[170]) (../chapters/chapter5/chapter5_answer.tex [171]
 第五章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter6/chapter6_answer.tex [171
+) (../chapters/chapter6/chapter6_answer.tex [172
 
 ]
 第六章
@@ -2345,37 +2292,37 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure6/inversed_chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_7.jpg>
-[172
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
+[173
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 42.
 
-(./figures/chapter6_solution_6_2_1.tikz) (./figures/chapter6_solution_6_2_2.tikz) (./figures/chapter6_solution_6_2_3.tikz) [173] [174]
+(./figures/chapter6_solution_6_2_1.tikz) (./figures/chapter6_solution_6_2_2.tikz) (./figures/chapter6_solution_6_2_3.tikz) [174] [175]
 
 LaTeX Warning: Unexpected alignment  on input line 72.
 
-(./figures/chapter6_solution_6_3.tikz) [175] [176]
+(./figures/chapter6_solution_6_3.tikz) [176] [177]
 
 LaTeX Warning: Unexpected alignment  on input line 143.
 
-File: ../figures/figure6/inversed_chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_20.jpg>
-(./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [177] [178] [179]
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
+(./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [178] [179] [180]
 
 LaTeX Warning: Unexpected alignment  on input line 199.
 
-File: ../figures/figure6/inversed_chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_23.jpg>
-[180] [181] [182]
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
+[181] [182] [183]
 
 LaTeX Warning: Unexpected alignment  on input line 257.
 
-File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_24.jpg>
-[183] [184]
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
+[184] [185]
 
 LaTeX Warning: Unexpected alignment  on input line 298.
 
@@ -2387,7 +2334,7 @@ LaTeX Warning: Unexpected alignment  on input line 328.
 
 LaTeX Warning: Unexpected alignment  on input line 332.
 
-[185] [186] [187]) (../chapters/chapter7/chapter7_answer.tex [188]
+[186] [187] [188]) (../chapters/chapter7/Chapter7_answer.tex [189]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2400,9 +2347,9 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 15.
 
-[189
+[190
 
-] [190]
+] [191]
 
 LaTeX Warning: Unexpected alignment  on input line 62.
 
@@ -2421,13 +2368,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
-[191
+[192
 
-] [192]
+] [193]
 
 LaTeX Warning: Unexpected alignment  on input line 172.
 
-(./figures/chapter7_solution_7_4.tikz) [193] [194]
+(./figures/chapter7_solution_7_4.tikz) [194] [195]
 
 LaTeX Warning: Unexpected alignment  on input line 244.
 
@@ -2437,7 +2384,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 258--265
  []
 
 \c@RT:law7.2=\count505
-[195] [196] [197] [198]
+[196] [197] [198] [199]
 
 LaTeX Warning: Unexpected alignment  on input line 417.
 
@@ -2450,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--432
 
 LaTeX Warning: Unexpected alignment  on input line 446.
 
-[199] [200]) [201] (build/main.aux)
+[200] [201]) [202] (build/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -2463,12 +2410,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8685271EA8F417D61AD823D2A6B01ADD;18781.
  ) 
 Here is how much of TeX's memory you used:
- 65537 strings out of 474773
- 1637255 string characters out of 5759509
- 2118157 words of memory out of 5000000
- 86469 multiletter control sequences out of 15000+600000
- 635947 words of font info for 214 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 117i,20n,422p,3341b,1497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66425 strings out of 476761
+ 1654549 string characters out of 5802895
+ 2124513 words of memory out of 5000000
+ 87261 multiletter control sequences out of 15000+600000
+ 626109 words of font info for 177 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 117i,20n,422p,3341b,1500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.pdf (211 pages).
+Output written on build/main.pdf (212 pages).
