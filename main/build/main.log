@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 09:48
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,39 +1191,7 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-(../chapters/titlepage/titlepage.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
- (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
- (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
- (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
- (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 82.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 82.
-
-
-LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <20.74> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 84.
-
-) [0
+(../chapters/titlepage/titlepage.tex) [0
 
 ]
 
@@ -1246,6 +1214,24 @@ Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 (build/main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1383,6 +1369,8 @@ LaTeX Warning: Unexpected alignment  on input line 144.
 
 LaTeX Warning: Unexpected alignment  on input line 145.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 172.
 
 LaTeX Warning: Unexpected alignment  on input line 172.
 
@@ -1393,8 +1381,8 @@ Missing character: There is no ; ("3B) in font nullfont!
 LaTeX Warning: Unexpected alignment  on input line 277.
 
 [12] [13]
-File: ../figures/figure2/inversed_chapter2_uniform circular motion.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_uniform circular motion.png>
+File: ../figures/figure2/chapter2_uniform circular motion.png Graphic file (type bmp)
+<../figures/figure2/chapter2_uniform circular motion.png>
  [14] [15]
 \c@RT:prove2.1=\count420
 
@@ -1461,18 +1449,20 @@ LaTeX Warning: Unexpected alignment  on input line 788.
 
 LaTeX Warning: Unexpected alignment  on input line 796.
 
-File: ../figures/figure2/inversed_chapter2_conic_section.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_conic_section.png>
+File: ../figures/figure2/chapter2_conic_section.png Graphic file (type bmp)
+<../figures/figure2/chapter2_conic_section.png>
 [28]
-File: ../figures/figure2/inversed_chapter2_cavendish.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_cavendish.png>
+File: ../figures/figure2/chapter2_cavendish.png Graphic file (type bmp)
+<../figures/figure2/chapter2_cavendish.png>
  [29] [30]
 
 LaTeX Warning: Unexpected alignment  on input line 848.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 862.
 [31]
-File: ../figures/figure2/inversed_chapter2_rocket.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_rocket.png>
+File: ../figures/figure2/chapter2_rocket.png Graphic file (type bmp)
+<../figures/figure2/chapter2_rocket.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 888.
@@ -1482,12 +1472,12 @@ LaTeX Warning: Unexpected alignment  on input line 888.
 \c@RT:solution2.2=\count434
 \c@RT:solution2.3=\count435
 \c@RT:solution2.4=\count436
-File: ../figures/figure2/inversed_chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem3.png>
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
  [33]
 \c@RT:solution2.5=\count437
-File: ../figures/figure2/inversed_chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem4.png>
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
 ) (../chapters/chapter3/chapter3_main.tex [34]
 第三章
 
@@ -1520,8 +1510,8 @@ LaTeX Warning: Unexpected alignment  on input line 181.
 LaTeX Warning: Unexpected alignment  on input line 185.
 
 [37]
-File: ../figures/figure3/inversed_chapter3_right_hand_rule.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_right_hand_rule.jpg>
+File: ../figures/figure3/chapter3_right_hand_rule.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_right_hand_rule.jpg>
 
 
 LaTeX Warning: Unexpected alignment  on input line 201.
@@ -1547,16 +1537,16 @@ LaTeX Warning: Unexpected alignment  on input line 238.
 
 LaTeX Warning: Unexpected alignment  on input line 251.
 
-File: ../figures/figure3/inversed_chapter3_torque.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_torque.png>
+File: ../figures/figure3/chapter3_torque.png Graphic file (type bmp)
+<../figures/figure3/chapter3_torque.png>
 [40]
 \c@RT:prove3.1=\count441
  (./figures/chapter3_moment_arm.tikz)
-File: ../figures/figure3/inversed_chapter3_moment_inertia1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_moment_inertia1.jpg>
+File: ../figures/figure3/chapter3_moment_inertia1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia1.jpg>
  [41]
-File: ../figures/figure3/inversed_chapter3_moment_inertia2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_moment_inertia2.png>
+File: ../figures/figure3/chapter3_moment_inertia2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia2.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 282.
@@ -1582,8 +1572,8 @@ LaTeX Warning: Unexpected alignment  on input line 318.
 \c@RT:prove3.4=\count445
 \c@RT:prove3.5=\count446
 [44]
-File: ../figures/figure3/inversed_chapter3_kepler's_second_law.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_kepler's_second_law.png>
+File: ../figures/figure3/chapter3_kepler's_second_law.png Graphic file (type bmp)
+<../figures/figure3/chapter3_kepler's_second_law.png>
 \c@RT:prove3.6=\count447
 
 Underfull \hbox (badness 10000) in paragraph at lines 357--357
@@ -1602,8 +1592,8 @@ LaTeX Warning: Unexpected alignment  on input line 376.
 
 \c@RT:prove3.8=\count450
 [46]
-File: ../figures/figure3/inversed_chapter3_earth.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_earth.png>
+File: ../figures/figure3/chapter3_earth.png Graphic file (type bmp)
+<../figures/figure3/chapter3_earth.png>
 
 Overfull \hbox (40.4824pt too wide) detected at line 409
   [][]
@@ -1611,17 +1601,17 @@ Overfull \hbox (40.4824pt too wide) detected at line 409
 
 [47]) (../chapters/chapter3/chapter3_exercise.tex [48]
 \c@RT:solution3.1=\count451
-File: ../figures/figure3/inversed_chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_1.jpg>
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
 \c@RT:solution3.2=\count452
-File: ../figures/figure3/inversed_chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_2.png>
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
  [49]
 \c@RT:solution3.3=\count453
  (./figures/chapter3_example_3_3.tikz)
 \c@RT:solution3.4=\count454
-File: ../figures/figure3/inversed_chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_massive_pulley.png>
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
  [50]
 \c@RT:solution3.5=\count455
 
@@ -1629,8 +1619,8 @@ Underfull \hbox (badness 8170) in paragraph at lines 55--55
 []\TU/FandolSong-Regular(0)/m/it/12 习 题 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .5[][]|  Object rotating on a string of changing length—
  []
 
-File: ../figures/figure3/inversed_chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_string.png>
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
 \c@RT:solution3.6=\count456
 (./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
 Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
@@ -1645,12 +1635,12 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 ] [54]) (../chapters/chapter4/chapter4_exercise.tex
 \c@RT:solution4.1=\count457
-File: ../figures/figure4/inversed_chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体静力学.png>
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
  [55]
 \c@RT:solution4.2=\count458
-File: ../figures/figure4/inversed_chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体动力学.png>
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
  [56]) (../chapters/chapter5/chapter5_main.tex [57]
 第五章
 
@@ -1729,8 +1719,8 @@ LaTeX Warning: Unexpected alignment  on input line 342.
 LaTeX Warning: Unexpected alignment  on input line 393.
 
 [67]
-File: ../figures/figure5/inversed_chapter5_pulse_wave.png Graphic file (type bmp)
-<../figures/figure5/inversed_chapter5_pulse_wave.png>
+File: ../figures/figure5/chapter5_pulse_wave.png Graphic file (type bmp)
+<../figures/figure5/chapter5_pulse_wave.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 421.
@@ -1838,8 +1828,8 @@ Underfull \hbox (badness 2735) in paragraph at lines 79--80
 []\TU/FandolSong-Regular(0)/m/n/12 利 用 洛 伦 兹 变 换，|  我 们 可 以 进 一 步 解 释 两 个 著 名 的 相 对 论 效 应，|  即
  []
 
-File: ../figures/figure6/inversed_chapter_6_2.png Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_2.png>
+File: ../figures/figure6/chapter_6_2.png Graphic file (type bmp)
+<../figures/figure6/chapter_6_2.png>
 [93] [94]
 
 LaTeX Warning: Unexpected alignment  on input line 120.
@@ -1866,8 +1856,8 @@ LaTeX Warning: Unexpected alignment  on input line 199.
 LaTeX Warning: Unexpected alignment  on input line 204.
 
 \c@RT:prove6.4=\count477
-File: ../figures/figure6/inversed_chapter_6_3.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_3.jpg>
+File: ../figures/figure6/chapter_6_3.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_3.jpg>
 [98]
 \c@RT:prove6.5=\count478
  [99]
@@ -1937,24 +1927,24 @@ LaTeX Warning: Unexpected alignment  on input line 497.
 
 (./figures/chapter6_mins9.tikz) [113]) (../chapters/chapter6/chapter6_exercise.tex
 \c@RT:solution6.1=\count483
-File: ../figures/figure6/inversed_chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_7.jpg>
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
  [114]
 \c@RT:solution6.2=\count484
  (./figures/chapter6_solution_6_2_1.tikz)
 \c@RT:solution6.3=\count485
  [115]
 \c@RT:solution6.4=\count486
-File: ../figures/figure6/inversed_chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_20.jpg>
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
  [116]
 \c@RT:solution6.5=\count487
-File: ../figures/figure6/inversed_chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_23.jpg>
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
  [117]
 \c@RT:solution6.6=\count488
-File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_24.jpg>
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
  [118]
 \c@RT:solution6.7=\count489
  [119]) (../chapters/chapter7/Chapter7_main.tex [120]
@@ -2266,8 +2256,8 @@ LaTeX Warning: Unexpected alignment  on input line 6.
 
 LaTeX Warning: Unexpected alignment  on input line 40.
 
-File: ../figures/figure7/inversed_chapter7_mean_path.png Graphic file (type bmp)
-<../figures/figure7/inversed_chapter7_mean_path.png>
+File: ../figures/figure7/chapter7_mean_path.png Graphic file (type bmp)
+<../figures/figure7/chapter7_mean_path.png>
 \c@RT:prove7.13=\count513
 
 LaTeX Warning: Unexpected alignment  on input line 56.
@@ -2386,8 +2376,8 @@ LaTeX Warning: Unexpected alignment  on input line 40.
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
-File: ../figures/figure2/inversed_chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem3.png>
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
 
 Overfull \hbox (8.62373pt too wide) detected at line 90
 []
@@ -2397,8 +2387,8 @@ Overfull \hbox (8.62373pt too wide) detected at line 90
 
 LaTeX Warning: Unexpected alignment  on input line 106.
 
-File: ../figures/figure2/inversed_chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/inversed_chapter2_problem4.png>
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
 ) (../chapters/chapter3/chapter3_answer.tex [197]
 第三章
 
@@ -2409,16 +2399,16 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure3/inversed_chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_1.jpg>
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
 [198
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 34.
 
-File: ../figures/figure3/inversed_chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_example_2.png>
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
 \c@RT:chapter3_moment_inertia2=\count514
 
 LaTeX Warning: Unexpected alignment  on input line 74.
@@ -2435,14 +2425,14 @@ LaTeX Warning: Unexpected alignment  on input line 85.
 
 LaTeX Warning: Unexpected alignment  on input line 116.
 
-File: ../figures/figure3/inversed_chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_massive_pulley.png>
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
 [202]
 
 LaTeX Warning: Unexpected alignment  on input line 158.
 
-File: ../figures/figure3/inversed_chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/inversed_chapter3_string.png>
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
 [203]
 
 LaTeX Warning: Unexpected alignment  on input line 176.
@@ -2459,21 +2449,19 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure4/inversed_chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体静力学.png>
-File: ../figures/figure4/inversed_chapter4_E1_A1.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_E1_A1.png>
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
+File: ../figures/figure4/chapter4_E1_A1.png Graphic file (type bmp)
+<../figures/figure4/chapter4_E1_A1.png>
 [208
 
 ] [209]
 
 LaTeX Warning: Unexpected alignment  on input line 38.
 
-File: ../figures/figure4/inversed_chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/inversed_chapter4_流体动力学.png>
-[210
-
-]) (../chapters/chapter5/chapter5_answer.tex [211]
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
+[210]) (../chapters/chapter5/chapter5_answer.tex [211]
 第五章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2507,8 +2495,8 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-File: ../figures/figure6/inversed_chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_7.jpg>
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
 [217
 
 ]
@@ -2523,20 +2511,20 @@ LaTeX Warning: Unexpected alignment  on input line 72.
 
 LaTeX Warning: Unexpected alignment  on input line 143.
 
-File: ../figures/figure6/inversed_chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_20.jpg>
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
 (./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [222] [223] [224]
 
 LaTeX Warning: Unexpected alignment  on input line 199.
 
-File: ../figures/figure6/inversed_chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_23.jpg>
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
 [225] [226] [227]
 
 LaTeX Warning: Unexpected alignment  on input line 257.
 
-File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/inversed_chapter_6_24.jpg>
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
 [228] [229]
 
 LaTeX Warning: Unexpected alignment  on input line 298.
@@ -2628,12 +2616,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CFC148370917B9542099808B24AD9F12;21143.
  ) 
 Here is how much of TeX's memory you used:
- 70275 strings out of 476761
- 1742162 string characters out of 5802896
- 2316983 words of memory out of 5000000
- 91082 multiletter control sequences out of 15000+600000
- 635907 words of font info for 209 fonts, out of 8000000 for 9000
+ 71404 strings out of 476761
+ 1761387 string characters out of 5802896
+ 2328506 words of memory out of 5000000
+ 92216 multiletter control sequences out of 15000+600000
+ 626213 words of font info for 190 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,20n,422p,3341b,1835s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,20n,422p,3341b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on build/main.pdf (258 pages).
