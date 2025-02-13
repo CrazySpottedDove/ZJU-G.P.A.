@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 09:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1297,9 +1297,6 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.28> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1.
 
-LaTeX Warning: Unexpected alignment  on input line 1.
-
-
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <17.28> not available
 (Font)              Font shape `TU/lmr/b/sl' tried instead on input line 3.
 
@@ -1335,16 +1332,13 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Unexpected alignment  on input line 1.
-
-
 Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
  []
  []
 
 
 Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
- [][][]
+ []
  []
 
 
@@ -1502,9 +1496,6 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Unexpected alignment  on input line 1.
-
-
 LaTeX Warning: Unexpected alignment  on input line 2.
 
 
@@ -1646,12 +1637,9 @@ Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=t
 [51]) (../chapters/chapter4/chapter4_main.tex [52]
 第四章
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 6--6
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
-
-
-LaTeX Warning: Unexpected alignment  on input line 6.
 
 [53
 
@@ -1676,133 +1664,133 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 5--5
 \c@RT:prove5.1=\count459
 
 
-LaTeX Warning: Unexpected alignment  on input line 58.
+LaTeX Warning: Unexpected alignment  on input line 59.
 
 [59]
 
-LaTeX Warning: Unexpected alignment  on input line 90.
+LaTeX Warning: Unexpected alignment  on input line 91.
 
 \c@RT:prove5.2=\count460
 [60] [61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 176.
+(hyperref)                removing `superscript' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 177.
 
 \c@RT:prove5.3=\count461
 
-Underfull \hbox (badness 1953) in paragraph at lines 188--189
+Underfull \hbox (badness 1953) in paragraph at lines 189--190
 []\TU/FandolSong-Regular(0)/m/n/12 解 这 个 微 分 方 程 \TU/lmr/m/n/12 ([][][][][][][])\TU/FandolSong-Regular(0)/m/n/12 ，|  会 发 现 它 的 解 实 际 上 需 要 分 为
  []
 
 [62]
-Overfull \hbox (39.27684pt too wide) detected at line 199
+Overfull \hbox (39.27684pt too wide) detected at line 200
 \OML/lmm/m/it/12 x \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 x[]
  []
 
 
-LaTeX Warning: Unexpected alignment  on input line 219.
+LaTeX Warning: Unexpected alignment  on input line 220.
 
 [63]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 238.
+(hyperref)                removing `superscript' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 239.
 
 
-LaTeX Warning: Unexpected alignment  on input line 244.
+LaTeX Warning: Unexpected alignment  on input line 245.
 
 \c@RT:prove5.4=\count462
 
-LaTeX Warning: Unexpected alignment  on input line 249.
+LaTeX Warning: Unexpected alignment  on input line 250.
 
 [64] [65]
 \c@RT:chapter5_resonance=\count463
 
 
-LaTeX Warning: Unexpected alignment  on input line 341.
+LaTeX Warning: Unexpected alignment  on input line 342.
 
 [66]
 
-LaTeX Warning: Unexpected alignment  on input line 392.
+LaTeX Warning: Unexpected alignment  on input line 393.
 
 [67]
 File: ../figures/figure5/inversed_chapter5_pulse_wave.png Graphic file (type bmp)
 <../figures/figure5/inversed_chapter5_pulse_wave.png>
 
 
-LaTeX Warning: Unexpected alignment  on input line 420.
+LaTeX Warning: Unexpected alignment  on input line 421.
 
 
-LaTeX Warning: Unexpected alignment  on input line 434.
+LaTeX Warning: Unexpected alignment  on input line 435.
 
 [68]
-Underfull \hbox (badness 3746) in paragraph at lines 437--438
+Underfull \hbox (badness 3746) in paragraph at lines 438--439
 []\TU/FandolSong-Regular(0)/m/n/12 对 于 满 足 这 一 关 系 的 波\TU/lmr/m/n/12 , \TU/FandolSong-Regular(0)/m/n/12 我 们 称 之 为  [] []；|  否 则 称 之 为
  []
 
 [69]
 
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <12> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 492.
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 493.
 
 
-LaTeX Warning: Unexpected alignment  on input line 493.
+LaTeX Warning: Unexpected alignment  on input line 494.
 
 [70]
-Underfull \hbox (badness 1975) in paragraph at lines 557--558
+Underfull \hbox (badness 1975) in paragraph at lines 558--559
 []$\OML/lmm/m/it/12 v[] > v[]$\TU/FandolSong-Regular(0)/m/n/12 ：|  此 时 波 的 传 播 接 近 于  [] []，|  发 生
  []
 
 [71] [72]
 
-LaTeX Warning: Unexpected alignment  on input line 640.
+LaTeX Warning: Unexpected alignment  on input line 641.
 
 
-LaTeX Warning: Unexpected alignment  on input line 649.
+LaTeX Warning: Unexpected alignment  on input line 650.
 
 [73]
 \c@RT:prove5.5=\count464
 
 
-LaTeX Warning: Unexpected alignment  on input line 691.
+LaTeX Warning: Unexpected alignment  on input line 692.
 
 [74] [75]
 
-LaTeX Warning: Unexpected alignment  on input line 777.
+LaTeX Warning: Unexpected alignment  on input line 778.
 
 [76]
 
-LaTeX Warning: Unexpected alignment  on input line 836.
+LaTeX Warning: Unexpected alignment  on input line 837.
 
 [77]
 
-LaTeX Warning: Unexpected alignment  on input line 873.
+LaTeX Warning: Unexpected alignment  on input line 874.
 
 
-LaTeX Warning: Unexpected alignment  on input line 879.
+LaTeX Warning: Unexpected alignment  on input line 880.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--880
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
 \TU/FandolSong-Regular(0)/m/n/12 能 保 持 其 形 状 不 变，|  我 们 便 用  [] [][][][][]来 描 述 它。|  通 过
  []
 
 [78] [79]
-Underfull \hbox (badness 5460) in paragraph at lines 1001--1002
+Underfull \hbox (badness 5460) in paragraph at lines 1002--1003
 []\TU/FandolSong-Regular(0)/m/n/12 吉 他 弦 的 振 动 不 仅 包 含 基 频 $\OML/lmm/m/it/12 f[]$\TU/FandolSong-Regular(0)/m/n/12 ，|  还 包 含 一 系 列 整 数 倍[]于 基 频 的
  []
 
@@ -1810,17 +1798,17 @@ Underfull \hbox (badness 5460) in paragraph at lines 1001--1002
 \c@RT:prove5.6=\count465
 
 
-LaTeX Warning: Unexpected alignment  on input line 1056.
+LaTeX Warning: Unexpected alignment  on input line 1057.
 
 \c@RT:prove5.7=\count466
 
-LaTeX Warning: Unexpected alignment  on input line 1069.
+LaTeX Warning: Unexpected alignment  on input line 1070.
 
 [81] [82] [83] [84]
 \c@RT:chapter5_Energy_Transfer=\count467
 
 
-LaTeX Warning: Unexpected alignment  on input line 1252.
+LaTeX Warning: Unexpected alignment  on input line 1253.
 
 [85] [86] [87]) (../chapters/chapter5/chapter5_exercise.tex
 \c@RT:solution5.1=\count468
@@ -1834,9 +1822,6 @@ LaTeX Warning: Unexpected alignment  on input line 1252.
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
-
-
-LaTeX Warning: Unexpected alignment  on input line 1.
 
 [90
 
@@ -1978,9 +1963,6 @@ File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
-
-
-LaTeX Warning: Unexpected alignment  on input line 1.
 
 [121
 
@@ -2646,12 +2628,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CFC148370917B9542099808B24AD9F12;21143.
  ) 
 Here is how much of TeX's memory you used:
- 70429 strings out of 476761
- 1745416 string characters out of 5802896
- 2319191 words of memory out of 5000000
- 91235 multiletter control sequences out of 15000+600000
- 635915 words of font info for 210 fonts, out of 8000000 for 9000
+ 70275 strings out of 476761
+ 1742162 string characters out of 5802896
+ 2316983 words of memory out of 5000000
+ 91082 multiletter control sequences out of 15000+600000
+ 635907 words of font info for 209 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,20n,422p,3341b,1847s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,20n,422p,3341b,1835s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on build/main.pdf (258 pages).
