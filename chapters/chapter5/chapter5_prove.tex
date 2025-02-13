@@ -1,1 +1,386 @@
-\chapter{title}
+\chapter[振动与波]{\itr{Oscillations and Waves}{振动与波}}
+\begin{prove}[平衡的物体重新选取转轴位置后，总力矩依旧为零]
+    记$\vec{r}_{i,O}$为以$O$点为起点的位矢，
+    $$
+        \begin{aligned}
+            \sum\limits_{i}\vec{\tau}_{i,O} & =\sum\limits_{i}\vec{r}_{i,O}\times\vec{F}_{i}                                                                                            \\
+                                            & =\sum\limits_{i}\left(\vec{r}_{i,O}-\vec{r}_{i,O^{\prime}}+\vec{r}_{i,O^{\prime}}\right)\times\vec{F}_{i}                                 \\
+                                            & =\left(\vec{r}_{i,O}-\vec{r}_{i,O^{\prime}}\right)\times\sum\limits_{i}\vec{F}_{i}+\sum\limits_{i}\vec{r}_{i,O^{\prime}}\times\vec{F}_{i} \\
+                                            & =\sum\limits_{i}\vec{r}_{i,O^{\prime}}\times\vec{F}_{i}                                                                                   \\
+                                            & =\sum\limits_{i}\vec{\tau}_{i,O^{\prime}}
+        \end{aligned}
+    $$
+\end{prove}
+
+\begin{prove}[求解简谐振动的微分方程]
+    解以下微分方程
+    \begin{center}
+        $m\D[2]{x}{t}=-k(x-x_0)$
+    \end{center}
+    这是一个二阶常系数非齐次线性微分方程，显然它有特解$x^*=x_0$\par
+    考虑对应的齐次方程\par
+    \begin{center}
+        $\D[2]{x}{t}+\dfrac{k}{m}x=0$
+    \end{center}
+    特征方程为\par
+    \begin{center}
+        $\lambda^2+\dfrac{k}{m}=0$
+    \end{center}
+    解得\par
+    \begin{center}
+        $\lambda=\pm \sqrt{\frac{k}{m}}i$
+    \end{center}
+    于是齐次方程的解可以写作\par
+    \begin{center}
+        $X=A_1\cos \sqrt{\frac{k}{m}}t+A_2\sin \sqrt{\frac{k}{m}}t=A\cos(\sqrt{\frac{k}{m}} t+\varphi)$
+    \end{center}
+    最终解得原微分方程
+    \begin{center}
+        $x=X+x^*=A\cos(\sqrt{\frac{k}{m}} t+\varphi)+x_0$
+    \end{center}
+\end{prove}
+
+\begin{prove}[求解阻尼振动的微分方程]
+    解以下微分方程
+    \begin{center}
+        $m\D[2]{x}{t}=-k(x-x_0)-b\D[]{x}{t}$
+    \end{center}
+    这是一个二阶常系数非齐次线性微分方程，显然它有特解$x^*=x_0$\par
+    考虑对应的齐次方程\par
+    \begin{center}
+        $\D[2]{x}{t}+\dfrac{b}{m}\D[]{x}{t}+\dfrac{k}{m}x=0$
+    \end{center}
+    特征方程为\par
+    \begin{center}
+        $\lambda^2+b\lambda+\dfrac{k}{m}=0$
+    \end{center}
+    根据判别式
+    \begin{center}
+        $\Delta=\left(\frac{b}{m}\right)^2-4\frac{k}{m}=4\left[\left(\frac{b}{2m}\right)^2-\frac{k}{m}\right]$
+    \end{center}
+    的符号，解分为以下三种情况：
+    \begin{itemize}
+        \item $\left(\frac{b}{2m}\right)^2-\frac{k}{m}>0$，特征方程有两个互异实根
+              \begin{center}
+                  $\lambda_{1,2}=-\frac{b}{2m}\pm\sqrt{\frac{b}{2m}-(\frac{k}{m})^2}$
+              \end{center}
+              解为
+              \begin{center}
+                  $X=A_1\exp\left[\left(-\frac{b}{2m}+\sqrt{\frac{b}{2m}-(\frac{k}{m})^2}\right)t\right]+A_2\exp\left[\left(-\frac{b}{2m}-\sqrt{\frac{b}{2m}-(\frac{k}{m})^2}\right)t\right]$
+              \end{center}
+        \item $\left(\frac{b}{2m}\right)^2-\frac{k}{m}<0$，特征方程有一对共轭虚根
+              \begin{center}
+                  $\lambda_{1,2}=-\frac{b}{2m}\pm\sqrt{(\frac{k}{m})^2-\frac{b}{2m}}i$
+              \end{center}
+              解为
+              \begin{center}
+                  $X=e^{-\frac{b}{2m}t}\left(A_1\cos\sqrt{(\frac{k}{m})^2-\frac{b}{2m}}t+A_2\sin\sqrt{(\frac{k}{m})^2-\frac{b}{2m}}t\right)$
+              \end{center}
+        \item $\left(\frac{b}{2m}\right)^2-\frac{k}{m}=0$，特征方程有一对重根
+              \begin{center}
+                  $\lambda_{1,2}=-\frac{b}{2m}$
+              \end{center}
+              解为
+              \begin{center}
+                  $X=(A_1+A_2t)e^{-\frac{b}{2m}}$
+              \end{center}
+    \end{itemize}
+    于是原方程的解只需加上特解即可得到
+\end{prove}
+
+\begin{prove}[求解受迫振动的微分方程]
+    考虑如下二阶线性非齐次微分方程：
+    \[
+        m\ddot{x} = -k(x - x_0) - b\dot{x} + F_{\text{ext}} \cos \omega t
+    \]
+
+    将方程整理为标准形式：
+    \[
+        m\ddot{x} + b\dot{x} + kx = kx_0 + F_{\text{ext}} \cos \omega t
+    \]
+    首先求解齐次方程：
+    \[
+        m\ddot{x} + b\dot{x} + kx = 0
+    \]
+    设解的形式为 \(x_h(t) = e^{rt}\)，代入齐次方程，得到特征方程：
+    \[
+        mr^2 + br + k = 0
+    \]
+    解得特征根：
+    \[
+        r = \frac{-b \pm \sqrt{b^2 - 4mk}}{2m}
+    \]
+    根据判别式 \(\Delta = b^2 - 4mk\) 的不同情况，齐次解分为以下三种情况：
+    \begin{itemize}
+        \item 当 \(\Delta > 0\) 时，特征根为两个不同的实数：
+              \[
+                  x_h(t) = C_1 e^{r_1 t} + C_2 e^{r_2 t}
+              \]
+        \item 当 \(\Delta = 0\) 时，特征根为重根：
+              \[
+                  x_h(t) = (C_1 + C_2 t) e^{rt}
+              \]
+        \item 当 \(\Delta < 0\) 时，特征根为共轭复数：
+              \[
+                  x_h(t) = e^{-\alpha t} \left( C_1 \cos \beta t + C_2 \sin \beta t \right)
+              \]
+              其中 \(\alpha = \frac{b}{2m}\)，\(\beta = \frac{\sqrt{4mk - b^2}}{2m}\)。
+    \end{itemize}
+
+    非齐次方程为：
+    \[
+        m\ddot{x} + b\dot{x} + kx = kx_0 + F_{\text{ext}} \cos \omega t
+    \]
+    其特解 \(x_p(t)\) 由两部分组成：\par
+    1. 常数项 \(kx_0\) 对应的特解 \(x_{p1}(t)\)，\par
+    2. 外力项 \(F_{\text{ext}} \cos \omega t\) 对应的特解 \(x_{p2}(t)\)。\par
+
+    对于常数项 \(F_0\)，设特解为常数：
+    \[
+        x_{p1}(t) = A
+    \]
+    代入非齐次方程，得到：
+    \[
+        0 + 0 + kA = kx_0 \implies A = x_0
+    \]
+    因此：
+    \[
+        x_{p1}(t) = x_0
+    \]
+
+    对于外力项 \(F_{\text{ext}} \cos \omega t\)，设特解为：
+    \[
+        x_{p2}(t) = B \cos \omega t + C \sin \omega t
+    \]
+    代入非齐次方程，整理后，比较 \(\cos \omega t\) 和 \(\sin \omega t\) 的系数：
+    \[
+        \begin{cases}
+            (-m\omega^2 + k)B + b\omega C = F_{\text{ext}} \\
+            -b\omega B + (-m\omega^2 + k)C = 0
+        \end{cases}
+    \]
+    解得：
+    \[
+        B = \frac{(-m\omega^2 + k) F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2}, \quad C = \frac{b\omega F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2}
+    \]
+    因此：
+    \[
+        x_{p2}(t) = \frac{(-m\omega^2 + k) F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2} \cos \omega t + \frac{b\omega F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2} \sin \omega t
+    \]
+
+    将齐次解和特解相加，得到通解：
+    \[
+        x(t) = x_h(t) + x_{p1}(t) + x_{p2}(t)
+    \]
+    即：
+    \[
+        x(t) = x_h(t) + x_0 + \frac{(-m\omega^2 + k) F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2} \cos \omega t + \frac{b\omega F_{\text{ext}}}{(-m\omega^2 + k)^2 + (b\omega)^2} \sin \omega t
+    \]
+    可以将其写成振幅-相位形式：
+    \[x=A^{\prime}e^{-\frac{b}{2m}t}\cos(\omega^{\prime}t+\varphi^{\prime})+A\cos(\omega t-\varphi)+x_0\]
+    其中：
+    \[
+        A = \frac{F_{\text{ext}}}{\sqrt{(-m\omega^2 + k)^2 + (b\omega)^2}}, \quad \phi = \arctan\left(\frac{b\omega}{-m\omega^2 + k}\right)
+    \]
+\end{prove}
+
+\begin{prove}[波动方程在不同边界条件下的求解]
+    求解波动方程
+    \[ \Par[2]{u}{t}=v^2\Par[2]{u}{x} \]
+    这是一个线性偏微分方程。
+    做变量代换：
+    \[
+        \left\{
+        \begin{aligned}
+            \xi  & =x-vt \\
+            \eta & =x+vt
+        \end{aligned}
+        \right.
+    \]
+    容易得到
+    \[\frac{\partial^2u}{\partial\xi\partial\eta}=0\]
+    积分两次，有
+    \[u=F(\xi)+G(\eta)=F(x-vt)+G(x+vt)\]
+    此为方程的通解。\par
+    根据定义域不同，可以分为以下三种情况
+    \begin{itemize}
+        \item 无界：$-\infty<x<+\infty$
+        \item 半无界：$x_0<x$或$x>x_0$
+        \item 有界：$a<x<b$
+    \end{itemize}
+    为了讨论方便起见，我们不妨令上述分类中的$x_0=0,a=0,b=L$。对于一般情况，进行变量代换即可。\par
+    首先求解无界情况：\par
+    补充初值条件（D'Alembert条件）
+    \[
+        \left\{
+        \begin{aligned}
+             & \Par[2]{u}{t}=v^2\Par[2]{u}{x}                          \\
+             & u\mid_{t=0}=\varphi(x),\Par[]{u}{t}\bigg|_{t=0}=\psi(x)
+        \end{aligned}
+        \right.
+    \]
+    利用通解，代入初值条件，我们有
+    \[
+        \left\{
+        \begin{aligned}
+             & F(x)+G(x)=\varphi(x)  \\
+             & vF'(x)-vG'(x)=\psi(x) \\
+        \end{aligned}
+        \right.
+    \]
+    于是
+    \[F(x)-G(x)=\frac{1}{v}\int_0^x\psi(s)\dif s+2C\]
+    进一步解得
+    \[
+        \left\{
+        \begin{aligned}
+             & F(x)=\frac{\varphi(x)}{2}+\frac{1}{2v}\int_0^x\psi(s)\dif s+C \\
+             & G(x)=\frac{\varphi(x)}{2}-\frac{1}{2v}\int_0^x\psi(s)\dif s-C \\
+        \end{aligned}
+        \right.
+    \]
+    于是
+    \[u(x,t)=\frac{\varphi(x+vt)+\varphi(x-vt)}{2}+\frac{1}{2v}\int_{x+vt}^{x-vt}\psi(s)\dif s\]
+    求解半无界情况：\par
+    对于半无界情况，定义域为 \(0 < x < +\infty\)，初值条件为：
+    \[
+        \left\{
+        \begin{aligned}
+             & \Par[2]{u}{t}=v^2\Par[2]{u}{x} \quad (0 < x < +\infty)  \\
+             & u\mid_{t=0}=\varphi(x),\Par[]{u}{t}\bigg|_{t=0}=\psi(x)
+        \end{aligned}
+        \right.
+    \]
+    此外，还需要边界条件。假设边界条件为 \(u(0, t) = 0\)（固定边界条件），则解的形式为：
+    \[
+        u(x, t) = F(x - vt) + G(x + vt)
+    \]
+    根据边界条件 \(u(0, t) = 0\)，我们有：
+    \[
+        F(-vt) + G(vt) = 0
+    \]
+    因此，\(F(-vt) = -G(vt)\)。为了满足这一条件，可以将 \(F\) 和 \(G\) 表示为：
+    \[
+        F(x) = \frac{\varphi(x)}{2} + \frac{1}{2v}\int_0^x \psi(s) \dif s + C
+    \]
+    \[
+        G(x) = \frac{\varphi(x)}{2} - \frac{1}{2v}\int_0^x \psi(s) \dif s - C
+    \]
+    对于 \(x < 0\)，我们需要将 \(\varphi(x)\) 和 \(\psi(x)\) 进行奇延拓：
+    \[
+        \varphi(-x) = -\varphi(x), \quad \psi(-x) = -\psi(x)
+    \]
+    因此，半无界情况的解为：
+    \[
+        u(x, t) = \frac{\varphi(x + vt) + \varphi(x - vt)}{2} + \frac{1}{2v}\int_{x - vt}^{x + vt} \psi(s) \dif s
+    \]
+    其中 \(\varphi(x)\) 和 \(\psi(x)\) 为奇延拓后的函数。\par
+    对于\(\Par[]{u}{x}\bigg|_{x=0}=0\)（自由边界条件），考虑偶延拓即可。\par
+    对于有界情况，定义域为 \(0 < x < L\)，初值条件为：
+    \[
+        \left\{
+        \begin{aligned}
+             & \Par[2]{u}{t}=v^2\Par[2]{u}{x} \quad (0 < x < L)        \\
+             & u\mid_{t=0}=\varphi(x),\Par[]{u}{t}\bigg|_{t=0}=\psi(x)
+        \end{aligned}
+        \right.
+    \]
+    边界条件为 \(u(0, t) = u(L, t) = 0\)（固定边界条件）。此时，我们可以使用分离变量法求解。设解的形式为：
+    \[
+        u(x, t) = X(x)T(t)
+    \]
+    代入波动方程，得到：
+    \[
+        \frac{T''(t)}{v^2 T(t)} = \frac{X''(x)}{X(x)} = -\lambda
+    \]
+    其中 \(\lambda\) 为常数。于是，我们得到两个常微分方程：
+    \[
+        X''(x) + \lambda X(x) = 0
+    \]
+    \[
+        T''(t) + v^2 \lambda T(t) = 0
+    \]
+    根据边界条件 \(X(0) = X(L) = 0\)，解得：
+    \[
+        X_n(x) = \sin\left(\frac{n\pi x}{L}\right), \quad \lambda_n = \left(\frac{n\pi}{L}\right)^2
+    \]
+    对应的 \(T_n(t)\) 为：
+    \[
+        T_n(t) = A_n \cos\left(\frac{n\pi v t}{L}\right) + B_n \sin\left(\frac{n\pi v t}{L}\right)
+    \]
+    因此，通解为：
+    \[
+        u(x, t) = \sum_{n=1}^\infty \left[ A_n \cos\left(\frac{n\pi v t}{L}\right) + B_n \sin\left(\frac{n\pi v t}{L}\right) \right] \sin\left(\frac{n\pi x}{L}\right)
+    \]
+    利用初值条件，可以确定系数 \(A_n\) 和 \(B_n\)：
+    \[
+        A_n = \frac{2}{L} \int_0^L \varphi(x) \sin\left(\frac{n\pi x}{L}\right) \dif x
+    \]
+    \[
+        B_n = \frac{2}{n\pi v} \int_0^L \psi(x) \sin\left(\frac{n\pi x}{L}\right) \dif x
+    \]
+    于是，有界情况的解为：
+    \[
+        u(x, t) = \sum_{n=1}^\infty \left[ A_n \cos\left(\frac{n\pi v t}{L}\right) + B_n \sin\left(\frac{n\pi v t}{L}\right) \right] \sin\left(\frac{n\pi x}{L}\right)
+    \]
+    此解也被称为驻波解。对于一端自由，或者两端自由的情况，也可类似处理。
+\end{prove}
+
+\begin{prove}[傅里叶级数]
+    在物理中，我们默认函数都是“好”的。于是，函数都可展开成
+    \[
+        f(t) = \sum_{n=0}^{\infty} \left[A_n \cos \left(n\frac{2\pi}{T} t\right)+B_n \sin \left(n\frac{2\pi}{T} t\right)\right]\\
+    \]
+    对于\(A_0\)，我们在两侧同时积分
+    \[
+        \int^T_0 f(t) \dif t = \int^T_0\sum_{n=0}^{\infty} \left[A_n \cos \left(n\frac{2\pi}{T} t\right)+B_n \sin \left(n\frac{2\pi}{T} t\right)\right]\dif t=TA_0\\
+    \]
+    即得
+    \[
+        A_0=\frac{1}{T}\int^T_0f(t)\dif t
+    \]
+    再利用三角函数的正交性（\(m \geq 1, n \geq 1\)）
+    \[
+        \begin{aligned}
+            \frac{2}{T}\int^T_0\cos (m\omega t)\cos (n\omega t)\dif t & =\delta_{m,n} \\
+            \frac{2}{T}\int^T_0\sin (m\omega t)\sin (n\omega t)\dif t & =\delta_{m,n} \\
+            \frac{2}{T}\int^T_0\sin (m\omega t)\cos (n\omega t)\dif t & =0
+        \end{aligned}
+    \]
+    对于 \(n \geq 1\)，将 \(f(t)\) 分别与 \(\cos(n\omega t)\) 和 \(\sin(n\omega t)\) 相乘并积分，得到：
+    \[
+        \begin{aligned}
+            A_n & = \frac{2}{T} \int^T_0 f(t) \cos(n\omega t) \dif t, \\
+            B_n & = \frac{2}{T} \int^T_0 f(t) \sin(n\omega t) \dif t.
+        \end{aligned}
+    \]
+\end{prove}
+
+\begin{prove}[傅里叶变换]
+    设\(f(t)\)满足狄利克雷条件。\par
+    对于
+    \[
+        f(t)=\sum_{n=-\infty}^{+\infty}\left[\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}} f(t)e^{-in\omega t}\dif t\right]e^{in\omega t}
+    \]
+    我们对上式做变形
+    \[
+        f(t)=\frac{1}{2\pi}\sum_{n=-\infty}^{+\infty}\left[\int^{\frac{T}{2}}_{-\frac{T}{2}} f(t)e^{-it\frac{2n\pi}{T}}\dif t\right]e^{it\frac{2n\pi}{T}}\frac{2\pi}{T}
+    \]
+    由于\(T\to \infty\)，根据定积分定义，我们有
+    \[
+        \begin{aligned}
+            f(t) & =\frac{1}{2\pi}\int^{+\infty}_{-\infty}\left[\int^{+\infty}_{-\infty} f(t)e^{it\frac{2\pi}{T}}\dif t\right]e^{-it\frac{2\pi}{T}}\dif\left(\frac{2\pi}{T}\right) \\
+                 & =\frac{1}{2\pi}\int^{+\infty}_{-\infty}\left[\int^{+\infty}_{-\infty} f(t)e^{i\omega t}\dif t\right]e^{-i\omega t}\dif\omega
+        \end{aligned}
+    \]
+    我们令
+    \[
+        F(\omega)=\int^{+\infty}_{-\infty} f(t)e^{in\omega t}\dif t
+    \]
+    为\(f(t)\)的傅里叶变换，记作\(F(\omega)=\mathcal{F}[f(t)]\)\par
+    令
+    \[
+        f(t)=\frac{1}{2\pi}\int^{+\infty}_{-\infty}F(\omega)e^{-in\omega t}\dif\omega
+    \]
+    为\(F(\omega)\)的傅里叶逆变换，记作\(f(t)=\mathcal{F}^{-1}[F(\omega)]\)\par
+\end{prove}

@@ -1,0 +1,50 @@
+\section{课后习题:振动与波}
+
+\begin{example}[Traveling Sinusoidal Wave---\refleaftext{solution5.1}]
+		A sinusoidal wave traveling in the $-x$ direction (to the left) has an amplitude of $20.0 \, \text{cm}$, a wavelength of $35.0 \, \text{cm}$, and a frequency of $12.0 \, \text{Hz}$. The displacement of the wave at $t = 0$, $x = 0$ is $y = -3.00 \, \text{cm}$, and at this same point, a particle of the medium has a positive velocity.
+
+	\begin{enumerate}
+		\item[(a)] Sketch the wave at $t = 0$.
+		\item[(b)] Find the angular wavenumber, period, angular frequency, and wave speed of the wave.
+		\item[(c)] Write an expression for the wave function $y(x, t)$.
+	\end{enumerate}
+\end{example}
+
+\begin{example}[Measuring Ocean Depth---\refleaftext{solution5.2}]
+	An earthquake on the ocean floor in the Gulf of Alaska produces a tsunami (sometimes called a ``tidal wave'') that reaches Hilo, Hawaii, 4450 km away, in a time of 9 hours 30 minutes. Tsunamis have enormous wavelengths (100--200 km), and the propagation speed of these waves is \( u \approx \sqrt{gd} \), where \( d \) is the average depth of the water. From the information given, find the average wave speed and the average ocean depth between Alaska and Hawaii.
+\end{example}
+
+\begin{example}[Two Speakers\refleaftext{solution5.3}]
+	Two identical \itr{speakers}{扬声器} 10.0 m apart are driven by the same \itr{oscillator}{振荡器} with a frequency of \( f = 21.5 \) Hz.
+    \begin{center}
+		\begin{tikzpicture}
+			\draw[-latex] (-5,0) -- (5,0) node[right]{$x$};
+			\draw[-latex] (0,0) -- (0,5) node[left]{$y$};
+			\draw[-latex] (0,0) -- (0,5) node[left]{$y$};
+			\fill[color=gray] (-4,0) circle (7pt);
+			\fill (-4,0) circle (5pt);
+			\fill[color=gray] (-4,0) circle (3pt);
+			\fill[color=gray] (4,0) circle (7pt);
+			\fill (4,0) circle (5pt);
+			\fill[color=gray] (4,0) circle (3pt);
+			\draw[elegant,orange,domain=3:4.5] plot(\x,{(\x^2-9)^0.5});
+			\fill (3,0) circle (2pt) ;
+			\draw (3,0) node[above left ]{A};
+			\fill (4,7^0.5) circle (2pt);
+			\draw (4,7^0.5) node[above left ]{$(x,y)$};
+			\draw[dashed] (-4,0) -- (-4,-1.7);
+			\draw[dashed] (3,0) -- (3,-1);
+			\draw[dashed] (4,0) -- (4,-1.7);
+			\draw[<->] (-4,-1.5) -- node [pos=0.5,above,sloped]{10.0 m}(4,-1.5) ;
+			\draw[<->] (-4,-0.8) -- node [pos=0.5,above,sloped]{9.00 m}(3,-0.8) ;
+		\end{tikzpicture}
+	\end{center}
+	\begin{enumerate}
+		\item[(a)] Explain why a receiver at point A records a minimum in sound intensity from the two speakers.
+		\item[(b)] If the receiver is moved in the plane of the speakers, what path should it take so that the intensity remains at a minimum? That is, determine the relationship between \( x \) and \( y \) (the coordinates of the receiver) that causes the receiver to record a minimum in sound intensity. Take the speed of sound to be 343 m/s.
+	\end{enumerate}
+\end{example}
+
+\begin{example}[未完工---\refleaftext{solution5.4}]
+	A 2.00-m-long wire having a mass of 0.100 kg is fxed at both ends. The tension in the wire is maintained at 20.0 N. What are the frequencies of the frst three allowed modes of vibration? If a node is observed at apoint 0.400 m from one end, in what mode and with what frequency is it vibrating？
+\end{example}

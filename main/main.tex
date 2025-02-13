@@ -2,7 +2,7 @@
 %如果需要暗色版，为documentclass添加可选参数dark
 %不知道为什么，这个文档删除所有辅助文件后开始编译，需要连续编译11次才能够得到正确的结果；
 %可以尝试把辅助文件也放进来，这样应该只要编译1次
-\documentclass{Physics_H_Notes}
+\documentclass[dark]{Physics_H_Notes}
 % 调整 headheight 和 topmargin
 \setlength{\headheight}{12.67163pt}
 \addtolength{\topmargin}{-0.67163pt}
@@ -54,4 +54,6 @@
 \input{../chapters/chapter5/chapter5_answer}
 \input{../chapters/chapter6/chapter6_answer}
 \input{../chapters/chapter7/chapter7_answer}
+\backmatter
+\input{../chapters/afterall/afterall}
 \end{document}

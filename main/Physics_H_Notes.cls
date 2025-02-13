@@ -247,7 +247,22 @@ citecolor=thisblue
 		\quad%
 	}%
 }
-%作者：陈锦浩logo
+\newcommand{\seaMonster}%
+{%
+    {%
+            \normalsize%
+            \mbox%
+            {%
+                \raisebox{0.2ex}{\itshape\mdseries\large 大}%
+                \hspace{-0.2em}%
+                \raisebox{1.4ex}{\tiny\normalfont 海}%
+                \hspace{-0.55em}%
+                \raisebox{-0.6ex}{\bfseries\normalsize 怪}%
+            }%
+            \quad%
+        }%
+}
+%作者：dovelogo
 %-------------------------------------------------------------
 \RequirePackage{amsmath}
 \RequirePackage{bm}

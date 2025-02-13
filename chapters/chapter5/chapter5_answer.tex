@@ -1,1 +1,163 @@
-\chapter{title}
+\chapter[振动与波]{\itr{Oscillations and Waves}{振动与波}}
+\begin{solution}[Traveling Sinusoidal Wave]
+    A sinusoidal wave traveling in the $-x$ direction (to the left) has an amplitude of $20.0 \, \text{cm}$, a wavelength of $35.0 \, \text{cm}$, and a frequency of $12.0 \, \text{Hz}$. The displacement of the wave at $t = 0$, $x = 0$ is $y = -3.00 \, \text{cm}$, and at this same point, a particle of the medium has a positive velocity.
+
+    \tcbrule
+
+		在 \( t = 0 \) 时，波形是 \( x \) 的正弦函数。在 \( x = 0 \) 处，位移为 \( y = -3.00 \, \text{cm} \)，且该点的介质粒子具有正速度。这意味着波在 \( x = 0 \) 处向上运动。波形图应显示一个振幅为 \( 20.0 \, \text{cm} \)、波长为 \( 35.0 \, \text{cm} \) 的正弦波，并且具有相位偏移，使得 \( y(0, 0) = -3.00 \, \text{cm} \)。
+		1. \textbf{角波数 (\( k \))：}
+		\[
+		k = \frac{2\pi}{\lambda} = \frac{2\pi}{35.0 \, \text{cm}} = 0.1795 \, \text{rad/cm}.
+		\]
+
+		2. \textbf{周期 (\( T \))：}
+		\[
+		T = \frac{1}{f} = \frac{1}{12.0 \, \text{Hz}} = 0.0833 \, \text{s}.
+		\]
+
+		3. \textbf{角频率 (\( \omega \))：}
+		\[
+		\omega = 2\pi f = 2\pi \cdot 12.0 \, \text{Hz} = 75.40 \, \text{rad/s}.
+		\]
+
+		4. \textbf{波速 (\( v \))：}
+		\[
+		v = f \lambda = 12.0 \, \text{Hz} \cdot 35.0 \, \text{cm} = 420 \, \text{cm/s}.
+		\]
+
+		沿 \(-x\) 方向传播的正弦波的一般形式为：
+		\[
+		y(x, t) = A \sin(kx + \omega t + \phi),
+		\]
+		其中 \( A \) 是振幅，\( k \) 是角波数，\( \omega \) 是角频率，\( \phi \) 是相位常数。
+
+		1. \textbf{确定相位常数 (\( \phi \))：}
+		在 \( t = 0 \) 和 \( x = 0 \) 处，位移为 \( y(0, 0) = -3.00 \, \text{cm} \)。将其代入波的函数：
+		\[
+		-3.00 = 20.0 \sin(\phi).
+		\]
+		解得：
+		\[
+		\sin(\phi) = \frac{-3.00}{20.0} = -0.15.
+		\]
+		相位常数为：
+		\[
+		\phi = \arcsin(-0.15) = -0.1506 \, \text{rad}.
+		\]
+
+		2. \textbf{写出波的函数：}
+		代入已知值：
+		\[
+		y(x, t) = 20.0 \sin(0.1795x + 75.40t - 0.1506).
+		\]
+
+		(a) 在 \( t = 0 \) 时，波形是一个振幅为 \( 20.0 \, \text{cm} \)、波长为 \( 35.0 \, \text{cm} \) 的正弦波，且具有相位偏移，使得 \( y(0, 0) = -3.00 \, \text{cm} \)。
+
+		(b) 波的参数为：
+		\[
+		k = 0.1795 \, \text{rad/cm}, \quad T = 0.0833 \, \text{s}, \quad \omega = 75.40 \, \text{rad/s}, \quad v = 420 \, \text{cm/s}.
+		\]
+
+		(c) 波的函数为：
+		\[
+		y(x, t) = 20.0 \sin(0.1795x + 75.40t - 0.1506).
+		\]
+\end{solution}
+
+\begin{solution}[Measuring Ocean Depth]
+    An earthquake on the ocean floor in the Gulf of Alaska produces a tsunami (sometimes called a ``tidal wave'') that reaches Hilo, Hawaii, 4450 km away, in a time of 9 hours 30 minutes. Tsunamis have enormous wavelengths (100--200 km), and the propagation speed of these waves is \( u \approx \sqrt{gd} \), where \( d \) is the average depth of the water. From the information given, find the average wave speed and the average ocean depth between Alaska and Hawaii.
+
+    \tcbrule
+
+	已知：
+	\begin{itemize}
+		\item 距离 \( D = 4450 \, \text{km} = 4.45 \times 10^6 \, \text{m} \)
+		\item 时间 \( t = 9 \, \text{hours} \, 30 \, \text{minutes} = 34200 \, \text{s} \)
+		\item 波速公式 \( u \approx \sqrt{gd} \)，其中 \( g = 9.8 \, \text{m/s}^2 \)
+	\end{itemize}
+
+	波速 \( u \) 可以通过距离和时间计算：
+	\[
+	u = \frac{D}{t} = \frac{4.45 \times 10^6 \, \text{m}}{34200 \, \text{s}} \approx 130.12 \, \text{m/s}
+	\]
+
+	根据波速公式 \( u \approx \sqrt{gd} \)，可以解出深度 \( d \)：
+	\[
+	d = \frac{u^2}{g} = \frac{(130.12 \, \text{m/s})^2}{9.8 \, \text{m/s}^2} \approx 1727 \, \text{m}
+	\]
+
+\end{solution}
+
+\begin{solution}[Two Speakers]
+    Two identical \itr{speakers}{扬声器} 10.0 m apart are driven by the same \itr{oscillator}{振荡器} with a frequency of \( f = 21.5 \) Hz.
+    \begin{center}
+		\begin{tikzpicture}
+			\draw[-latex] (-5,0) -- (5,0) node[right]{$x$};
+			\draw[-latex] (0,0) -- (0,5) node[left]{$y$};
+			\draw[-latex] (0,0) -- (0,5) node[left]{$y$};
+			\fill[color=gray] (-4,0) circle (7pt);
+			\fill (-4,0) circle (5pt);
+			\fill[color=gray] (-4,0) circle (3pt);
+			\fill[color=gray] (4,0) circle (7pt);
+			\fill (4,0) circle (5pt);
+			\fill[color=gray] (4,0) circle (3pt);
+			\draw[elegant,orange,domain=3:4.5] plot(\x,{(\x^2-9)^0.5});
+			\fill (3,0) circle (2pt) ;
+			\draw (3,0) node[above left ]{A};
+			\fill (4,7^0.5) circle (2pt);
+			\draw (4,7^0.5) node[above left ]{$(x,y)$};
+			\draw[dashed] (-4,0) -- (-4,-1.7);
+			\draw[dashed] (3,0) -- (3,-1);
+			\draw[dashed] (4,0) -- (4,-1.7);
+			\draw[<->] (-4,-1.5) -- node [pos=0.5,above,sloped]{10.0 m}(4,-1.5) ;
+			\draw[<->] (-4,-0.8) -- node [pos=0.5,above,sloped]{9.00 m}(3,-0.8) ;
+		\end{tikzpicture}
+	\end{center}
+	\begin{enumerate}
+		\item[(a)] Explain why a receiver at point A records a minimum in sound intensity from the two speakers.
+		\item[(b)] If the receiver is moved in the plane of the speakers, what path should it take so that the intensity remains at a minimum? That is, determine the relationship between \( x \) and \( y \) (the coordinates of the receiver) that causes the receiver to record a minimum in sound intensity. Take the speed of sound to be 343 m/s.
+	\end{enumerate}
+    \tcbrule
+	两个相同的扬声器由同一振荡器驱动，因此它们发出的声波是相干波。当两列波到达接收器时，会发生干涉现象。如果两列波的相位差为 \( \pi \) 的奇数倍（即路径差为半波长的奇数倍），则会发生相消干涉，导致声强最小。
+
+	在点 A，假设两列波的路径差为 \( \Delta r \)，则相消干涉的条件为：
+	\[
+	\Delta r = \left( n + \frac{1}{2} \right) \lambda \quad (n = 0, 1, 2, \dots)
+	\]
+	其中 \( \lambda \) 为波长，计算公式为：
+	\[
+	\lambda = \frac{v}{f} = \frac{343 \, \text{m/s}}{21.5 \, \text{Hz}} \approx 15.95 \, \text{m}
+	\]
+	因此，点 A 处的路径差满足上述条件，导致接收器记录到声强最小。
+
+	为了使接收器始终记录到声强最小，接收器的位置 \( (x, y) \) 必须满足两列波的路径差为半波长的奇数倍。设两个扬声器的位置分别为 \( (-5.0 \, \text{m}, 0) \) 和 \( (5.0 \, \text{m}, 0) \)，接收器的位置为 \( (x, y) \)。
+
+	两列波的路径差为：
+	\[
+	\Delta r = \sqrt{(x + 5)^2 + y^2} - \sqrt{(x - 5)^2 + y^2}
+	\]
+	相消干涉的条件为：
+	\[
+	\Delta r = \left( n + \frac{1}{2} \right) \lambda \quad (n = 0, 1, 2, \dots)
+	\]
+	将 \( \lambda = 15.95 \, \text{m} \) 代入，得到：
+	\[
+	\sqrt{(x + 5)^2 + y^2} - \sqrt{(x - 5)^2 + y^2} = \left( n + \frac{1}{2} \right) \times 15.95
+	\]
+	\( x \) 和 \( y \) 之间的关系式描述了接收器移动的路径。
+
+	\begin{itemize}
+		\item[(a)] 接收器在点 A 记录到声强最小，是因为两列波的路径差满足相消干涉的条件。
+		\item[(b)] 接收器移动的路径满足关系式：
+		\[
+		\sqrt{(x + 5)^2 + y^2} - \sqrt{(x - 5)^2 + y^2} = \left( n + \frac{1}{2} \right) \times 15.95
+		\]
+		其中 \( n = 0, 1, 2, \dots \)。
+	\end{itemize}
+\end{solution}
+
+\begin{solution}[]
+	A 2.00-m-long wire having a mass of 0.100 kg is fxed at both ends. The tension in the wire is maintained at 20.0 N. What are the frequencies of the frst three allowed modes of vibration? If a node is observed at apoint 0.400 m from one end, in what mode and with what frequency is it vibrating？
+
+    \tcbrule
+\end{solution}
