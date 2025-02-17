@@ -1,0 +1,95 @@
+name: Build LaTeX
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build-latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Install TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex latexmk
+
+      - name: Build PDFs
+        run: |
+          cd main
+          compile_time=11
+
+          for i in $(seq 1 $compile_time)
+          do
+            xelatex -output-directory=./build -interaction=nonstopmode -file-line-error ./main.tex
+          done
+          mv ./build/main.pdf ./build/ZJU-GPA.pdf
+
+          for i in $(seq 1 $compile_time)
+          do
+            xelatex -output-directory=./build -interaction=nonstopmode -file-line-error "\PassOptionsToClass{dark}{Physics_H_Notes}\input{./main.tex}"
+          done
+          mv ./build/main.pdf ./build/ZJU-GPA-dark.pdf
+
+          for i in $(seq 1 $compile_time)
+          do
+            xelatex -output-directory=./build -interaction=nonstopmode -file-line-error "\PassOptionsToClass{dark,stable}{Physics_H_Notes}\input{./main.tex}"
+          done
+          mv ./build/main.pdf ./build/ZJU-GPA-dark-stable.pdf
+
+          for i in $(seq 1 $compile_time)
+          do
+            xelatex -output-directory=./build -interaction=nonstopmode -file-line-error "\PassOptionsToClass{stable}{Physics_H_Notes}\input{./main.tex}"
+          done
+          mv ./build/main.pdf ./build/ZJU-GPA-stable.pdf
+      - name: Create or Update Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Build for ${{ github.ref }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ZJU-GPA.pdf
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: main/build/ZJU-GPA.pdf
+          asset_name: ZJU-GPA.pdf
+          asset_content_type: application/pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ZJU-GPA-dark.pdf
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: main/build/ZJU-GPA-dark.pdf
+          asset_name: ZJU-GPA-dark.pdf
+          asset_content_type: application/pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ZJU-GPA-dark-stable.pdf
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: main/build/ZJU-GPA-dark-stable.pdf
+          asset_name: ZJU-GPA-dark-stable.pdf
+          asset_content_type: application/pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ZJU-GPA-stable.pdf
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: main/build/ZJU-GPA-stable.pdf
+          asset_name: ZJU-GPA-stable.pdf
+          asset_content_type: application/pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
