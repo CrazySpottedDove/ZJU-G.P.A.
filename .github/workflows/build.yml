@@ -14,8 +14,7 @@ jobs:
       - name: Install TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-xetex latexmk
-
+          sudo apt-get install -y texlive-full
       - name: Build PDFs
         run: |
           cd main
