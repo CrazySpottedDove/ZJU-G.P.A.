@@ -50,6 +50,12 @@ jobs:
                     xelatex -output-directory=./build -interaction=nonstopmode -file-line-error "\PassOptionsToClass{stable}{Physics_H_Notes}\input{./main.tex}"
                   done
                   mv ./build/main.pdf ./build/ZJU-GPA-stable.pdf
+            - name: Check for existing tag
+              run: |
+                if git rev-parse "refs/tags/${{ github.ref }}" >/dev/null 2>&1; then
+                  git tag -d ${{ github.ref }}
+                  git push origin :refs/tags/${{ github.ref }}
+                fi
             - name: Create or Update Release
               uses: actions/create-release@v1
               with:
