@@ -2,7 +2,8 @@ name: Build LaTeX
 
 on:
     push:
-        tags:["v*"]
+        tags:
+            - "v*"
 
 jobs:
     build-latex:
@@ -52,10 +53,10 @@ jobs:
                   mv ./build/main.pdf ./build/ZJU-GPA-stable.pdf
             - name: Check for existing tag
               run: |
-                if git rev-parse "refs/tags/${{ github.ref }}" >/dev/null 2>&1; then
-                  git tag -d ${{ github.ref }}
-                  git push origin :refs/tags/${{ github.ref }}
-                fi
+                  if git rev-parse "refs/tags/${{ github.ref }}" >/dev/null 2>&1; then
+                    git tag -d ${{ github.ref }}
+                    git push origin :refs/tags/${{ github.ref }}
+                  fi
             - name: Create or Update Release
               id: create_release
               uses: actions/create-release@v1
