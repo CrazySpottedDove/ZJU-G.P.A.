@@ -2,7 +2,7 @@ name: Build LaTeX
 
 on:
     push:
-        branches: ["master"]
+        tags:["v*"]
 
 jobs:
     build-latex:
