@@ -59,8 +59,8 @@ jobs:
             - name: Create or Update Release
               uses: actions/create-release@v1
               with:
-                  tag_name: ${{ github.ref }}
-                  release_name: Build for ${{ github.ref }}
+                  tag_name: ${{ github.ref_name }}
+                  release_name: Build for ${{ github.ref_name }}
                   draft: false
                   prerelease: false
               env:
