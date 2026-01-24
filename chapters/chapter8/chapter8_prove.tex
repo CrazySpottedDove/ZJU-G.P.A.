@@ -1,0 +1,272 @@
+\chapter[电磁学]{\itr{Electromagnetism}{电磁学}}
+\begin{prove}[Gauss's Law]
+    我们考虑直接通过麦克斯韦方程组证明。首先已知$\nabla \cdot \vec{E} = \dfrac{\rho}{\varepsilon_0}$，
+    现在假设一个很小的立方体包围带点电荷空间，沿着$x,y,z$方向，我们有关于电场通量的表达式：
+    \begin{align*}
+        \Phi &= \oint_S \vec{E} \cdot \dif \vec{S} \\
+        &= \left[E_x(x + \dif x) - E_x(x)\right] \dif y \dif z \\
+        &+ \left[E_y(y + \dif y) - E_y(y)\right] \dif x \dif z \\
+        &+ \left[E_z(z + \dif z) - E_z(z)\right] \dif x \dif y
+    \end{align*}
+    使用微积分中的高斯定理，可以得到：
+    \begin{align*}
+        \Phi &= (\dfrac{\partial E_x}{\partial x} + \dfrac{\partial E_y}{\partial y} + \dfrac{\partial E_z}{\partial z})\dif{x}\dif{y}\dif{z} \\
+        &= \nabla \cdot \vec{E} \dif{V}\\
+        &= \dfrac{\rho}{\varepsilon_0} \dif{V}\\
+        &= \dfrac{1}{\varepsilon_0}(\rho \dif{V})\\
+        &= \dfrac{Q_{in}}{\varepsilon_0}
+    \end{align*}
+    当然，我们也理解，对于多个这样的微元立方体，其叠加的时候，总的电场通量是各个小的电通量的累加。此时考虑两个微元立方体的接触面，对于一个立方体进入的通量等于另一个立方体离开的通量，这一部分是可以相互抵消的，因此：
+    \[\oint\vec{E}\cdot\dif{S} = \sum_{i = 1}^{N} \oint_{S_i}\vec{E}\cdot\dif{S_i} = \sum_{i=1}^{N}V_i \dfrac{\oiint_{S_i}\vec{E}\cdot\dif{\vec{S_i}}}{V_i}\]
+    再结合积分与求和的关系，可以最终得到：
+    \begin{align*}
+        \oint_S\vec{E}\cdot\dif{S} &= \iiint_V\lim_{\Delta V\rightarrow 0}\dfrac{\oiint_{S_i}\vec{E}\cdot\dif{S_i}}{\Delta V}\dif{V}\\
+        &= \iiint_V (\nabla\cdot\vec{E})\dif{V}\\
+        &= \iiint_V \dfrac{\rho}{\varepsilon_0}\dif{V}\\
+        &= \dfrac{Q_{in}}{\varepsilon_0}
+    \end{align*}
+\end{prove}
+
+\begin{prove}[Properties of electric dipoles]
+    对于如下的电偶极子系统：
+    \begin{singlefigure}[电偶极子系统示意图]{chapter8_电偶极子的电势与电势能}[0.5]
+    \end{singlefigure}
+    % 下面的推导可能与图不搭，建议后续修改
+    (1)关于电偶极子系统周围的电场，我们主要利用库仑定律推导，根据近似关系，我们有：
+    \[\vec{r}_{\pm}=(rcos\theta\mp\dfrac{d}{2})\hat{k}+rsin\theta\hat{j}\]
+    \[r_{\pm}^2 \approx r^2\mp rdcos\theta\qquad(d\ll r)\]
+    其中第二个公式利用了余弦定理，且我们在这个问题的思考中默认$d$远小于$r$。然后我们列写库仑定律表达式（这里我们利用矢量计算，因此对库仑定律公式做出些许改变，以符合单位制的要求）：
+    \begin{align*}
+        \vec{E} &= \dfrac{1}{4\pi\varepsilon_0}[\dfrac{(+q)\vec{r}_{+}}{r_{+}^3}+\dfrac{(-q)\vec{r}_{-}}{r_{-}^3}]\qquad\text{（库仑定律公式）}\\
+            &\approx \dfrac{q}{4\pi\varepsilon_0}[\dfrac{(rcos\theta-\dfrac{d}{2})\hat{k}+rsin\theta\hat{j}}{(r^2 -rdcos\theta)^{3/2}}-\dfrac{(rcos\theta+\dfrac{d}{2})\hat{k}+rsin\theta\hat{j}}{(r^2 +rdcos\theta)^{3/2}}]\qquad\text{$r^3=(r^2)^{3/2}$}
+    \end{align*}
+    由于以下近似关系：
+    \[\dfrac{1}{(r^2\mp rdcos\theta)^{3/2}}=\dfrac{1}{r^3}(1\mp \dfrac{d}{r}cos\theta)^{-3/2}\approx\dfrac{1}{r^3}(1\pm \dfrac{3}{2}\dfrac{d}{r}cos\theta)\]
+    代入化简上式可得：
+    \begin{align*}
+        \vec{E} &\approx \dfrac{q}{4\pi\varepsilon_0 r^3}[-d\hat{k}+\dfrac{3dcos\theta}{r}(rcos\theta\hat{k}+rsin\theta\hat{j})] \\
+            &= \dfrac{1}{4\pi\varepsilon_0 r^3}[(-qd\hat{k})+\dfrac{3(qd)r cos\theta}{r^2}(rcos\theta\hat{k}+rsin\theta\hat{j})]\\
+            &= \dfrac{1}{4\pi\varepsilon_0 r^3}[-\vec{p}+3\dfrac{(\vec{r}\cdot\vec{p})\vec{r}}{r^2}]
+    \end{align*}
+    (2)关于电偶极子系统周围的电势，我们也利用近似处理与基础公式结合的方式推导。我们默认无限远处为0电势。近似关系包括：
+    \[r_{-}-r_{+} \approx dcos\theta \qquad r_{-}r_{+}\approx r^2\]
+    因此利用点电荷的电势表达式计算可得：
+    \begin{align*}
+        V &= \dfrac{1}{4\pi\varepsilon_0}(\dfrac{q}{r_{+}}+\dfrac{-q}{r_{-}})=\dfrac{qdcos\theta}{4\pi\varepsilon_0 r^2}\\
+            &= \dfrac{pcos\theta}{4\pi\varepsilon_0 r^2}
+    \end{align*}
+\end{prove}
+
+\begin{prove}[导体表面电场与曲率半径的关系]
+    我们假想两个球形带电体，他们具有不同的半径。现在使用一个导线连接两个球体表面，电荷将会在两个带电导体上出现移动并最终实现平衡。很明显，这时候两个球体表面是等电势的。我们有电势的推导公式：
+    \[V=\dfrac{1}{4\pi\varepsilon}\dfrac{q}{R}=\dfrac{\sigma R}{\varepsilon_0}\qquad E=\dfrac{\sigma}{\varepsilon_0}\]
+    所以：
+    \[V_1 =V_2\quad\Rightarrow\quad \dfrac{E_1}{E_2}=\dfrac{\sigma_1}{\sigma_2}=\dfrac{R_2}{R_1}\]
+    同时按照推论，我们也有$E\propto\sigma$，因此：
+    \[E\propto\dfrac{1}{R}\quad\sigma\propto\dfrac{1}{R}\]
+\end{prove}
+
+\begin{prove}[一阶电路的结论]
+    \begin{singlefigure}[简单一阶RC电路]{chapter8_RC}[0.6]
+    \end{singlefigure}
+    首先考虑当电路从没有接通电源到接通电源后的变化过程。
+    
+    根据电容特性以及基尔霍夫定律，假设变量为回路电流和电容两端的电压，可知：
+    \begin{align*}
+        i=C\dfrac{\dif{u}}{\dif{t}}\\
+        \varepsilon =iR+u\\
+        \text{初值条件：}u=0
+    \end{align*}
+
+    整理可得：
+    \[\varepsilon =u+RC\dfrac{\dif{u}}{\dif{t}}\]
+
+    根据微分方程的结果可知，该方程的解为：
+    \[u=\varepsilon(1-e^{-t/RC})\]
+
+    当电容完全充电后，将开关切换到b点，此时也可以列写出相应的微分方程：
+    \begin{align*}
+        RC\dfrac{\dif{u}}{\dif{t}}+u=0\\
+        \text{初值条件：}u=\varepsilon
+    \end{align*}
+
+    可解得：
+    \[u=\varepsilon e^{-t/RC}\]
+
+    对于RL电路读者可采用类似方法证明，此处不多赘述。
+\end{prove}
+
+\begin{prove}[Y-$\Delta$等效]
+    \begin{singlefigure}[Y-$\Delta$等效电路]{chapter8_电路等效变换.png}[0.7]
+    \end{singlefigure}
+
+    等效要求不改变电路中其他部分的电压和电流等各项电路性质，因此我们可以假设三个端口的电势和电流，这在两种连接中应该是分别对应相等的。考虑到用电流表示电压时“$\Delta$”
+    型连接需要表示六个电流参数，而电压表示电流时“Y”型连接只需要四个电势参数，所以我们采用电压表示电流。
+
+    注意到，“Y”型连接有一个公共点O，如果希望表示电压电流的话，知道这一点处的信息将能够极大地简化相关物理量的表示。另外，电压表示电流我们可以采用电导率来降低公式的复杂度：
+    \[ I_1 = G_1U_{10} = (\varphi_1 - \varphi_0) \times G_1 \]
+    \[ I_2 = G_2U_{20} = (\varphi_2 - \varphi_0) \times G_2 \]
+    \[ I_3 = G_3U_{30} = (\varphi_3 - \varphi_0) \times G_3 \]
+
+    由KCL定律：
+    \[ I_1 + I_2 + I_3 = 0\quad\Rightarrow\quad \varphi_1G_1 + \varphi_2G_2 + \varphi_3G_3 - \varphi_0(G_1 + G_2 + G_3) = 0 \]
+
+    因此：
+    \[ \varphi_0 = \dfrac{\varphi_1G_1 + \varphi_2G_2 + \varphi_3G_3}{G_1 + G_2 + G_3} \]
+
+    由Y电路将电势$\varphi_0$代入最初的三个表达式可得：
+    \[ I_1 = \dfrac{G_1G_2}{G_1 + G_2 + G_3} (\varphi_1 - \varphi_2) + \dfrac{G_1G_3}{G_1 + G_2 + G_3} (\varphi_1 - \varphi_3) \]
+    \[ I_2 = \dfrac{G_2G_1}{G_1 + G_2 + G_3} (\varphi_2 - \varphi_1) + \dfrac{G_2G_3}{G_1 + G_2 + G_3} (\varphi_2 - \varphi_3) \]
+    \[ I_3 = \dfrac{G_3G_1}{G_1 + G_2 + G_3} (\varphi_3 - \varphi_1) + \dfrac{G_3G_2}{G_1 + G_2 + G_3} (\varphi_3 - \varphi_2) \]
+
+    由$\Delta$电路：
+    \[ I_1 = G_{12}U_{12} + G_{31}U_{13} = G_{12}(\varphi_1 - \varphi_2) + G_{31}(\varphi_1 - \varphi_3) \]
+    \[ I_2 = G_{12}U_{21} + G_{23}U_{23} = G_{12}(\varphi_2 - \varphi_1) + G_{23}(\varphi_2 - \varphi_3) \]
+    \[ I_3 = G_{31}U_{31} + G_{23}U_{32} = G_{31}(\varphi_3 - \varphi_1) + G_{23}(\varphi_3 - \varphi_2) \]
+    
+    根据系数相等可得：
+    \[ G_{12} = \dfrac{G_1G_2}{G_1 + G_2 + G_3} \]
+    \[ G_{23} = \dfrac{G_2G_3}{G_1 + G_2 + G_3} \]
+    \[ G_{31} = \dfrac{G_3G_1}{G_1 + G_2 + G_3} \]
+
+    根据电导率反解电阻表达式：
+    \[ R_{12} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_3} \]
+    \[ R_{23} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_1} \]
+    \[ R_{31} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_2} \]
+
+    再次反解表达式，可以得到逆变换的结果：
+    \begin{align*}
+        \begin{cases}
+            \vspace{3mm}
+            R_1 = \dfrac{R_{31}R_{12}}{R_{12} + R_{23} + R_{31}}\\
+            \vspace{3mm}
+            R_2 = \dfrac{R_{12}R_{23}}{R_{12} + R_{23} + R_{31}}\\
+            R_3 = \dfrac{R_{23}R_{31}}{R_{12} + R_{23} + R_{31}}\\
+        \end{cases}
+    \end{align*}
+    
+\end{prove}
+
+\begin{prove}[\itr{Ampere's Law}{安培定理}]
+    \begin{singlefigure}[安培定理的证明]{chapter8_证明安培定理}[0.6]
+    \end{singlefigure}
+    如上图所示，我们取$xOy$平面内很小的一个方形区域，应用麦克斯韦方程$\nabla\times\vec{B}=\mu_0\vec{J}$，有：
+    \begin{align*}
+        \oint \vec{B} \cdot \dif{\vec{l}} &= \left[ B_x(y) - B_x(y + \dif{y}) \right] \dif{x} + \left[ B_y(x + \dif{x}) - B_y(x) \right] \dif{y}\\
+                                        &= \left( \dfrac{\partial B_y}{\partial x} - \dfrac{\partial B_x}{\partial y} \right) \dif{x} \dif{y} \\
+                                        &= \left( \nabla \times \vec{B} \right)_z \dif{x} \dif{y} = \left( \nabla \times \vec{B} \right) \cdot \dif{\vec{S}} \\
+                                        &= \mu_0 \vec{J} \cdot \dif{\vec{S}} = \mu_0 I
+    \end{align*}
+\end{prove}
+
+\begin{prove}[外加磁场对磁偶极子的影响]
+    \begin{singlefigure}[磁场对磁偶极子的影响]{chapter8_磁场对磁偶极子的影响}[0.6]
+    \end{singlefigure}
+    我们使用经典力学分析，根据圆周运动易得初始平衡状态时$\dfrac{Ze^2}{4\pi\varepsilon_0 r^2}=m_e\omega_0^2 r$，此时外加一个磁场，其中的电子会多受到一个洛伦茨力的影响。
+
+    以$\vec{\Delta \omega}\parallel\vec{B}_0$为例，则：
+    \[\dfrac{Ze^2}{4\pi\varepsilon_0 r^2} + e\omega r B = m_e\omega^2 r\]
+
+    此处有$\omega = \omega_0 + \Delta \omega$，因此：
+    \[\dfrac{Ze^2}{4\pi\varepsilon_0 r^2} + e\omega_0 r B + e\Delta\omega r B = m_e\omega_0^2 r + 2\omega_0\Delta\omega m_e r + m_e\Delta\omega^2 r\]
+
+    由于$\omega\gg\Delta\omega$以及最初平衡的等式，我们在该展开式中删除原等式的部分以及仅含有$\Delta\omega$的部分，可得：
+    \[e\omega_0 r B = 2\omega_0\Delta\omega m_e r\quad\Rightarrow\quad \Delta\omega = \dfrac{eB}{2m_e}\]
+
+    代入磁偶极矩与角速度的关系式即得最终结论。当$\vec{\Delta \omega}\parallel -\vec{B}_0$的推导也类似，此处不再赘述。
+\end{prove}
+
+\begin{prove}[电磁波的性质]
+    在自由空间（电荷密度$\rho = 0$，电流密度$J = 0$的空间）中，电磁波满足：
+    \begin{Itemize}
+        \item 麦克斯韦方程组满足狭义相对论。
+        \item 电与磁作为波的存在性：麦克斯韦方程组证明了电磁波的存在，且电磁波是横波且是偏振的。$\vec{E}$、$\vec{B}$、传播方向两两相互正交。
+        \item 电磁波中电场和磁场始终是共面的，二者相位差为0。
+        \item 光是一种电磁波，且光速满足$c=\dfrac{1}{\sqrt{\mu_0\varepsilon_0}}$
+        \item 守恒律：电荷总量、动量、能量三者均守恒。
+        \item $E = cB$，因此大多数仪器包括人眼对于电场的变化更为敏感。
+    \end{Itemize}
+    \tcbrule
+    首先引入平面波的概念。在传播过程中，单点产生的电磁波将会扩散到无穷远的地方。半径越大，对于其中有限大的局部电磁波，就越接近于平面。因此电磁波的性质将在平面传播的基础上讨论。
+
+    根据麦克斯韦方程，在自由空间中，我们有：
+    \begin{align*}
+        \nabla\cdot\vec{E} = 0 \quad&\Rightarrow\quad \dfrac{\partial E_x}{\partial x} + \dfrac{\partial E_y}{\partial y} + \dfrac{\partial E_z}{\partial z} = 0\\[1.5ex]
+        \nabla\times\vec{E} = -\dfrac{\partial \vec{B}}{\partial t}\quad&\Rightarrow\quad 
+        \begin{vmatrix}
+            \hat{i} & \hat{j} & \hat{k}\\
+            \dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z}\\
+            E_x & E_y & E_z
+        \end{vmatrix}
+        = -\mu_r\mu_0(\dfrac{\partial H_x}{\partial t}\hat{i} + \dfrac{\partial H_y}{\partial t}\hat{j} + \dfrac{\partial H_z}{\partial t}\hat{k})\\[1.5ex]
+        \nabla\cdot\vec{H} = 0\quad&\Rightarrow\quad \dfrac{\partial H_x}{\partial x} + \dfrac{\partial H_y}{\partial y} + \dfrac{\partial H_z}{\partial z} = 0\\[1.5ex]
+        \nabla\times\vec{H} = \dfrac{\partial\vec{D}}{\partial t}\quad&\Rightarrow\quad
+        \begin{vmatrix}
+            \hat{i} & \hat{j} & \hat{k}\\
+            \dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z}\\
+            H_x & H_y & H_z
+        \end{vmatrix}
+        = \varepsilon_r\varepsilon_0(\dfrac{\partial E_x}{\partial t}\hat{i} + \dfrac{\partial E_y}{\partial t}\hat{j} + \dfrac{\partial E_z}{\partial t}\hat{k})
+    \end{align*}
+    进一步地，我们展开所有行列式，得到下面8个等式：
+    \begin{align*}
+        &\dfrac{\partial E_x}{\partial x} + \dfrac{\partial E_y}{\partial y} + \dfrac{\partial E_z}{\partial z} = 0 \tag{1} \\[1.5ex]
+        &\dfrac{\partial E_z}{\partial y} - \dfrac{\partial E_y}{\partial z} = -\mu_r \mu_0 \dfrac{\partial H_x}{\partial t} \tag{2-1} \\[1.5ex]
+        &\dfrac{\partial E_x}{\partial z} - \dfrac{\partial E_z}{\partial x} = -\mu_r \mu_0 \dfrac{\partial H_y}{\partial t} \tag{2-2} \\[1.5ex]
+        \displaybreak
+        &\dfrac{\partial E_y}{\partial x} - \dfrac{\partial E_x}{\partial y} = -\mu_r \mu_0 \dfrac{\partial H_z}{\partial t} \tag{2-3} \\[1.5ex]
+        &\dfrac{\partial H_x}{\partial x} + \dfrac{\partial H_y}{\partial y} + \dfrac{\partial H_z}{\partial z} = 0 \tag{3} \\[1.5ex]
+        &\dfrac{\partial H_z}{\partial y} - \dfrac{\partial H_y}{\partial z} = \varepsilon_r \varepsilon_0 \dfrac{\partial E_x}{\partial t} \tag{4-1} \\[1.5ex]
+        &\dfrac{\partial H_x}{\partial z} - \dfrac{\partial H_z}{\partial x} = \varepsilon_r \varepsilon_0 \dfrac{\partial E_y}{\partial t} \tag{4-2} \\[1.5ex]
+        &\dfrac{\partial H_y}{\partial x} - \dfrac{\partial H_x}{\partial y} = \varepsilon_r \varepsilon_0 \dfrac{\partial E_z}{\partial t} \tag{4-3}
+    \end{align*}
+
+    电磁波是以一点向外传播的，在包络的球面上每一点的电场和磁场强度都相等。对于平面波而言（假设平面是$xOy$平面），就是在这一个面上的电场和磁场与$x$和$y$轴都无关。因此有：
+    \[\dfrac{\partial E_x}{\partial x} = \dfrac{\partial E_y}{\partial y} = \dfrac{\partial E_x}{\partial y} = \dfrac{\partial E_y}{\partial x} = 0\]
+    \[\dfrac{\partial H_x}{\partial x} = \dfrac{\partial H_y}{\partial y} = \dfrac{\partial H_x}{\partial y} = \dfrac{\partial H_y}{\partial x} = 0\]
+
+    根据式(1)(2-3)(3)(4-3)可得：
+    \[\dfrac{\partial E_z}{\partial z} = 0\qquad \dfrac{\partial H_z}{\partial t} = 0\]
+    \[\dfrac{\partial H_z}{\partial z} = 0 \qquad \dfrac{\partial E_z}{\partial t} = 0\]
+
+    因此可得到$H_z$和$E_z$与$z$轴以及时间无关，即满足平面波：
+    \[E_z(z,t) = constant\]
+    \[H_z(z,t) = constant\]
+
+    进一步地，$z$轴方向分量与电磁波无关：
+    \[E_z = H_z = 0\]
+
+    由于分量为0，我们可以处理上一阶段剩余的四个方程，并得到如下的结果：
+    \begin{align*}
+        &\dfrac{\partial E_y}{\partial z} = \mu_r \mu_0 \dfrac{\partial H_x}{\partial t} \tag{2-1'} \\[1.5ex]
+        &\dfrac{\partial E_x}{\partial z} = -\mu_r \mu_0 \dfrac{\partial H_y}{\partial t} \tag{2-2'} \\[1.5ex]
+        \displaybreak
+        &\dfrac{\partial H_y}{\partial z} = -\varepsilon_r \varepsilon_0 \dfrac{\partial E_x}{\partial t} \tag{4-1'} \\[1.5ex]
+        &\dfrac{\partial H_x}{\partial z} = \varepsilon_r \varepsilon_0 \dfrac{\partial E_y}{\partial t} \tag{4-2'}
+    \end{align*}
+
+    我们不妨假设电场强度沿着$x$轴方向（即$E_y = 0$），则进一步简化得到：
+    \[\dfrac{\partial H_x}{\partial t} = \dfrac{\partial H_x}{\partial z} = 0\]
+
+    也就是说磁场强度没有$x$轴分量，它应当是在$y$轴。故电场方向和磁场方向垂直，并与电磁波传播方向分别垂直。
+
+    根据方程(2-2')(4-1')，分别对其两边对$z$偏导，得到：
+    \[\dfrac{\partial^2 E_x}{\partial z^2} = -\mu_r\mu_0\dfrac{\partial}{\partial t}\dfrac{\partial H_y}{\partial z} = \mu_r\mu_0\varepsilon_r\varepsilon_0\dfrac{\partial^2 E_x}{\partial t^2}\]
+    \[\dfrac{\partial^2 H_y}{\partial z^2} = -\varepsilon_r\varepsilon_0\dfrac{\partial}{\partial t}\dfrac{\partial E_x}{\partial z} = \mu_r\mu_0\varepsilon_r\varepsilon_0\dfrac{\partial^2 H_y}{\partial t^2}\]
+
+    很明显，这是一个波动方程，波速：
+    \[v = \dfrac{1}{\sqrt{\mu_r\mu_0\varepsilon_r\varepsilon_0}}\]
+
+    波速是与参考系无关的（计算所需的数据均为与介质唯一有关的常数）。因此麦克斯韦方程组的存在不依赖于参考系，且证明了光速的唯一性。
+
+    对于波，可以用复数表示为$E_x = E_0 e^{i\varphi_E}e^{i(kz - \omega t)}$、$H_y = H_0 e^{i\varphi_H}e^{i(kz - \omega t)}$，这样就包含了相位以及幅值等参数。利用方程(2-2')(4-2')可得：
+    \[ik E_0e^{i\varphi_E}e^{i(kz - \omega t)} = i\mu_r\mu_0\omega H_0e^{i\varphi_H}e^{i(kz - \omega t)}\]
+
+    由于$\dfrac{\omega}{k} = v$，所以：
+    \[E_0e^{i\varphi_E} = \mu_r\mu_0\dfrac{1}{\sqrt{\mu_r\mu_0\varepsilon_r\varepsilon_0}}H_0e^{i\varphi_H} = v B_0 e^{i\varphi_H}\]
+
+    除了复指数外所有变量均为时数。因此从上面的公式可以得到以下结论：
+    \[\sqrt{\varepsilon_r\varepsilon_0}E_0 = \sqrt{\mu_r\mu_0}H_0\]
+    \[\varphi_E = \varphi_H\]
+    \[E_0 = cB_0\qquad\text{（真空中）}\]
+\end{prove}

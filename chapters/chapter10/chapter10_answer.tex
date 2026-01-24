@@ -1,0 +1,178 @@
+\chapter[量子物理]{\itr{Quantum Physics}{量子物理}}
+\begin{solution}[Probability of Detection]
+    A particle is confined in a one-dimensional infinite square well potential of width $a$. Its wave function is given by:
+    \[\psi_n(x) = \sqrt{\dfrac{2}{a}} \sin(\dfrac{n\pi x}{a}) (0 < x < a)\]
+    
+    If the particle is in the $n = 1$ state (ground state), what is the probability of finding it in the region between $x = 0$ and $x = \dfrac{a}{4}$?
+
+    (Hint: $\int \sin^2(x) \dif x = \dfrac{x}{2} - \dfrac{1}{4}\sin(2x) + C$)
+    \tcbrule
+
+    题目所给是典型一维无限深势阱的波函数，根据波函数表示的概率密度的定义，可得概率密度函数：
+    \[\dif P(x) = |\psi_1(x)|^2 = \dfrac{2}{a} \sin^2(\dfrac{\pi x}{a})\]
+
+    因此粒子位于$0 \sim \dfrac{a}{4}$的概率为：
+    \[P = \int_0^{a/4} \dfrac{2}{a} \sin^2(\dfrac{\pi x}{a}) \dif x = \dfrac{2}{\pi} \left. \left[\dfrac{\pi x}{2a} - \dfrac{1}{4}\sin(\dfrac{2\pi x}{a})\right] \right|_0^{a/4}\]
+
+    解得：
+    \[P = \dfrac{\pi -2}{4\pi}\]
+\end{solution}
+
+\begin{solution}[An Infinitely Deep Potential Well in 1D]
+    A particle is in a one-dimensional infinite deep potential well with a width of $a$. At a certain moment, 
+    the two walls of the well suddenly move in opposite directions, causing the width of the well to change to $2a$.
+    The potential Wells before and after the change are symmetrical about $x=0$
+    The particle wave function has no time to change. What is the probability that the particle remains in the 
+    ground state for the widened infinite deep potential well?
+    
+    (Hint 1: Principle of superposition of states $\psi_{1,1} = \sum c_i\psi_{2,i}\quad P_1 = |c_1|^2$)
+    
+    (Hint 2: $\int \cos(2x)\cos(x)\dif x = \dfrac{1}{6}(3\sin (x) + \sin (3x)) + C$ )
+    \tcbrule
+
+    根据我们已经求解过的波函数，对其进行坐标平移变换，可以得到原先的波函数以及势阱增宽后的波函数分别如下$\psi_{1,n}(x)$和$\psi_{2,n}(x)$：
+    \[\psi_{1,n}(x) = \sqrt{\dfrac{2}{a}} \sin(\dfrac{n\pi x}{a}+\dfrac{n\pi}{2})\qquad (-\dfrac{a}{2} < x < \dfrac{a}{2})\]
+    \[\psi_{2,n}(x) = \sqrt{\dfrac{1}{a}} \sin(\dfrac{n\pi x}{2a}+\dfrac{n\pi}{2}) \qquad (-a < x < a)\]
+
+    在非上述定义域的部分，波函数分别为0.
+
+    加宽后，本征态为$\psi_{2,n}$，但此时波函数为$\psi_{1,1}$，后者为前者的线性表示。考虑三角函数的级数分解与内积空间，我们希望提取$c_1$，需要内积实现：
+    \begin{align*}
+        c_1 &= \int_{-a/2}^{a/2}\psi_{1,1}\psi_{2,1}\dif x\\
+            &= \dfrac{\sqrt{2}}{a}\int_{-a/2}^{a/2}\cos(\dfrac{\pi x}{a})\cos(\dfrac{\pi x}{2a})\dif x\\
+            &= \dfrac{2\sqrt{2}}{\pi}\int_{-\pi/4}^{\pi/4}\cos(2t)\cos(t)\dif t\qquad(t=\dfrac{\pi x}{2a})\\
+            &= \dfrac{8}{3\pi}
+    \end{align*}
+
+    因此留在基态的概率为：
+    \[P = |c_1|^2 = \dfrac{64}{9\pi^2}\]
+\end{solution}
+
+\begin{solution}[Tunnelling Effect]
+    The \(\delta(x)\)  is a very important function in engineering technology, and it is defined as:
+    \begin{align*}
+        \delta(x) =
+        \begin{cases}
+           \infty \quad &x = 0\\
+           0 \quad &x \neq 0 
+        \end{cases}
+        \qquad \int_{-\infty}^{\infty} \delta(x) \dif x = \int_{0^-}^{0^+}\delta(x) \dif x= 1
+    \end{align*}
+
+    There is a one-dimensional \(\delta\) barrier at $x=0$：
+    \[U(x) = A \delta(x) \qquad (A>0)\]
+    
+    When a particle with energy $E$ is incident from the left, find the transmission coefficient.
+    (Hint: In this question，\(\dfrac{\dif^2\psi(x)}{\dif x^2}\) is divergent. Consider integrating it in $\left[-\varepsilon,\varepsilon\right]\quad \varepsilon\rightarrow 0$)
+    \tcbrule
+
+    首先写出薛定谔方程：
+    \[\dfrac{\dif^2 \psi(x)}{\dif{x}^2} + \dfrac{2m}{\hbar^2} [ E - U(x) ] \psi(x) = 0\]
+
+    $x=0$处二阶微分项发散，在区间$\left[-\varepsilon,\varepsilon\right]\quad \varepsilon\rightarrow 0$内对方程两边积分。
+    由于波函数为有限值，在无穷小区间内积分为0，可得：
+    \[\psi'(0^+) - \psi'(0^-) = \dfrac{2mA}{\hbar^2}\psi(0)\]
+
+    假设波函数为：
+    \begin{align*}
+        \psi(x)
+        =
+        \begin{cases}
+            e^{ikx} + Re^{-ikx}\quad &x<0\\
+            Se^{ikx} \quad &x>0
+        \end{cases}
+    \end{align*}
+
+    其中$k=\sqrt{\dfrac{2mE}{\hbar^2}}$
+
+    代入上面得到的边界条件和波函数连续性条件，可得：
+    \begin{align*}
+        \begin{cases}
+            1 + R = S\\
+            ik(S - 1 + R) = \dfrac{2mAS}{\hbar^2}
+        \end{cases}
+    \end{align*}
+
+    求解方程组，得到隧穿概率为：
+    \[T = |S|^2 = \left|\dfrac{ik\hbar^2}{ik\hbar^2 - mA}\right|^2 = \left(1 + \dfrac{m^2A^2}{k^2\hbar^4}\right)^{-1} = \left(1 + \dfrac{mA^2}{2\hbar^2 E}\right)^{-1}\]
+\end{solution}
+
+\begin{solution}[Schrödinger Equation]
+    Consider a particle of mass $m$ confined in a 2D rectangular infinite square well.The potential energy function is:
+    \[
+    U(x,y) = \begin{cases} 
+        0 & 0 < x < L_x , 0 < y < L_y \\
+        \infty & \text{boundary and exterior}
+        \end{cases}
+    \]
+    The wave function is separable: $\psi(x,y) = X(x)Y(y)$, with total energy $E = E_x + E_y$.
+
+    (a) Calculate the normalized wave function $\psi_{n_x n_y}(x,y)$, and prove the particle energy is:
+    \[E_{n_x n_y} = \dfrac{\pi^2 \hbar^2}{2m} \left( \dfrac{n_x^2}{L_x^2} + \dfrac{n_y^2}{L_y^2} \right)\]
+
+    (b)Given $L_y = 2L_x = 2L$, calculate the second excited state (provide quantum numbers $(n_x, n_y)$ and energy value).
+
+    (c)For the Schrödinger Equation $\hat{H}\psi=E\psi$, the set of all eigenvalues $E$ of operator $\hat{H}$ is called the \itr{spectrum}{谱}. 
+    When two or more linearly independent eigenfunctions share the same eigenvalue, it is called degeneracy of spectra, and the number of such eigenfunctions is the \itr{degeneracy degree}{简并度}.
+    
+    Given $L_y = \alpha L_x$ ($\alpha > 1$), if the degeneracy degree of the second excited state is 2, find the $\alpha$ satisfying this condition.
+    \tcbrule
+    (a)由于可以分离变量，因此薛定谔方程可以在两个分量上单独计算。首先，$\nabla^2 = \dfrac{\partial^2}{\partial x^2} + \dfrac{\partial^2}{\partial y^2}$。根据薛定谔方程：
+    \[-\dfrac{\hbar^2}{2m}\nabla^2\psi(x)+U(x)\psi(x)=E\psi(x)\]
+
+    取势函数为0的区域，分离变量，得到：
+    \[-\dfrac{\hbar^2}{2m}\left(Y\dfrac{\partial^2 X}{\partial x^2} + X\dfrac{\partial^2 Y}{\partial y^2}\right)=EXY\]
+
+    两边同除$XY$，得到：
+    \[-\dfrac{\hbar^2}{2m}\left(\dfrac{1}{X}\dfrac{\partial^2 X}{\partial x^2} + \dfrac{1}{Y}\dfrac{\partial^2 Y}{\partial y^2}\right)=E_x + E_y\]
+
+    因此可以拆分到两个方向上，即：
+    \[-\dfrac{\hbar^2}{2m}\dfrac{\partial^2 X}{\partial x^2} = E_x X\]
+    \[-\dfrac{\hbar^2}{2m}\dfrac{\partial^2 Y}{\partial y^2} = E_y Y\]
+    
+    在一维无限深势阱中，我们有：
+    \[\psi_x = \sqrt{\dfrac{2}{L_x}} \sin(\dfrac{n_x\pi x}{L_x}) \quad(0 < x < L_x)\]
+    \[\psi_y = \sqrt{\dfrac{2}{L_y}} \sin(\dfrac{n_y\pi y}{L_y}) \quad(0 < y < L_y)\]
+    
+    因此：
+    \[\psi_{n_x,n_y}(x,y)=\sqrt{\dfrac{4}{L_xL_y}} \sin(\dfrac{n_x\pi x}{L_x}) \sin(\dfrac{n_y\pi y}{L_y})\]
+
+    对应地，上面的方程中可以得到各自的能量：
+    \[E_x = \dfrac{\pi^2 \hbar^2}{2m} \dfrac{n_x^2}{L_x^2}\qquad E_y = \dfrac{\pi^2 \hbar^2}{2m} \dfrac{n_y^2}{L_y^2}\]
+
+    因此得证\mgnote{如果觉得证明麻烦的话，直接在两个分量上分别当做一维无限深势阱计算即可}：
+    \[E = E_x + E_y = \dfrac{\pi^2 \hbar^2}{2m} \left( \dfrac{n_x^2}{L_x^2} + \dfrac{n_y^2}{L_y^2} \right)\]
+
+    (b)根据(a)的证明，代入数据，能量表示为：
+    \[E = \dfrac{\pi^2 \hbar^2}{8mL^2} (4n_x^2 + n_y^2)\]
+
+    为了便于比较，令系数$C = \dfrac{\pi^2 \hbar^2}{8mL^2}$，则能量为$E=C(4n_x^2 + n_y^2)$。明显，$n_x=n_y = 1$是基态。
+
+    \[(n_x,n_y) = (1,2)\qquad E = 8C\]
+    \[(n_x,n_y) = (2,1)\qquad E = 17C\]
+    \[(n_x,n_y) = (2,2)\qquad E = 20C\]
+    \[(n_x,n_y) = (3,1)\qquad E = 37C\]
+    \[(n_x,n_y) = (1,3)\qquad E = 13C\]
+
+    比较能量值，明显，第二激发态及其对应能量为：
+    \[(n_x,n_y) = (1,3)\qquad E = 13C = \dfrac{13\pi^2 \hbar^2}{8mL^2}\]
+    (c)在题目条件下，能量函数改写为：
+    \[E = \dfrac{\pi^2 \hbar^2}{2\alpha^2 mL^2} (\alpha^2 n_x^2 + n_y^2)\]
+
+    同理，(b)中已经求过的几个能量值为：
+    \[(n_x,n_y) = (1,1)\qquad E = (\alpha^2 + 1)C\]
+    \[(n_x,n_y) = (1,2)\qquad E = (\alpha^2 + 4)C\]
+    \[(n_x,n_y) = (2,1)\qquad E = (4\alpha^2 + 1)C\]
+    \[(n_x,n_y) = (2,2)\qquad E = (4\alpha^2 + 4)C\]
+    \[(n_x,n_y) = (3,1)\qquad E = (9\alpha^2 + 1)C\]
+    \[(n_x,n_y) = (1,3)\qquad E = (\alpha^2 + 9)C\]
+
+    观察结果，明显，$(n_x,n_y)=(1,1)$为基态，$(n_x,n_y)=(1,2)$为第一激发态，且这两个不存在与之同能量的态。
+    $(n_x,n_y) = (2,2)$和$(n_x,n_y) = (3,1)$时能量明显高于$(n_x,n_y)=(2,1)$，故不可能为第二激发态。
+
+    此时要满足简并态要求，只能：
+    \[4\alpha^2 + 1 = \alpha^2 + 9\quad\Rightarrow\quad \alpha = \sqrt{\dfrac{8}{3}}\]
+
+    当$n_x + n_y > 4$时，对于每一种情况，存在$n_x + n_y = 4$中至少一种情况使得其能量高于该情况，而$n_x + n_y = 4$中至少为第二激发态。
+    而题目要求简并度为第二激发态的简并度，不考虑此情况。
+\end{solution}
