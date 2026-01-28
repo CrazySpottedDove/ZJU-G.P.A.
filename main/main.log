@@ -1,0 +1,3312 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.4)  28 JAN 2026 17:24
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./Physics_H_Notes.cls
+Document Class: Physics_H_Notes 
+(c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexbook.cls (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count184
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count185
+\g__pdf_backend_annotation_int=\count186
+\g__pdf_backend_link_int=\count187
+))
+Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTEX)
+(c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count188
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen140
+\g__ctex_section_depth_int=\count189
+\g__ctex_font_size_int=\count190
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count191
+\c@chapter=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
+ (c:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10.sty
+Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen142
+\l__xtemplate_tmp_int=\count266
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip50
+))
+\l__xeCJK_tmp_int=\count267
+\l__xeCJK_tmp_box=\box53
+\l__xeCJK_tmp_dim=\dimen143
+\l__xeCJK_tmp_skip=\skip51
+\g__xeCJK_space_factor_int=\count268
+\l__xeCJK_begin_int=\count269
+\l__xeCJK_end_int=\count270
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip52
+\c__xeCJK_none_node=\count271
+\g__xeCJK_node_int=\count272
+\c__xeCJK_CJK_node_dim=\dimen144
+\c__xeCJK_CJK-space_node_dim=\dimen145
+\c__xeCJK_default_node_dim=\dimen146
+\c__xeCJK_CJK-widow_node_dim=\dimen147
+\c__xeCJK_normalspace_node_dim=\dimen148
+\c__xeCJK_default-space_node_skip=\skip53
+\l__xeCJK_ccglue_skip=\skip54
+\l__xeCJK_ecglue_skip=\skip55
+\l__xeCJK_punct_kern_skip=\skip56
+\l__xeCJK_indent_box=\box54
+\l__xeCJK_last_penalty_int=\count273
+\l__xeCJK_last_bound_dim=\dimen149
+\l__xeCJK_last_kern_dim=\dimen150
+\l__xeCJK_widow_penalty_int=\count274
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen151
+\l__xeCJK_mixed_punct_width_dim=\dimen152
+\l__xeCJK_middle_punct_width_dim=\dimen153
+\l__xeCJK_fixed_margin_width_dim=\dimen154
+\l__xeCJK_mixed_margin_width_dim=\dimen155
+\l__xeCJK_middle_margin_width_dim=\dimen156
+\l__xeCJK_bound_punct_width_dim=\dimen157
+\l__xeCJK_bound_margin_width_dim=\dimen158
+\l__xeCJK_margin_minimum_dim=\dimen159
+\l__xeCJK_kerning_total_width_dim=\dimen160
+\l__xeCJK_same_align_margin_dim=\dimen161
+\l__xeCJK_different_align_margin_dim=\dimen162
+\l__xeCJK_kerning_margin_width_dim=\dimen163
+\l__xeCJK_kerning_margin_minimum_dim=\dimen164
+\l__xeCJK_bound_dim=\dimen165
+\l__xeCJK_reverse_bound_dim=\dimen166
+\l__xeCJK_margin_dim=\dimen167
+\l__xeCJK_minimum_bound_dim=\dimen168
+\l__xeCJK_kerning_margin_dim=\dimen169
+\g__xeCJK_family_int=\count275
+\l__xeCJK_fam_int=\count276
+\g__xeCJK_fam_allocation_int=\count277
+\l__xeCJK_verb_case_int=\count278
+\l__xeCJK_verb_exspace_skip=\skip57
+ (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count279
+\l__fontspec_language_int=\count280
+\l__fontspec_strnum_int=\count281
+\l__fontspec_tmp_int=\count282
+\l__fontspec_tmpa_int=\count283
+\l__fontspec_tmpb_int=\count284
+\l__fontspec_tmpc_int=\count285
+\l__fontspec_em_int=\count286
+\l__fontspec_emdef_int=\count287
+\l__fontspec_strong_int=\count288
+\l__fontspec_strongdef_int=\count289
+\l__fontspec_tmpa_dim=\dimen170
+\l__fontspec_tmpb_dim=\dimen171
+\l__fontspec_tmpc_dim=\dimen172
+ (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+\ccwd=\dimen173
+\l__ctex_ccglue_skip=\skip58
+)
+\l__ctex_ziju_dim=\dimen174
+ (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count290
+\l__zhnum_tmp_int=\count291
+ (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+))
+\l__ctex_heading_skip=\skip59
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
+File: ctex-scheme-chinese-book.def 2022/07/14 v2.5.10 Chinese scheme for book (CTEX)
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
+
+Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
+(fontspec)             options
+(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+)) (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen175
+\Gm@wd@mp=\dimen176
+\Gm@odd@mp=\dimen177
+\Gm@even@mp=\dimen178
+\Gm@layoutwidth=\dimen179
+\Gm@layoutheight=\dimen180
+\Gm@layouthoffset=\dimen181
+\Gm@layoutvoffset=\dimen182
+\Gm@dimlist=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen183
+\pgfutil@tempdimb=\dimen184
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen185
+\Gin@req@width=\dimen186
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count299
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count300
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count303
+\pgfmath@box=\box56
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count304
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count305
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen272
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen276
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box60
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box61
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count317
+\float@exts=\toks31
+\float@box=\box66
+\@float@everytoks=\toks32
+\@floatcapt=\box67
+)
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count318
+) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count319
+)
+\@linkdim=\dimen291
+\Hy@linkcounter=\count320
+\Hy@pagecounter=\count321
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count322
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count323
+ (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen292
+ (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count324
+\Field@Width=\dimen293
+\Fld@charsize=\dimen294
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count325
+\c@Item=\count326
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
+ (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box68
+\c@Hy@AnnotLevel=\count327
+\HyField@AnnotCount=\count328
+\Fld@listcount=\count329
+\c@bookmark@seq@number=\count330
+ (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip60
+) (c:/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgx2.sty
+Package: ocgx2 2022/12/16 v0.56 ports`ocgx'functionalitytodvips+ps2pdf,xelatexanddvipdfmx
+ (c:/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF features
+\g_pbs_page_int=\count331
+\g_pbs_obj_int=\count332
+\g_pbs_oc_int=\count333
+)
+\g_ocgbase_nd_int=\count334
+)
+\l_ocgxii_vp_cnt_int=\count335
+\l_ocgxii_ve_cnt_int=\count336
+\g_ocgxii_page_int=\count337
+\g_ocgxii_widcount_int=\count338
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count339
+\calc@Bcount=\count340
+\calc@Adimen=\dimen295
+\calc@Bdimen=\dimen296
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count341
+\calc@Cskip=\skip63
+)
+\ItrLenMax=\skip64
+\c@ItrCtr=\count342
+ (./fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip65
+\mylen=\skip66
+\myhi=\skip67
+\px=\skip68
+\py=\skip69
+\pyy=\skip70
+\pxx=\skip71
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read3
+) (c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks35
+)
+\tcb@titlebox=\box69
+\tcb@upperbox=\box70
+\tcb@lowerbox=\box71
+\tcb@phantombox=\box72
+\c@tcbbreakpart=\count343
+\c@tcblayer=\count344
+\c@tcolorbox@number=\count345
+\l__tcobox_tmpa_box=\box73
+\l__tcobox_tmpa_dim=\dimen297
+\tcb@temp=\box74
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@temp=\box77
+) (./mgnote.sty
+Package: mgnote enhanced margin notes
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@OverAllMgCtr=\count346
+\MgOffset=\skip72
+\c@MgCtr=\count347
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip82
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen298
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen299
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count348
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count349
+\leftroot@=\count350
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count351
+\DOTSCASE@=\count352
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box78
+\strutbox@=\box79
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen300
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count353
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count354
+\dotsspace@=\muskip18
+\c@parentequation=\count355
+\dspbrk@lvl=\count356
+\tag@help=\toks37
+\row@=\count357
+\column@=\count358
+\maxfields@=\count359
+\andhelp@=\toks38
+\eqnshift@=\dimen301
+\alignsep@=\dimen302
+\tagshift@=\dimen303
+\tagwidth@=\dimen304
+\totwidth@=\dimen305
+\lineht@=\dimen306
+\@envbody=\toks39
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2024/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup4
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/esint/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+ (c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count360
+\g__chemgreek_tmpa_int=\count361
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count362
+\__mhchem_arrow_extPgfLength_skip=\skip85
+\mhchem@minispace@tmp=\skip86
+\mhchem@minibackspace@tmp=\skip87
+\mhchem@bondwidth=\skip88
+\mhchem@bondheight=\skip89
+\mhchem@smallbondwidth@tmpA=\skip90
+\mhchem@smallbondwidth@tmpB=\skip91
+\mhchem@smallbondwidth=\skip92
+\mhchem@bondtmp@minussidebearingleft=\skip93
+\mhchem@bondtmp@minussidebearingright=\skip94
+\l__mhchem_option_version_int=\count363
+\mhchem@option@minusmathsidebearingleft=\dimen307
+\mhchem@option@minusmathsidebearingright=\dimen308
+\mhchem@option@minustextsidebearingleft=\dimen309
+\mhchem@option@minustextsidebearingright=\dimen310
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions.
+
+) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip95
+\multirow@cntb=\count364
+\multirow@dima=\skip96
+\bigstrutjot=\dimen311
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip97
+\LTright=\skip98
+\LTpre=\skip99
+\LTpost=\skip100
+\LTchunksize=\count365
+\LTcapwidth=\dimen312
+\LT@head=\box80
+\LT@firsthead=\box81
+\LT@foot=\box82
+\LT@lastfoot=\box83
+\LT@gbox=\box84
+\LT@cols=\count366
+\LT@rows=\count367
+\c@LT@tables=\count368
+\c@LT@chunks=\count369
+\LT@p@ftn=\toks41
+) (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen313
+\lightrulewidth=\dimen314
+\cmidrulewidth=\dimen315
+\belowrulesep=\dimen316
+\belowbottomsep=\dimen317
+\aboverulesep=\dimen318
+\abovetopsep=\dimen319
+\cmidrulesep=\dimen320
+\cmidrulekern=\dimen321
+\defaultaddspace=\dimen322
+\@cmidla=\count370
+\@cmidlb=\count371
+\@aboverulesep=\dimen323
+\@belowrulesep=\dimen324
+\@thisruleclass=\count372
+\@lastruleclass=\count373
+\@thisrulewidth=\dimen325
+) (./reftree.sty
+Package: reftree strong label and ref
+\c@RTCtr=\count374
+ (c:/texlive/2024/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+\RTLabelOffset=\skip101
+\RTRefOffset=\skip102
+) (c:/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count375
+\l__tblr_c_int=\count376
+\l__tblr_r_int=\count377
+\l__tblr_d_dim=\dimen326
+\l__tblr_h_dim=\dimen327
+\l__tblr_o_dim=\dimen328
+\l__tblr_p_dim=\dimen329
+\l__tblr_q_dim=\dimen330
+\l__tblr_r_dim=\dimen331
+\l__tblr_s_dim=\dimen332
+\l__tblr_t_dim=\dimen333
+\l__tblr_v_dim=\dimen334
+\l__tblr_w_dim=\dimen335
+\l__tblr_a_box=\box85
+\l__tblr_b_box=\box86
+\l__tblr_c_box=\box87
+\l__tblr_d_box=\box88
+\g__tblr_table_count_int=\count378
+\c@rownum=\count379
+\c@colnum=\count380
+\c@rowcount=\count381
+\c@colcount=\count382
+\abovesep=\dimen336
+\belowsep=\dimen337
+\leftsep=\dimen338
+\rightsep=\dimen339
+\g_tblr_level_int=\count383
+\g__tblr_data_row_key_count_int=\count384
+\g__tblr_data_column_key_count_int=\count385
+\g__tblr_data_cell_key_count_int=\count386
+\g__tblr_array_int=\count387
+\l__tblr_key_count_int=\count388
+\l__tblr_key_quotient_int=\count389
+\l__tblr_key_quotient_two_int=\count390
+\l__tblr_key_remainder_int=\count391
+\g__tblr_data_str_value_count_int=\count392
+\rulewidth=\dimen340
+\l__tblr_strut_dp_dim=\dimen341
+\l__tblr_strut_ht_dim=\dimen342
+\g__tblr_cell_wd_dim=\dimen343
+\g__tblr_cell_ht_dim=\dimen344
+\g__tblr_cell_head_dim=\dimen345
+\g__tblr_cell_foot_dim=\dimen346
+\l__column_target_dim=\dimen347
+\l__tblr_caption_box=\box89
+\l__tblr_caption_left_box=\box90
+\l__tblr_row_head_box=\box91
+\l__tblr_row_foot_box=\box92
+\l__tblr_row_head_foot_dim=\dimen348
+\tablewidth=\dimen349
+\l__tblr_table_firsthead_box=\box93
+\l__tblr_table_middlehead_box=\box94
+\l__tblr_table_lasthead_box=\box95
+\l__tblr_table_firstfoot_box=\box96
+\l__tblr_table_middlefoot_box=\box97
+\l__tblr_table_lastfoot_box=\box98
+\l__tblr_remain_height_dim=\dimen350
+\l__tblr_long_from_int=\count393
+\l__tblr_long_to_int=\count394
+\l__tblr_curr_i_int=\count395
+\l__tblr_prev_i_int=\count396
+\l__tblr_table_page_int=\count397
+\l__tblr_table_head_box=\box99
+\l__tblr_table_foot_box=\box100
+\l__tblr_table_head_foot_dim=\dimen351
+\l__tblr_table_head_body_foot_dim=\dimen352
+\l__tblr_table_box=\box101
+\l__tblr_table_hlines_box=\box102
+\l__tblr_hline_box=\box103
+\l__tblr_row_box=\box104
+\l__tblr_col_o_wd_dim=\dimen353
+\l__tblr_col_b_wd_dim=\dimen354
+\l__tblr_hline_leftskip_dim=\dimen355
+\l__tblr_hline_rightskip_dim=\dimen356
+\l__tblr_row_ht_dim=\dimen357
+\l__tblr_row_dp_dim=\dimen358
+\l__tblr_row_abovesep_dim=\dimen359
+\l__tblr_row_belowsep_dim=\dimen360
+\l__tblr_row_vlines_box=\box105
+\l__tblr_vline_box=\box106
+\l__tblr_cell_box=\box107
+\l__row_upper_dim=\dimen361
+\l__row_lower_dim=\dimen362
+\l__row_vpace_dim=\dimen363
+\l__tblr_vline_aboveskip_dim=\dimen364
+\l__tblr_vline_belowskip_dim=\dimen365
+\l__tblr_cell_wd_dim=\dimen366
+\l__tblr_cell_ht_dim=\dimen367
+\l__tblr_diag_box=\box108
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count398
+\c@tcbrasterrow=\count399
+\c@tcbrasternum=\count400
+\c@tcbraster=\count401
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box109
+)) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box110
+\tcb@totalupperbox=\box111
+\tcb@totallowerbox=\box112
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen368
+\tcb@lowerfitdim=\dimen369
+\tcb@upperfitdim=\dimen370
+\tcb@cur@hbadness=\count402
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count403
+\lst@gtempboxa=\box113
+\lst@token=\toks42
+\lst@length=\count404
+\lst@currlwidth=\dimen371
+\lst@column=\count405
+\lst@pos=\count406
+\lst@lostspace=\dimen372
+\lst@width=\dimen373
+\lst@newlines=\count407
+\lst@lineno=\count408
+\lst@maxwidth=\dimen374
+ (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count409
+\lst@skipnumbers=\count410
+\lst@framebox=\box114
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+ (c:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count411
+\l__xeCJK_listings_flag_int=\count412
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count413
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)
+\c@law=\count414
+\c@prove=\count415
+\c@example=\count416
+\c@ex=\count417
+\c@solution=\count418
+\c@so=\count419
+\c@apart=\count420
+) (c:/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+) (./tikzit.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box115
+\pgf@layerboxsaved@background=\box116
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen375
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box117
+\pgfnodeparttwobox=\box118
+\pgfnodepartthreebox=\box119
+\pgfnodepartfourbox=\box120
+\pgfnodeparttwentybox=\box121
+\pgfnodepartnineteenbox=\box122
+\pgfnodeparteighteenbox=\box123
+\pgfnodepartseventeenbox=\box124
+\pgfnodepartsixteenbox=\box125
+\pgfnodepartfifteenbox=\box126
+\pgfnodepartfourteenbox=\box127
+\pgfnodepartthirteenbox=\box128
+\pgfnodeparttwelvebox=\box129
+\pgfnodepartelevenbox=\box130
+\pgfnodeparttenbox=\box131
+\pgfnodepartninebox=\box132
+\pgfnodeparteightbox=\box133
+\pgfnodepartsevenbox=\box134
+\pgfnodepartsixbox=\box135
+\pgfnodepartfivebox=\box136
+)))
+\pgf@layerbox@edgelayer=\box137
+\pgf@layerboxsaved@edgelayer=\box138
+\pgf@layerbox@nodelayer=\box139
+\pgf@layerboxsaved@nodelayer=\box140
+) (c:/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (c:/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks43
+\t@pgfplots@tokb=\toks44
+\t@pgfplots@tokc=\toks45
+\pgfplots@tmpa=\dimen376
+\c@pgfplots@coordindex=\count421
+\c@pgfplots@scanlineindex=\count422
+ (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+(c:/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count423
+) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count424
+\t@pgfplotstable@a=\toks49
+) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count425
+ (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count426
+)))) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen377
+\pgfdecoratedremainingdistance=\dimen378
+\pgfdecoratedinputsegmentcompleteddistance=\dimen379
+\pgfdecoratedinputsegmentremainingdistance=\dimen380
+\pgf@decorate@distancetomove=\dimen381
+\pgf@decorate@repeatstate=\count427
+\pgfdecorationsegmentamplitude=\dimen382
+\pgfdecorationsegmentlength=\dimen383
+)
+\tikz@lib@dec@box=\box141
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count428
+\pgfplots@xmin@reg=\dimen384
+\pgfplots@xmax@reg=\dimen385
+\pgfplots@ymin@reg=\dimen386
+\pgfplots@ymax@reg=\dimen387
+\pgfplots@zmin@reg=\dimen388
+\pgfplots@zmax@reg=\dimen389
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count429
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (../main/arrow.tikzstyles) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.fractals.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.fractals.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box142
+)
+\tikz@lib@dec@te@box=\box143
+) (./main.aux
+
+LaTeX Warning: Label `RT:chapter8_电偶极子的电势与电势能' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电偶极子的电势与电势能@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_RC' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_RC@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电路等效变换.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电路等效变换.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_磁场对磁偶极子的影响' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_磁场对磁偶极子的影响@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_一维无限深势力井.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_一维无限深势力井.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_隧穿效应.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_隧穿效应.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter2_problem3.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter2_problem3.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter2_problem4.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter2_problem4.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter4_流体静力学' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter4_流体静力学@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter4_流体动力学' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter4_流体动力学@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁场.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁场.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁阻.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁阻.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量1.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量1.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量2.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量2.png@cref' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(51.21504pt, 412.56497pt, 133.72786pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=674.33032pt
+* \oddsidemargin=-21.05495pt
+* \evensidemargin=-21.05495pt
+* \topmargin=-19.45715pt
+* \headheight=12.67163pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 20.
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+Package chemgreek Info: Activating mapping `default' on line 20.
+
+ (c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+)
+\c@lstlisting=\count430
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+(../chapters/titlepage/titlepage.tex) [0
+
+]
+
+Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Microsoft YaHei/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
+(fontspec)             'Microsoft YaHei' with options
+(fontspec)             [Script={CJK},BoldFont={* Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
+(fontspec)             Bold/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 5.
+ (c:/texlive/2024/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [1
+
+] [2] [3] [4] [5] [6] [7] [8])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [9] (../chapters/frontmatter/frontmatter.tex [1
+
+
+]
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 44.
+ [2]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 55.
+ [3
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 62.
+
+\c@RT:frontmatter:ref=\count431
+) [4]
+Missing character: There is no ^^8e ("8E) in font nullfont!
+Missing character: There is no ^^8e ("8E) in font nullfont!
+(../chapters/chapter1/chapter1_main.tex [1
+
+]
+第一章
+LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 1.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pzc.fd
+File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
+(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 1.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1.
+
+LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <17.28> not available
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 3.
+
+
+LaTeX Warning: Unexpected alignment  on input line 9.
+
+[2
+
+]
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+) (../chapters/chapter1/chapter1_exercise.tex
+\c@RT:solution1.1=\count432
+) (../chapters/chapter2/chapter2_main.tex [3]
+第二章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <14.4> not available
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 9.
+
+[4
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 29.
+
+[5] (./figures/chapter2_without_vectors.tikz) [6]
+
+LaTeX Warning: Unexpected alignment  on input line 68.
+
+
+LaTeX Warning: Unexpected alignment  on input line 79.
+
+[7]
+
+LaTeX Warning: Unexpected alignment  on input line 113.
+
+[8]
+\c@RT:chapter2_vector_expression=\count433
+
+
+LaTeX Warning: Unexpected alignment  on input line 132.
+
+
+LaTeX Warning: Unexpected alignment  on input line 142.
+
+
+LaTeX Warning: Unexpected alignment  on input line 144.
+
+
+LaTeX Warning: Unexpected alignment  on input line 145.
+
+[9]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 172.
+
+
+LaTeX Warning: Unexpected alignment  on input line 172.
+
+(./figures/chapter2_polar_coordinate_2d.tikz) [10]
+Missing character: There is no ; ("3B) in font nullfont!
+(./figures/chapter2_basis_transformation.tikz) [11]
+
+LaTeX Warning: Unexpected alignment  on input line 277.
+
+[12] [13]
+File: ../figures/figure2/chapter2_uniform circular motion.png Graphic file (type bmp)
+<../figures/figure2/chapter2_uniform circular motion.png>
+ [14] [15]
+\c@RT:prove2.1=\count434
+
+
+LaTeX Warning: Unexpected alignment  on input line 480.
+
+\c@RT:prove2.2=\count435
+[16]
+\c@RT:prove2.3=\count436
+
+Overfull \hbox (3.72446pt too wide) in paragraph at lines 492--492
+[] []
+ []
+
+
+Overfull \hbox (0.52765pt too wide) in paragraph at lines 492--492
+[] 
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 499.
+
+\c@RT:prove2.4=\count437
+
+LaTeX Warning: Unexpected alignment  on input line 505.
+
+[17] (./figures/chapter2_galilean_transformation.tikz) (./figures/chapter2_noninertial_frame.tikz) [18]
+\c@RT:chapter2_scalar_product=\count438
+
+
+LaTeX Warning: Unexpected alignment  on input line 547.
+
+(./figures/chapter2_work_done_by_varying_force.tikz) [19]
+
+LaTeX Warning: Unexpected alignment  on input line 563.
+
+(./figures/chapter2_hook.tikz) [20]
+\c@RT:prove2.5=\count439
+ [21]
+\c@RT:chapter2_potential_energy_of_spring=\count440
+ [22]
+
+LaTeX Warning: Unexpected alignment  on input line 630.
+
+[23]
+\c@RT:Galilean transformation=\count441
+ [24]
+\c@RT:prove2.6=\count442
+ [25]
+\c@RT:law3.2=\count443
+ (./figures/chapter2_CM.tikz) [26]
+\c@RT:prove2.7=\count444
+\c@RT:prove2.8=\count445
+
+Underfull \hbox (badness 1077) in paragraph at lines 752--753
+\TU/lmr/m/it/12 that is directly  [] [] to the  [] [] of their masses and
+ []
+
+[27]
+\c@RT:law2.8=\count446
+
+
+LaTeX Warning: Unexpected alignment  on input line 788.
+
+[28]
+
+LaTeX Warning: Unexpected alignment  on input line 796.
+
+File: ../figures/figure2/chapter2_conic_section.png Graphic file (type bmp)
+<../figures/figure2/chapter2_conic_section.png>
+[29]
+File: ../figures/figure2/chapter2_cavendish.png Graphic file (type bmp)
+<../figures/figure2/chapter2_cavendish.png>
+ [30]
+
+LaTeX Warning: Unexpected alignment  on input line 848.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 862.
+[31]
+File: ../figures/figure2/chapter2_rocket.png Graphic file (type bmp)
+<../figures/figure2/chapter2_rocket.png>
+
+
+LaTeX Warning: Unexpected alignment  on input line 888.
+
+[32]) (../chapters/chapter2/chapter2_exercise.tex
+\c@RT:solution2.1=\count447
+\c@RT:solution2.2=\count448
+\c@RT:solution2.3=\count449
+ [33]
+\c@RT:solution2.4=\count450
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
+\c@RT:solution2.5=\count451
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
+ [34]) (../chapters/chapter3/chapter3_main.tex [35]
+第三章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+[36
+
+]
+\c@RT:chapter2_polar_coordinate=\count452
+ (./figures/chapter3_polar_coordinate.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 28.
+
+[37]
+
+LaTeX Warning: Unexpected alignment  on input line 176.
+
+
+LaTeX Warning: Unexpected alignment  on input line 181.
+
+\c@RT:chapter3_direction=\count453
+
+LaTeX Warning: Unexpected alignment  on input line 185.
+
+[38]
+File: ../figures/figure3/chapter3_right_hand_rule.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_right_hand_rule.jpg>
+
+
+LaTeX Warning: Unexpected alignment  on input line 201.
+
+
+LaTeX Warning: Unexpected alignment  on input line 209.
+
+
+LaTeX Warning: Unexpected alignment  on input line 209.
+
+
+LaTeX Warning: Unexpected alignment  on input line 209.
+
+[39]
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+
+LaTeX Warning: Unexpected alignment  on input line 238.
+
+\c@RT:chapter3_cross_product=\count454
+[40]
+
+LaTeX Warning: Unexpected alignment  on input line 251.
+
+File: ../figures/figure3/chapter3_torque.png Graphic file (type bmp)
+<../figures/figure3/chapter3_torque.png>
+[41]
+\c@RT:prove3.1=\count455
+ (./figures/chapter3_moment_arm.tikz)
+File: ../figures/figure3/chapter3_moment_inertia1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia1.jpg>
+ [42]
+File: ../figures/figure3/chapter3_moment_inertia2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_moment_inertia2.png>
+
+
+LaTeX Warning: Unexpected alignment  on input line 282.
+
+\c@RT:chapter3_axis=\count456
+
+LaTeX Warning: Unexpected alignment  on input line 285.
+
+
+LaTeX Warning: Unexpected alignment  on input line 287.
+
+\c@RT:prove3.2=\count457
+[43]
+\c@RT:prove3.3=\count458
+
+
+LaTeX Warning: Unexpected alignment  on input line 314.
+
+[44]
+
+LaTeX Warning: Unexpected alignment  on input line 318.
+
+\c@RT:prove3.4=\count459
+\c@RT:prove3.5=\count460
+[45]
+File: ../figures/figure3/chapter3_kepler's_second_law.png Graphic file (type bmp)
+<../figures/figure3/chapter3_kepler's_second_law.png>
+\c@RT:prove3.6=\count461
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]\TU/SimSun(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .3[][]|   [] [][]—
+ []
+
+[46]
+\c@RT:prove3.7=\count462
+
+
+LaTeX Warning: Unexpected alignment  on input line 373.
+
+\c@RT:chapter3_translation=\count463
+
+LaTeX Warning: Unexpected alignment  on input line 376.
+
+\c@RT:prove3.8=\count464
+[47]
+File: ../figures/figure3/chapter3_earth.png Graphic file (type bmp)
+<../figures/figure3/chapter3_earth.png>
+
+Overfull \hbox (40.4824pt too wide) detected at line 409
+  [][]
+ []
+
+[48]) (../chapters/chapter3/chapter3_exercise.tex [49]
+\c@RT:solution3.1=\count465
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
+\c@RT:solution3.2=\count466
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
+ [50]
+\c@RT:solution3.3=\count467
+ (./figures/chapter3_example_3_3.tikz)
+\c@RT:solution3.4=\count468
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
+ [51]
+\c@RT:solution3.5=\count469
+
+Underfull \hbox (badness 8170) in paragraph at lines 55--55
+[]\TU/SimSun(0)/m/it/12 习 题 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .5[][]|  Object rotating on a string of changing length—
+ []
+
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
+\c@RT:solution3.6=\count470
+(./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
+Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
+[52]) (../chapters/chapter4/chapter4_main.tex [53]
+第四章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+[54
+
+] [55]) (../chapters/chapter4/chapter4_exercise.tex
+\c@RT:solution4.1=\count471
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
+ [56]
+\c@RT:solution4.2=\count472
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
+ [57]) (../chapters/chapter5/chapter5_main.tex [58]
+第五章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 5--5
+[][][][][][][][][]  
+ []
+
+[59
+
+]
+\c@RT:prove5.1=\count473
+
+
+LaTeX Warning: Unexpected alignment  on input line 59.
+
+[60]
+
+LaTeX Warning: Unexpected alignment  on input line 91.
+
+\c@RT:prove5.2=\count474
+[61] [62]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 177.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 177.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 177.
+
+\c@RT:prove5.3=\count475
+
+Underfull \hbox (badness 1953) in paragraph at lines 189--190
+[]\TU/SimSun(0)/m/n/12 解 这 个 微 分 方 程 \TU/lmr/m/n/12 ([][][][][][][])\TU/SimSun(0)/m/n/12 ，|  会 发 现 它 的 解 实 际 上 需 要 分 为
+ []
+
+[63]
+Overfull \hbox (39.27684pt too wide) detected at line 200
+\OML/lmm/m/it/12 x \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 x[]
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 220.
+
+[64]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 239.
+
+
+LaTeX Warning: Unexpected alignment  on input line 245.
+
+\c@RT:prove5.4=\count476
+
+LaTeX Warning: Unexpected alignment  on input line 250.
+
+[65] [66]
+\c@RT:chapter5_resonance=\count477
+
+
+LaTeX Warning: Unexpected alignment  on input line 342.
+
+[67]
+
+LaTeX Warning: Unexpected alignment  on input line 393.
+
+[68]
+File: ../figures/figure5/chapter5_pulse_wave.png Graphic file (type bmp)
+<../figures/figure5/chapter5_pulse_wave.png>
+
+
+LaTeX Warning: Unexpected alignment  on input line 421.
+
+
+LaTeX Warning: Unexpected alignment  on input line 435.
+
+[69]
+Underfull \hbox (badness 3746) in paragraph at lines 438--439
+[]\TU/SimSun(0)/m/n/12 对 于 满 足 这 一 关 系 的 波\TU/lmr/m/n/12 , \TU/SimSun(0)/m/n/12 我 们 称 之 为  [] []；|  否 则 称 之 为
+ []
+
+[70]
+
+LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <12> not available
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 493.
+
+
+LaTeX Warning: Unexpected alignment  on input line 494.
+
+[71]
+Underfull \hbox (badness 1975) in paragraph at lines 558--559
+[]$\OML/lmm/m/it/12 v[] > v[]$\TU/SimSun(0)/m/n/12 ：|  此 时 波 的 传 播 接 近 于  [] []，|  发 生
+ []
+
+[72] [73]
+
+LaTeX Warning: Unexpected alignment  on input line 641.
+
+
+LaTeX Warning: Unexpected alignment  on input line 650.
+
+[74]
+\c@RT:prove5.5=\count478
+
+
+LaTeX Warning: Unexpected alignment  on input line 692.
+
+[75] [76]
+
+LaTeX Warning: Unexpected alignment  on input line 778.
+
+[77]
+
+LaTeX Warning: Unexpected alignment  on input line 837.
+
+[78]
+
+LaTeX Warning: Unexpected alignment  on input line 874.
+
+
+LaTeX Warning: Unexpected alignment  on input line 880.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+\TU/SimSun(0)/m/n/12 能 保 持 其 形 状 不 变，|  我 们 便 用  [] [][][][][]来 描 述 它。|  通 过
+ []
+
+[79] [80]
+Underfull \hbox (badness 5460) in paragraph at lines 1002--1003
+[]\TU/SimSun(0)/m/n/12 吉 他 弦 的 振 动 不 仅 包 含 基 频 $\OML/lmm/m/it/12 f[]$\TU/SimSun(0)/m/n/12 ，|  还 包 含 一 系 列 整 数 倍[]于 基 频 的
+ []
+
+[81]
+\c@RT:prove5.6=\count479
+
+
+LaTeX Warning: Unexpected alignment  on input line 1057.
+
+\c@RT:prove5.7=\count480
+
+LaTeX Warning: Unexpected alignment  on input line 1070.
+
+[82] [83] [84] [85]
+\c@RT:chapter5_Energy_Transfer=\count481
+
+
+LaTeX Warning: Unexpected alignment  on input line 1253.
+
+[86] [87] [88]) (../chapters/chapter5/chapter5_exercise.tex
+\c@RT:solution5.1=\count482
+\c@RT:solution5.2=\count483
+ [89]
+\c@RT:solution5.3=\count484
+\c@RT:solution5.4=\count485
+) (../chapters/chapter6/chapter6_main.tex [90]
+第六章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+[91
+
+] (./figures/chapter6_frames.tikz) [92]
+
+LaTeX Warning: Unexpected alignment  on input line 55.
+
+
+LaTeX Warning: Unexpected alignment  on input line 61.
+
+\c@RT:prove6.1=\count486
+(./figures/chapter6_framess.tikz) [93]
+Underfull \hbox (badness 2735) in paragraph at lines 79--80
+[]\TU/SimSun(0)/m/n/12 利 用 洛 伦 兹 变 换，|  我 们 可 以 进 一 步 解 释 两 个 著 名 的 相 对 论 效 应，|  即
+ []
+
+File: ../figures/figure6/chapter_6_2.png Graphic file (type bmp)
+<../figures/figure6/chapter_6_2.png>
+[94]
+
+LaTeX Warning: Unexpected alignment  on input line 120.
+
+\c@RT:prove6.2=\count487
+[95] (./figures/chapter6_frames.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 130.
+
+[96]
+\c@RT:prove6.3=\count488
+ (./figures/chapter6_example_6_2.tikz) [97]
+\c@RT:chapter6_length_contraction=\count489
+
+
+LaTeX Warning: Unexpected alignment  on input line 189.
+
+\c@RT:law6.1=\count490
+
+LaTeX Warning: Unexpected alignment  on input line 199.
+
+
+LaTeX Warning: Unexpected alignment  on input line 204.
+
+\c@RT:prove6.4=\count491
+[98]
+File: ../figures/figure6/chapter_6_3.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_3.jpg>
+ [99]
+\c@RT:prove6.5=\count492
+
+
+LaTeX Warning: Unexpected alignment  on input line 241.
+
+
+LaTeX Warning: Unexpected alignment  on input line 245.
+
+\c@RT:prove6.6=\count493
+(./figures/chapter6_framess.tikz) [100] (./figures/chapter6_framess.tikz) [101]
+
+LaTeX Warning: Unexpected alignment  on input line 282.
+
+
+Overfull \hbox (5.3116pt too wide) in paragraph at lines 282--282
+[]\TU/SimSun(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 6\TU/lmr/m/it/12 .5[][][][][]|   []
+ []
+
+(./figures/chapter6_framess.tikz) [102]
+
+LaTeX Warning: Unexpected alignment  on input line 296.
+
+
+LaTeX Warning: Unexpected alignment  on input line 297.
+
+
+LaTeX Warning: Unexpected alignment  on input line 297.
+
+
+LaTeX Warning: Unexpected alignment  on input line 313.
+
+[103] (./figures/chapter6_dpl.tikz)
+\c@RT:chapter6_principle_of_relativity=\count494
+
+
+LaTeX Warning: Unexpected alignment  on input line 333.
+
+[104]
+\c@RT:chapter6_invariant=\count495
+
+
+LaTeX Warning: Unexpected alignment  on input line 338.
+
+[105] (./figures/chapter6_mins1.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 361.
+
+
+LaTeX Warning: Unexpected alignment  on input line 362.
+
+(./figures/chapter6_mins4.tikz) [106] (./figures/chapter6_mins2.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 381.
+
+[107] (./figures/chapter6_mins3.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 397.
+
+(./figures/chapter6_mins5.tikz) [108] (./figures/chapter6_mins6.tikz) [109]
+\c@RT:prove6.7=\count496
+ (./figures/chapter6_mins7.tikz) (./figures/chapter6_mins8.tikz) [110] [111] [112]
+
+LaTeX Warning: Unexpected alignment  on input line 497.
+
+
+LaTeX Warning: Unexpected alignment  on input line 497.
+
+(./figures/chapter6_mins9.tikz) [113]) (../chapters/chapter6/chapter6_exercise.tex
+\c@RT:solution6.1=\count497
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
+ [114]
+\c@RT:solution6.2=\count498
+ (./figures/chapter6_solution_6_2_1.tikz)
+\c@RT:solution6.3=\count499
+ [115]
+\c@RT:solution6.4=\count500
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
+ [116]
+\c@RT:solution6.5=\count501
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
+ [117]
+\c@RT:solution6.6=\count502
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
+ [118]
+\c@RT:solution6.7=\count503
+ [119]) (../chapters/chapter7/Chapter7_main.tex [120]
+第七章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+[121
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 28.
+
+\c@RT:prove7.11=\count504
+\c@RT:prove7.1=\count505
+[122]
+
+LaTeX Warning: Unexpected alignment  on input line 67.
+
+[123]
+\c@RT:prove7.10=\count506
+ [124]
+\c@RT:prove7.9=\count507
+ [125]
+\c@RT:prove7.2=\count508
+ [126]
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+[] []
+ []
+
+[127]
+\c@RT:chapter7_thermodynamic_temperature=\count509
+
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+[128]
+\c@RT:prove7.3=\count510
+ [129]
+
+LaTeX Warning: Unexpected alignment  on input line 265.
+
+
+LaTeX Warning: Unexpected alignment  on input line 278.
+
+\c@RT:prove7.4=\count511
+[130]
+\c@RT:prove7.5=\count512
+\c@RT:prove7.6=\count513
+ [131] (./figures/chapter7_otto_cycle.tikz)
+\c@RT:prove7.7=\count514
+ [132] (./figures/chapter7_carnot_cycle.tikz)
+\c@RT:prove7.8=\count515
+
+
+LaTeX Warning: Unexpected alignment  on input line 385.
+
+
+LaTeX Warning: Unexpected alignment  on input line 387.
+
+[133]
+\c@RT:example7.6=\count516
+
+
+LaTeX Warning: Unexpected alignment  on input line 419.
+
+[134] [135]) (../chapters/chapter7/Chapter7_exercise.tex
+\c@RT:solution7.1=\count517
+\c@RT:solution7.2=\count518
+\c@RT:solution7.3=\count519
+
+Underfull \hbox (badness 1331) in paragraph at lines 29--34
+\TU/lmr/m/n/12 Hint: The isothermal compressibility $\OML/lmm/m/it/12 ^^T[]$ \TU/lmr/m/n/12 is defined through $\OML/lmm/m/it/12 ^^T[] \OT1/lmr/m/n/12 =
+ []
+
+[136]
+\c@RT:solution7.4=\count520
+ (./figures/chapter7_solution_7_4.tikz) [137]
+\c@RT:solution7.5=\count521
+ (./figures/chapter7_solution_7_5.tikz)
+Underfull \hbox (badness 1354) in paragraph at lines 71--78
+\TU/lmr/m/n/12 (c) For a Carnot engine with efficiency $\OML/lmm/m/it/12 ^^O \OT1/lmr/m/n/12 = 1 \OMS/lmsy/m/n/12 ^^@ []$\TU/lmr/m/n/12 , verify the
+ []
+
+[138]
+
+LaTeX Warning: Unexpected alignment  on input line 83.
+
+\c@RT:solution7.6=\count522
+[139]) (../chapters/chapter8/chapter8_main.tex [140]
+第八章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+[141
+
+] [142] [143]
+File: ../figures/figure8/chapter8_柱坐标系.png Graphic file (type bmp)
+<../figures/figure8/chapter8_柱坐标系.png>
+File: ../figures/figure8/chapter8_柱坐标系下的微元.png Graphic file (type bmp)
+<../figures/figure8/chapter8_柱坐标系下的微元.png>
+
+Overfull \hbox (10.10187pt too wide) in paragraph at lines 82--91
+[]$[]$ $[]$
+ []
+
+File: ../figures/figure8/chapter8_球坐标系及其微元.png Graphic file (type bmp)
+<../figures/figure8/chapter8_球坐标系及其微元.png>
+[144] [145] [146] [147]
+\c@RT:prove8.1=\count523
+ [148] [149]
+File: ../figures/figure8/chapter8_电荷系统示意图.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电荷系统示意图.png>
+ [150]
+File: ../figures/figure8/chapter8_电偶极子.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电偶极子.png>
+
+Overfull \hbox (5.97849pt too wide) in paragraph at lines 333--343
+[]$[]$ $[]$ 
+ []
+
+[151]
+\c@RT:prove8.2=\count524
+File: ../figures/figure8/chapter8_电偶极子的电势与电势能.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电偶极子的电势与电势能.png>
+ [152]
+File: ../figures/figure8/chapter8_电场中的电偶极子.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电场中的电偶极子.png>
+ [153] [154] [155]
+\c@RT:prove8.3=\count525
+File: ../figures/figure8/chapter8_电容器示意图.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电容器示意图.png>
+
+Overfull \hbox (5.97849pt too wide) in paragraph at lines 427--435
+[]$[]$ $[]$
+ []
+
+[156]
+File: ../figures/figure8/chapter8_圆柱形电容器.png Graphic file (type bmp)
+<../figures/figure8/chapter8_圆柱形电容器.png>
+ [157]
+File: ../figures/figure8/chapter8_球形电容器.png Graphic file (type bmp)
+<../figures/figure8/chapter8_球形电容器.png>
+ [158]
+File: ../figures/figure8/chapter8_平行板电容器.png Graphic file (type bmp)
+<../figures/figure8/chapter8_平行板电容器.png>
+ [159]
+File: ../figures/figure8/chapter8_极化的宏观解释.png Graphic file (type bmp)
+<../figures/figure8/chapter8_极化的宏观解释.png>
+ [160]
+File: ../figures/figure8/chapter8_电极化率.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电极化率.png>
+ [161]
+
+LaTeX Warning: Unexpected alignment  on input line 538.
+
+
+LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 540.
+
+File: ../figures/figure8/chapter8_极化与电容.png Graphic file (type bmp)
+<../figures/figure8/chapter8_极化与电容.png>
+[162] [163]
+
+LaTeX Warning: Unexpected alignment  on input line 600.
+
+[164]
+File: ../figures/figure8/chapter8_漂移速度.png Graphic file (type bmp)
+<../figures/figure8/chapter8_漂移速度.png>
+ [165] [166] [167]
+File: ../figures/figure8/chapter8_RC.png Graphic file (type bmp)
+<../figures/figure8/chapter8_RC.png>
+ [168]
+\c@RT:prove8.4=\count526
+ [169]
+File: ../figures/figure8/chapter8_电路等效变换.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电路等效变换.png>
+\c@RT:prove8.5=\count527
+ [170] [171]
+File: ../figures/figure8/chapter8_磁力的定义.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁力的定义.png>
+ [172]
+\c@RT:prove8.6=\count528
+ [173]
+File: ../figures/figure8/chapter8_螺线圈的磁场.png Graphic file (type bmp)
+<../figures/figure8/chapter8_螺线圈的磁场.png>
+ [174]
+File: ../figures/figure8/chapter8_圆形螺线圈.png Graphic file (type bmp)
+<../figures/figure8/chapter8_圆形螺线圈.png>
+ [175]
+File: ../figures/figure8/chapter8_磁偶极子.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁偶极子.png>
+File: ../figures/figure8/chapter8_磁场中的磁偶极子.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁场中的磁偶极子.png>
+ [176]
+\c@RT:prove8.7=\count529
+File: ../figures/figure8/chapter8_磁场对磁偶极子的影响.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁场对磁偶极子的影响.png>
+ [177]
+File: ../figures/figure8/chapter8_磁化的微观解释.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁化的微观解释.png>
+File: ../figures/figure8/chapter8_磁化对磁场的影响.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁化对磁场的影响.png>
+ [178] [179]
+File: ../figures/figure8/chapter8_磁滞回线.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁滞回线.png>
+ [180] [181]
+File: ../figures/figure8/chapter8_动生电动势.png Graphic file (type bmp)
+<../figures/figure8/chapter8_动生电动势.png>
+ [182]
+File: ../figures/figure8/chapter8_直螺线圈电感.png Graphic file (type bmp)
+<../figures/figure8/chapter8_直螺线圈电感.png>
+ [183]
+File: ../figures/figure8/chapter8_圆形螺线圈电感.png Graphic file (type bmp)
+<../figures/figure8/chapter8_圆形螺线圈电感.png>
+ [184]
+File: ../figures/figure8/chapter8_互感的解释.png Graphic file (type bmp)
+<../figures/figure8/chapter8_互感的解释.png>
+ [185]
+File: ../figures/figure8/chapter8_互感系数的计算.png Graphic file (type bmp)
+<../figures/figure8/chapter8_互感系数的计算.png>
+ [186]
+Overfull \hbox (1.01726pt too wide) in paragraph at lines 1103--1103
+[] []
+ []
+
+File: ../figures/figure8/chapter8_边界条件.png Graphic file (type bmp)
+<../figures/figure8/chapter8_边界条件.png>
+File: ../figures/figure8/chapter8_边界条件2.png Graphic file (type bmp)
+<../figures/figure8/chapter8_边界条件2.png>
+[187]
+File: ../figures/figure8/chapter8_磁场边界条件.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁场边界条件.png>
+ [188] [189]
+File: ../figures/figure8/chapter8_位移电流引入.png Graphic file (type bmp)
+<../figures/figure8/chapter8_位移电流引入.png>
+ [190]
+Overfull \hbox (1.94829pt too wide) in paragraph at lines 1185--1192
+\TU/SimSun(0)/m/n/12 具 有 类 似 物 理 意 义 的 一 项 已 经 显 而 易 见 了，|  我 们 把 它 定 义 为 []
+ []
+
+File: ../figures/figure8/chapter8_电磁波.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电磁波.png>
+[191]
+\c@RT:prove8.8=\count530
+ [192]
+File: ../figures/figure8/chapter8_功率密度的理解.png Graphic file (type bmp)
+<../figures/figure8/chapter8_功率密度的理解.png>
+ [193]
+File: ../figures/figure8/chapter8_光.png Graphic file (type bmp)
+<../figures/figure8/chapter8_光.png>
+ [194]
+Overfull \hbox (5.68898pt too wide) in alignment at lines 1265--1268
+ [] [] 
+ []
+
+
+Overfull \hbox (5.68898pt too wide) in alignment at lines 1268--1271
+ [] [] 
+ []
+
+
+Overfull \hbox (5.68898pt too wide) in alignment at lines 1271--1273
+ [] [] 
+ []
+
+
+Overfull \hbox (5.68898pt too wide) in alignment at lines 1273--1313
+ [] [] 
+ []
+
+[195]) (../chapters/chapter8/chapter8_exercise.tex
+\c@RT:solution8.1=\count531
+\c@RT:solution8.2=\count532
+File: ../figures/figure8/chapter8_exercise电流密度边界条件.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise电流密度边界条件.png>
+ [196]
+\c@RT:solution8.3=\count533
+File: ../figures/figure8/chapter8_exercise磁场.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise磁场.png>
+File: ../figures/figure8/chapter8_exercise磁阻.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise磁阻.png>
+ [197]
+\c@RT:solution8.4=\count534
+File: ../figures/figure8/chapter8_exercise坡应廷矢量1.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise坡应廷矢量1.png>
+File: ../figures/figure8/chapter8_exercise坡应廷矢量2.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise坡应廷矢量2.png>
+\c@RT:solution8.5=\count535
+ [198]
+\c@RT:solution8.6=\count536
+\c@RT:solution8.7=\count537
+File: ../figures/figure8/chapter8_exercise虎哥1.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥1.jpg>
+\c@RT:solution8.8=\count538
+File: ../figures/figure8/chapter8_exercise虎哥2.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥2.jpg>
+ [199]
+\c@RT:solution8.9=\count539
+File: ../figures/figure8/chapter8_exercise虎哥3.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥3.jpg>
+) (../chapters/chapter9/chapter9_main.tex [200]
+第九章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+) (../chapters/chapter9/chapter9_exercise.tex) (../chapters/chapter10/chapter10_main.tex [201
+
+]
+第十章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+File: ../figures/figure10/chapter10_人类群星闪耀时.png Graphic file (type bmp)
+<../figures/figure10/chapter10_人类群星闪耀时.png>
+[202
+
+] [203] [204]
+\c@RT:prove10.1=\count540
+ [205]
+\c@RT:prove10.2=\count541
+ [206] [207] [208]
+
+LaTeX Warning: Unexpected alignment  on input line 166.
+
+\c@RT:prove10.3=\count542
+
+LaTeX Warning: Unexpected alignment  on input line 187.
+
+[209]
+
+LaTeX Warning: Unexpected alignment  on input line 197.
+
+[210]
+
+LaTeX Warning: Unexpected alignment  on input line 204.
+
+
+LaTeX Warning: Unexpected alignment  on input line 212.
+
+[211]
+File: ../figures/figure10/chapter10_一维无限深势力井.png Graphic file (type bmp)
+<../figures/figure10/chapter10_一维无限深势力井.png>
+ [212]
+\c@RT:prove10.4=\count543
+File: ../figures/figure10/chapter10_检测概率.png Graphic file (type bmp)
+<../figures/figure10/chapter10_检测概率.png>
+ [213]
+File: ../figures/figure10/chapter10_隧穿效应.png Graphic file (type bmp)
+<../figures/figure10/chapter10_隧穿效应.png>
+ [214]
+\c@RT:prove10.5=\count544
+
+
+LaTeX Warning: Unexpected alignment  on input line 291.
+
+[215] [216]
+File: ../figures/figure10/chapter10_条带分裂.png Graphic file (type bmp)
+<../figures/figure10/chapter10_条带分裂.png>
+ [217]
+File: ../figures/figure10/chapter10_连续X射线光谱.png Graphic file (type bmp)
+<../figures/figure10/chapter10_连续X射线光谱.png>
+File: ../figures/figure10/chapter10_特征X射线光谱.png Graphic file (type bmp)
+<../figures/figure10/chapter10_特征X射线光谱.png>
+ [218]
+File: ../figures/figure10/chapter10_X射线光谱.png Graphic file (type bmp)
+<../figures/figure10/chapter10_X射线光谱.png>
+File: ../figures/figure10/chapter10_受激辐射.png Graphic file (type bmp)
+<../figures/figure10/chapter10_受激辐射.png>
+ [219]
+File: ../figures/figure10/chapter10_粒子数反转.png Graphic file (type bmp)
+<../figures/figure10/chapter10_粒子数反转.png>
+ [220]
+File: ../figures/figure10/chapter10_光学谐振腔.png Graphic file (type bmp)
+<../figures/figure10/chapter10_光学谐振腔.png>
+ [221]
+File: ../figures/figure10/chapter10_能带示意图.png Graphic file (type bmp)
+<../figures/figure10/chapter10_能带示意图.png>
+ [222] [223]
+File: ../figures/figure10/chapter10_供主能级和施主能级.png Graphic file (type bmp)
+<../figures/figure10/chapter10_供主能级和施主能级.png>
+ [224]
+File: ../figures/figure10/chapter10_PN结正偏.png Graphic file (type bmp)
+<../figures/figure10/chapter10_PN结正偏.png>
+File: ../figures/figure10/chapter10_PN结反偏.png Graphic file (type bmp)
+<../figures/figure10/chapter10_PN结反偏.png>
+) (../chapters/chapter10/chapter10_exercise.tex
+\c@RT:solution10.1=\count545
+ [225]
+\c@RT:solution10.2=\count546
+\c@RT:solution10.3=\count547
+ [226]) [227]
+Missing character: There is no ^^8e ("8E) in font nullfont!
+Missing character: There is no ^^8e ("8E) in font nullfont!
+(../chapters/chapter1/chapter1_prove.tex [228]
+第一章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+) (../chapters/chapter2/chapter2_prove.tex [229
+
+]
+第二章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+(./figures/chapter2_newton's first law.tikz) [230
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 24.
+
+[231]
+
+LaTeX Warning: Unexpected alignment  on input line 32.
+
+
+LaTeX Warning: Unexpected alignment  on input line 37.
+
+[232]
+
+LaTeX Warning: Unexpected alignment  on input line 49.
+
+[233]
+
+LaTeX Warning: Unexpected alignment  on input line 61.
+
+
+LaTeX Warning: Unexpected alignment  on input line 73.
+
+[234]
+
+LaTeX Warning: Unexpected alignment  on input line 129.
+
+[235]) (../chapters/chapter3/chapter3_prove.tex [236]
+第三章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 3.
+
+\c@RT:chapter3_connection=\count548
+\c@RT:chapter3_double_cross_product=\count549
+
+LaTeX Warning: Unexpected alignment  on input line 21.
+
+[237
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 32.
+
+
+LaTeX Warning: Unexpected alignment  on input line 44.
+
+\c@RT:chapter3_rotation_CM=\count550
+
+LaTeX Warning: Unexpected alignment  on input line 53.
+
+[238]
+
+LaTeX Warning: Unexpected alignment  on input line 58.
+
+
+LaTeX Warning: Unexpected alignment  on input line 65.
+
+\c@RT:chapter3_derivation=\count551
+[239]
+
+LaTeX Warning: Unexpected alignment  on input line 83.
+
+
+LaTeX Warning: Unexpected alignment  on input line 97.
+
+
+LaTeX Warning: Unexpected alignment  on input line 97.
+
+[240]
+
+LaTeX Warning: Unexpected alignment  on input line 111.
+
+
+LaTeX Warning: Unexpected alignment  on input line 179.
+
+
+LaTeX Warning: Unexpected alignment  on input line 179.
+
+[241] [242] [243]) (../chapters/chapter4/chapter4_prove.tex [244]
+第四章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 2--2
+[][][][][][][][][]  
+ []
+
+) (../chapters/chapter5/chapter5_prove.tex [245
+
+]
+第五章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+
+LaTeX Warning: Unexpected alignment  on input line 15.
+
+[246
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 43.
+
+[247]
+
+LaTeX Warning: Unexpected alignment  on input line 91.
+
+[248] [249]
+
+LaTeX Warning: Unexpected alignment  on input line 187.
+
+[250] [251] [252] [253]
+
+LaTeX Warning: Unexpected alignment  on input line 329.
+
+
+LaTeX Warning: Unexpected alignment  on input line 359.
+
+[254
+
+]) (../chapters/chapter6/chapter6_prove.tex [255]
+第六章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+(./figures/chapter6_framess.tikz) [256
+
+] [257]
+
+LaTeX Warning: Unexpected alignment  on input line 76.
+
+(./figures/chapter6_length_contraction.tikz) [258]
+
+LaTeX Warning: Unexpected alignment  on input line 114.
+
+
+LaTeX Warning: Unexpected alignment  on input line 131.
+
+(./figures/chapter6_momentum1.tikz) (./figures/chapter6_momentum2.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 156.
+
+[259] [260] [261]
+
+LaTeX Warning: Unexpected alignment  on input line 186.
+
+
+LaTeX Warning: Unexpected alignment  on input line 204.
+
+
+LaTeX Warning: Unexpected alignment  on input line 204.
+
+(./figures/chapter6_framess.tikz) [262]
+
+LaTeX Warning: Unexpected alignment  on input line 229.
+
+[263]) (../chapters/chapter7/Chapter7_prove.tex [264]
+第七章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 6.
+
+[265
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 40.
+
+File: ../figures/figure7/chapter7_mean_path.png Graphic file (type bmp)
+<../figures/figure7/chapter7_mean_path.png>
+\c@RT:prove7.13=\count552
+
+LaTeX Warning: Unexpected alignment  on input line 56.
+
+[266]
+
+LaTeX Warning: Unexpected alignment  on input line 65.
+
+[267]
+
+LaTeX Warning: Unexpected alignment  on input line 87.
+
+
+LaTeX Warning: Unexpected alignment  on input line 87.
+
+
+LaTeX Warning: Unexpected alignment  on input line 95.
+
+
+LaTeX Warning: Unexpected alignment  on input line 106.
+
+
+LaTeX Warning: Unexpected alignment  on input line 106.
+
+[268]
+
+LaTeX Warning: Unexpected alignment  on input line 142.
+
+(./figures/chapter7_otto_cycle.tikz)
+
+LaTeX Warning: Unexpected alignment  on input line 159.
+
+(./figures/chapter7_carnot_cycle.tikz) [269]
+
+LaTeX Warning: Unexpected alignment  on input line 194.
+
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+[270] [271] [272]
+
+LaTeX Warning: Unexpected alignment  on input line 313.
+
+
+LaTeX Warning: Unexpected alignment  on input line 313.
+
+[273] [274]
+
+LaTeX Warning: Unexpected alignment  on input line 359.
+
+
+LaTeX Warning: Unexpected alignment  on input line 359.
+
+
+LaTeX Warning: Unexpected alignment  on input line 369.
+
+
+LaTeX Warning: Unexpected alignment  on input line 374.
+
+[275
+
+] [276]
+
+LaTeX Warning: Unexpected alignment  on input line 435.
+
+
+LaTeX Warning: Unexpected alignment  on input line 457.
+
+[277] [278]) (../chapters/chapter8/chapter8_prove.tex
+第八章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+[279
+
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 30.
+
+File: ../figures/figure8/chapter8_电偶极子的电势与电势能.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电偶极子的电势与电势能.png>
+
+Overfull \hbox (6.8428pt too wide) detected at line 42
+[]
+ []
+
+[280]
+
+LaTeX Warning: Unexpected alignment  on input line 60.
+
+[281]
+
+LaTeX Warning: Unexpected alignment  on input line 69.
+
+File: ../figures/figure8/chapter8_RC.png Graphic file (type bmp)
+<../figures/figure8/chapter8_RC.png>
+[282]
+
+LaTeX Warning: Unexpected alignment  on input line 99.
+
+File: ../figures/figure8/chapter8_电路等效变换.png Graphic file (type bmp)
+<../figures/figure8/chapter8_电路等效变换.png>
+[283] [284]
+
+LaTeX Warning: Unexpected alignment  on input line 150.
+
+File: ../figures/figure8/chapter8_证明安培定理.png Graphic file (type bmp)
+<../figures/figure8/chapter8_证明安培定理.png>
+
+LaTeX Warning: Unexpected alignment  on input line 162.
+
+File: ../figures/figure8/chapter8_磁场对磁偶极子的影响.png Graphic file (type bmp)
+<../figures/figure8/chapter8_磁场对磁偶极子的影响.png>
+[285]
+
+LaTeX Warning: Unexpected alignment  on input line 179.
+
+[286] [287] [288]) (../chapters/chapter9/chapter9_prove.tex [289]
+第九章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+) (../chapters/chapter10/chapter10_prove.tex [290
+
+]
+第十章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+File: ../figures/figure10/chapter10_康普顿散射1.png Graphic file (type bmp)
+<../figures/figure10/chapter10_康普顿散射1.png>
+File: ../figures/figure10/chapter10_康普顿散射2.png Graphic file (type bmp)
+<../figures/figure10/chapter10_康普顿散射2.png>
+Missing character: There is no 方 ("65B9) in font rm-lmr12!
+Missing character: There is no 向 ("5411) in font rm-lmr12!
+Missing character: There is no 方 ("65B9) in font rm-lmr12!
+Missing character: There is no 向 ("5411) in font rm-lmr12!
+Missing character: There is no 方 ("65B9) in font rm-lmr12!
+Missing character: There is no 向 ("5411) in font rm-lmr12!
+Missing character: There is no 方 ("65B9) in font rm-lmr12!
+Missing character: There is no 向 ("5411) in font rm-lmr12!
+[291
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 47.
+
+[292]
+
+LaTeX Warning: Unexpected alignment  on input line 63.
+
+
+LaTeX Warning: Unexpected alignment  on input line 68.
+
+
+LaTeX Warning: Unexpected alignment  on input line 85.
+
+File: ../figures/figure10/chapter10_一维无限深势力井.png Graphic file (type bmp)
+<../figures/figure10/chapter10_一维无限深势力井.png>
+[293] [294]
+
+LaTeX Warning: Unexpected alignment  on input line 119.
+
+File: ../figures/figure10/chapter10_隧穿效应.png Graphic file (type bmp)
+<../figures/figure10/chapter10_隧穿效应.png>
+[295] [296]) [297]
+Missing character: There is no ^^8e ("8E) in font nullfont!
+Missing character: There is no ^^8e ("8E) in font nullfont!
+(../chapters/chapter1/chapter1_answer.tex [298]
+第一章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+) (../chapters/chapter2/chapter2_answer.tex [299
+
+]
+第二章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+
+LaTeX Warning: Unexpected alignment  on input line 21.
+
+[300
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 40.
+
+[301]
+
+LaTeX Warning: Unexpected alignment  on input line 67.
+
+File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem3.png>
+
+Overfull \hbox (8.62373pt too wide) detected at line 90
+[]
+ []
+
+[302]
+
+LaTeX Warning: Unexpected alignment  on input line 106.
+
+File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
+<../figures/figure2/chapter2_problem4.png>
+[303]) (../chapters/chapter3/chapter3_answer.tex [304]
+第三章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
+<../figures/figure3/chapter3_example_1.jpg>
+[305
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 34.
+
+File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
+<../figures/figure3/chapter3_example_2.png>
+\c@RT:chapter3_moment_inertia2=\count553
+
+LaTeX Warning: Unexpected alignment  on input line 74.
+
+[306] [307]
+
+LaTeX Warning: Unexpected alignment  on input line 85.
+
+(./figures/chapter3_example_3_3.tikz)
+\c@RT:law3.1=\count554
+ [308
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 116.
+
+File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
+<../figures/figure3/chapter3_massive_pulley.png>
+[309]
+
+LaTeX Warning: Unexpected alignment  on input line 158.
+
+File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/chapter3_string.png>
+[310]
+
+LaTeX Warning: Unexpected alignment  on input line 176.
+
+(./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
+Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
+[311] [312] [313]) (../chapters/chapter4/chapter4_answer.tex [314]
+第四章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体静力学.png>
+File: ../figures/figure4/chapter4_E1_A1.png Graphic file (type bmp)
+<../figures/figure4/chapter4_E1_A1.png>
+[315
+
+] [316]
+
+LaTeX Warning: Unexpected alignment  on input line 38.
+
+File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/chapter4_流体动力学.png>
+[317]) (../chapters/chapter5/chapter5_answer.tex [318]
+第五章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+[319
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 67.
+
+[320]
+
+LaTeX Warning: Unexpected alignment  on input line 91.
+
+[321] [322]
+
+LaTeX Warning: Unexpected alignment  on input line 159.
+
+) (../chapters/chapter6/chapter6_answer.tex [323]
+第六章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_7.jpg>
+[324
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 42.
+
+(./figures/chapter6_solution_6_2_1.tikz) (./figures/chapter6_solution_6_2_2.tikz) (./figures/chapter6_solution_6_2_3.tikz) [325] [326]
+
+LaTeX Warning: Unexpected alignment  on input line 72.
+
+(./figures/chapter6_solution_6_3.tikz) [327] [328]
+
+LaTeX Warning: Unexpected alignment  on input line 143.
+
+File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_20.jpg>
+(./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [329] [330] [331]
+
+LaTeX Warning: Unexpected alignment  on input line 199.
+
+File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_23.jpg>
+[332] [333] [334]
+
+LaTeX Warning: Unexpected alignment  on input line 257.
+
+File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/chapter_6_24.jpg>
+[335] [336]
+
+LaTeX Warning: Unexpected alignment  on input line 298.
+
+\c@RT:law6.5=\count555
+
+LaTeX Warning: Unexpected alignment  on input line 328.
+
+\c@RT:chapter6_photon=\count556
+
+LaTeX Warning: Unexpected alignment  on input line 332.
+
+[337] [338] [339]) (../chapters/chapter7/Chapter7_answer.tex [340]
+第七章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+
+LaTeX Warning: Unexpected alignment  on input line 15.
+
+[341
+
+] [342]
+
+LaTeX Warning: Unexpected alignment  on input line 62.
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 66--71
+\TU/lmr/m/n/12 Hint: The isothermal compressibility $\OML/lmm/m/it/12 ^^T[]$ \TU/lmr/m/n/12 is defined through $\OML/lmm/m/it/12 ^^T[] \OT1/lmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
+
+ []
+
+[343
+
+] [344]
+
+LaTeX Warning: Unexpected alignment  on input line 172.
+
+(./figures/chapter7_solution_7_4.tikz) [345] [346]
+
+LaTeX Warning: Unexpected alignment  on input line 244.
+
+(./figures/chapter7_solution_7_5.tikz)
+Underfull \hbox (badness 1354) in paragraph at lines 258--265
+\TU/lmr/m/n/12 (c) For a Carnot engine with efficiency $\OML/lmm/m/it/12 ^^O \OT1/lmr/m/n/12 = 1 \OMS/lmsy/m/n/12 ^^@ []$\TU/lmr/m/n/12 , verify the
+ []
+
+\c@RT:law7.2=\count557
+[347] [348] [349] [350]
+
+LaTeX Warning: Unexpected alignment  on input line 417.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--432
+\TU/lmr/m/n/12 (a) Suppose that the amount of heat exchange during the
+ []
+
+\c@RT:chapter7_process_introduction=\count558
+
+LaTeX Warning: Unexpected alignment  on input line 446.
+
+[351] [352]) (../chapters/chapter8/chapter8_answer.tex [353]
+第八章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+File: ../figures/figure8/chapter8_answer1.png Graphic file (type bmp)
+<../figures/figure8/chapter8_answer1.png>
+[354
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 38.
+
+File: ../figures/figure8/chapter8_exercise电流密度边界条件.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise电流密度边界条件.png>
+[355] [356]
+
+LaTeX Warning: Unexpected alignment  on input line 74.
+
+File: ../figures/figure8/chapter8_exercise磁场.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise磁场.png>
+File: ../figures/figure8/chapter8_exercise磁阻.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise磁阻.png>
+File: ../figures/figure8/chapter8_answer3.png Graphic file (type bmp)
+<../figures/figure8/chapter8_answer3.png>
+[357
+
+] [358]
+
+LaTeX Warning: Unexpected alignment  on input line 147.
+
+File: ../figures/figure8/chapter8_exercise坡应廷矢量1.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise坡应廷矢量1.png>
+File: ../figures/figure8/chapter8_exercise坡应廷矢量2.png Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise坡应廷矢量2.png>
+[359] [360]
+
+LaTeX Warning: Unexpected alignment  on input line 182.
+
+
+LaTeX Warning: Unexpected alignment  on input line 200.
+
+[361] [362] [363]
+
+LaTeX Warning: Unexpected alignment  on input line 264.
+
+File: ../figures/figure8/chapter8_exercise虎哥1.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥1.jpg>
+
+LaTeX Warning: Unexpected alignment  on input line 285.
+
+File: ../figures/figure8/chapter8_exercise虎哥2.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥2.jpg>
+[364
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 310.
+
+File: ../figures/figure8/chapter8_exercise虎哥3.jpg Graphic file (type bmp)
+<../figures/figure8/chapter8_exercise虎哥3.jpg>
+[365] [366]) (../chapters/chapter9/chapter9_answer.tex [367]
+第九章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+) (../chapters/chapter10/chapter10_answer.tex [368
+
+]
+第十章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Unexpected alignment  on input line 2.
+
+
+LaTeX Warning: Unexpected alignment  on input line 21.
+
+[369
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 51.
+
+
+LaTeX Warning: Unexpected alignment  on input line 51.
+
+[370]
+
+LaTeX Warning: Unexpected alignment  on input line 143.
+
+[371] [372] [373]) [374] (../chapters/afterall/afterall.tex) [375
+
+
+] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5CAEB90DE76A0AF6375268B84CC481A4;30201.
+ ) 
+Here is how much of TeX's memory you used:
+ 76822 strings out of 474773
+ 1894045 string characters out of 5761290
+ 2398780 words of memory out of 5000000
+ 97643 multiletter control sequences out of 15000+600000
+ 626797 words of font info for 204 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 117i,22n,422p,3341b,2407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (389 pages).

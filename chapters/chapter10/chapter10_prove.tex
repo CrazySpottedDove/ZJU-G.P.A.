@@ -1,0 +1,191 @@
+\chapter[量子物理]{\itr{Quantum Physics}{量子物理}}
+\begin{prove}[The Compton Effect]
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[散射前图示]{chapter10_康普顿散射1.png}[0.99]
+    \end{singlefigure}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[散射后图示]{chapter10_康普顿散射2.png}[0.99]
+    \end{singlefigure}
+\end{minipage}
+\vspace{2mm}
+
+以上图为例分析。假设粒子最初为静止状态。
+
+对于光而言，其能量为$E=h\nu$，动量为$p=\dfrac{h\nu}{c}$。
+
+对于粒子而言，其动能为$E=m_0 c^2$（质能公式），动量为$p=mv$。
+
+由于碰撞后速度变化导致的相对论条件下的质量变化，因此电子质量不守恒。我们得到下面这几个公式：
+\begin{align}
+    m_0 c^2 + h\nu &= mc^2 + h\nu'\qquad \text{能量守恒}\tag{1}\\
+    X方向:\quad \dfrac{h\nu}{c} &= \dfrac{h\nu'}{c}\cos\varphi + mv\cos\theta\tag{2}\\
+    Y方向:\quad 0 &= \dfrac{h\nu'}{c}\sin\varphi - mv\sin\theta\tag{3}
+\end{align}
+
+先处理动量公式，我们整理出含$mv$的部分并单独放到公式一侧，平方后相加，使得三角函数被消掉，得到：
+\[(\dfrac{h\nu}{c})^2 + (\dfrac{h\nu'}{c})^2 - \dfrac{2h^2\nu\nu'}{c^2}\cos\varphi = m^2 v^2\]
+
+再处理能量守恒公式，对两边平方：
+\[h^2(\nu - \nu')^2 + m_0^2c^4 + 2m_0c^2h(\nu - \nu') = m^2c^4\]
+
+对上式使用相对论质量公式，采取原公式直接平方的方法，得到：
+\[m^2 = \dfrac{m_0^2c^2}{c^2 - v^2}\]
+
+将其代入我们整理的两个公式中，消去$m^2$，并将$m_0c^4$移到另一侧与$m^2c^4$相减，约掉后发现等式右边一样，因此得到：
+\[h(\nu^2 + \nu'^2 - 2\nu\nu'\cos\varphi) = h(\nu - \nu')^2 + 2m_0c^2(\nu - \nu')\]
+
+即：
+\[h\nu\nu'(1-\cos\varphi) = m_0c^2(\nu - \nu')\]
+
+我们希望求解波长差，观察发现：
+\[\dfrac{\Delta \lambda}{c} = \dfrac{1}{\nu'} - \dfrac{1}{\nu} = \dfrac{\nu - \nu'}{\nu\nu'} = \dfrac{h}{m_0c^2}(1-\cos\varphi)\]
+
+最终得到：
+\[\Delta \lambda = \dfrac{h}{m_0c}(1-\cos\varphi)\]
+\end{prove}
+\begin{prove}[Quantized Orbits and Energy]
+    在波尔的氢原子模型下应用经典力学以及原子角动量的结论，即：
+    \begin{align*}
+        \dfrac{1}{4\pi\varepsilon_0}\dfrac{e^2}{r^2} &= m\dfrac{v^2}{r}\\
+        L = mv_nr_n &= n\hbar
+    \end{align*}
+    整理以上两个公式，我们知道$n$不同则轨道半径也不同，因此可得：
+    \[\dfrac{1}{4\pi\varepsilon_0}\dfrac{e^2}{r_n^2} = m\dfrac{v_n^2}{r_n}\quad\Rightarrow\quad r_n = n^2 \dfrac{\varepsilon_0 h^2}{\pi me^2}\]
+
+    另外可以得到能量为：
+    \begin{align*}
+        E_n &= \dfrac{1}{2}mv_n^2 - \dfrac{1}{4\pi\varepsilon_0}\dfrac{e^2}{r_n} = \dfrac{1}{8\pi\varepsilon_0}\dfrac{e^2}{r_n} - \dfrac{1}{4\pi\varepsilon_0}\dfrac{e^2}{r_n} = -\dfrac{1}{8\pi\varepsilon_0}\dfrac{e^2}{r_n} = -\dfrac{1}{n^2}\dfrac{me^4}{8\varepsilon_0^2 h^2} \circ
+    \end{align*}
+
+    其他结论可以因此迅速导出，此处不再赘述，读者可以尝试使用上面的推导结论理解。
+\end{prove}
+\begin{prove}[Schrödinger Equation]
+    首先，我们知道能量和动量的关系式：
+    \[E=\dfrac{p^2}{2m}\]
+
+    由德布罗意关系，$p = k\hbar$、$E = \hbar \omega$\mgnote{这个可以根据德布罗意波的结论，结合机械波中各个变量的关系得到}
+    因此我们替换原本波函数的符号，并将其乘到等式两边，得到：
+    \[E\psi_0 e^{i(px - Et)/\hbar} = \dfrac{p^2}{2m}\psi_0 e^{i(px - Et)/\hbar}\]
+
+    其中波函数表示为$\Psi = \psi_0 e^{i(px - Et)/\hbar}$，观察得到：
+    \[i\hbar \dfrac{\partial \Psi(x, t)}{\partial t} = -\dfrac{\hbar^2}{2m} \dfrac{\partial^2 \Psi(x, t)}{\partial x^2}\]
+
+    进一步，考虑能量包含外加势场$U(x,t)$，即$E = \dfrac{p^2}{2m} + U(x,t)$，则：
+    \[i\hbar \dfrac{\partial \Psi(x, t)}{\partial t} = \left[-\dfrac{\hbar^2}{2m}\dfrac{\partial^2}{\partial x^2} + U(x,t)\right] \Psi(x, t)\]
+
+    当定态时，波函数可以简化为$\Phi = \psi e^{- iEt/\hbar}$，则：
+    \[\dfrac{\partial^2 \Psi}{\partial x^2} = \dfrac{\partial^2 \psi}{\partial x^2} e^{-iEt/\hbar}\qquad \dfrac{\partial \Psi}{\partial t} = -\dfrac{iE}{\hbar}\psi e^{-iEt/\hbar}\]
+
+    代回原式并整理，得到：
+    \[\dfrac{\dif^2 \psi(x)}{\dif x^2}+\dfrac{2m}{\hbar^2}[E-U(x)]\psi(x)=0\]
+
+    对于三维空间的情况，把对于位置的二阶导数$\dfrac{\partial^2}{\partial x^2}$换成$\nabla^2$即可。
+\end{prove}
+\begin{prove}[An Infinitely Deep Potential Well in 1D]
+    \begin{singlefigure}[一种一维无限深势力井]{chapter10_一维无限深势力井.png}[0.6]
+    \end{singlefigure}
+    
+    我们对于该势力井的势函数的定义为：
+    \[U(x) = 
+    \begin{cases}
+        0 & x\in(0,a)\\
+        \infty & x\notin[0,a]
+    \end{cases}\]
+    在势函数无限大的位置，波函数为0，因为如此大的能量并不存在，以至于粒子不会在这些地方出现。我们只考虑$0<x<a$的部分，这里使用薛定谔方程。类似与一维定态自由粒子的结论，我们有：
+    \[\Psi(x) = A\sin(kx) + B\cos(kx)\qquad k^2 = \dfrac{2mE}{\hbar^2}\]
+
+    根据无限深势力井，有如下等式存在：
+    \begin{align*}
+        \Psi(0) &= B = 0\\
+        \Psi(a) &= A\sin(ka) + B\cos(ka) = 0\\
+    \end{align*} 
+
+    因此$A\sin(ka) = 0 = \sin(ka)$。因此我们有$ka = n\pi$。原本的波函数因此可以写作：
+    \[\Psi(x) = A\sin(\dfrac{n\pi}{a}x)\qquad n = 1,2,3,\cdots\]
+
+    应用波函数的概率性质，我们可以最终求出系数$A$：
+    \[\int_{0}^{\infty}\Psi(x)\Psi(x)^{*}\dif{x} = A^2\int_{0}^{a}sin^2(\dfrac{n\pi}{a}x)\dif{x} = A^2\dfrac{a}{2} = 1\quad\Rightarrow\quad A = \sqrt{\dfrac{2}{a}}\]
+
+    并得到最终的波函数表达式：
+    \begin{align*}
+        \Psi(x) = 
+        \begin{cases}
+            \sqrt{\dfrac{2}{a}}\sin(\dfrac{n\pi}{a}x) & x\in(0,a)\\
+            0 & x\notin(0,a)
+        \end{cases}
+    \end{align*}
+\end{prove}
+\begin{prove}[Tunnelling Effect]
+    \begin{singlefigure}[隧穿效应示意图]{chapter10_隧穿效应.png}[0.6]
+    \end{singlefigure}
+    我们依然考虑一维定态薛定谔方程：
+    \[\dfrac{\dif^2 \psi(x)}{\dif{x}^2} + \dfrac{2m}{\hbar^2} [ E - U(x) ] \psi(x) = 0\]
+    其中$\dfrac{2m}{\hbar^2}[E-U(x)]$为分段函数，每一段内是定值。因此方程可以简化为二阶微分方程：
+    \[\dfrac{\dif^2 \psi(x)}{\dif{x}^2} + k'^2 \psi(x) = 0\]
+    根据微分方程，可以得到$(-\infty,0)$、$[0,a]$、$(a,\infty)$的波函数表达式可以分别写作：
+    \begin{align*}
+        \psi(x) = 
+        \begin{cases}
+            A_1 e^{i\alpha x}+A_2 e^{-i\alpha x}& x\in(-\infty,0)\\
+            B_1 e^{i\beta x} + B_2 e^{-i\beta x}& x\in[0,a]\\
+            C_1 e^{i\gamma x}+C_2 e^{-i\gamma x}& x\in(a,\infty)
+        \end{cases}
+    \end{align*}
+    其中$\alpha=\gamma = \dfrac{\sqrt{2mE}}{\hbar}$，$\beta = \dfrac{\sqrt{2m(E-U_0)}}{\hbar}$。
+
+    同时，根据波动方程的物理含义，正指数部分代表函数向$x$轴正向传播，负指数部分代表向$x$轴负方向传播。在上述三个区间，前两个区间都有原有正向传播的波动以及遇到高势垒的反射波动，
+    但第三个区间没有反射波（该区间的波动仅来自于穿过势垒的波而没有反射波）。因此$C_2 = 0$。
+
+    结合波函数的单值连续的性质，我们有以下等式存在：
+    \begin{align*}
+        \psi_1(0) &= \psi_2(0) \\
+        \dfrac{\dif \psi_1(0)}{\dif{x}} &= \dfrac{\dif \psi_2(0)}{\dif{x}}\\
+        \psi_2(a) &= \psi_3(a)\\
+        \dfrac{\dif \psi_2(a)}{\dif{x}} &= \dfrac{\dif \psi_3(a)}{\dif{x}}\\
+    \end{align*}
+    
+    求解以下方程。首先我们代入已知，得：
+    \begin{align*}
+        A_1 + A_2 &= B_1 + B_2 \tag{1}\\
+        i\alpha(A_1 - A_2) &= i\beta(B_1 - B_2)\tag{2}\\
+        B_1 e^{i\beta a} + B_2 e^{-i\beta a} &= C_1 e^{i\alpha a} \tag{3}\\
+        i\beta(B_1 e^{i\beta a} + B_2 e^{-i\beta a}) &= i\alpha C_1 e^{i\alpha a} \tag{4}
+    \end{align*}
+
+    由方程(3)和(4)求解，得：
+    \begin{align*}
+        B_1 &= \dfrac{C_1 e^{i\alpha a}}{2\beta}(\beta + \alpha) e^{-i\beta a}\\
+        B_2 &= \dfrac{C_1 e^{i\alpha a}}{2\beta}(\beta - \alpha) e^{i\beta a}
+    \end{align*}
+
+    代入(1)和(2)中，并结合双曲三角函数$\cosh(x) = \dfrac{e^x + e^{-x}}{2}$、$\sinh(x) = \dfrac{e^x - e^{-x}}{2}$化简，得到：
+    \begin{align*}
+        A_1 + A_2 &= C_1 e^{i\beta a}[\cosh(i\beta a) - \dfrac{\alpha}{\beta}\sinh(i\beta a)]\\
+        A_1 - A_2 &= C_1 e^{i\beta a}[\cosh(i\beta a) - \dfrac{\beta}{\alpha}\sinh(i\beta a)]
+    \end{align*}
+
+    因此：
+    \[A_1 = C_1 e^{i\alpha a}[\cosh(i\beta a) - \dfrac{1}{2}(\dfrac{\alpha}{\beta} + \dfrac{\beta}{\alpha})\sinh(i\beta a)]\]
+    
+    由双曲三角函数的奇偶性易得以下关系：
+    \[\cosh(-x) = \cosh(x)\qquad \sinh(-x) = -\sinh(x)\]
+
+    注意到这里$\beta$是一个虚数，因此做变量代换$\beta =i\kappa \quad (\kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar})$，得到：
+    \begin{align*}
+        A_1 &= C_1 e^{i\alpha a}[\cosh(-\kappa a) - \dfrac{1}{2}(\dfrac{\alpha}{i\kappa} + \dfrac{i\kappa}{\alpha})\sinh(-\kappa a)]\\
+            &= C_1 e^{i\alpha a}[\cosh(\kappa a) + \dfrac{i}{2}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})\sinh(\kappa a)]
+    \end{align*}
+    
+    隧穿概率的定义为$T = \dfrac{|C_1|^2}{|A_1|^2}$，因此$\dfrac{1}{T} = \dfrac{|A_1|^2}{|C_1|^2}$。
+
+    此时：
+    \[\dfrac{1}{T} = \cosh^2(\kappa a) + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})^2\sinh^2(\kappa a)\]
+
+    由双曲三角函数的性质$\cosh^2(x) = \sinh^2(x) + 1$，同时注意到$1 + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})^2 = \dfrac{1}{4}(\dfrac{\kappa}{\alpha} + \dfrac{\alpha}{\kappa})^2$可以得到：
+    \[T = \dfrac{1}{1 + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} + \dfrac{\alpha}{\kappa})^2\sinh^2(\kappa a)}\quad \kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar}\quad\alpha = \dfrac{\sqrt{2mE}}{\hbar}\]
+    
+    当$\kappa a \gg 1$时，$\sinh(\kappa a) \approx \dfrac{1}{2}e^{\kappa a} \gg 1$（这被称为WKB近似），因此：
+    \[T = \dfrac{16E(U_0 - E)}{U_0^2}e^{-2\kappa a} \quad \kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar}\]
+
+\end{prove}

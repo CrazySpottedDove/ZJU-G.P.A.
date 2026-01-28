@@ -1,0 +1,1315 @@
+\chapter[电磁学]{\itr{Electromagnetism}{电磁学}}
+从电磁学开始，即为普通物理学\Romannumeral{2}(H)的内容。首先请相信一点，这一章将会是整个课程中最重要的一章，
+也是整个课程中时间最长、考试占比最高的一章（无论期中还是期末）。所以请务必课上认真听讲并及时与同学交流。
+\section[导论]{\itr{Introduction}{导论}}
+电磁学的重要基础是麦克斯韦方程组，简单的四个公式将电与磁的性质展现地一览无余。当然，你们可能还不知道具体
+公式如何理解，但我们预先给出方程形式，希望各位在本章节一直认识到它的存在：
+\begin{law}[\itr{Maxwell's equations}{麦克斯韦方程组}]
+    \begin{align*}
+        \nabla \cdot \vec{D} &= \rho\quad &\nabla \cdot \vec{E} &= \dfrac{\rho}{\varepsilon_0}(\text{真空中})\\[1.5em]
+        \nabla \cdot \vec{B} &= 0\quad & & \\[1.5em]
+        \nabla \times \vec{E} &= -\dfrac{\partial \vec{B}}{\partial t}\quad & & \\[1.5em]
+        \nabla \times \vec{H} &= \vec{J}+\dfrac{\partial \vec{D}}{\partial t}\quad &\nabla \times \vec{B} &= \mu_0\vec{J}+\dfrac{1}{c^2}\dfrac{\partial \vec{E}}{\partial t}(\text{真空中})
+    \end{align*}
+\end{law}
+
+在上述公式中，$\nabla$表示微分算子，$E$、$B$表示电场强度和磁感应强度，$\rho$表示电荷密度，$J$表示电流密度，$\varepsilon_0$、$\mu_0$分别表示真空介电常数和真空磁导率，$c$表示光速。
+
+另外作为额外补充，我们简单介绍一下麦克斯韦方程组的一些内容。
+\begin{Itemize}
+    \item $\nabla$为微分算子，在三维空间中，$\nabla = \dfrac{\partial}{\partial x}i + \dfrac{\partial}{\partial y}j + \dfrac{\partial}{\partial z}k =
+    (\dfrac{\partial}{\partial x},\dfrac{\partial}{\partial y},\dfrac{\partial}{\partial z})$
+    \item $\nabla$直接作用于函数$F$，表示为对函数求梯度，$\nabla F = (\dfrac{\partial F}{\partial x} , \dfrac{\partial F}{\partial y} , \dfrac{\partial F}{\partial z})$
+    \item $\nabla$以点乘形式作用于函数$F$，表示散度，物理意义上，散度表征了场的有源性。
+    \item $\nabla$以叉乘形式作用于函数$F$，表示旋度。
+\end{Itemize}
+
+最后我们默认一些中学物理知识，此处不多赘述：
+\begin{Itemize}
+    \item \itr{Coulomb's law}{库仑定律}：$F=k\dfrac{q_1 q_2}{r^2}$
+    
+    其中$k$为常数，一般将库仑定律公式写成$F=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q_1 q_2}{r^2}$，其中$\varepsilon_0$是真空介电常数
+    \item 点电荷的电场强度：$E=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r^2}$
+    \item 点电荷形成的电场电势：$\varphi=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$（以无穷远处为0电势）
+    \item 电荷在电场中受力：$\vec{F}=\vec{E}q$
+    \item 电场电势能：$U=\varphi q$
+\end{Itemize}
+
+电磁学部分共有四个基本矢量，分别为：
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{cccc}
+    \toprule
+        场 & 场量 & 符号 & 单位 \\
+    \midrule
+        电场 & 电场强度 & \(\vec{E}\) & \(V/m\) \\
+        & 电通量密度（电位移矢量） & \(\vec{D}\) & \(C/m^2\) \\ 
+        磁场 & 磁通量密度（磁感应强度） & \(\vec{B}\) & \(T\) \\
+        & 磁场强度 & \(\vec{H}\) & \(A/m\) \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+我们将会在之后逐个讲解相关矢量。
+\section[矢量分析基础*]{\itr{Fundamentals of Vector Analysis*}{矢量分析基础*}}
+第一节我们看到，麦克斯韦方程组是矢量微分方程。作为补充，我们简要介绍一些矢量分析的相关内容。考试不涉及该部分。
+
+对于一般的空间矢量，我们已经了解到其线性运算以及叉乘和内积运算法则。作为约定，我们在本小节中出现的矢量$\vec{a}$均代表单位方向矢量。
+\subsection[空间坐标系]{\itr{Spatial coordinate systems}{空间坐标系}}
+一般而言，我们最常用的坐标系是空间直角坐标系（也被称为正交坐标系）。坐标系的基矢量为$\vec{a_x},\vec{a_y},\vec{a_z}$。在右手坐标系下满足以下关系式：
+\[\vec{a_x}\times\vec{a_y}=\vec{a_z}\]
+\[\vec{a_y}\times\vec{a_z}=\vec{a_x}\]
+\[\vec{a_z}\times\vec{a_x}=\vec{a_y}\]
+
+这三个等式是相互蕴含的关系。且三个方向矢量相互正交，模长为1。在电磁学中，经常需要计算线积分、面积分和体积分，也就需要将相关的线、面、体积的微分变化转换为坐标的微分变化。
+
+假设坐标为$u_i$，$i=1,2,3$，也许这个坐标并不是长度，我们需要一个度量系数将坐标的微分与线的微分联系起来，即：
+\[\dif l_i = h_i\dif u_i\]
+
+因此，任意长度的微分变化为：
+\[\dif \vec{l} = \vec{a_{u_1}}(h_1\dif u_1) + \vec{a_{u_2}}(h_2\dif u_2) + \vec{a_{u_3}}(h_3\dif u_3)\]
+
+体积元可表示为：
+\[\dif v = h_1h_2h_3\dif u_1\dif u_2\dif u_3\]
+
+而面积元的表示需要注意一点的是，由于经常需要计算通量，通量必须垂直于面，因此我们的面微元需要垂直于平面的方向。在这一前提下，垂直于单位矢量$\vec{a_{u_1}}$的面积元可表示为：
+\[\dif s_1 = \dif l_2\dif l_3 = h_2h_3\dif u_2\dif u_3\]
+
+在另外的两个方向上也类似于上述表达式，读者可自行类比。一般而言，我们常用的坐标系是笛卡尔直角坐标系、柱坐标系和球坐标系。直角坐标系的运算我们默认读者已经熟悉。
+
+在柱坐标系中，$(u_1,u_2,u_3) = (r,\phi,z)$。其中角度$\phi$从$x$轴正方向开始度量，单位矢量$a_{\phi}$与圆柱相切：
+
+\begin{minipage}{0.48\textwidth}
+    \begin{singlefigure}[柱坐标系]{chapter8_柱坐标系.png}[0.9]
+    \end{singlefigure}
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+    \begin{singlefigure}[柱坐标系下的微元]{chapter8_柱坐标系下的微元.png}[0.9]
+    \end{singlefigure}
+\end{minipage}
+\vspace{2mm}
+
+柱坐标系下，矢量表示为$\vec{A} = \vec{a_r}A_r + \vec{a_\phi}A_\phi + \vec{a_z}A_z$。
+
+柱坐标系下，线元表示为:
+\[\dif\vec{l} = \vec{a_r}\dif r + \vec{a_\phi}r\dif \phi + \vec{a_z}\dif z\]
+
+面元和体积元表示为：
+\[\dif s_r = r\dif\phi\dif z\quad \dif s_\phi = \dif r\dif z\quad \dif s_z = r\dif r\dif\phi\]
+\[\dif v = r\dif r\dif\phi\dif z\]
+
+柱坐标系和直角坐标系的基变换中，若$\vec{A} = \vec{a_r}A_r + \vec{a_\phi}A_\phi + \vec{a_z}A_z = \vec{a_x}A_x + \vec{a_y}A_y + \vec{a_z}A_z$，则满足以下等式：
+\begin{equation*}
+    \begin{bmatrix}
+        A_x \\
+        A_y \\
+        A_z
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        \cos\phi & -r\sin\phi & 0 \\
+        \sin\phi & r\cos\phi & 0 \\
+        0 & 0 & 1
+    \end{bmatrix}
+    \begin{bmatrix}
+        A_r \\
+        A_\phi \\
+        A_z
+    \end{bmatrix}
+\end{equation*}
+\[x = r\cos\phi\quad y = r\sin\phi\quad z = z\]
+\[r = \sqrt{x^2 + y^2}\quad \phi = \arctan\dfrac{y}{x}\quad z = z\]
+
+在球坐标系中，$(u_1, u_2, u_3) = (R,\theta,\phi)$。其中基矢量$\vec{a_\phi}$与柱坐标系一致，$\vec{a_\theta}$位于$\phi = \phi_0$平面内并与球面相切。
+\begin{singlefigure}[球坐标系及其微元]{chapter8_球坐标系及其微元.png}[0.9]
+\end{singlefigure}
+
+球坐标系下，矢量表示为$\vec{A} = \vec{a_R}A_R + \vec{a_\theta}A_\theta + \vec{a_\phi}A_\phi$。
+
+球坐标系下，线元、面元和体积元表示为：
+\[\dif \vec{l} = \vec{a_R}\dif R + \vec{a_\theta}R\dif \theta + \vec{a_\phi}R\sin\theta\dif \phi\]
+\[\dif s_R = R^2\sin\theta\dif \theta\dif \phi\quad \dif s_\theta = R\sin\theta\dif R\dif \phi\quad \dif s_\phi = R\dif R\dif \theta\]
+\[\dif v = R^2\sin\theta\dif R\dif \theta\dif \phi\]
+
+球坐标系和直角坐标系的转换关系为：
+\[x = R\sin\theta\cos\phi\quad y = R\sin\theta\sin\phi\quad z = R\cos\theta\]
+\[R = \sqrt{x^2+y^2+z^2}\quad \theta = \arctan\dfrac{\sqrt{x^2+y^2}}{z}\quad \phi = \arctan\dfrac{y}{x}\]
+\subsection[梯度、散度、旋度]{\itr{Gradient, divergence, curl}{梯度、散度、旋度}}
+梯度、散度和旋度都是场矢量的重要衡量指标。这之中最重要的便是微分算子，其定义为：
+\[\nabla \equiv (\vec{a_{u_1}}\dfrac{\partial}{h_1\partial u_1} + \vec{a_{u_2}}\dfrac{\partial}{h_2\partial u_2} + \vec{a_{u_3}}\dfrac{\partial}{h_3\partial u_3})\]
+
+梯度大家应该很熟悉了，它表征了一个标量函数$V(x,y,z)$的空间最大变化率，梯度是一个矢量，方向为标量增加率最大的方向：
+\[\nabla V = \vec{a_n}\dfrac{\dif V}{\dif n} = \vec{a_{u_1}}\dfrac{\partial V}{h_1\partial u_1} + \vec{a_{u_2}}\dfrac{\partial V}{h_2\partial u_2} + \vec{a_{u_3}}\dfrac{\partial V}{h_3\partial u_3}\]
+
+最后一个等号是广义正交曲线坐标系下的表示。在坐标系部分我们可以发现，当使用笛卡尔空间正交坐标系时，度量系数均为1，下同。
+
+矢量场是与位置和时间有关的物理量$V(u_1,u_2,u_3,t)$。我们中学经常用有向箭头表示矢量场，并且关注其密度或长度。场的强度由通过单位大小面积的通量衡量，通量类似于不可压缩流体。
+
+矢量场$A$的散度定义为包围该点的体积趋于0时，单位体积内流出的$A$净通量，用$\text{div} \vec{A}$表示：
+\[\nabla\cdot \vec{A} = \text{div} \vec{A} = \lim_{\Delta v\to 0} \dfrac{\oint \vec{A}\cdot \dif\vec{s}}{\Delta v}\]
+
+在广义正交曲线坐标系下：
+\[\nabla\cdot \vec{A} = \dfrac{1}{h_1h_2h_3}[\dfrac{\partial}{\partial u_1}(h_2h_3A_1) + \dfrac{\partial}{\partial u_2}(h_1h_3A_2) + \dfrac{\partial}{\partial u_3}(h_1h_2A_3)]\]
+
+当且仅当$A$点处有\itr{source}{源}时，$\nabla\cdot \vec{A} > 0$；当且仅当$A$点处有\itr{sink}{汇（沟）}时，$\nabla\cdot \vec{A} < 0$。
+
+散度定义的源是流量源，另外一种是漩涡源，用旋度表征，它引起矢量场的环流。
+矢量场$A$的旋度定义为面积趋于0时单位面积上的最大净环流，方向为净环流最大时面积的法线方向：
+\[\nabla\times\vec{A} = \text{curl}\vec{A} = \lim_{\Delta s\to 0}\dfrac{1}{\Delta s}[\vec{a_n}\oint \vec{A}\cdot\dif \vec{l}]_{max}\]
+
+在广义正交曲线坐标系下：
+\begin{equation*}
+    \nabla\times\vec{A}
+    =
+    \dfrac{1}{h_1h_2h_3}
+    \left|
+        \begin{array}{ccc}
+            a_{u_1}h_1 & a_{u_2}h_2 & a_{u_3}h_3\\
+            \dfrac{\partial}{\partial u_1} & \dfrac{\partial}{\partial u_2} & \dfrac{\partial}{\partial u_3}\\
+            h_1A_1 & h_2A_2 & h_3A_3
+        \end{array}
+    \right|
+\end{equation*}
+\subsection[矢量恒等式与相关定理]{\itr{Vector identities and related theorems}{矢量恒等式与相关定理}}
+首先我们必须明确，三个矢量的内积连乘$\vec{A}\cdot\vec{B}\cdot\vec{C}$是没有意义的。
+
+\begin{law}[矢量等式]
+    标量三重积：$\vec{A}\cdot (\vec{B}\times \vec{C}) = \vec{B}\cdot (\vec{C}\times \vec{A}) = \vec{C}\cdot (\vec{A}\times \vec{B})$
+
+    矢量三重积：$\vec{A}\times (\vec{B}\times \vec{C}) = \vec{B} (\vec{A}\cdot \vec{C}) - \vec{C}  (\vec{A}\cdot \vec{B})$
+
+    任意标量场的梯度的旋度恒等于0（恒等式1）：$\nabla \times \nabla\vec{A} = 0$
+
+    任意矢量场的旋度的散度恒等于0（恒等式2）：$\nabla \cdot (\nabla \times \vec{A}) = 0$
+\end{law}
+
+其中标量三重积的结果是由三个矢量张成的空间中的六面体的体积（由于使用了叉乘，因此务必注意叉乘的顺序以及结果的正负号）。对于后两个恒等式，各自有一个等价的表述：
+
+恒等式1等价于：如果一个矢量场的旋度为0，则该矢量场可以表示为一个标量场的梯度。例如电势与电场的关系。
+
+恒等式2等价于：如果一个矢量场是无散的，那么它可以表示为另一个矢量场的旋度。例如矢量磁势（本课程不涉及）与磁场的关系。
+
+\begin{law}[相关定理]
+    \begin{Itemize}
+        \item 散度定理：矢量场的散度的体积积分等于该矢量穿过包围该体积的封闭面流出的总通量，即：
+            \[\int_V \nabla\cdot \vec{A}\dif v = \oint_S \vec{A}\cdot \dif \vec{s}\]
+
+        \item 斯托克斯定理：矢量场的旋度在一开放曲面上的积分等于该矢量沿包围该曲面的包面的闭合线积分，即：
+            \[\int_S (\nabla\times \vec{A})\cdot \dif \vec{s} = \oint_C \vec{A}\cdot \dif \vec{l}\]
+
+        \item 亥姆霍茨定理（刻画电磁场唯一性的基本定理）：如果一个矢量场的散度和旋度处处唯一确定，那么这个矢量场就确定，最多附加一个常量。亦可表述为：一个矢量场
+            可以分解为一个有散无旋场和一个有旋无散场的叠加。
+    \end{Itemize}
+\end{law}
+\section[高斯定理]{\itr{Gauss' law}{高斯定理}}
+我们先假定在真空中的理想情况。对于存在介质的情况会在之后说明。
+
+首先让我们将目光聚集在麦克斯韦方程组的第一个公式。介绍这个公式之前，我们先定义通量和散度、旋度的直观概念。
+在上一节我们已经看到，散度和旋度可以使用散度定理和斯托克斯定理转化为积分形式。它们的对应结果如下：
+\begin{center}
+    $\begin{array}{c c}
+        \oint \vec{v} \cdot \dif{\vec{A}} 
+            \begin{cases}
+                < 0\\
+                = 0\\
+                > 0\\
+            \end{cases} &  \oint \vec{v} \cdot \dif{\vec{l}} 
+            \begin{cases}
+                < 0\\
+                = 0\\
+                > 0\\
+            \end{cases}\\
+        \text{散度对应的表达式} & \text{旋度对应的表达式}
+    \end{array}$
+\end{center}
+    
+$\dif{\vec{A}}$的方向定义为平面法向量的方向，从内表面指向外部。根据麦克斯韦方程，在静电场中，若包面内部有电荷存在，则散度的结果必定不为0；而静电场的旋度永远为0。
+
+高斯定理即为第一个方程的积分形式，我们给出结论：
+\begin{law}[\itr{Gauss' law}{高斯定理}---\refleaftext{prove8.1}]
+    假设$\vec{E}$表示电场，$\dif{\vec{A}}$是对于面积的微元，其方向与平面法向量方向平行。$\varepsilon_0$是真空介电常数。则有：
+    \[
+    \oint \vec{E}\cdot \dif{\vec{A}}=\dfrac{\sum q_{in}}{\varepsilon_0}
+    \]
+    左边为散度的积分，表征为通过某一包面的电场的向外的通量的总代数和，$\sum q_{in}$表示该包面内部包含的电荷总数的代数和。
+\end{law}
+
+高斯定理表明，真空中任意闭合面上，电场强度的总向外通量等于其包围的电荷的的代数和与真空介电常数的比值。这巧妙地将电荷数与电场强度结合在一起，
+从而简化了电场叠加所需的积分步骤。一般而言，这种简化在面对具有一定对称性的电场时最为简便，以下为电场求解的基本思路：
+\begin{enumerate}
+    \item 取一个高斯面，这个面可以是球形、圆柱形等等。
+    \item 获取该高斯面内部包含的电荷量，并列写高斯定理表达式。
+    \item 根据电场与选定高斯面的关系（例如垂直、平行等），写出积分结果
+    \item 化简结果，求出电场强度
+\end{enumerate}
+
+另外，我们给出一些具体的例子，这些推导很简单，读者需要重点领悟其中的方法，不需要记忆公式。
+\begin{Itemize}
+    \item 无限长直导线周围的电场：方向：垂直于导线延伸方向。\par
+    设导线上电荷密度为$\lambda$（单位长度的电荷量），取长度为h,半径为r的圆柱面包围导线，则有：
+    \begin{center}
+        $E\cdot 2\pi rh=\dfrac{h\lambda}{\varepsilon_0}\quad\Rightarrow\quad E=\dfrac{\lambda}{2\pi \varepsilon_0 r}$
+    \end{center}
+    \item 无限大带电平板周围的电场：方向：垂直于平板平面的方向。\par
+    设平板上电荷密度为$\sigma$（单位面积的电荷量），取一个立方体垂直穿过该平面，则有：
+    \begin{center}
+         $E\cdot 2A=\dfrac{A\sigma}{\varepsilon_0}\quad\Rightarrow\quad E=\dfrac{\sigma}{2\varepsilon_0}$
+    \end{center}
+    \item 类似的，我们可以得到均匀带电的圆球壳内部和周围的电场大小为：
+    \begin{center}
+        $\begin{array}{c}
+        \vec{E}= 
+        \begin{cases}
+            \vspace{3mm}
+            \dfrac{q}{4\pi \varepsilon_0 r^2}\qquad r>R\\
+            0\qquad r<R\\
+        \end{cases} 
+        \end{array}$
+    \end{center}
+    \item 均匀带电球体的内部和周围的电场大小为：
+    \begin{center}
+        $\begin{array}{c}
+        \vec{E}= 
+        \begin{cases}
+            \vspace{3mm}
+            \dfrac{q}{4\pi \varepsilon_0 r^2}\qquad r>R\\
+            \dfrac{qr}{4\pi \varepsilon_0 R^3}\qquad r<R\\
+        \end{cases} 
+        \end{array}$
+    \end{center}
+    这个表达式与质量均匀的球体内部周围的万有引力表达式有异曲同工之妙，是一个正比例函数和幂函数构成的分段函数，其在$r>R$范围中与均匀带电球壳的表达式完全相同。
+\end{Itemize}
+
+与库仑定律相比，二者具备相同的含义。但高斯定理有一些优点：
+\begin{Itemize}
+    \item 提供了一种更简单的方法用于计算高度对称的电场。
+    \item 在高速移动的电荷的情况下依然有效。
+    \item 更清楚地说明电场和磁场的关系。
+    \item 可推导出库仑定律。
+\end{Itemize}
+\section[电势]{\itr{Electric Potential}{电势}}
+讨论过第一个公式之后，我们转向另一个与电场有关的公式:
+\[\nabla \times \vec{E} = -\dfrac{\partial \vec{B}}{\partial t}\]
+
+为了简化分析，我们先针对静电场讨论。很明显，静电场中等式右边为0。
+即表示沿着静电场线任意围绕一圈的积分结果为0。这一特征表面电场是一个保守场（无旋场），因此我们定义物理量电势，一般用$V$表示。
+
+\begin{law}[电场的功能关系与电势]
+    利用电场强度与力的关系可知，电场做功与电势能的变化的表达式为：
+    \[\Delta U=-W=-\int_a^b q\vec{E}\cdot \dif{\vec{l}}\]
+
+    电场是保守场，电场做功与路径无关，静电场中不存在环形电场。
+
+    消去外加电荷这一变量，即为电势的物理量：
+    \[\Delta V=-\int_a^b \vec{E}\cdot \dif{\vec{l}}\]
+
+    进一步地，电势的下降最快的方向即为电场的方向，在每个方向上的电场大小等于电势的负偏导，而电场矢量即为电势的负梯度：
+    \[E_x = -\dfrac{\partial V}{\partial x}\quad E_y = -\dfrac{\partial V}{\partial y}\quad E_z = -\dfrac{\partial V}{\partial z}\]
+    \[\vec{E} = -\nabla V\]
+\end{law}
+
+电势的大小与电荷无关。通常我们将无限远处电势设为0，则在点电荷形成的电场中，我们对于其中任意一点a，都可以得到它的电势为：
+\[V_a -V_{\infty}=-\int_a^{\infty} \vec{E}\cdot \dif{\vec{l}}\quad\Rightarrow\quad V_a=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}\]
+电场的电势在数值上也可以视为将单位带正电的点电荷从电场中某一点移动到无限远处，电场力所需要做的功的大小。
+
+当然，我们更希望了解多个点电荷构成的系统的总电势，让我们先从两个点电荷开始，如下图所示。
+\begin{singlefigure}[电荷系统示意图]{chapter8_电荷系统示意图}[0.5]
+\end{singlefigure}
+
+我们做如下考量：
+\begin{enumerate}
+    \item 首先，将电荷a从无限远处移入系统并固定在一个地方，电荷b不进入系统中。这时a的位置不影响系统势能，系统势能大小为0（单个电荷并没有受到电场力作用，我们并没有对它做功，也就不存在势能变化）
+    \item 接着我们将b从无限远处移入电场中至与点电荷a距离为$r$，这时存在电场力作用，我们需要对这个点电荷做功，其大小为$W=q_2 V_2$，即电荷b的带电量与在b点的电势的乘积
+    \item 等效地，我们也可以先把b点移入系统，再把a点移入电场。由于势能是状态量，我们可以知道对于系统总势能$U$，有：
+    \[U=q_1 V_1=q_2 V_2\quad\Rightarrow\quad U=\dfrac{1}{2}(q_1 V_2+q_2 V_2)\]
+\end{enumerate}
+\begin{law}[多点电荷系统总势能]
+    类似地，我们可以推广到多个点电荷系统的总势能:
+    \[U=\dfrac{1}{2}\sum_{i=1}^n q_i V_i\quad\Rightarrow\quad U=\dfrac{1}{2}\int q\dif{V}\]
+\end{law}
+\section[电偶极子]{\itr{Electric Dipole}{电偶极子}}
+\subsection[电偶极子及其性质]{\itr{Electric dipoles and their properties}{电偶极子及其性质}}
+我们接下来补充介绍一种特殊的电学系统：电偶极子。电偶极子由两个带有相同大小、不同电性的两个点电荷构成，点电荷之间的距离为$d$。其示意图如下：\par
+\begin{minipage}{0.2\textwidth}
+    \centering
+    \includegraphics[scale = 0.7]{../figures/figure8/chapter8_电偶极子.png}
+\end{minipage}
+\begin{minipage}{0.75\textwidth}
+    电偶极子的电学性质一般用\itr{electric dipole moment}{电偶极矩}描述，定义为：
+    \[\vec{p}=q\vec{d}\]
+
+    电偶极矩是矢量，方向定义为从带负电的点电荷指向带正电的点电荷。
+\end{minipage}
+
+对于一个电中性系统，总会存在正电中心和负电中心。因此此时的电偶极矩方向是由负电中心指向正电中心，例如\ce{H2O},水分子的电偶极矩方向是从氧原子中心指向两个氢原子球心连线的中点。
+
+我们将会针对电偶极子运用前文阐述的理论，并探究电偶极子的性质。为方便讨论，我们约定采用电偶极子中两个点电荷连线的中心点作为坐标系原点。需要注意的是，该部分的记忆应当着重关注其中使用的近似化简技巧。
+下面我们给出结论：
+\begin{law}[\itr{Properties of electric dipoles}{电偶极子的性质}---\refleaftext{prove8.2}]
+    对于如下的电偶极子系统：
+    \begin{singlefigure}[电偶极子系统示意图]{chapter8_电偶极子的电势与电势能}[0.5]
+    \end{singlefigure}
+    \begin{Itemize}
+        \item 系统中P点的电场：
+            \[\vec{E} = \dfrac{1}{4\pi\varepsilon_0 r^3}[-\vec{p}+3\dfrac{(\vec{r}\cdot\vec{p})\vec{r}}{r^2}]\]
+            特别地，当p点在$z$轴上时：$\vec{E}_p=\dfrac{\vec{p}}{2\pi\varepsilon_0 r^3}$\par
+            \vspace{2mm}
+            当p点在$y$轴上时：$\vec{E}_p=-\dfrac{\vec{p}}{4\pi\varepsilon_0 r^3}$
+        \item 系统中P点的电势：
+            \[V = \dfrac{pcos\theta}{4\pi\varepsilon_0 r^2}\]
+    \end{Itemize}
+\end{law}
+
+通过上述结论我们可以发现，电偶极矩在表示电偶极子相关性质的过程中具有重要作用。
+
+除了电偶极子产生的电场和电势，作为一个带电体，我们也希望了解一下电偶极子在电场中的情况。理想情况起见，我们假定为外加的匀强电场，如下图所示：
+\begin{singlefigure}[电场中的电偶极子]{chapter8_电场中的电偶极子}[0.6]
+\end{singlefigure}
+首先受力分析，电偶极子受到的电场力有且仅有两个点电荷受到的力，这两个力大小相等、方向相反。因此我们能够得到：
+\[\sum \vec{F}=(q^{+}+q^{-})\vec{E}=0\]
+
+在两个力的作用下电偶极子没有平动产生，但依然处于不平衡状态，它将会围绕中心点旋转。在旋转动力学中我们定义力矩来描述这一种旋转运动，我们将这个物理量使用到此处的分析中以计算系统的总力矩：
+\[\vec{\tau}=\sum \vec{r}\times\vec{F}=2\dfrac{\vec{d}}{2}\times q\vec{E}\quad\Rightarrow\quad\vec{\tau}=(\vec{d}q)\times\vec{E}=\vec{p}\times\vec{E}\]
+
+受力有了之后，在电场中电偶极子也具有一定的能量。这是很显然的，例如在上面的示意图中，如果除了电场力而没有其他力的作用，电偶极子很明显会在电场中做往复运动以至于产生特定频率的振动。我们继续探究电偶极子具有的能量。
+
+分析受力可以发现，当$\theta = 0$时电偶极子的能量最低，当$\theta =\pi$时电偶极子的能量最高。我们规定当$\theta=\dfrac{\pi}{2}$时电偶极子的能量为0，由力与能量的关系可以得到：
+\begin{law}[\itr{Energy of an electric dipole}{单组电偶极子的能量}]
+    电偶极子系统的能量为：
+    \[U=\int_\frac{\pi}{2}^{\theta} \vec{\tau}\cdot \dif{\vec{\theta}}=\int_\frac{\pi}{2}^{\theta} pEsin\theta \dif{\theta} \quad\Rightarrow\quad U=-pEcos\theta=-\vec{p}\cdot\vec{E}\]
+\end{law}
+\subsection[电偶极子总结]{\itr{Summary of electric dipoles}{电偶极子总结}}
+上面我们针对电偶极子这一特殊物理量，分析了它的电场、电势以及在匀强电场中的受力情况和能量情况。结合上面的结论我们可以看到，对于这一特殊的物理系统，电偶极矩始终是描述这些性质的重要物理量。因此对于电偶极子，我们很少讨论具体的受力和能量，而一般用电偶极矩描述它的性质。
+
+同时，上述内容中对于电偶极子的电场和电势的计算给出的详细的计算过程，证明过程可能涉及到考题内容，学习技巧在于领会一些近似算法和等式，并充分理解上述结论。
+
+类似地，在磁学部分有与之存在对偶关系的磁偶极子，我们预先提示读者，后续部分届时将捎带简略地介绍。
+\section[导体与等势面]{\itr{Conductors and Equipotential Surface}{导体与等势面}}
+下面我们不加证明地给出等势面的一些性质，这与中学物理是一致的：
+\begin{Itemize}
+    \item 等势面是电场中具有相同电势的所有点连成的面
+    \item 在电场中，电场线处处垂直于等势面
+    \item 利用等势面和电势的状态函数属性，我们能够通过等势面表示的电势大小迅速计算电势差
+\end{Itemize}
+
+当导体处于自然状态时，导体是一个电中性体。而当导体放入电场中时，其中的电子运动将导致导体内部产生电场与外加电场抵消。当导体在电场中处于稳定状态时，利用前文所述的公式我们可以发现如下性质：
+\begin{Itemize}
+    \item 导体是一个等势体，导体中的任何点处的电势均相等，导体内部电场处处为0。这是因为假如电场不为0，则必然会存在电子运动，这将导致导体不是稳定状态。
+    \item 导体表面的任何电场线均垂直于导体表面，即导体表面的电场没有沿着导体表面切面的分量。否则，电子将会在导体表面移动，这与稳定状态的假设也是不符的。
+    \item 导体内部的电荷数为0，所有电荷均分布于导体表面。这一点可通过高斯定理说明：
+        \[q_{in}=\varepsilon_0\oint\vec{E}\dif{\vec{S}}=0\]
+    \item 表面电场强度和电荷密度成正比。对于导体与真空的界面，我们在表面取一个很小的高斯面，利用高斯定理可得：
+        \[\oint \vec{E}\dif{\vec{S}}=\vec{E}\Delta S=\dfrac{\sigma \Delta S}{\varepsilon_0}\quad\Rightarrow\quad \vec{E}=\dfrac{\sigma}{\varepsilon_0}\]
+        或者也可以假想一个球形带电体，我们有：
+        \[\vec{E}=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{R^2}=\dfrac{1}{\varepsilon_0}(\dfrac{1}{4\pi}\dfrac{q}{R^2})=\dfrac{\sigma}{\varepsilon_0}\]
+    \item 对于有内腔的导体，我们应用高斯定理可知它的内部没有电场。当导体空腔内部没有电荷存在而导体处于电场中时，导体内部的电子受到电场力的作用而运动，使得外加电场和导体电子移动产生的电场抵消。系统稳定后空腔内不存在任何电场，这被称为\itr{Electrostatics Shielding}{静电屏蔽}。导体连同空腔中的电势均相等。
+    \item 对于有空腔且空腔内部存在电荷的情况时，空腔内部存在电场，导体部分不存在电场，导体外部存在由于空腔内部电荷产生的电场。导体内表面和外表面的导体部分电势相等。 
+\end{Itemize}
+
+最后我们给出等势面上电荷密度与曲率半径的关系公式，该结论可通过高斯定理结合上述推论共同给出：
+\begin{law}[导体表面电场与曲率半径的关系---\refleaftext{prove8.3}]
+    对于等势体，其内部电场为0，但表面电荷密度（电场强度）与曲率半径成反比。即：
+    \[\dfrac{E_1}{E_2}=\dfrac{R_2}{R_1}\]
+    或表示为：
+    \[\sigma\propto\dfrac{1}{R}\]
+    这表明：对于一个带电导体的表面，越尖锐的地方会聚集越多的电荷并产生越大的电场。
+\end{law}
+\section[电容与电容器]{\itr{Capacitance and Capacitor}{电容与电容器}}
+\subsection[定义与计算]{\itr{Definition and Calculation}{定义与计算}}
+电容器是由两个平板构成的能够储存电场能量的电气元件，其重要的物理量参数是电容。电容器的两个平板的形状无论如何，都被称为电容器的\itr{plate}{板}。
+
+定义电容器的电容是其每个板上带有的电荷与两个板间电压的比值，即：
+\[C=\dfrac{q}{V}=\dfrac{\Delta q}{\Delta V}\]
+
+我们以平行板电容器为例简单说明公式中的物理量：
+\vspace{2mm}
+
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[电容器示意图]{chapter8_电容器示意图}[0.95]
+    \end{singlefigure}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    在左图所示的情况下，电容器两端接到电源两端，使得电容器的两极板间产生电势差。因此定义式中的$V$表示极板间的电势差。另外，由于本身系统电荷代数和呈现中性，所以正极板上带有的正电荷与负极板带有的负电荷相等。因此定义式中的$q$表示其中任意一个极板上带有的电荷量的绝对值。（而并非两个极板的电荷量之和）
+\end{minipage}
+\vspace{2mm}
+
+电容是物质本身产生的性质。它取决于电容器板的形状、尺寸、板间距和两极板间空间中填充的物质，而与带电量和极板间电势差无关。电容的国际制单位是Farad（法拉），用F表示。
+
+下面给出计算任意电容器电容的一般步骤：
+\begin{Itemize}
+    \item 假设两极板间带电，带电量分别是$\pm q$
+    \item 利用已知或高斯定理等方法求解出两极板间空间中的电场强度大小$\vec{E}$
+    \item 计算正负极板间的电势差，利用公式：
+    \begin{center}
+        $\Delta V=V_{+}-V_{-}=\int_{+}^{-} \vec{E}\cdot \dif{\vec{s}}$
+    \end{center}
+    \item 列写电容的定义式并带入上述得到的等式求解
+\end{Itemize}
+
+不加证明地，下面给出一些结论，以下结论均可以通过上述步骤推导，建议读者自行推导练习：
+\begin{Itemize}
+    \item \itr{Parallel Plate Capacitor}{平行板电容器}：
+        \[C=\dfrac{q}{\Delta V}=\dfrac{\varepsilon_0 A}{d}\]
+    \item \itr{Cylindrical Capacitor}{圆柱形电容器}：我们假设圆柱轴共轴，小圆柱和大圆柱半径分别为$a,b$，长度为$L$。电容的部分是两个圆柱体之间的部分。
+    \begin{singlefigure}[圆柱形电容器]{chapter8_圆柱形电容器}[0.4]
+        \[C=\dfrac{2\pi\varepsilon_0 L}{\ln(\dfrac{b}{a})}\]
+    \end{singlefigure}
+    \item \itr{Spherical Capacitor}{球形电容器}：
+    \begin{singlefigure}[球形电容器]{chapter8_球形电容器}[0.45]
+        \[C=4\pi\varepsilon_0\dfrac{ab}{b-a}\]
+    \end{singlefigure}
+\end{Itemize}
+\subsection[电容的性质]{\itr{Properties of capacitors}{电容的性质}}
+电容的性质部分，我们主要介绍由于电容串并联或插入导体导致的电容变化，以及电容的储能性质。
+
+对于单纯的电容组成的一小段电路，会存在串并联现象。对于串联电容，我们可以知道相邻电容板的带电量的大小相同（包括同一个电容的两个板以及不同电容之间被导线连接的板），这可以根据电荷守恒得到。
+对于并联电容，我们可以知道两个（或以上）电容两端的电压相等。
+
+对于中间插入导体的电容，我们可以将其视为两个小电容的串联。或者说对于任意形状的电容，我们可以通过微元的方法将其视为电容的串并联结构，在空间上，这种结构可以表示为电容间的空间的加和。
+
+使用前面介绍的电容推导方法，我们不加证明地给出整体电容的计算表达式：
+\begin{law}[电容的性质]
+    对于并联电容：$C=\sum C_i$
+
+    对于串联电容：$\dfrac{1}{C}=\sum\dfrac{1}{C_i}$
+
+    对于加入导体的平行板电容：设导体厚度为t，极板间距为d，极板正对面积为S，则最终电容为：
+    \[C=\dfrac{\varepsilon_0 S}{d-t}\]
+\end{law}
+
+此外，电容也是能量储存元件。电容通过电荷以及其产生的电场储存能量。我们将电场能考虑为移动电荷需要克服电场力做的功，利用定义式我们可以知道：
+\begin{law}[电容的储能性质]
+    电容储存的能量为：
+    \[U=\int_0^U \dif{U}=\int_0^q q\dif{V}=\int_0^q q\dif{(q/C)}=\dfrac{q^2}{2C}=\dfrac{CV^2}{2}=\dfrac{1}{2}qV\]
+\end{law}
+而另外地，我们也可以利用电场强度的方向考虑电场能。下面以平行板电容器为例说明：
+\begin{singlefigure}[平行板电容器]{chapter8_平行板电容器}[0.6]
+\end{singlefigure}
+
+我们在上面的推导式中已经知道这种电容器的表达式为：$C=\dfrac{\varepsilon_0 A}{d}$，所以：
+\[U=\dfrac{q^2}{2C}=\dfrac{q^2 d}{2\varepsilon_0 A}\quad\Rightarrow\quad U=\dfrac{1}{2}\varepsilon_0 (\dfrac{q}{\varepsilon_0 A})^2 Ad=\dfrac{1}{2}\varepsilon_0 E^2\Omega\]
+
+这里一定注意，我们利用新的字符定义：$\Omega =Ad$，这个物理量表示的含义是两极板间空间的体积。利用这个定义，我们继续定义电场的能量密度：
+\begin{law}[电容中电场的能量密度]
+    电容中电场的能量密度定义为电场能相对于电容间体积的密度，即：
+    \[u=\dfrac{1}{2}\varepsilon_0 E^2\]
+    电场的能量密度仅与电场强度以及介质有关。
+\end{law}
+\section[电介质的极化]{\itr{Polarization of The Dielectric}{电介质的极化}}
+我们需要首先说明的是，极化部分的推导可能略显复杂且新定义的符号较多。但同时这一部分也是考试的重点之一。为了便于读者理解含义，我们将不时的进行一些规律的提醒，
+读者需要注意从中提取规律并实现理解和记忆。另外我们特别提醒读者注意该部分的定义及定义式。
+为了便于讲解，其中的推导过程将不再在证明部分给出，而选择随同该内容同步介绍。
+
+我们在导体中已经知道，导体在外加电场作用下的内部电场强度为0。而自然界中存在一些不是导体的物质，在电场作用下依然会产生一些效应。
+\subsection[极化的定义]{\itr{Definition of Polarization}{极化的定义}}
+当一个非导体极化时，由于此时含有的是束缚电荷，并不能够像导体一样通过移向导体表面从而生成感应自由电荷以抵消外部电场的影响。外部电场施加的作用力导致正负电荷微小位移产生感应电偶极子。
+即使没有外部电场，部分介质本身也有极化粒子。此时若施加外加电场，电偶极子在电场的作用下将会调整方向，从而呈现同向排列的特性。这两部分分别被称为感生电偶极矩和电子位移极化，其中后者在高频
+场中作用明显。
+
+此时的物质内部将会产生一个与原电场方向相反的电场，但电偶极子无法随意移动，使得物质内部叠加的总电场强度不为0。我们称此时的现象叫做\itr{Polarization}{极化}。
+\begin{singlefigure}[极化的宏观效应]{chapter8_极化的宏观解释}[0.8]
+\end{singlefigure}
+
+这里外加电场为$\vec{E}_0$，由于极化现象产生的电场为$\vec{E'}$，因此此时物质内部的总电场为：
+\[\vec{E}=\vec{E}_0 + \vec{E'}\]
+
+为了描述这种在电介质中电场的削弱效应，我们定义无量纲的常数来表示叠加电场和外加电场的关系：
+\begin{law}[\itr{Relative dielectric constant}{相对介电常数}]
+    我们定义\itr{relative dielectric constant}{相对介电常数}表示这种关系，该关系满足：
+    \[\vec{E}=\dfrac{1}{\varepsilon_r}\vec{E}_0\]
+    \itr{relative dielectric constant}{相对介电常数}除了写作$\varepsilon_r$，有时也写作$\kappa_e$。一般的，常数$\varepsilon_r > 1$
+\end{law}
+
+注意，由于课程内容的深度限制，这里的常数的定义没有严谨的计算与证明，仅仅是依据两个电场的正比例关系而定义。该常数与物质本身有关。
+
+另外，我们也可以从微观角度分析：
+\begin{singlefigure}[电极化率示意图]{chapter8_电极化率}[0.5]
+    在微观表达中，极化电场是由于无数电偶极子的方向的规律排列产生的，因此利用电偶极子进行分析是必要的。
+\end{singlefigure}
+
+我们知道电偶极矩为$\vec{p}=q\vec{d}$，在这里定义极化矢量（也称为极化强度）：$|\vec{P}|=\dfrac{|\sum\vec{p}_i|}{\Delta V}$，如上图所示，这个密度是关于体积的密度。
+
+在实验中已经证明：
+\[\vec{P}=\varepsilon_0\chi_e\vec{E}=\varepsilon_0 \vec{E}_{in}\qquad\text{$\chi_e$被称为电极化率,$\vec{E}_{in}$为导体内部电场}\]
+
+按照示意，我们圈定一个空间，其中的电荷视为分布在两个表面的电荷，并定义电荷密度（正负电荷密度相等）。这个物体是一个斜圆柱体。按照我们的约定，对于电偶极矩的密度，我们有：
+\[|\sum \vec{p}_i| = \sigma'\Delta Sl\qquad |\vec{P}|=\dfrac{|\sum\vec{p}_i|}{\Delta V}=\dfrac{\sigma'\Delta Sl}{\Delta Slcos\theta}\]
+因此：
+\[\sigma'=|\vec{P}|cos\theta=\vec{P}\cdot\vec{n}\qquad\text{$\vec{n}$是两个平面的单位法向量\mgnote{相应地，可以得到$q' = \oint\vec{P}\cdot\dif \vec{A}$以及等价的散度表达式$\nabla\cdot\vec{P} = \rho'$}}\]
+
+\subsection[电介质的高斯定律及其应用]{\itr{Gauss’ Law For Dielectric and it's Application}{电介质的高斯定律及其应用}}
+了解极化的简单定义后，我们在电场中运用前面的定理探究极化的特点。一般情况下，我们只需要了解前文中的常数$\varepsilon_r$，而不需要细究$\chi_e$。
+
+我们以平行板电容器展开探究，对于其他形式的电容或者电场与电介质关系，我们可以类似地思考。
+\begin{singlefigure}[极化对电场的影响]{chapter8_极化与电容}[0.9]
+\end{singlefigure}
+
+我们可以取如图所示的高斯面，根据高斯定理以及前文中的电偶极矩密度的概念可知：
+\begin{align*}
+    \oint \vec{E} \cdot \dif{\vec{S}} &= \dfrac{1}{\varepsilon_0}(\sigma_0\Delta S - \sigma'\Delta S) = \dfrac{1}{\varepsilon_0}(\sum q_0 + \sum q')\\
+    \sigma'\Delta S &= P\Delta S = \oint\vec{P} \cdot d\vec{S}
+\end{align*}
+
+因此：
+\[\oint\varepsilon_0\vec{E} \cdot \dif{\vec{S}} + \sigma'\Delta S = \oint (\varepsilon_0\vec{E} + \vec{P}) \cdot d\vec{S} = \sigma_0\Delta S = \sum q_0\]
+
+这里我们定义新的物理量：
+\begin{law}[\itr{Definition:Electric displacement vector}{定义：电位移矢量}]
+    \itr{Electric displacement vector}{电位移矢量}通常用字母$\vec{D}$表示。其定义式为：
+    \[\vec{D}\equiv\varepsilon_0\vec{E}+\vec{P}\]
+
+    因此我们获得了高斯定理的另一个形式：
+    \[\oint\vec{D}\dif{\vec{S}}=\sum q_0\]
+
+    这表明任意闭合面上向外的总电位移通量等于其包围的自由电荷。
+\end{law}
+
+注意，这里的自由电荷并不包括束缚电荷及其产生的感应电偶极子。也就是说，这个量仅与外部影响有关。
+
+我们分析电位移矢量的物理含义，对于电场线来说，外加电场的电场线方向为$+q_0\rightarrow -q_0$，对于受到激发而产生的电介质内部自身的电场，其方向为$+q'\rightarrow -q'$
+
+而对于电位移矢量$\vec{D}$，其方向为$+q_0\rightarrow\ -q_0$，可见，电位移矢量的方向由外加电场（或者说仅由自由电荷）决定。另外观察定义式，结合电极化率有关的公式与高斯定理的公式，我们也可以对比发现，电位移矢量与原电场存在如下关系：
+\[\vec{D}=\varepsilon_0\vec{E}+\vec{P}=\varepsilon_0(1+\chi_e)\vec{E}=\varepsilon_0\varepsilon_r\vec{E}\qquad\varepsilon_r\equiv1+\chi_e\]
+
+获得极化情况下的电位移矢量后，我们定义：$\varepsilon_0\varepsilon_r = \varepsilon$，可以对前面得到的各个公式进行修正。$\varepsilon$称为\itr{absolute dielectric constant}{绝对介电常数}。我们下面角标为0的各项表示考虑极化前的各个物理量：
+\begin{Itemize}
+    \item 当极板上的电荷总量一定时，两极板间的电场改变，极板间的新电容：
+    \[\vec{E}=\dfrac{1}{\varepsilon_r}\vec{E_0}\quad\Rightarrow\quad C=\varepsilon_r C_0\]
+    \item 极板间的能量密度：
+    \[u=\dfrac{1}{2}\varepsilon_0\varepsilon_r E^2=\dfrac{1}{2}\varepsilon E^2\]
+    \item 极板间电势差（带电量一定时）：
+    \[V = \dfrac{V_0}{\varepsilon_r}\]
+    \item 极板上带电量（电势差一定时）：
+    \[Q'= \varepsilon_r Q_0\]
+\end{Itemize}
+
+类似的我们可以发现，利用绝对介电常数替换真空介电常数，或者利用相对介电常数对电场做一定的比例替换，我们能够将极化应用于各种情况下，而不改变原本公式的形式，这样的修正可以应用于高斯定理的最初形式。
+需要注意的是，这里的比例替换的原因在于极化作用下的电场强度变化。
+
+\section[欧姆定律]{\itr{Ohm’s  Law}{欧姆定律}}
+\subsection[稳恒电流]{\itr{Stationary Current}{稳恒电流}}
+我们已经知道，电流是由于电子的运动产生的。当然，这种运动也可以是其他带电粒子的运动。因此，我们知道电流相关的定义式如下：
+\[i=\dfrac{\dif{q}}{\dif{t}}\qquad q=\int i\dif{t}\]
+
+接下来定义\itr{Electric Density}{电流密度}：
+\begin{law}[电流密度与连续性方程]{\itr{Electric Density and Continuity Equation}{电流密度与连续性方程}}
+    \itr{Electric Density}{电流密度}定义为单位面积内通过的电流的变化量。用符号$J$表示，定义式如下：
+    \[J=\dfrac{i}{S_{\perp}}=\dfrac{\dif{q}}{\dif{t}\dif{S_{\perp}}}\quad\Rightarrow\quad i=\int\vec{J}\cdot \dif{\vec{S}}\]
+    电流也是电流密度的通量。当电流是由于电子运动产生时，电流和电流密度方向均与电子移动方向相反。考虑到电荷守恒原理，
+    通过某一个面的电流会导致其内部包含的电荷的变化，因此上述公式在考虑符号后写作：
+    \[\oint\vec{J}\cdot d\vec{S}=-\dfrac{\dif{q}}{\dif{t}}\mgnote{在一些专业教材中该式也写作$\nabla\cdot J=-\dfrac{\partial \rho}{\partial t}$}\]
+\end{law}
+
+当$\dfrac{\dif{q}}{\dif{t}}=0$时，也被称为\itr{Stationary Current}{稳恒电流/恒定电流}，注意这里与电流的定义不同，这里表示的是包面包围的体积内部的电荷密度是稳定的，该电流的电流线总是一条无散闭合回路。
+
+上面都是一些宏观的定义，那么从微观来说，电流是由于电荷的运动，虽然电流是以光速运动的，但是电荷并不是。假设有如下的导线，我们利用其中电子的漂移速度$v_d$，电荷密度为$n$，可以分析得到：
+\begin{singlefigure}[电流的微观表达]{chapter8_漂移速度}[0.7]
+\end{singlefigure}
+\[i=\dfrac{\dif{q}}{\dif{t}}=env_d\Delta S\quad\Rightarrow\quad J=env_d \quad\Rightarrow\quad \vec{J}=-en\vec{v}_d\]
+\subsection[欧姆定律]{\itr{Ohm's Law}{欧姆定律}}
+中学时我们已经非常熟悉欧姆定律$I=\dfrac{U}{R}$，现在想象一段导体和电流，假设在电流方向上的一小段距离为$\dif{R}$的范围内电压的变化量为$\dif{U}$，我们利用欧姆定律定义式、电阻的决定式的微元形式$\dif{R}=\rho\dfrac{\dif{l}}{\dif{S}}$、均匀电场中的$E=-\dfrac{\dif{U}}{\dif{l}}$以及上面电流密度的概念可以得到：
+\[\dif{I}=-\dfrac{\dif{U}}{\dif{R}}\qquad E=-\dfrac{\dif{U}}{\dif{l}}\]
+
+\begin{law}[\itr{Ohm's Law}{欧姆定律}]
+    我们给出欧姆定律的微观状态的表达式：
+    \[\vec{J}=\dfrac{1}{\rho}\vec{E}=\sigma \vec{E}\]
+    
+    其中$\sigma$表示电导率。这一结论可以推导功率关于体积的密度：
+    \[w=\sigma E^2\qquad\text{（焦耳定律的微观形式）}\]
+\end{law}
+
+接下来，我们从微观上讨论一下电阻的形成。在没有附加电场时，电子的运动是随机的，而加上电场后则同向流动。我们将电流的形成考虑为众多电子的运动，在运动中会产生碰撞、加速等情况。
+因此我们定义同一个电子在相邻两次碰撞的时间间隔的平均值为$\tau=\dfrac{\sum t_i}{n}$，对于每一个原子，有：
+\[v_i = v_{0i}+\dfrac{eE}{m}t_i\]
+
+由于最初的粒子完全无规则运动，没有施加电场时没有电流产生，因此：
+\[\sum ev_{0i} = 0\]
+
+取电子的运动速度为平均速度，所以：
+\[J = \sum e\dfrac{v_{0i}+v_i}{2} = \sum \dfrac{e^2 E}{2m}t_i=\dfrac{ne^2\tau}{2m}E\]
+\[\sigma=\dfrac{ne^2\tau}{2m}\]
+
+这个理论实际上并不符合微观世界中的电子运动情况，但在研究早期，这一采用经典力学的思考为后续的研究提供了宝贵的借鉴。
+
+利用速度的麦克斯韦分布（如果你忘记麦克斯韦分布，请参考热力学章节），我们可知：
+\[\tau=\dfrac{\lambda}{\overline{v}}=\lambda\sqrt{\dfrac{\pi m}{8kT}}\propto\sqrt{\dfrac{1}{T}}\]
+对于微观下的电流密度，做出以下说明：
+\begin{Itemize}
+    \item 在电路的外部路径中，电流密度$J$的方向与电场E的方向相同，即$\vec{J}=\sigma\vec{E}$
+    \item 电导率$\sigma$的国际单位制是西门子每米（S/m），电导率越高，导电性能越好
+    \item 电导率的倒数是电阻率，二者均是与电流电压无关的常数
+\end{Itemize}
+\section[电路理论]{\itr{Circuit  Theory}{电路理论}}
+电路理论部分主要是宏观角度的、简单的电路分析方法。受限于物理课程特性，理论较为晦涩。因此我们利用电路原理的知识进行该部分的介绍。
+编者在这里特殊提示：本部分内容仅供了解，面向考试拟合的话无需过多研究，因为单凭运用的话过于套路且简单化。在具体内容前，我们给出该部分的一些定义：
+\begin{Itemize}
+    \item Electromotive Force（EMF）：一种能够将各种能量转化为电能的装置，例如电池等
+    \item 支路：单个或多个二端元件（如电阻、电容、电感）串联的不分支的电路
+    \item 节点：三条及三条以上支路的连接点
+    \item 回路：若干条支路组成的闭合路径
+    \item 网孔：内部没有支路的回路
+    \item 参考方向：电路分析中可以预先设置参考方向作为一个假想的电流和电压方向，若计算结果为正，则实际电流方向与参考方向相同，反之则方向相反。对于电压的表示也是同理。
+\end{Itemize}
+\subsection[基尔霍夫定律]{\itr{Kirchhoff's law}{基尔霍夫定律}}
+基尔霍夫定律是电路原理的基本原理之一，它在理论上揭示了电路中的电流与电压关系。其具体表述为：
+\begin{Itemize}
+    \item 基尔霍夫电流定律（KCL）：电路中任一节点上的电流的代数和为0，即：
+    \[\sum I_i=0\]
+    其中以流入节点为“+”，流出节点为“-”。
+    \item 基尔霍夫电流定律推论：若假设某单连通的封闭区域（包面）覆盖（或者包围）电路的一部分，流经该包面的电流代数和为0，包面可视为一个广义节点。
+    \item 基尔霍夫电压定律（KVL）：电路中任一回路的电压的代数和为0，即：
+    \[\sum V_i=0\]
+    其中沿着任意假设的回路绕行方向，与该方向相同记为“+”，相反记为“-”
+\end{Itemize}
+
+对于基尔霍夫定律做出如下解释：
+\begin{Itemize}
+    \item 基尔霍夫电流定律基于恒定电流的特性：流入任意区域的电荷一定等于流出该区域的电荷，遵循电荷守恒定律。
+    \item 基尔霍夫电压定律基于能量守恒定律与环路定理，表示沿着电流方向绕行一圈，整体电势下降为0。
+    \item 基尔霍夫定律基于严格的物理依据，可适用于任何稳态电流的情况中。
+    \item 基尔霍夫定律可适用于任何线性（电阻）或者非线性（电容、电感、可变电阻）电路中，是任何电路必须遵守的底层的定律。
+\end{Itemize}
+
+基于串并联电路的电流、电压关系，我们一般有以下方法求解宏观电路：
+\begin{Itemize}
+    \item 回路电流法/网孔电流法：假设每一个回路所提供的电流为未知数$I_i$，每个支路的电流为经过它的回路的电流的代数和$\sum I_i$，根据电压、电流与电阻列写KVL方程，每个方程对应选择的一个完整闭合回路（网孔）。
+    \item 节点电压法：适合回路较多但节点少的电路，通常选择一个节点的电势为参考电势0，假设其他节点的电势为未知数$U$（对于只含有已知电源的支路，可直接获取另一端节点的电压）。对每个节点列写KCL方程。
+    \item 上述方法的理论依据为KCL和KVL，因此适用于任意电路。
+\end{Itemize}
+
+在前面的介绍中我们发现电路有“线性”和“非线性”之分。对于一般的电路，我们称其为线性电路，这是由于单纯的回路、节点以及电压源、电流源和电阻并不会给电路带来微分项。而对于带有电容电感的电路，由于带来了微分项，
+我们则称为非线性电路。当然，电路也有直流电路和交流电路等等不同的分类。
+\subsection[一阶电路与复杂电路*]{\itr{First-order circuits and complex circuits*}{一阶电路与复杂电路*}}
+这一部分介绍一些关于宏观电路的分析法，一般不作为主观题目出现。
+\subsubsection[一阶电路]{\itr{First-order circuits}{一阶电路}}
+简单的RC和RL电路被称为一阶电路，在稳定状态下，电容和电感可分别视为开路和短路（理想化模型中）。但是有时电路会发生突变，导致电容和电感中出现变化的电流和电压：
+\begin{singlefigure}[简单一阶RC电路]{chapter8_RC}[0.55]
+\end{singlefigure}
+
+读者可以通过电路原理知识结合常微分方程的知识去证明下述结论：
+\begin{law}[一阶电路的结论---\refleaftext{prove8.4}]
+    我们的目的是解决电容/电感两端的电压或电流大小。
+
+    电路从没有接通电源到接通电源后的变化过程称为零状态响应，该过程电容两端的电压为：
+    \[u=\varepsilon(1-e^{-t/RC})\]
+
+    当电容完全充电后，将开关切换到b点，该过程称为零输入响应，该过程中电容两端的电压为：
+    \[u=\varepsilon e^{-t/RC}\]
+    其中，$RC$是一个非常重要的量，一般我们将其定义为$\tau=RC$，称为时间常数。在上述情境下，时间常数是一个用来衡量电路是否达到稳态的重要依据。在电路分析中，一般认为当t=$3\tau \sim5\tau$时电路达到稳态。
+
+    若既有输入又有一定的初值，我们称为全响应。全响应满足：
+    \begin{center}
+        全响应 = 零输入响应 + 零状态响应
+    \end{center}
+
+    对于电感与电阻组成的RL电路，我们定义该一阶电路的时间常数如下：
+    \[\tau=\dfrac{L}{R}\]
+    其余所有公式与RC电路一致。
+\end{law}
+
+一阶电路可以用时间常数非常简单地写出电路突变后电压或者电流随着时间的表达式。当一个电路中既有电容又有电感时，电路很可能成为二阶电路，常常需要考虑各元件间的相互作用、LC的关系等，会出现二阶微分方程。
+
+\subsubsection[复杂电路]{\itr{complex circuits}{复杂电路}}
+首先我们提到“线性电路”这一概念，顾名思义这种电路应当满足线性性——加法和数乘。另外我们假设电源是理想的无内阻，事实上，电源有内阻，我们中学已经学过将其视为一个无内阻的电源和一个电阻串联的思想。这两个就是典型的电路原理。
+\begin{enumerate}
+    \item 线性定理：线性电路中独立电压（电流）源同时增加（或缩小）$K$倍，则电路中各支路电压、电流均增加（或减小）为原来的$K$倍。
+    \item 叠加定理：线性电路中任一支路的电压（电流）等于各个独立源分别单独作用情况下所产生的电压（电流）之和。
+    \item 替代定理：若有一个支路的电压（或电流）已知，则可以用一个等于该确定电压（或电流）的电压源（或电流源）替代，电路中其他部分的电压、电流保持不变。
+    \item 戴维宁定理：任一线性有源一端口网络（简单理解为一块完整的复杂电路，你可以将其视为黑盒，并引出两个导线构成一组端口），对于其余部分而言，可以等效为一个理想电压源和一个电阻的串联。
+    \item 诺顿定理：任一线性有源一端口网络，可以等效为一个理想电流源和一个电阻的并联。
+\end{enumerate}
+
+上述定理3可以用于非线性电路，而其余只能用于线性电路。
+
+复杂电路分析希望将电路简化，因此需要用到一些等效电路。所谓“等效”要求将这一部分电路替换后，不影响电路的其他部分的电压和电流。最为常见的等效为“Y-$\Delta$”等效，如下图所示：
+\begin{singlefigure}[Y-$\Delta$等效电路]{chapter8_电路等效变换.png}[0.6]
+\end{singlefigure}
+
+所谓“Y”型连接和“$\Delta$”型连接是根据电路的样子定义的，上图左边为Y型连接，右边为$\Delta$型连接。
+\begin{law}[Y-等效---\refleaftext{prove8.5}]
+    \begin{center}
+    $\begin{array}{c c} 
+        \begin{cases}
+            R_{12} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_3}\\
+            R_{23} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_1}\\
+            R_{31} = \dfrac{R_1R_2 + R_2R_3 + R_1R_3}{R_2}\\
+        \end{cases} &  
+        \begin{cases}
+            R_1 = \dfrac{R_{31}R_{12}}{R_{12} + R_{23} + R_{31}}\\
+            R_2 = \dfrac{R_{12}R_{23}}{R_{12} + R_{23} + R_{31}}\\
+            R_3 = \dfrac{R_{23}R_{31}}{R_{12} + R_{23} + R_{31}}\\
+        \end{cases}\\
+        Y - \Delta \text{变换} & \Delta - Y \text{变换}
+    \end{array}$
+\end{center}
+\end{law}
+\section[磁场]{\itr{Magnetic field}{磁场}}
+经历了九九八十一难，我们终于跳脱出电学的庞大领域，开启磁学的部分。作为与电学具备极强对偶关系的物理量，磁学部分我们将会一一介绍各种与电学部分类似的知识，这些知识通常可以与电学知识进行对比记忆和理解以减轻记忆负担。
+
+这里的磁感应强度的定义与中学不同。根据中学时已经学过的洛伦茨力，我们已经知道运动粒子在磁场中的受力为：
+\[\vec{F}_B=q\vec{v}\times \vec{B}\]
+
+因此，普物中对于磁感应强度的定义为：$B=\dfrac{F_{Bmax}}{|q|v}$，单位为特斯拉（T）。类似于电场线，我们也可以定义磁场线，磁场线的方向由N极指向S极，磁场线的密度表征了磁感应强度的大小。
+
+此外，对于在磁场中通电的导线，也会受到力的作用。我们利用洛伦茨力从微观的角度分析。假设导线截面为$S$，电流为$i$，单位体积内的电子数量为$n$，电子漂移速度为$v_d$则有：
+\[\dif{\vec{F}}=-(enS\dif{l})\vec{v}_d\times\vec{B}\]
+
+由于$i=-neSv_d$，代入可得我们中学时已经熟知的$F=ILB$：
+\[\vec{F}=\int \dif{\vec{F}}=\int i\dif{\vec{l}}\times\vec{B}\]
+
+我们假设匀强磁场中存在一个旋转轴垂直于磁场的方形线圈，通入稳定电流后其四条边中有两条边受力。利用力矩的定义可知，其总力矩为：
+\[\vec{\tau}=2\vec{r}\vec{F}=iA\vec{n}\times\vec{B}\]
+
+这里的$A$表示线圈的面积，$\vec{n}$为单位矢量，方向由电流方向通过右手定则判断。
+
+结合洛伦茨力、圆周运动以及电场磁场的复合场受力分析，我们可以对单一的点电荷进行运动分析。该部分结论已在中学有完整介绍并应用，相关推导请读着自行完成。假设磁场强度为$B$，粒子圆周运动半径为$r$，带电量为$q$，质量为$m$，电场强度大小为$E$，我们简单列举结论：
+\begin{Itemize}
+    \item 匀强磁场中匀速圆周运动的点电荷的运动半径为$R=\dfrac{mv}{qB}$
+    \item 匀强磁场中匀速圆周运动的点电荷的运动周期为$T=\dfrac{2\pi m}{qB}$
+    \item 匀强磁场中匀速圆周运动的点电荷的运动频率为$f=\dfrac{qB}{2\pi m}$
+    \item 匀强磁场中匀速圆周运动的点电荷的运动动能为$K=\dfrac{1}{2}mv^2=\dfrac{q^2B^2R^2}{2m}$
+    \item 添加垂直于磁场方向的匀强电场后，能够沿原方向通过电场的粒子满足$qvB=Eq$
+\end{Itemize}
+
+上面第五种情况中，我们知道对于电磁复合场可以实现粒子的直线运动。若两个平板内施加磁场并通过带电粒子，粒子由于偏移撞向平板，将会逐渐形成两个极板间的电压，被称为霍尔电压，该现象被称为\itr{Hall Effect}{霍尔效应}。
+在这个过程中，粒子运动方向、磁感应强度方向和电场强度方向是正交的。
+
+此外，对于回旋加速器等中学已经了解的内容，我们也不多解释。相关的粒子运动分析，读者可依靠中学受力分析解决。
+
+最后，我们分析一下磁场中的做功现象。明显，我们可以知道带电粒子在磁场中的运动中洛伦茨力并没有给他做功。同时不同于电场的一点是，磁场力并非保守力，因此它并不能通过状态分析磁场力的做功情况。
+
+那么从微观角度，经过实验验证，磁场强度的大小与电荷运动有关。
+\begin{law}[\itr{Biot-Savart Law}{毕奥-萨伐尔定律}]
+    如下图所示，对于以某一速度运动的带点电荷，在其距离为$r$的位置的磁感应强度表示为：
+    \begin{singlefigure}[电流产生的磁场]{chapter8_磁力的定义}[0.6]
+    \end{singlefigure}
+    \vspace{-5mm}
+    \[\vec{B} = \dfrac{\mu_0}{4\pi}\dfrac{q\vec{v}\times\vec{r}}{r^3}\qquad \dif \vec{B} = \dfrac{\mu_0}{4\pi}\dfrac{I\dif\vec{l}\times\vec{r}}{r^3}\]
+    其中$\vec{r}$为该点电荷到空间中一点的矢量，$\mu_0$是真空磁导率。
+\end{law}
+
+上面这个微观公式可以如何联想呢？其实这与电场的库仑定律类似，是从点电荷引起的磁场。类似地，我们也可以用库仑定律类似的方式进行积分，从而求得一些情况下的磁场分布。
+\section[安培定律]{\itr{Ampere’s Law}{安培定律}}
+我们已经分析过两个与电场有关的麦克斯韦方程组中的公式。接下来我们关注与磁场有关的公式的一部分
+\begin{center}
+    $\nabla \cdot \vec{B} = 0$\\
+    $\nabla \times \vec{B} = \mu_0\vec{J}+\dfrac{1}{c^2}\dfrac{\partial \vec{E}}{\partial t}$
+\end{center}
+
+暂时不考虑其中的电场强度的相关部分，我们单独就磁场进行分析。这时可以考虑为恒定的磁场和电场。
+
+首先第一个散度公式，我们根据以电场类似的观点思考。在电场中是一个有源无旋场，而这里的右侧结果为0，表明磁场是一个无源场，在任何包面中都必然是进入包面的磁场线等于从包面中发散的磁场线。
+
+然后我们重点关注第二个公式，它这表明磁场与电流有一定关系。类似地，利用高斯定律类似的想法可知，沿着任意一条线封闭曲线，在线上某一点的磁场强度的大小仅由该线所包围的电流决定。而与该封闭曲线外部的电流无关。
+在这里，各个均使用国际单位制。它的积分形式即为安培定律：
+\begin{law}[\itr{Ampere's Law}{安培定律}---\refleaftext{prove8.6}]
+    安培定律表示为：
+    \[\oint \vec{B}\cdot\dif{\vec{l}}=\sum\mu_0 I_i\]
+    其中$\vec{B}$为磁感应强度，$I_i$为单个电流，此处的求和为代数和，存在正负抵消，正负号依靠自行定义的电流方向。
+\end{law}
+
+同样地，我们给出一些样例，具体的计算方法与电学部分的高斯定理类似，请读者自行体会：
+\begin{Itemize}
+    \item 无限长直流导线周围的磁场分布：方向：利用右手定则判断\par
+    假设距离导线$r$处，导线中电流为$I$且恒定。由安培定律可得：
+    \[\vec{B}\cdot2\pi r=\mu_0 I\quad\Rightarrow\quad\vec{B}=\dfrac{\mu_0I}{2\pi r}\]
+    类似地，假设圆柱的半径为$R$，则均匀带电的通电直流圆柱体的磁场分布：
+    \begin{center}
+        $\begin{array}{c}
+        \Vec{B}= 
+        \begin{cases}
+            \vspace{3mm}
+            \dfrac{\mu_0Ir}{2\pi R^2}\qquad r<R\\
+            \dfrac{\mu_0 I}{2\pi r}\qquad r>R\\
+        \end{cases} 
+        \end{array}$
+    \end{center}
+    以及直流通电圆柱壳的磁场分布为：
+    \begin{center}
+        $\begin{array}{c}
+        \Vec{B}= 
+        \begin{cases}
+            \vspace{3mm}
+            0\qquad r<R\\
+            \dfrac{\mu_0 I}{2\pi r}\qquad r>R\\
+        \end{cases} 
+        \end{array}$
+    \end{center}
+    \item 直流螺线圈（不考虑线圈边界效应）：方向：利用右手定则判断\par
+    假设螺线管的缠绕密度（即每单位径向长度缠绕圈数）为$n$，通过的电流为$I$，如图所示：
+    \begin{singlefigure}[螺线圈的磁场分布]{chapter8_螺线圈的磁场}[0.45]
+    \end{singlefigure}
+    我们取图中示意的一个闭合曲线，在螺线圈外部的磁场为0（可以利用安培定律证明线圈外部的磁场很小，与内部磁场相比可忽略不计），
+    内部磁场方向一致且恒定。由安培定律可得：
+    \[\vec{B}\cdot l=nl\mu_0I\quad\Rightarrow\quad\vec{B}=n\mu_0 I\]
+    类似地，假如螺线管以首尾连接的形式围成一圈，如下图所示：
+    \begin{singlefigure}[环形螺线圈/环面直导线]{chapter8_圆形螺线圈}[0.4]
+    \end{singlefigure}
+    其内部的磁感应强度可表示为：
+    \[\vec{B}=\mu_0 nI\]
+\end{Itemize}
+其余类型的磁场计算可以利用类似方法得出，此处不再赘述。
+\section[磁偶极子]{\itr{Magnetic Dipole}{磁偶极子}}
+% \subsection[磁偶极子及其性质]{\itr{Magnetic dipoles and their properties}{磁偶极子及其性质}}
+磁场本身不是保守场，磁力并非保守力，因此没有类似电势的概念。此处我们直接讲解一种重要的磁学系统——磁偶极子。磁偶极子与电偶极子是高度对偶的，因此一些概念与计算上有异曲同工之妙，
+例如力矩和势能的公式均呈现了较高的与电学的对称性，我们将在下面细讲。其示意图如下：
+\vspace{2mm}
+
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[磁偶极子]{chapter8_磁偶极子}[0.95]
+    \end{singlefigure}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    首先，参考电偶极矩的定义，我们类似地定义磁偶极子的对应物理量\itr{magnetic dipole moment}{磁偶极矩}。在磁学中，磁偶极子是一个圆形的恒定电流。根据之前提到的，电流可以产生磁场。因此该恒定电流产生了垂直于
+    其环形平面的磁场$\vec{B}$。我们定义：磁偶极矩为该磁感应强度与圆形平面的乘积，磁偶极矩方向与该电流产生的磁感应强度方向一致：
+    \vspace{-2mm}
+    \[\vec{\mu}=iA\vec{n}\]
+\end{minipage}
+\vspace{2mm}
+
+这里的$\vec{n}$为单位矢量，仅表示方向，不改变大小。
+
+单个磁偶极子的磁场很容易可以通过前面的方法计算，同时磁场没有势能的概念，因此我们直接分析磁场中磁偶极子的情况。如下图所示：
+\begin{singlefigure}[磁场中的磁偶极子]{chapter8_磁场中的磁偶极子}[0.99]
+\end{singlefigure}
+
+类似地，我们首先分析受力。受力的分析依据是电流受到磁场的力矩，即我们已经知道的公式$\vec{\tau}=iA\vec{n}\times\vec{B}$。
+结合磁偶极矩的定义式可知，磁偶极子的力矩为：
+\[\vec{\tau}=\vec{\mu}\times\vec{B}\]
+
+如果把其中的磁偶极矩按照定义式代换一下，是不是有点眼熟？没错！磁偶极子的力矩就是通电导线圈的力矩。
+
+类似地，我们也根据力与势能的关系，给出磁场中磁偶极矩的势能。我们定义磁偶极矩方向与磁场方向垂直时的势能为0，如上图所示。因此可得：
+\begin{law}[\itr{Energy of a magnetic dipole}{磁偶极子的能量}]
+    磁偶极矩的势能为：
+    \[U=-W=-(-\int_{\pi /2}^{\theta}\vec{\tau}\cdot \dif{\vec{\theta}})=-\mu Bcos\theta=-\vec{\mu}\cdot\vec{B}\]
+\end{law}
+
+% \subsection[经典观念下的原子磁铁]{\itr{Atomic Magnets under Classical Concepts}{经典观念下的原子磁铁}}
+% \begin{singlefigure}[原子磁铁]{chapter8_原子磁铁}[0.4]
+% \end{singlefigure}
+% 如上图所示。经典理论认为，任何一个原子中的电子运动都是围绕原子核的匀速圆周运动。当电子运动时，根据电流的定义以及电流产生磁场的观点，必然会产生一个微型电流和微型磁场。我们单独讨论一个原子，并忽略其系统的运动，如右图所示：
+
+% 我们假设圆周运动半径为$r$，电子漂移速度大小为$v$，质量为$m$。根据磁偶极矩和电流的定义可知：
+% \[\mu=i(\pi r^2)=\dfrac{ev}{2\pi r}(\pi r^2)=\dfrac{evr}{2}\]
+
+% 我们定义电子的角动量为$\vec{L}_{orb}=m_e\vec{r}\times\vec{v}$，同时考虑角动量方向和磁偶极矩方向，可得：
+% \[\vec{\mu}=-\dfrac{e}{2m_e}\vec{L}_{orb}\]
+
+% 这里的$\mu$为\itr{Orbital magnetic dipole moment}{轨道磁偶极矩}，我们表示为$\mu_L$，当然我们这么定义也就说明还有其他的磁偶极矩名称定义：
+% \begin{Itemize}
+%     \item \itr{Bohr magneton}{玻尔磁子}：轨道磁矩的最小单元（因此$\mu_L$是玻尔磁子的整数倍），表示为$\mu_B=\dfrac{e\hbar}{2m_e}$，其中$\hbar = \dfrac{h}{2\pi}$，为约化普朗克常数。
+%     \item \itr{Spin magnetic dipole moment}{自旋磁偶极矩}：$\vec{\mu_s}=-g\dfrac{e}{2m_e}\vec{S_z}=-g\mu_B\dfrac{\vec{S_z}}{\hbar}$，其中$S_z = \pm\dfrac{1}{2}\hbar$，$g$为一个数值因子，不是重力加速度。
+% \end{Itemize}
+% 一般来说，$\mu = \vec{\mu_L}+\vec{\mu_s}$。
+
+% 当然，这部分的理解可能有些不那么流畅，同时考试涉及极少，一般仅做了解即可。
+\section[磁介质的磁化]{\itr{Magnetization of magnetic media}{磁介质的磁化}}
+\subsection[磁化的定义]{\itr{Definition of Magnetization}{磁化的定义}}
+电介质有极化，那么介质在磁场中也必然产生类似现象。就好比我们用一个磁铁一直同向摩擦铁针，铁针也能够短暂地带有磁性。我们接下来要介绍的就是与极化非常类似的磁化现象。
+
+磁化的产生同样借助于磁偶极子。介质内的磁偶极子是什么呢？就是我们的分子和原子。采用经典视角下的原子磁铁思想，我们可以得知外加磁场对分子或原子中电子角动量以及磁偶极矩的影响如下：
+\begin{law}[外加磁场对磁偶极子的影响---\refleaftext{prove8.7}]
+    如下图所示，对于中心带正电量为$Z$的原子，核外电子以一定角速度绕其旋转。对这样的磁偶极子外加匀强磁场$\vec{B}$，有：
+    \begin{singlefigure}[磁场对磁偶极子的影响]{chapter8_磁场对磁偶极子的影响}[0.7]
+    \end{singlefigure}
+    电子角速度的改变量：$\Delta \omega=\dfrac{eB}{2m_e}$
+
+    磁偶极矩的改变量：$\Delta\vec{\mu}=-\dfrac{er^2}{2}\Delta\vec{\omega}=-\dfrac{e^2 r^2}{4m_e}\vec{B}$
+
+    因此可见磁偶极矩的改变量永远与外加磁场方向相反。同时，这个改变量相比于原本的磁偶极矩是很小的
+\end{law}
+类似地我们也可以从微观角度分析：
+\begin{singlefigure}[磁化的微观解释]{chapter8_磁化的微观解释}[0.85]
+    在微观表达中，磁化是由于无数原子或分子构成的磁偶极子的磁偶极矩的规律排列产生的。
+\end{singlefigure}
+
+类似地我们定义磁化矢量：$\vec{M}=\dfrac{\sum \mu_i}{\Delta V}$。同样的，这也是关于体积的密度。因此发生磁化时，同时存在外加磁场$B_0$，磁化磁场$B_M$以及最终的磁场$\vec{B}=\vec{B}_0+\vec{B}_M$。在此基础上，我们根据磁化磁场的方向不同，将介质分为：
+\begin{Itemize}
+    \item \itr{Paramagnetism}{顺磁性}：满足：$\vec{B}_M\parallel{\vec{B}_0},\vec{B}>\vec{B}_0$。例如锰、铬、铝、钨、氧 等。
+    \item \itr{Diamagnetism}{逆磁性}：满足：$\vec{B}_M\parallel{-\vec{B}_0},\vec{B}<\vec{B}_0$。例如铜、银、汞、铋、惰性气体等。
+    \item \itr{Ferromagnetism}{铁磁性}：顺磁性的一种但磁化更强，$\vec{B}\gg\vec{B}_0$。例如铁、钴、镍等。
+\end{Itemize}
+\subsection[磁介质的安培定律及其应用]{\itr{Ampere's Law of Magnetic Media and Its Applications}{磁介质的安培定律及其应用}}
+类似地，我们利用安培环路定理来分析磁化的影响。首先我们定义一段无限长且填充磁介质的线圈，由于内部通有电流，因此经过一系列操作（读者懂的都懂），产生如下情况：
+\begin{singlefigure}[磁化对磁场的影响]{chapter8_磁化对磁场的影响}[0.65]
+\end{singlefigure}
+我们预先定义磁化电流$I_M=J_M l$，$J$为相对于长度的电流密度。在这里我们可以把磁化电流看作是如图所示的内部无数个小的磁偶极子的电流，它们整体可以视为围绕这个线圈的电流$I_M$。因此可得：
+\[|\sum_i \mu_M|=i_M S=J_M lS\]
+\[|M|=\dfrac{|\sum_i\mu_i|}{\Delta V}=J_M\]
+
+取一个方形abcd，我们应用安培环路定理。由于ad、bc边垂直于线圈，cd边在外部，因此实际有效的部分只有线圈内部的ab边：
+\[\oint_L \vec{M} \cdot \dif{\vec{l}} = \int_a^b + \int_b^c + \int_c^d + \int_d^a = \int_a^b \vec{M} \cdot \dif{\vec{l}} = M \cdot \vec{ab} = J_M \cdot \vec{ab} = \sum i_M\]
+
+我们也知道最终的磁感应强度为原本线圈中电流产生的磁感应强度与磁偶极子激发的磁感应强度的矢量叠加，因此：
+\[\vec{B} = \vec{B}_0 + \vec{B}_M \Rightarrow \oint_L \vec{B} \cdot \dif{\vec{l}} = \oint_L \vec{B}_0 \cdot \dif{\vec{l}} + \oint_L \vec{B}_M \cdot \dif{\vec{l}} = \mu_0 (\sum i_0 + \sum i_M)\]
+
+对于第二项我们将$\sum i_M$替换为$\oint \vec{M}\cdot \dif{\vec{l}}$，展开括号并将两个积分项合并可得：
+\[\oint_L \left( \frac{\vec{B}}{\mu_0} - \vec{M} \right) \cdot \dif{\vec{l}} = \sum i_0\]
+\begin{law}[\itr{Definition: Magnetic field intensity}{定义：磁场强度}]
+    \itr{Magnetic field intensity}{磁场强度}通常用字母$H$表示，其定义式为：
+    \[\vec{H} = \frac{\vec{B}}{\mu_0} - \vec{M}\]
+    因此我们获得了与安培环路定理高度相似的另一个表达式：
+    \[\oint_L \vec{H} \cdot \dif{\vec{l}} = \sum i_0\]
+\end{law}
+
+根据$\vec{H}$的定义式我们可以获得：$\vec{B} = \mu_0 (\vec{H} + \vec{M})$。事实上，磁化强度与磁场强度存在正比例关系$\vec{M} = \chi_m \vec{H}$，其中$\chi_m$为磁化率，我们定义$1+\chi_m$为相对磁导率$\mu_r$，由此可得最终结论：
+\[\vec{B} = \mu_0 (\vec{H} + \vec{M}) = \mu_0 (1 + \chi_m) \vec{H}= \mu_0 \mu_r \vec{H} = \mu_r \vec{B}_0 = \kappa_m \vec{B}_0\]
+
+这里$\mu_r=\kappa_m$。通过该常数，我们可以对顺磁性和逆磁性做出量化的说明：顺磁性时$\mu_r>1$，逆磁性则反之，铁磁性时$\mu_r\gg 1$；特殊地，超导体的相对磁导率为0。
+
+最后，对于顺磁性介质物质，当磁感应强度增大时磁化强度也增大，同时这也受到温度的影响。当$\dfrac{B_0}{T}$很小时，存在：
+\[M=C\dfrac{B_0}{T}\]
+
+对于铁磁性介质，近邻原子间存在强烈的相互作用，因此容易出现磁滞现象，这是由于部分磁体在磁化后磁偶极子的规律排列不会立刻消失，随着外加磁场变化而内部磁化矢量也会变化。下图中这个标注箭头的线被称为磁滞回线：
+\begin{singlefigure}[磁滞回线]{chapter8_磁滞回线.png}[0.5]
+\end{singlefigure}
+
+由此对磁介质有以下分类：
+\begin{Itemize}
+    \item \itr{Soft ferromagnets}{软铁磁体}：当磁场去除时，磁畴（当没有外加磁场时，小范围内的磁偶极子集中规律排列）会恢复。
+    \item \itr{Hard ferromagnets}{硬铁磁体}：当磁场去除时，磁畴不会恢复（即会大范围磁偶极子维持规律排列的情况被维持），例如永久磁体。
+\end{Itemize}
+
+施加不同方向的场时磁畴会改变。另外，突然的外力以及超过居里点的环境，也可能导致磁畴的恢复。
+\section[电磁感应与电感]{\itr{Electromagnetic  Induction and Inductance}{电磁感应与电感}}
+截止目前为止，我们已经讨论完毕电学与磁学各自单独的内容。作为具备强对偶性质的两个领域，电与磁的相互作用也是历来关注的焦点。因此，
+我们不再拘泥于静止的电场和磁场，下面的内容将借助运动的（或者说是变化的）电场与磁场展开。
+
+当然，为了方便起见，我们先给出电场和磁场的通量的公式表达式，其中磁通量的单位为韦伯（Wb），国际单位制中$1Wb = 1Tm^2$：
+\[\Phi_E = \oint\vec{E}\cdot \dif{\vec{S}} \qquad \Phi_B = \oint\vec{B}\cdot\dif{\vec{S}}\]
+
+另外我们定义\itr{Electromotive force(EMF)}{电动势}，其含义为电源内部电场移动单位电荷需要做的功：
+\[\varepsilon = \dfrac{A_k}{q} = \dfrac{q \int_{-}^{+} \vec{E}_k \cdot \dif{\vec{l}}}{q} = \int_{-}^{+} \vec{E}_k \cdot \dif{\vec{l}} \quad\text{or}\quad = \oint \vec{E}_k \cdot \dif{\vec{l}}\]
+\subsection[法拉第电磁感应定律与动生电动势]{\itr{Faraday’s Law of Induction and Motional EMF}{法拉第电磁感应定律与动生电动势}}
+我们来关注下面这个麦克斯韦方程$\nabla \times \vec{E} = -\dfrac{\partial \vec{B}}{\partial t}$，类似于在安培定理中的证明过程，我们可以最终得到：
+\begin{law}[\itr{Faraday’s Law of Induction}{法拉第电磁感应定律}]
+    变化的磁场将产生电场，即\itr{Induced EMF}{感生电动势}，满足：
+    \[\varepsilon = \oint \vec{E}\cdot\dif{\vec{l}} = -\dfrac{\dif{\Phi_B}}{\dif{t}}\]
+\end{law}
+
+该定理说明磁通量的变化将导致电动势的产生，进而在电路中产生感生电流。要注意的是，由电磁感应激发的电流一般为涡流，其电场线的形式是闭合的回路。
+
+进一步地，法拉第电磁感应定律能够与中学的楞次定律（感应电流的变化将趋于抵消导致它的磁通量的变化）完美契合，它揭示出感生电动势将会趋向于阻碍磁通量的变化。在这个定理中产生电场一个重要的需求是磁通量的改变，我们可以通过磁感应强度、面积或者二者的夹角的改变进而改变磁通量。
+
+除了感生电动势，我们还有\itr{Motional EMF}{动生电动势}。想象我们运动一个与磁场相切的导体棒，在运动过程中导体内部的电子受到洛伦茨力的影响将会定向移动产生电流，可以视为产生了电场和电动势。
+\begin{singlefigure}[动生电动势]{chapter8_动生电动势}[0.5]
+\end{singlefigure}
+
+因此我们有：
+\[\varepsilon_i = \oint \vec{E}\cdot\dif{\vec{l}}=\int_a^b \vec{E}_i\cdot\dif{\vec{l}} = \int_a^b \dfrac{\vec{F_B}}{-e}\cdot\dif{\vec{l}} = \int (\vec{v}\times\vec{B})\cdot\dif{\vec{l}}\]
+\[\dif{\varepsilon} = (\vec{v}\times\vec{B})\cdot\dif{\vec{l}}\]
+
+上面这些内容实际上各位中学都学过，大部分应用也可以从中学的公式理解。当然从两种电动势出发，各种发电设备及其相关的电路计算也就迎刃而解，这里作者就不多说啦。
+\subsection[电感及其性质]{\itr{Inductance and its properties}{电感及其性质}}
+当我们对一个螺线圈通电再断电，断电后螺线圈中的电流不会立刻消失，这是由于电感的存在。作为与电容非常类似的物理量，电感的很多性质与公式和电容有异曲同工之妙。
+
+\begin{law}[\itr{Definition: Inductance}{定义：电感}]
+    电感通常是一个螺线圈。\itr{Inductance coefficient}{电感系数}被定义为电感线圈总的磁通量与通过的电流的比值，即：
+    \[L = \dfrac{N\Phi_B}{i}\]
+
+    由此可得感生电动势为$\varepsilon = -L\dfrac{\dif{i}}{\dif{t}}$，该公式常用于含电感的电路分析和计算。
+\end{law}
+
+下面给出计算任意电感的电感系数的一般步骤：
+\begin{Itemize}
+    \item 假设电感线圈通有电流$i$
+    \item 利用已知或安培环路定理等方法求解其中的磁感应强度大小$\vec{B}$，并进一步求出磁通量$\Phi_B$
+    \item 通过上述定义式或感生电动势的公式求解$L$
+\end{Itemize}
+
+不加证明地，下面给出一些结论，以下结论均可以通过上述步骤推导，建议读者自行推导练习：
+\begin{Itemize}
+    \item \itr{Solenoid}{电磁阀}：假设其横截面积为$S$，单位长度内的线圈匝数为$n$，总长度为$l$。
+        \begin{singlefigure}[电磁阀]{chapter8_直螺线圈电感}[0.5]
+        \end{singlefigure}
+        \[L = \mu_0 n^2 lS\]
+    \item \itr{Toroid}{环面}：我们假设圆柱轴共轴，小圆柱和大圆柱半径分别为$a,b$，厚度为$h$，匝数为$N$。
+        \begin{singlefigure}[环面]{chapter8_圆形螺线圈电感}[0.5]
+        \end{singlefigure}
+        \[L = \dfrac{\mu_0 N^2 h}{2\pi}\ln(\dfrac{b}{a})\]
+\end{Itemize}
+
+考虑我们之前介绍的磁化效应。在线圈中通过的电流不变的情况下，当我们在电感线圈中嵌入一个介质时，电感线圈激发的磁感应强度、磁通量以及相应的电感系数都将会变为没有该介质时的$\mu_r$倍。
+
+类似于电容的储能性质，电感也有其储能性质。它是利用了磁场的储能。
+
+对于一个仅含有电源、电阻和电感的典型的RL电路系统，根据KVL方程$\varepsilon = iR + L\dfrac{\dif{i}}{\dif{t}}$，两边同乘电流可以得到关于电功率的方程：
+\[\varepsilon i = i^2R + Li\dfrac{\dif{i}}{\dif{t}}\]
+
+其中右边第二项表示了电感的电功率，因此：
+\begin{law}[电感的储能性质]
+    电感储存的能量为：
+    \[\int_0^t P\dif{t}=\int_0^U \dif{U} = \int_0^i Li\dif{i}\quad\Rightarrow\quad U = \dfrac{1}{2}Li^2\]
+    这一公式也可以利用能量的定义式$U=\varepsilon i t$以及$\varepsilon = L\dfrac{\dif{i}}{\dif{t}}$积分得到。
+\end{law}
+
+类似的，我们在电感线圈中进一步讨论磁场能。对于图1-27所示的电感线圈：
+% \begin{singlefigure}[电磁阀]{chapter8_直螺线圈电感}[0.5]
+% \end{singlefigure}
+
+假设通入的电流为I，我们可以得到下列三个方程：
+\[U = \dfrac{1}{2}LI^2\qquad L = \mu_0 N^2 lS\qquad B=\mu_0 nI\]
+
+整理上述公式可得：
+\[U = \dfrac{1}{2}\mu_0 n^2 I^2 lS = \dfrac{B^2}{2\mu_0}lS\]
+
+这里$lS$表示的也是这一段空间的体积，因此我们定义磁场的能量密度：
+\begin{law}[磁场的能量密度]
+    电感中磁场的能量密度定义为磁场能相对于电感体积的密度，即：
+    \[u = \dfrac{B^2}{2\mu_0}\]
+\end{law}
+
+\subsection[互感]{\itr{Mutual Induction}{互感}}
+我们知道电感线圈的自感。由于电感线圈产生的磁场可能被其他电感线圈所接受从而产生感应电动势，因此我们提出了互感。明显，互感产生的电动势与产生它的电流成正比关系，因此我们可以定义互感系数：
+\begin{law}[\itr{Mutual Induction}{互感}]
+    \begin{singlefigure}[互感的定义]{chapter8_互感的解释}[0.5]
+    \end{singlefigure}
+    如上图所示，定义互感系数为：
+    \[M_{12} = \dfrac{\Phi_{12}}{i_1} \qquad M_{21} = \dfrac{\Phi_{21}}{i_2}\]
+
+    由互感产生的电动势为(角标可能与其他教材有出入，读者应分辨并对应是哪个电流对哪个线圈的互感)：
+    \[\varepsilon_{12} = -M_{12}\dfrac{\dif{i_1}}{\dif{t}}\]
+
+    当线圈匝数不为1时，磁通量要相应考虑线圈匝数$N$，这里的互感性质同时满足：
+    \[M_{12} = M_{21} = M\]
+
+    类似于电感的能量，由于互感产生的能量为：
+    \[U = \int_0^{i_2}\varepsilon_{12}i_1\dif i = M_{12}i_1i_2\]
+\end{law}
+
+特殊地，对于下图所示的互感：
+\begin{singlefigure}[互感]{chapter8_互感系数的计算}[0.6]
+\end{singlefigure}
+
+这里两个线圈重叠绕在一起，通过计算线圈1对线圈2产生的磁通量，结合电感的结论，我们很容易得到下面三个方程：
+\[L_1 = \mu\dfrac{N_1^2}{l}S \qquad L_2 = \mu\dfrac{N_2^2}{l}S \quad M = \dfrac{N_1N_2}lS\]
+
+我们可以得到$M = \sqrt{L_1 L_2}$，实际上，这个互感系数与两个线圈的相对程度有关，当二者相互垂直时互感系数为0。因此我们需要多算一个系数，得到：
+\[M = K\sqrt{L_1 L_2}\qquad 0\leq K\leq 1\]
+\section[LC电路与电路震荡]{\itr{LC-circuit and circuit oscillation}{LC电路与电路震荡}}
+具体的计算过程读者可以列写微分方程解决。纯LC电路中电场能和磁场能存在相互转化的关系，其能量总和不变，即：
+\[U_E + U_B = constant\]
+
+LC电路电磁震荡的频率满足：
+\[\omega = \sqrt{\dfrac{1}{LC}}\]
+
+在此基础上，LCR电路实现了电磁震荡。这种电路能够生成一定频率的电磁波，通过适当的结构设计，电磁波便能够向远处传播，送去远方的信息。
+\section[边界条件]{\itr{Boundary Conditions}{边界条件}}
+本节内容仅讨论静态电磁场。
+
+在我们分析平行板电容器为例的极化过程中很容易发现，内部空间的两个表面其实也聚集了部分电荷。在之前的讨论中，我们只分析了单一介质内部的电磁场，而没有考虑不同介质之间的电磁场。
+边界条件即是分析多种不同介质边界面处的电场、磁场等，与电荷、电流等的关系，主要依靠麦克斯韦方程组的推论。
+\subsection[电场和电流密度边界条件]{\itr{Boundary conditions of electric field and current density}{电场和电流密度边界条件}}
+我们首先以电场开始。我们以极化现象中的平行板为例：
+
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[无旋性的结论]{chapter8_边界条件}[0.99]
+    \end{singlefigure}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \begin{singlefigure}[有源性的结论]{chapter8_边界条件2}[0.99]
+    \end{singlefigure}
+\end{minipage}
+\vspace{2em}
+
+针对第一种边界条件，我们利用静电场的无旋性：
+
+取两种介质的接触面上很小一个厚度的区域$\Delta h$以及一个闭合回路线，由于无旋性，我们可得：
+\begin{align*}
+    \oint \vec{E}\cdot\dif{\vec{l}}=\vec{E}_1\cdot\Delta\vec{l}+\vec{E}_2\cdot\Delta (-\vec{l})=0\\
+    \vec{e}_n\times(\vec{E}_1-\vec{E}_2)=0\quad\Rightarrow\quad E_{1t}=E_{2t}
+\end{align*}
+
+上面的$E_{1t}$和$E_{2t}$分别表示两个电场边界面的切向方向的分量。此时若再考虑两个电场的电介质不同，我们可以得到关于两个电场的电位移矢量的水平分量的关系：
+\[\dfrac{D_{1t}}{\varepsilon_1}=\dfrac{D_{2t}}{\varepsilon_2}\]
+
+上面的讨论也告诉我们，电场的切向分量（即此处的水平分量）在界面上是连续的。
+
+针对第二种边界条件，我们利用静电场的有源性：
+
+取两种介质的接触面上很小一个厚度的区域$\Delta h$以及一个闭合的体积，由于有源性以及电位移矢量的积分公式，我们可得：
+\[\oint \vec{D}\cdot\dif{\vec{S}}=\vec{D}_1\cdot\Delta\vec{S}+\vec{D}_2\cdot\Delta (-\vec{S})=q_0\]
+\[(\vec{D}_1-\vec{D}_2)\cdot\vec{e}_n\Delta\vec{S}=\rho_s \Delta S\quad\Rightarrow\quad(\vec{D}_1-\vec{D}_2)\cdot\vec{e}_n =\vec{D}_{1n}-\vec{D}_{2n}=\rho_s\]
+
+上面的$\rho_s$表示接触面的电荷的面密度。带有角标$n$的物理量均表示$\vec{e}_n$方向的分量
+
+若$\rho_s = 0$则有进一步的结论：
+\[\vec{D}_{1n} =\vec{D}_{2n}\quad\Rightarrow\quad\varepsilon_1 \vec{E}_{1n}=\varepsilon_2 \vec{E}_{2n}\]
+
+另外，由于稳恒电流保证了固定封闭面内电荷的恒定，同时我们结合$\vec{J} = \sigma\vec{E}$和电场旋度方程，也容易得到$\nabla \times \dfrac{\vec{J}}{\sigma} = 0$，类别之前的分析，容易知道：
+\[J_{1n} = J_{2n}\]
+\[\dfrac{J_{1t}}{J_{2t}} = \dfrac{\sigma_1}{\sigma_2}\]
+
+这便是电流密度的边界条件。
+\subsection[磁场边界条件]{\itr{Current boundary condition}{磁场边界条件}}
+还是一样地，我们取和分析电场时一致的环路和面：
+\begin{singlefigure}[磁场边界条件]{chapter8_磁场边界条件.png}[0.7]
+\end{singlefigure}
+
+磁场的无散性使得磁感应强度的法向分量是连续的，即：
+\[\vec{B_{1n}} = \vec{B_{2n}}\]
+
+考虑介质的存在，可以替换为磁场强度：
+\[\mu_1\vec{H_{1n}} = \mu_2\vec{H_{2n}}\]
+
+而由于磁场强度的积分公式可得：
+\[\oint \vec{H}\cdot\vec{l} = \vec{H_1}\cdot\Delta\vec{l} - \vec{H_2}\cdot\Delta\vec{l} = J_n \Delta l\]
+
+从而发现磁场强度的切向分量的关系：
+\[\vec{H_{1t}} - \vec{H_{2t}} = J_n\]
+
+和之前定义的电流密度不同，这里的电流密度是垂直于周线的面电流密度，方向为回路绕行方向的右手定则确定的方向。可能定义有点奇怪，明明你使用的不是线微元上的电流密度吗，怎么是“面”电流密度？
+确实是这样，面电流密度是指通过一个很薄的面上的电流密度，而我们之前定义的通过截面的电流密度被称为体电流密度。
+
+当两种介质的电导率是有限值的时候，电流密度由体电流密度定义，即电流密度是在一定厚度内分布的，在很薄的面上的电流密度应当为0。如果不是这样会怎么样？由电场的切向分量连续性以及$\vec{J} = \sigma\vec{E}$，
+电导率无穷小（因为截面积无穷小）将会导致我们必须在这个无限小的厚度上产生无限大的电流密度（如果体电流密度是有限值，那么面电流密度将会为0），这对于有限大的电场是不可能的。因此分界面上不存在自由电流。
+进一步地，在绝大多数介质的分界面上，磁场强度的法向分量也就会是连续的。
+
+当然，如果我们的分界面是理想导体或超导体时，磁场强度的法向分量就将会是不连续的。
+\section[电磁波]{\itr{Electromagnetic Waves}{电磁波}}
+\subsection[位移电流]{\itr{displacement current}{位移电流}}
+在理解位移电流之前，我们首先思考下面这个现象：
+\begin{singlefigure}[位移电流引入]{chapter8_位移电流引入}[0.7]
+\end{singlefigure}
+
+我们对一个平行板电容器充电放电过程中，在导线部分绕一个安培环路，它包围的部分首先是$S_1$，很明显其中包围了一个电流，我们能够计算这个磁感应强度。当然，安培定理也指出
+这样的面可以是任意的，因此维持边界圆形不变，我们可以把包面从平行板间穿过（即$S_2$），这时不存在实际的电流，安培定理推论此时的磁感应强度为0。
+
+那么问题产生了，同一个地方不可能出现两个不同的磁感应强度，因此我们推测此时安培定理除了原本的$\mu_0 I$之外还有另外的一些项以维持结果相同。结合法拉第电磁感应定律中指出的，磁通量的变化
+将导致电的产生，我们自然会想到电通量的变化是否也会产生磁场。进一步地，我们希望有一个类似于电流的意义的物理量的出现。
+
+继续使用电容器充电过程分析。我们已知平行板电容器产生的电场为$\vec{E} = \dfrac{\sigma}{\varepsilon}$，那么我们取平行于极板的平面试着计算一下电场通量相对于时间的变化率，如下：
+\[\dfrac{\dif{\Phi_E}}{\dif{t}} = \dfrac{\dif{(\oint \vec{E}\cdot\dif{\vec{A}})}}{\dif{t}}=\dfrac{\dif{\sigma S}}{\varepsilon_0\dif{t}} = \dfrac{1}{\varepsilon_0}\dfrac{\dif{Q}}{\dif{t}}\]
+
+对于最终的一项微分，我们已经知道$\dfrac{\dif{Q}}{\dif{t}}$的含义即为电流，那么这个与电流具有类似物理意义的一项已经显而易见了，我们把它定义为\itr{displacement current}{位移电流}：
+\begin{law}[\itr{Definition:Displacement current}{定义：位移电流}]
+    我们定义\itr{displacement current}{位移电流}与电通量随时间的变化率成正比，具体为：
+    \[I_d = \varepsilon_0\dfrac{\dif{\Phi_E}}{\dif{t}}\]
+
+    以及位移电流密度：
+    \[J_d = \varepsilon_0\dfrac{\dif{E}}{\dif{t}}=\dfrac{\dif{D}}{\dif{t}}=\dfrac{\dif{\sigma}}{\dif{t}}\]
+\end{law}
+
+由此我们得到了最终完整的麦克斯韦方程：
+\[\nabla\times \vec{B} = \mu_0\vec{J}+\mu_0\varepsilon_0\dfrac{\partial{\vec{E}}}{\partial{t}}\]
+
+\begin{law}[\itr{Ampere-Maxwell law}{安培-麦克斯韦定理}]
+    该定理为麦克斯韦方程中关于磁感应强度计算的积分形式，如下：
+    \[\oint_L \vec{B}\cdot\dif{\vec{s}}=\mu_0 I+\mu_0\varepsilon_0\dfrac{\dif{\Phi_E}}{\dif{t}}\]
+
+    考虑介质，该方程的完整形式应当为：
+    \[\nabla\times \vec{H} = \vec{J}+\dfrac{\partial{\vec{D}}}{\partial{t}}\]
+\end{law}
+\subsection[电磁波的性质]{\itr{Nature  of  Electromagnetic Waves}{电磁波的性质}}
+麦克斯韦方程组的重要意义不仅仅在于提供了计算电和磁的方法，其中也同时包含了很多电磁学的理论，包括我们耳熟能详的光速不变性。
+一般而言，推导的考察并非重点，而对于采用了真空前提的推导，在有介质的空间中需要对相关方程进行一定的修正。
+\begin{singlefigure}[电磁波]{chapter8_电磁波}[0.8]
+\end{singlefigure}
+
+电磁波人为可以通过LC电路等产生，通过一定的设计实现波动的传播，实现远距离通信等作用。在传播过程中，根据麦克斯韦方程有相应的结论：
+\begin{law}[电磁波的性质---\refleaftext{prove8.8}]
+    在自由空间（电荷密度$\rho = 0$，电流密度$J = 0$的空间）中，电磁波满足：
+    \begin{Itemize}
+        \item 麦克斯韦方程组满足狭义相对论。
+        \item 电与磁作为波的存在性：麦克斯韦方程组证明了电磁波的存在，且电磁波是横波且是偏振的。$\vec{E}$、$\vec{B}$、传播方向两两相互正交。
+        \item 电磁波中电场和磁场始终是共面的，二者相位差为0。
+        \item 光是一种电磁波，且真空中光速满足$c=\dfrac{1}{\sqrt{\mu_0\varepsilon_0}}$
+        \item 守恒律：电荷总量、动量、能量三者均守恒。
+        \item $E = cB$，因此大多数仪器包括人眼对于电场的变化更为敏感。
+    \end{Itemize}
+\end{law}
+
+既然电磁波能够包含一定的能量进行传播，我们希望定量化这个能量，由此下面给出\itr{Poynting vector}{坡印廷矢量}的定义：
+\begin{law}[\itr{Poynting vector}{坡印廷矢量}]
+    我们定义\itr{Poynting vector}{坡印廷矢量}为：
+    \[\vec{S} = \vec{E}\times\vec{H}\]
+    该变量也可以用字母$P$。
+    
+    在单位制的含义上，坡印廷矢量代表了单位时间内通过单位面积的能量，即相对于面积的功率密度。由定义式可见，该矢量的方向等同于电磁波的传播方向。
+
+    同时也有相应的坡印廷定理：闭合面上坡印廷矢量的面积分，等于从这个包面所包围的体积散发的功率。
+\end{law}
+
+当然我们可以进一步理解为什么这样定义，根据光速的表达式以及之前已知的能量密度的概念，我们可以得到总的能量密度为$u = \dfrac{1}{2}\varepsilon E^2+\dfrac{B^2}{2\mu}$使用$E=cB$代换后可以最终得到：
+\[u = \varepsilon E^2\quad\Rightarrow\quad S=cu\]
+\begin{singlefigure}[功率密度的进一步理解]{chapter8_功率密度的理解}[0.5]
+\end{singlefigure}
+
+如上图所示。我们假设一段很小的时间$\dif{t}$，此时考虑这段时间里穿过一个平面的能量。则有：
+\[\dif{U} = u\dif{V} = \dfrac{SA}{c}\dif{x} = SA\dif{t}\quad\Rightarrow\quad S = \dfrac{P}{A}\]
+
+对于一个振动的波而言，我们定义电磁波的强度为：
+\[I = \bar{S}=\dfrac{1}{2\mu}EB\]
+
+当然我们知道磁场强度与磁感应强度的关系，因此上述结论均可以将$B$替换为$H$。对于一个一般的电磁波可得：
+\[S= \dfrac{1}{\mu}\vec{E}\times \vec{B}=\vec{E}\times \vec{H}\]
+
+最后，光作为一种电磁波，根据波长（或者说频率）的不同，可以分为不同的类别：
+\begin{singlefigure}[光]{chapter8_光.png}[0.95]
+\end{singlefigure}
+
+\begin{Itemize}
+    \item 可见光（波长400nm-700nm）：光谱中很窄的一段。电子的能级跃迁将释放光子，为探测物质结构提供方法。
+    \item 红外线（波长0.7$\mu$m-1mm）：原子或分子改变其旋转或振动时会释放红外线，所有物体都会发射电磁辐射，可用于红外线夜视仪、辐射温度计等。
+    \item 微波（波长1mm-1m）：通常由电路中的电磁震荡产生，微波可用于通信。宇宙中存在微波背景辐射。
+    \item 无线电波（波长大于1m）：通常由电子振动产生，地球大气对无线电波的吸收很小。
+    \item 紫外线（波长1nm-400nm）：一般会由外层电子跃迁产生，太阳射向地球的紫外线大多会被臭氧层吸收。
+    \item X射线（波长0.1nm-10nm）：一般由电子跃迁产生，可用于医学诊疗和天体观测（如观测黑洞等）
+    \item 伽马射线（波长小于10pm）：一般在一个原子核状态转变为另一种状态，或在某些粒子衰变的过程中中产生。
+\end{Itemize}
+\section[总结]{\itr{Summary}{总结}}
+电磁学这一章节过于长且复杂，同时考试占比较高。为了让读者能够更加充分地看到电与磁的对偶关系，我们将上面的重点内容展示如下。
+需要注意的是，下面例如$\hat{r}$是仅表示方向的单位矢量：
+
+\begin{longtable}[c]{cc}
+    \hline
+    Electric Field      & Magnetic Field \\ \hline
+    \endhead
+    %
+    \hline
+    \endfoot
+    %
+    \endlastfoot
+    %
+    \multirow{2}{*}{$\vec{E} = \dfrac{1}{4\pi\varepsilon_0 r^2}\hat{r}$} & $\vec{B}=\dfrac{\mu_0 q \vec{v}\times\hat{r}}{4\pi r^2}$ \\[1.5em]
+                                                                        & $\dif{\vec{B}}=\dfrac{\mu_0 i\dif{\vec{l}}\times\hat{r}}{4\pi r^2}$ \\[1.5em]
+    
+                                                                        \multirow{2}{*}{$\vec{F}=q\vec{E}$} & $\vec{F}=q\vec{v}\times\vec{B}$ \\
+                                        & $\dif{\vec{F}}=i\dif{l}\times\vec{B}$ \\
+    
+                                        $\vec{p}=q\vec{d}$ & $\vec{\mu} = i\vec{A}$ \\
+    
+    电偶极子连线的中垂线上：$\vec{E} = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{\vec{p}}{x^3}$ & 磁偶极子轴线上：$\vec{B}=\dfrac{\mu_0}{2\pi z^3}\vec{\mu}$ \\
+    
+    $\vec{\tau}=\vec{p}\times\vec{E}$ & $\vec{\tau}=\vec{p}\times\vec{B}$ \\
+    
+    $U = -\vec{p}\cdot\vec{E}$ & $U = -\vec{p}\cdot\vec{B}$ \\
+    
+    $\oint\vec{E}\cdot\dif{\vec{A}}=\dfrac{\sum q}{\varepsilon_0}$ & $\oint\vec{B}\cdot\dif{\vec{A}}=0$ \\
+    
+    $\oint\vec{E}\cdot\dif{\vec{l}}=0$ & $\oint\vec{B}\cdot\dif{\vec{l}}=\mu_0\sum i$ \\
+    
+    极化时：$\vec{E}=\vec{E}_0+\vec{E}'= \dfrac{1}{\varepsilon_r}\vec{E}_0$ & 磁化时：$\vec{B}=\vec{B}_0+\mu_0 \vec{M}= \mu_r\vec{B}_0$ \\
+    
+    $\vec{D}=\varepsilon_0\vec{E}+\vec{P}$ & $\vec{H}=\dfrac{\vec{B}}{\mu_0}-\vec{M}$ \\
+    
+    $\oint\vec{D}\cdot\dif{\vec{S}}=\sum q_0$ & $\oint \vec{H}\cdot\dif{\vec{l}}=\sum i_0$ \\
+    
+    $\varepsilon = \varepsilon_0\varepsilon_r\quad \varepsilon_r = \kappa_e$ & $\mu = \mu_0\mu_r\quad \mu_r = \kappa_m$\\[1.5em]
+    
+    $\varepsilon=\dfrac{\vec{D}}{\vec{E}}$ & $\mu=\dfrac{\vec{B}}{\vec{H}}$\\[1.5em]
+    
+    电容$C=\dfrac{q}{\Delta V}\quad |i|=C|\dfrac{\dif{V}}{\dif{t}}|$ & 电感$L=\dfrac{N\Phi_B}{i}\quad \varepsilon = -L\dfrac{\dif{i}}{\dif{t}}$ \\[1.5em]
+    
+    $q(t)=C\varepsilon(1-e^{-t/\tau})\quad \tau = RC$ & $i(t)=\dfrac{\varepsilon}{R}(1-e^{-t/\tau})\quad\tau=\dfrac{L}{R}$ \\[1.5em]
+    
+    $U_E=\dfrac{1}{2}\dfrac{q^2}{C}$ & $U_B=\dfrac{1}{2}Li^2$ \\[1.5em]
+
+    $u_E=\dfrac{1}{2}\varepsilon_0 E^2 = \dfrac{1}{2}\vec{D}\cdot\vec{E}$ & $u_B=\dfrac{1}{2}\dfrac{B^2}{\mu_0} = \dfrac{1}{2}\vec{B}\cdot\vec{H}$ \\[1.5em]
+
+    $\oint\vec{E}\cdot\dif{\vec{l}}=\varepsilon=-\dfrac{\dif{\Phi_B}}{\dif{t}}=-\int\dfrac{\partial\vec{B}}{\partial t}\cdot\dif{\vec{S}}$ & \multirow{2}{*}{$\oint\vec{B}\cdot\dif{\vec{S}}=\mu_0 i_d=\mu_0\varepsilon_0\int\dfrac{\partial\vec{E}}{\partial t}\cdot\dif{\vec{S}}$} \\[1.5em]
+    动生电动势$\varepsilon=\int(\vec{v}\times\vec{B})\cdot\dif{\vec{l}}$ & \\ \hline
+\end{longtable}
+
+另外如果面向历年卷拟合，读者应当对于坡印廷矢量也有所了解。

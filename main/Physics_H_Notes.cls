@@ -24,14 +24,17 @@
     {../figures/figure4/},
     {../figures/figure5/},
     {../figures/figure6/},
-    {../figures/figure7/}
+    {../figures/figure7/},
+	{../figures/figure8/},%电磁学
+	{../figures/figure9/},%光学
+	{../figures/figure10/}%量子力学
     %{../figures/cover/}
 }
 %图片地址
 
 %-------------------------------------------------------------
 
-% \setmainfont{Times New Roman}
+\setmainfont{Times New Roman}
 %对于没有这个字体的机器，可以注释本行
 
 %-------------------------------------------------------------
@@ -265,6 +268,7 @@ citecolor=thisblue
 %作者：dovelogo
 %-------------------------------------------------------------
 \RequirePackage{amsmath}
+\RequirePackage{esint}% 添加该包，以提供多重积分符号的正确表示（20250117添加）
 \RequirePackage{bm}
 %数学公式排版宏包
 \newcommand{\upperline}[1]{\raisebox{1.5ex}{$\dfrac{}{\mbox{$#1$}}$}}
@@ -273,6 +277,12 @@ citecolor=thisblue
 %向量采用粗体显示
 \providecommand{\Romannumeral}[1]{\uppercase\expandafter{\romannumeral #1}}
 %支持大写罗马字母显示
+
+\RequirePackage{mhchem}%文中8.4有一处化学符号需要使用该宏包
+
+\RequirePackage{multirow}
+\RequirePackage{longtable}%文中第8章最后需要使用这两个包以生成表格形式
+\RequirePackage{booktabs}%三线表需要
 %-------------------------------------------------------------
 
 \RequirePackage[clever,framecolor=textcolor,refcolor=thisreftreecolor,labelcolor=thisreftreecolor,width=7em]{reftree}
@@ -455,10 +465,3 @@ citecolor=thisblue
 \linespread{1.5}
 
 \endinput
-
-
-
-
-
-
-

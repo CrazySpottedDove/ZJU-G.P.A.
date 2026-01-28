@@ -1,0 +1,365 @@
+\chapter[电磁学]{\itr{Electromagnetism}{电磁学}}
+\begin{solution}[Polarization]
+    A positive point charge $Q$ is located at the center of a spherical shell dielectric with an inner radius of $R_i$ and an outer radius of $R_o$, 
+    where the dielectric constant is $\varepsilon_r$. Determine the functions $\vec{E}$, $V$, $\vec{D}$, and $\vec{P}$ as a function of the radial distance $R$.
+    \tcbrule
+
+    本题目是高斯定律的简单应用。取以该点电荷为中心的一系列同心球面作为高斯面，无限远处电势为0。
+
+    (1)$R > R_o$时，我们易得：
+    \[E_{R1} = \dfrac{Q}{4\pi \varepsilon_0 R^2}\]
+    \[V_1 = \dfrac{Q}{4\pi \varepsilon_0 R}\]
+    \[D_{R1} = \varepsilon_0 E = \dfrac{Q}{4\pi R^2}\]
+    
+    在真空中，极化矢量$\vec{P} = 0$
+    
+    (2)$R_i < R < R_o$时:
+    \[E_{R2} = \dfrac{Q}{4\pi \varepsilon_0\varepsilon_r R^2}\]
+    \[D_{R2} = \dfrac{Q}{4\pi R^2}\]
+    
+    由关系式$\vec{D} = \varepsilon_0\vec{E} + \vec{P}$可得$\vec{P} = \varepsilon_0(\varepsilon_r - 1)\vec{E}$，即：
+    \[P = (1-\dfrac{1}{\varepsilon_r})\dfrac{Q}{4\pi R^2}\]
+
+    在与外部的交界处电势应当连续，取积分可得：
+    \[V_2 = V_1|_{R=R_o} - \int_{R_o}^{R}\dfrac{Q}{4\pi \varepsilon_0\varepsilon_r R^2}\dif R = \dfrac{Q}{4\pi \varepsilon_0}[(1-\dfrac{1}{\varepsilon_r})\dfrac{1}{R_o} + \dfrac{1}{\varepsilon_r R}]\]
+    (3)$R < R_i$时：
+    \[E_{R3} = \dfrac{Q}{4\pi \varepsilon_0 R^2}\]
+    \[D_{R3} = \varepsilon_0 E = \dfrac{Q}{4\pi R^2}\]
+    \[\vec{P} = 0\]
+
+    采用类似方法，可得：
+    \[V_3 = V_2|_{R = R_i} - \int_{R_i}^{R}\dfrac{Q}{4\pi \varepsilon_0 R^2}\dif R = \dfrac{Q}{4\pi \varepsilon_0}[(1-\dfrac{1}{\varepsilon_r})\dfrac{1}{R_o} - (1-\dfrac{1}{\varepsilon_r})\dfrac{1}{R_i} + \dfrac{1}{R}]\]
+
+    综上图像如下：
+    \begin{singlefigure}{chapter8_answer1.png}[0.7]
+    \end{singlefigure}
+\end{solution}
+
+\begin{solution}[Current Density/Boundary Condition]
+    As shown in Figure bellow. An electric field is applied between the plates of a parallel plate capacitor with an area \( S \). The space between the two metal plates 
+    is filled with two dielectric materials of different thicknesses \( d_1 \) and \( d_2 \), with dielectric constants \( \varepsilon_1 \) and \( \varepsilon_2 \), 
+    and conductivities \( \sigma_1 \) and \( \sigma_2 \). Determine the following:
+    \begin{singlefigure}{chapter8_exercise电流密度边界条件.png}[0.7]
+    \end{singlefigure}
+    
+    (a) The current density between the two parallel plates.\\
+    (b) The electric field strength in the two dielectric materials.\\
+    (c) The surface charge density on the two parallel plates and at the interface.
+    \tcbrule
+
+    (a)忽略边界效应，考虑稳恒电流。稳态下平行板间电流密度是不变的包括介质交界面处，因此电流也是不变的。因此有：
+    \[V = (R_1 + R_2)I\]
+    \[R_1 = \dfrac{d_1}{\sigma_1 S}\qquad R_2 = \dfrac{d_2}{\sigma_2 S}\]
+    \[J = \dfrac{I}{S}\]
+    
+    可解得：
+    \[J = \dfrac{I}{S} = \dfrac{V}{d_1/\sigma_1 + d_2/\sigma_2} = \dfrac{\sigma_1\sigma_2 V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+    
+    (b)由$\vec{J}=\sigma\vec{E}$可得：
+    \[E_1 = \dfrac{\sigma_2 V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+    \[E_2 = \dfrac{\sigma_1 V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+
+    当然，该结果亦可由$V = E_1 d_1 + E_2 d_2$和边界条件$\sigma_1 E_1 = \sigma_2 E_2$联立解得
+
+    (c)取上极板、下极板、界面处三个平面，将空间分为四个区域三个交界面，分别使用边界条件$\varepsilon_2 E_2 - \varepsilon_1 E_1 = \rho_s$
+
+    对于上下极板，其另一侧的电场为0，因此：
+    \[\rho_{s1} = \varepsilon_1 E_1 = \dfrac{\varepsilon_1\sigma_2 V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+    \[\rho_{s2} = -\varepsilon_2 E_2 = -\dfrac{\varepsilon_2\sigma_1 V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+
+    交界面处：
+    \[\rho_{si} = \dfrac{(\varepsilon_2\sigma_1 - \varepsilon_1\sigma_2)V}{\sigma_2 d_1 + \sigma_1 d_2}\]
+\end{solution}
+
+\begin{solution}[Magnetic Field]
+    As shown in Fig.a. A toroidal iron core with a relative magnetic permeability $\mu_r = 3000$, an average radius \( R = 80 \) mm, and a circular cross-sectional 
+    radius \( b = 25 \) mm. The length of the air gap \( l_g = 3 \) mm. A winding of $N=500$ turns produces a magnetic flux \(\Phi =  10^{-5} \) Wb. 
+    Neglecting magnetic leakage and using the average path length, calculate:
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \begin{singlefigure}[a]{chapter8_exercise磁场.png}[0.99]
+        \end{singlefigure}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \begin{singlefigure}[b]{chapter8_exercise磁阻.png}[0.99]
+        \end{singlefigure}
+    \end{minipage}
+    
+    (a) The magnetic induction intensity \( B_g \) and magnetic field strength \( H_g \) in the air gap, and \( B_c \) and \( H_c \) in the iron core\\
+    (b) The required current \( I \)\\
+    (c) Similar to circuits and resistors, there are also concepts of magnetic circuits and \itr{magnetic resistance}{magnetic resistance} in magnetism. The latter is a constant 
+    independent of the number of turns in a coil and is only related to the object itself. Magnetic resistance characterizes the hindrance to the magnetic flux passing through the magnetic 
+    circuit, and its unit is $H^{-1}$. Given that the scaling coefficient in its expression is 1(with no additional constant factor).Taking Fig.a as an example, calculate the magnetic 
+    resistance of the iron core \( R_c \) and air gap \( R_g \) respectively, and denote the magnetic flux by $N$, $I$, $R_g$ and $R_c$
+    (hint: The unit of inductance is $H$)\\
+    (d) Consider the magnetic circuit in Fig.b. Two windings with turns $N_1$ and $N_2$ are wound on the two side limbs of the ferromagnetic core. The cross-sectional area of the 
+    core is $S$, and the permeability is $\mu$. The length of the left, center and right limb is \(l_1, l_2, l_3\) respectively. Determine the magnetic flux in the center limb.
+    (hint: Observe the expression of magnetic flux in (c) and attempt to extend Kirchhoff's law to magnetic circuits)
+    \tcbrule
+    注意：本题目(c)(d)小问涉及新定义，旨在运用和探究已知内容，不涉及为具体考点。
+
+    (a)由磁通量定义式易得：
+    \[B_g = B_c = \dfrac{\Phi}{S} = \dfrac{10^{-5}}{\pi \times 0.025^2} = 5.09\times 10^{-3} (T)\]
+
+    由磁感应强度与磁场强度的关系，可得：
+    \[H_g = \dfrac{B_g}{\mu_0} = 4.057 \times 10^{3} (A/m)\]
+    \[H_c = \dfrac{B_c}{\mu_0\mu_r} = 1.35 (A/m)\]
+
+    (b)以完整的一圈作为积分路径，可得：
+    \[\oint H\dif l = \sum I\quad\Rightarrow\quad H_g l_g + H_c l_c = NI\]
+    \[l_c = 2\pi \times 0.08 - 0.003\]
+
+    解得：
+    \[I = 25.6 mA\]
+
+    (c)电感的定义式为$L = \dfrac{N\Phi}{I}$，磁阻的物理量纲为其倒数，且与匝数无关，考虑量纲$\dfrac{NI}{\Phi}$。比例系数为1，不考虑其他的常数系数。
+
+    进一步拆分，该物理量与电阻类似，仅与物体本身有关，已知$\Phi = BS$，考虑通过$\oint H\dif l = \sum I$将分子进行拆分以抵消$B$，可得：
+    \[\dfrac{NI}{BS} = \dfrac{H_g l_g + H_c l_c}{BS} =\dfrac{H_g l_g}{BS} + \dfrac{H_c l_c}{BS} = \dfrac{l_g}{\mu_0 S} + \dfrac{l_c}{\mu_0\mu_r S}\]
+
+    可得表达式$R = \dfrac{l}{\mu S}$，这是与电阻表达式$R = \dfrac{l}{\sigma S}$形式一致的物理量。代入数据求得：
+    \[R_g = 1.21\times 10^{6} H^{-1}\]
+    \[R_c = 6.75\times 10^{4} H^{-1}\]
+
+    结合上面求得的结果$\dfrac{NI}{\Phi} = R_g + R_c$可得关系：
+    \[\Phi = \dfrac{NI}{R_g + R_c}\]
+    
+    (d)考虑与电路的对应，电路中关注电阻电压电流，根据关系$NI = \Phi R$，$R$对应电阻，则$NI$对应电压，$\Phi$对应电流。
+
+    简化模型为磁路，如下：
+    \begin{singlefigure}{chapter8_answer3.png}[0.7]
+    \end{singlefigure}
+
+    三条路径的磁阻分别为：
+    \[R_1 = \dfrac{l_1}{\mu S}\]
+    \[R_2 = \dfrac{l_2}{\mu S}\]
+    \[R_3 = \dfrac{l_3}{\mu S}\]
+
+    仿照KVL定律列写回路方程：
+    \[N_1I_1 = (R_1 + R_3)\Phi_1 + R_1\Phi_2\]
+    \[N_1 I_1 - N_2 I_2 = R_1\Phi_1 + (R_1 + R_2)\Phi_2\]
+
+    解得：
+    \[\Phi_1 = \dfrac{R_2 N_1 I_1 + R_1 N_2 I_2}{R_1 R_2 + R_2 R_3 + R_1 R_3}\]
+\end{solution}
+
+\begin{solution}[Poynting Vector]
+    A long and straight cylindrical wire with a radius of \(b \) and an electrical conductivity of \(\sigma \) carries a direct current of \(I \), and the current is uniformly distributed 
+    in the wire, as shown in the following figure. Find the Poynting vector on the surface of a cylindrical wire and prove the Poynting theorem: The surface integral of the Poynting vector 
+    on a closed surface is equal to the power radiated by the volume enclosed by this closed surface.
+
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \begin{singlefigure}[a]{chapter8_exercise坡应廷矢量1.png}[0.99]
+        \end{singlefigure}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering  
+        \begin{singlefigure}[b]{chapter8_exercise坡应廷矢量2.png}[0.99]
+        \end{singlefigure}
+    \end{minipage}
+    \tcbrule
+
+    由关系$\vec{J} = \sigma \vec{E}$以及定义式$J = \dfrac{I}{S}$可得：
+    \[E = \dfrac{I}{\sigma S} = \dfrac{I}{\sigma\pi b^2}\]
+
+    在导体表面取平行于截面的一圈作为环路：
+    \[H = \dfrac{I}{2\pi b}\]
+
+    由图示，$\vec{E}$和$\vec{H}$垂直：
+    \[P = EH = \dfrac{I^2}{2\sigma\pi^2 b^3}\]
+
+    我们对此结果进行面积分。图中坡印亭矢量没有垂直于截面的分量，因此只需积分侧表面：
+    \[\oint \vec{P} \cdot d\vec{A} = \dfrac{I^2}{2\sigma\pi^2 b^3} 2\pi bl\]
+
+    由于电阻的决定式$R = \dfrac{l}{\sigma S}$：
+    \[\oint \vec{P} \cdot d\vec{A} = \dfrac{I^2 l}{\sigma\pi b^2} = I^2 R\]
+
+    后者为通电导线消耗的功率，因此坡印亭定理得证。
+\end{solution}
+
+\begin{solution}[Polarization]
+    There is a permanently polarized insulating sphere of radius \( R \) with the ploarization \( \vec{P} = P_0 \dfrac{r}{R}\hat{r} \).
+    Find the electric field \( E_{in} \) inside sphere and \( E_{out} \) outside sphere as functions of \( r \) respectively.
+    \tcbrule
+
+    在极化矢量部分我们已经提到$\sigma' = \vec{P}\cdot\vec{n}$。题干描述为只存在极化矢量没有外加电场的情形。我们可以得到它的电荷分布：
+    \[q' = \oint \vec{P}\cdot \dif \vec{A} = 4\pi P_0 \dfrac{r^3}{R}\]
+
+    对于一个球体，利用高斯公式可以求解电场强度：
+    \[\oint \vec{E}\cdot\dif \vec{A} = 4\pi r^2\vec{E} = \dfrac{q'}{\varepsilon_0}\]
+
+    考虑方向，极化矢量由负电荷指向正电荷，球体内部的电荷为负电荷，因此：
+    \[E_{in} = -\dfrac{P_0 r}{\varepsilon_0 R}\qquad E_{out} = -\dfrac{P_0 R^2}{\varepsilon_0 r^2}\]
+
+    事实上，类似于高斯定理，结合球坐标系的偏导以及极化矢量是与半径唯一有关的函数的特点，体电荷密度可以表示为：
+    \[\rho' = -\nabla\cdot \vec{P} = \dfrac{1}{r^2}\dfrac{\partial (r^2\vec{P})}{\partial r} = -\dfrac{3P_0}{R}\]
+\end{solution}
+
+\begin{solution}[Mutual Induction]
+    Please prove: In any case, for mutual inductance \(M_{12} \) and \(M_{21}\), the following equation exists: 
+    \[M_{12} = M_{21}\]
+    \tcbrule
+
+    我们考虑能量。在电感中能量表示为$W = \dfrac{1}{2}LI^2$。
+    
+    现在考虑两个电感线圈1和2。首先闭合线圈1所在回路，系统能量为
+    \[W_1 = \dfrac{1}{2}L_1 I_1^2\]
+
+    再闭合线圈2，首先线圈2自身电流从0到$I_2$，其自身能量为
+    \[W_2 = \dfrac{1}{2}L_2 I_2^2\]
+
+    在电流$I_2$的影响下，对线圈1产生互感电动势，为了保持电流$I_1$不变，需要克服互感电动势做功：
+    \[W_{21} = -\int_0^{I_2} \varepsilon I_1 \dif{t} = -\int_0^{I_2} M_{21} I_1 \dif{i} = \dfrac{1}{2}M_{21}I_{1}I_{2}\]
+    
+    这部分能量储存于磁场中，因此系统磁场的能量为
+    \[W = W_1 + W_2 + W_{21} = \dfrac{1}{2}L_1 I_1^2 + \dfrac{1}{2}L_2 I_2^2 + \dfrac{1}{2}M_{21}I_{1}I_{2}\]
+
+    当然，如果先接通线圈2所在回路再接通线圈1所在回路，这个系统的能量应当$W' = W$，由此：
+    \[M_{12} = M_{21}\]
+    \tcbrule
+    当然，除了能量的角度，我们给出场波教材中的另一种解释：\footnote{本来想把这个思路作为题目的，但是不仅数理要求很高而且难以以题目形式给出，因此仅供欣赏。}
+
+    在麦克斯韦方程组中我们已知磁感应强度的散度为0：
+    \[\nabla \cdot \vec{B} = 0\]
+
+    由数学结论，旋度的散度为0。我们必然能够找到一个场矢量$\vec{A}$使得其旋度为$\vec{B}$，即：
+    \[\vec{B} = \nabla \times \vec{A}\]
+
+    将这一等式带入静磁场旋度公式，可得：
+    \[\nabla \times \vec{B} = \nabla \times (\nabla \times \vec{A}) = \nabla(\nabla\cdot\vec{A}) - \nabla^2 \vec{A} = \mu_0 J\]
+
+    由亥姆霍兹定理，空间中任意确定的场是一个无散的场与无旋的场的叠加。我们不妨令$\nabla\cdot\vec{A} = 0$(这也被称为库仑规范)，那么：
+    \[\nabla^2 \vec{A} = -\mu_0 J\]
+
+    这是一个矢量泊松方程，对照我们很熟悉的公式及其方程的解$\nabla\cdot\vec{E} = -\nabla^2 V = \dfrac{\rho}{\varepsilon_0}\qquad V = \dfrac{1}{4\pi\varepsilon_0}\int_{V}\dfrac{\rho}{R}\dif{V}$，我们可知：
+    \[A = \dfrac{\mu_0}{4\pi}\int_{V} \dfrac{J}{R}\dif{V}\]
+
+    由此定义的$A$被称为磁矢势，对标于电场中的电势。
+
+    我们先求解互感$M_{12}$，由其定义式为基础，带入磁矢势的定义：
+    \[M_{12} = \dfrac{N_2}{I_1}\int_{S_2} \vec{B_1}\cdot\dif{\vec{S_2}} = \dfrac{N_2}{I_1}\int_{S_2} (\nabla\times\vec{A_1})\cdot\dif{\vec{S_2}}\]
+
+    由Stokes公式，面积分转换为线积分：
+    \[M_{12} = \dfrac{N_2}{I_1}\oint_{C_2} \vec{A_1}\cdot\dif{\vec{l_2}}\]
+
+    由电流密度的定义：
+    \[\vec{J}\dif{V} = JS\dif{l} = I\dif{l}\]
+
+    代入可得：
+    \[A_1 = \dfrac{\mu_0 N_1 I_1}{4\pi}\oint_{C} \dfrac{\dif{l_1}}{R}\]
+    
+    原本的公式只有一圈积分，这里将多匝的影响也考虑在内。
+
+    进一步代入可得：
+    \[M_{12} =\dfrac{\mu_0 N_1 N_2}{4\pi}\oint_{C_1}\oint_{C_2} \dfrac{\dif{l_1}\cdot\dif{l_2}}{R}\]
+
+    其中$R$是微分长度$\dif{l_1}$和$\dif{l_2}$之间的距离。上式习惯将匝数归并到沿电路$C_1$和$C_2$的积分中，因此也写作：
+    \[M_{12} =\dfrac{\mu_0}{4\pi}\oint_{C_1}\oint_{C_2} \dfrac{\dif{l_1}\cdot\dif{l_2}}{R}\]
+
+    上式被称为计算互感的纽曼公式。观察可见角标1和2可互换，因此原命题得证。
+\end{solution}
+
+\begin{solution}[Point charge]
+    As shown in figuer below, an electron is constrained to move along the axis of the ring with a charge \( q \). If the 
+    electron can perform small oscillations through the center of the ring, calculate its oscillation frequency.
+    \begin{singlefigure}{chapter8_exercise虎哥1.jpg}[0.7]
+    \end{singlefigure}
+    \tcbrule
+
+    带电圆环在其圆心中心线上形成的电场强度表达式为(假设中心线为z轴)：
+    \[E = \dfrac{qz}{4\pi\varepsilon_0(z^2 + R^2)^{3/2}}\]
+
+    由于微小振动，$R\gg z$，因此：
+    \[E = \dfrac{qz}{4\pi\varepsilon_0R^3}\]
+
+    构建振动方程：
+    \[m\dfrac{\dif^2 z}{\dif t^2} = -eE = -\dfrac{eqz}{4\pi\varepsilon_0R^3}\]
+
+    解得：
+    \[\omega = \sqrt{\dfrac{eq}{4m\pi\varepsilon_0 R^3}}\]
+    \[f = \dfrac{1}{2\pi}\sqrt{\dfrac{eq}{4\pi\varepsilon_0R^3}}\]
+\end{solution}
+
+\begin{solution}[Magnetic Field and Current]
+    As shown in figuer below, there is a \itr{coaxial cable}{同轴电缆} made of superconducting material (\(\sigma\rightarrow\infty\)),
+    and having short \itr{circuited end}{短路端} free to move along the $x$ axis.The radius of its central rod is \( a \) and its outer diameter is \( b \).
+    \begin{singlefigure}{chapter8_exercise虎哥2.jpg}[0.7]
+    \end{singlefigure}
+
+    (a)What is the inductance of the cable as a function of $x$?\\
+    (b)What is the force on the end? If the magnitude of the current it carries is \( i \).
+    \tcbrule
+
+    (a)按照固定步骤，假设中心杆中通有电流$i$，则有：
+    \[B = \dfrac{\mu_0 i}{2\pi r}\quad\Rightarrow\quad \Phi = \int_a^b Bx\dif r = \dfrac{\mu_0 i x}{2\pi}\ln(\dfrac{b}{a})\]
+
+    (注意这里的磁通量是螺旋环绕的磁场的磁通量，$x\dif r$表示了面积)
+
+    因此自感系数为：
+    \[L = \dfrac{\phi}{i} = \dfrac{\mu_0 x}{2\pi}\ln(\dfrac{b}{a})\]
+    
+    (b)在电感中储存的系统能量为$U = \dfrac{1}{2}Li^2$，因此在本题中：
+    \[U = \dfrac{\mu_0 x i^2}{4\pi}\ln(\dfrac{b}{a})\]
+
+    接下来应用虚功原理，可得：
+    \[F = -\dfrac{\partial U}{\partial x} = -\dfrac{\mu_0 i^2}{4\pi}\ln(\dfrac{b}{a})\]
+\end{solution}
+
+\begin{solution}[Electromagnetic field]
+    As shown in figuer below, a thin block with conductivity \(\sigma\) and thickness \( \delta \) moves with constant velocity $v_{ix}$
+    between short citcuited superconducting parallel plates.An initial surface current \( K_0 \)(the current per width) is imposed
+    at \( t = 0 \) when \( x = x_0 \), but the source is then removed.
+    \begin{singlefigure}{chapter8_exercise虎哥3.jpg}[0.7]
+    \end{singlefigure}
+
+    (a)The surface current on the plates \( K(t) \) will vary with time. What is the magnetic field in term of \( K(t) \)? Neglect 
+    fringing effects.\\
+    (b)Because the moving block is so thin, the current is uniformly distributed over the thickness \( \delta \).
+    Please find \( K(t) \) as a function of time.\\
+    (c)What value of velocity will just keep the magnetic field constant with time until the moving block reaches the end?
+    \tcbrule
+
+    (a)由安培环路定理：
+    \[\oint B\cdot\dif l = B\cdot b = \mu_0 K(t)\cdot b\]
+    \[B = \mu_0 K(t)\]
+
+    (b)薄物块在运动，运动产生磁通量的变化，产生感生电动势，感生电动势维持了电流。
+
+    假设y轴方向物块高度为a，z轴方向长度为b，则电阻满足：
+    \[R = \dfrac{1}{\sigma}\dfrac{l}{S} = \dfrac{a}{\sigma b\delta}\]
+
+    假设$x$轴方向运动的函数为$x(t)$，则磁场通量为：
+    \[\Phi = Bx(t)a = \mu_0 a K(t)x(t)\]
+
+    感生电动势为：
+    \begin{align*}
+        \varepsilon &= -\dfrac{\dif \Phi}{\dif t} = -\mu_0 a \dfrac{\dif}{\dif t}[K(t)x(t)]\\
+                    &= -\mu_0 a [\dfrac{\dif K(t)}{\dif t}x(t) + K(t)\dfrac{\dif x(t)}{\dif t}]\\
+                    &= -\mu_0 a [\dfrac{\dif K(t)}{\dif t}x(t) - v K(t)]\\
+                    &= IR = K(t) b \dfrac{a}{\sigma b\delta}\\
+                    &= \dfrac{aK(t)}{\sigma \delta}
+    \end{align*}
+
+    其中$x(t) = x_0 - vt$，代入上式整理，得到：
+    \[\mu_0(x_0 - vt) \dfrac{\dif K(t)}{\dif t} = (\mu_0 v - \dfrac{1}{\sigma \delta})K(t)\]
+
+    分离微分方程的变量，得到：
+    \[\dfrac{\dif K(t)}{K(t)} = \dfrac{\mu_0 v - \dfrac{1}{\sigma \delta}}{\mu_0v(\dfrac{x_0}{v} - t)}\dif t\]
+
+    求解一阶微分方程，可得：
+    \[K(t) = K'(\dfrac{x_0}{v} - t)^{1/\mu_0 v \sigma\delta -1}\]
+
+    代入初值条件求解系数，得：
+    \[K_0 = K'(\dfrac{x_0}{v})^{1/\mu_0 v \sigma\delta -1}\]
+
+    反解出$K'$并最终代入结果，得：
+    \[K(t) = K_0(1-\dfrac{v}{x_0}t)^{1/\mu_0 v \sigma\delta -1}\]
+
+    (c)由上一问求得的结果可知，若$B = constant$，则$K(t) = constant$，因此：
+    \[\dfrac{1}{\mu_0 v \sigma\delta} - 1 = 0\]
+
+    所以：
+    \[v = \dfrac{1}{\mu_0 \sigma\delta}\]
+\end{solution}
