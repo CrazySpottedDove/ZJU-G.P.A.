@@ -29,6 +29,14 @@
 
 已配置了 github workflow，只需要打一个 git tag，然后上传到 master 分支，构建发布工作会由 github 资源自动执行。
 
+```sh
+# for example
+git add .
+git commit -m "foo"
+git tag v*.*.*
+git push origin --tags
+```
+
 ## 关于构建
 
 * 如果需要稳定版，为documentclass添加可选参数stable
