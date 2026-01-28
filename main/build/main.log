@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 10:53
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2026.1.14)  28 JAN 2026 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\PassOptionsToClass{stable}{Physics_H_Notes}\input{./main.tex}
+**\PassOptionsToClass{dark}{Physics_H_Notes}\input{./main.tex}
 (./main.tex (./Physics_H_Notes.cls
 Document Class: Physics_H_Notes 
 (/usr/share/texmf-dist/tex/latex/ctex/ctexbook.cls
@@ -11,15 +11,14 @@ Document Class: Physics_H_Notes
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
-\g__graphics_track_int=\count184
-\l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count185
-\g__pdf_backend_annotation_int=\count186
-\g__pdf_backend_link_int=\count187
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count192
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count193
+\g__pdf_backend_link_int=\count194
 ))
 Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTE
 X)
@@ -36,32 +35,32 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count188
-\l__ctex_tmp_box=\box52
-\l__ctex_tmp_dim=\dimen140
-\g__ctex_section_depth_int=\count189
-\g__ctex_font_size_int=\count190
+\l__ctex_tmp_int=\count195
+\l__ctex_tmp_box=\box53
+\l__ctex_tmp_dim=\dimen141
+\g__ctex_section_depth_int=\count196
+\g__ctex_font_size_int=\count197
 
 (/usr/share/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
 (/usr/share/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count191
-\c@chapter=\count192
-\c@section=\count193
-\c@subsection=\count194
-\c@subsubsection=\count195
-\c@paragraph=\count196
-\c@subparagraph=\count197
-\c@figure=\count198
-\c@table=\count199
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen141
+\c@part=\count198
+\c@chapter=\count199
+\c@section=\count266
+\c@subsection=\count267
+\c@subsubsection=\count268
+\c@paragraph=\count269
+\c@subparagraph=\count270
+\c@figure=\count271
+\c@table=\count272
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen142
 )
 (/usr/share/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
@@ -70,20 +69,15 @@ File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
 (/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10.sty
-Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen142
-\l__xtemplate_tmp_int=\count266
-\l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip50
-))
-\l__xeCJK_tmp_int=\count267
-\l__xeCJK_tmp_box=\box53
+Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+)
+\l__xeCJK_tmp_int=\count273
+\l__xeCJK_tmp_box=\box54
 \l__xeCJK_tmp_dim=\dimen143
 \l__xeCJK_tmp_skip=\skip51
-\g__xeCJK_space_factor_int=\count268
-\l__xeCJK_begin_int=\count269
-\l__xeCJK_end_int=\count270
+\g__xeCJK_space_factor_int=\count274
+\l__xeCJK_begin_int=\count275
+\l__xeCJK_end_int=\count276
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -93,8 +87,8 @@ Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip52
-\c__xeCJK_none_node=\count271
-\g__xeCJK_node_int=\count272
+\c__xeCJK_none_node=\count277
+\g__xeCJK_node_int=\count278
 \c__xeCJK_CJK_node_dim=\dimen144
 \c__xeCJK_CJK-space_node_dim=\dimen145
 \c__xeCJK_default_node_dim=\dimen146
@@ -104,14 +98,14 @@ Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \l__xeCJK_ccglue_skip=\skip54
 \l__xeCJK_ecglue_skip=\skip55
 \l__xeCJK_punct_kern_skip=\skip56
-\l__xeCJK_indent_box=\box54
-\l__xeCJK_last_penalty_int=\count273
+\l__xeCJK_indent_box=\box55
+\l__xeCJK_last_penalty_int=\count279
 \l__xeCJK_last_bound_dim=\dimen149
 \l__xeCJK_last_kern_dim=\dimen150
-\l__xeCJK_widow_penalty_int=\count274
+\l__xeCJK_widow_penalty_int=\count280
 
-Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2396.
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 2396.
 
 \l__xeCJK_fixed_punct_width_dim=\dimen151
 \l__xeCJK_mixed_punct_width_dim=\dimen152
@@ -132,31 +126,32 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_margin_dim=\dimen167
 \l__xeCJK_minimum_bound_dim=\dimen168
 \l__xeCJK_kerning_margin_dim=\dimen169
-\g__xeCJK_family_int=\count275
-\l__xeCJK_fam_int=\count276
-\g__xeCJK_fam_allocation_int=\count277
-\l__xeCJK_verb_case_int=\count278
+\g__xeCJK_family_int=\count281
+\l__xeCJK_fam_int=\count282
+\g__xeCJK_fam_allocation_int=\count283
+\l__xeCJK_verb_case_int=\count284
 \l__xeCJK_verb_exspace_skip=\skip57
- (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-02-18 L3 Experimental document command parser
+Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count279
-\l__fontspec_language_int=\count280
-\l__fontspec_strnum_int=\count281
-\l__fontspec_tmp_int=\count282
-\l__fontspec_tmpa_int=\count283
-\l__fontspec_tmpb_int=\count284
-\l__fontspec_tmpc_int=\count285
-\l__fontspec_em_int=\count286
-\l__fontspec_emdef_int=\count287
-\l__fontspec_strong_int=\count288
-\l__fontspec_strongdef_int=\count289
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_tmpa_int=\count289
+\l__fontspec_tmpb_int=\count290
+\l__fontspec_tmpc_int=\count291
+\l__fontspec_em_int=\count292
+\l__fontspec_emdef_int=\count293
+\l__fontspec_strong_int=\count294
+\l__fontspec_strongdef_int=\count295
 \l__fontspec_tmpa_dim=\dimen170
 \l__fontspec_tmpb_dim=\dimen171
 \l__fontspec_tmpc_dim=\dimen172
@@ -175,8 +170,8 @@ File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 
 (/usr/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count290
-\l__zhnum_tmp_int=\count291
+\l__zhnum_scale_int=\count296
+\l__zhnum_tmp_int=\count297
 
 (/usr/share/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
@@ -194,12 +189,15 @@ File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 File: ctex-fontset-fandol.def 2022/07/14 v2.5.10 Fandol fonts definition (CTEX)
 
 
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'FandolSong-Regular'. Check the typeset output, and if
+(fontspec)             it is okay then ignore this warning. Otherwise a
+(fontspec)             different font should be chosen.
 
-Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
-(fontspec)                Script "CJK".
 
-
-Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular(0)' created for font
 (fontspec)             'FandolSong-Regular' with options
 (fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
 },ItalicFont={FandolKai-Regular}].
@@ -208,16 +206,17 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:script=hani;language=dfl
+t;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:script=hani;language=dflt;"
 
-)) (/usr/share/texmf-dist/tex/latex/ctex/config/ctex.cfg
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FandolKai-Regular.otf]/OT:script=hani;language=dflt
+;"
+
+))
+(/usr/share/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
@@ -231,11 +230,11 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
+\Gm@cnth=\count298
+\Gm@cntv=\count299
+\c@Gm@tempcnt=\count300
 \Gm@bindingoffset=\dimen175
 \Gm@wd@mp=\dimen176
 \Gm@odd@mp=\dimen177
@@ -259,7 +258,7 @@ Excluding comment 'comment')
 \pgfutil@tempdimb=\dimen184
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box56
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -272,15 +271,15 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 106.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
@@ -312,14 +311,14 @@ x
 \pgf@yd=\dimen196
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count295
-\c@pgf@countb=\count296
-\c@pgf@countc=\count297
-\c@pgf@countd=\count298
+\c@pgf@counta=\count301
+\c@pgf@countb=\count302
+\c@pgf@countc=\count303
+\c@pgf@countd=\count304
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
-\pgf@sys@id@count=\count299
+\pgf@sys@id@count=\count305
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -334,18 +333,18 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count300
+\pgfsys@objnum=\count306
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count301
-\pgfsyssoftpath@bigbuffer@items=\count302
+\pgfsyssoftpath@smallbuffer@items=\count307
+\pgfsyssoftpath@bigbuffer@items=\count308
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -353,14 +352,14 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -369,8 +368,8 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen197
-\pgfmath@count=\count303
-\pgfmath@box=\box56
+\pgfmath@count=\count309
+\pgfmath@box=\box57
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
@@ -387,7 +386,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count304
+\c@pgfmathroundto@lastzeros=\count310
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -418,10 +417,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count305
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count311
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -449,15 +448,15 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen277
-\pgf@sys@shading@range@num=\count306
-\pgf@shadingcount=\count307
+\pgf@sys@shading@range@num=\count312
+\pgf@shadingcount=\count313
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box61
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -472,7 +471,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box62
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -503,7 +502,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count308
+\pgf@plot@mark@count=\count314
 \pgfplotmarksize=\dimen282
 )
 \tikz@lastx=\dimen283
@@ -514,35 +513,36 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen288
 \tikzleveldistance=\dimen289
 \tikzsiblingdistance=\dimen290
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count309
-\tikznumberofchildren=\count310
-\tikznumberofcurrentchild=\count311
-\tikz@fig@count=\count312
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count315
+\tikznumberofchildren=\count316
+\tikznumberofcurrentchild=\count317
+\tikz@fig@count=\count318
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count313
-\pgfmatrixcurrentcolumn=\count314
-\pgf@matrix@numberofcolumns=\count315
+\pgfmatrixcurrentrow=\count319
+\pgfmatrixcurrentcolumn=\count320
+\pgf@matrix@numberofcolumns=\count321
 )
-\tikz@expandcount=\count316
+\tikz@expandcount=\count322
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count317
+\c@float@type=\count323
 \float@exts=\toks31
-\float@box=\box66
+\float@box=\box67
 \@float@everytoks=\toks32
-\@floatcapt=\box67
+\@floatcapt=\box68
 )
 
-Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -575,7 +575,7 @@ text;"
 
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -603,9 +603,6 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
@@ -618,47 +615,51 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count318
+\c@section@level=\count324
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count319
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count325
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen291
-\Hy@linkcounter=\count320
-\Hy@pagecounter=\count321
+\Hy@linkcounter=\count326
+\Hy@pagecounter=\count327
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count322
+\Hy@SavedSpaceFactor=\count328
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4062.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062
+Package hyperref Info: Option `unicode' set `true' on input line 4040.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4040.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4040
 .
-Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count323
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count329
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen292
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
@@ -668,38 +669,33 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count324
+\Fld@menulength=\count330
 \Field@Width=\dimen293
 \Fld@charsize=\dimen294
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring ON on input line 6081.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 
 (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count325
-\c@Item=\count326
+\Hy@abspage=\count331
+\c@Item=\count332
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
-
-(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box68
-\c@Hy@AnnotLevel=\count327
-\HyField@AnnotCount=\count328
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box69
+\c@Hy@AnnotLevel=\count333
+\HyField@AnnotCount=\count334
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -718,41 +714,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip60
 )
 (/usr/share/texmf-dist/tex/latex/ocgx2/ocgx2.sty
-Package: ocgx2 2022/12/16 v0.56 ports`ocgx'functionalitytodvips+ps2pdf,xelatexa
-nddvipdfmx
+Package: ocgx2 2024/09/16 v0.60 ports `ocgx' functionality to dvips+ps2pdf, xel
+atex and dvipdfmx
 
 (/usr/share/texmf-dist/tex/latex/ocgx2/ocgbase.sty
-Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+Package: ocgbase 2024/09/15 v0.24 support package for ocgx2.sty
 
 (/usr/share/texmf-dist/tex/latex/media9/pdfbase.sty
-Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
+Package: pdfbase 2024/09/16 v0.59 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count331
-\g_pbs_obj_int=\count332
-\g_pbs_oc_int=\count333
-)
-\g_ocgbase_nd_int=\count334
-)
-\l_ocgxii_vp_cnt_int=\count335
-\l_ocgxii_ve_cnt_int=\count336
-\g_ocgxii_page_int=\count337
-\g_ocgxii_widcount_int=\count338
+\g_pbs_page_int=\count337
+\g_pbs_obj_int=\count338
+\g_pbs_oc_int=\count339
+))
+\l_ocgxii_vp_cnt_int=\count340
+\l_ocgxii_ve_cnt_int=\count341
+\g_ocgxii_page_int=\count342
+\g_ocgxii_widcount_int=\count343
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count339
-\calc@Bcount=\count340
+\calc@Acount=\count344
+\calc@Bcount=\count345
 \calc@Adimen=\dimen295
 \calc@Bdimen=\dimen296
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count341
+\calc@Ccount=\count346
 \calc@Cskip=\skip63
 )
 \ItrLenMax=\skip64
-\c@ItrCtr=\count342
+\c@ItrCtr=\count347
  (./fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip65
@@ -764,10 +758,10 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pxx=\skip71
 )
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
 
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
 \verbatim@line=\toks34
 \verbatim@in@stream=\read3
@@ -780,19 +774,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks35
 )
-\tcb@titlebox=\box69
-\tcb@upperbox=\box70
-\tcb@lowerbox=\box71
-\tcb@phantombox=\box72
-\c@tcbbreakpart=\count343
-\c@tcblayer=\count344
-\c@tcolorbox@number=\count345
-\l__tcobox_tmpa_box=\box73
+\tcb@titlebox=\box70
+\tcb@upperbox=\box71
+\tcb@lowerbox=\box72
+\tcb@phantombox=\box73
+\c@tcbbreakpart=\count348
+\c@tcblayer=\count349
+\c@tcolorbox@number=\count350
+\l__tcobox_tmpa_box=\box74
 \l__tcobox_tmpa_dim=\dimen297
-\tcb@temp=\box74
 \tcb@temp=\box75
 \tcb@temp=\box76
 \tcb@temp=\box77
+\tcb@temp=\box78
 ) (./mgnote.sty
 Package: mgnote enhanced margin notes
 
@@ -804,25 +798,31 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 positioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@OverAllMgCtr=\count346
+\c@OverAllMgCtr=\count351
 \MgOffset=\skip72
-\c@MgCtr=\count347
+\c@MgCtr=\count352
 ) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
+\f@nch@offset@elh=\skip74
+\f@nch@offset@erh=\skip75
+\f@nch@offset@olh=\skip76
+\f@nch@offset@orh=\skip77
+\f@nch@offset@elf=\skip78
+\f@nch@offset@erf=\skip79
+\f@nch@offset@olf=\skip80
+\f@nch@offset@orf=\skip81
+\f@nch@height=\skip82
+\f@nch@footalignment=\skip83
+\f@nch@widthL=\skip84
+\f@nch@widthC=\skip85
+\f@nch@widthR=\skip86
+\@temptokenb=\toks36
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip82
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip87
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -830,7 +830,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks36
+\@emptytoks=\toks37
 \ex@=\dimen298
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -840,64 +840,151 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count348
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count349
-\leftroot@=\count350
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count351
-\DOTSCASE@=\count352
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box78
-\strutbox@=\box79
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
+\inf@bad=\count353
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count354
+\leftroot@=\count355
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count356
+\DOTSCASE@=\count357
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box79
+\strutbox@=\box80
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen300
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count353
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count354
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count358
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count359
 \dotsspace@=\muskip18
-\c@parentequation=\count355
-\dspbrk@lvl=\count356
-\tag@help=\toks37
-\row@=\count357
-\column@=\count358
-\maxfields@=\count359
-\andhelp@=\toks38
+\c@parentequation=\count360
+\dspbrk@lvl=\count361
+\tag@help=\toks38
+\row@=\count362
+\column@=\count363
+\maxfields@=\count364
+\andhelp@=\toks39
 \eqnshift@=\dimen301
 \alignsep@=\dimen302
 \tagshift@=\dimen303
 \tagwidth@=\dimen304
 \totwidth@=\dimen305
 \lineht@=\dimen306
-\@envbody=\toks39
-\multlinegap=\skip83
-\multlinetaggap=\skip84
-\mathdisplay@stack=\toks40
+\@envbody=\toks40
+\multlinegap=\skip88
+\multlinetaggap=\skip89
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup4
+)
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/esint/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (./mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(./chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count365
+\g__chemgreek_tmpa_int=\count366
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count367
+\__mhchem_arrow_extPgfLength_skip=\skip90
+\mhchem@minispace@tmp=\skip91
+\mhchem@minibackspace@tmp=\skip92
+\mhchem@bondwidth=\skip93
+\mhchem@bondheight=\skip94
+\mhchem@smallbondwidth@tmpA=\skip95
+\mhchem@smallbondwidth@tmpB=\skip96
+\mhchem@smallbondwidth=\skip97
+\mhchem@bondtmp@minussidebearingleft=\skip98
+\mhchem@bondtmp@minussidebearingright=\skip99
+\l__mhchem_option_version_int=\count368
+\mhchem@option@minusmathsidebearingleft=\dimen307
+\mhchem@option@minusmathsidebearingright=\dimen308
+\mhchem@option@minustextsidebearingleft=\dimen309
+\mhchem@option@minustextsidebearingright=\dimen310
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip100
+\multirow@cntb=\count369
+\multirow@dima=\skip101
+\bigstrutjot=\dimen311
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip102
+\LTright=\skip103
+\LTpre=\skip104
+\LTpost=\skip105
+\LTchunksize=\count370
+\LTcapwidth=\dimen312
+\LT@head=\box81
+\LT@firsthead=\box82
+\LT@foot=\box83
+\LT@lastfoot=\box84
+\LT@gbox=\box85
+\LT@cols=\count371
+\LT@rows=\count372
+\c@LT@tables=\count373
+\c@LT@chunks=\count374
+\LT@p@ftn=\toks42
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen313
+\lightrulewidth=\dimen314
+\cmidrulewidth=\dimen315
+\belowrulesep=\dimen316
+\belowbottomsep=\dimen317
+\aboverulesep=\dimen318
+\abovetopsep=\dimen319
+\cmidrulesep=\dimen320
+\cmidrulekern=\dimen321
+\defaultaddspace=\dimen322
+\@cmidla=\count375
+\@cmidlb=\count376
+\@aboverulesep=\dimen323
+\@belowrulesep=\dimen324
+\@thisruleclass=\count377
+\@lastruleclass=\count378
+\@thisrulewidth=\dimen325
 ) (./reftree.sty
 Package: reftree strong label and ref
-\c@RTCtr=\count360
+\c@RTCtr=\count379
 
 (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -913,109 +1000,109 @@ LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
-\RTLabelOffset=\skip85
-\RTRefOffset=\skip86
+\RTLabelOffset=\skip106
+\RTRefOffset=\skip107
 )
 (/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count361
-\l__tblr_c_int=\count362
-\l__tblr_r_int=\count363
-\l__tblr_d_dim=\dimen307
-\l__tblr_h_dim=\dimen308
-\l__tblr_o_dim=\dimen309
-\l__tblr_p_dim=\dimen310
-\l__tblr_q_dim=\dimen311
-\l__tblr_r_dim=\dimen312
-\l__tblr_s_dim=\dimen313
-\l__tblr_t_dim=\dimen314
-\l__tblr_v_dim=\dimen315
-\l__tblr_w_dim=\dimen316
-\l__tblr_a_box=\box80
-\l__tblr_b_box=\box81
-\l__tblr_c_box=\box82
-\l__tblr_d_box=\box83
-\g__tblr_table_count_int=\count364
-\c@rownum=\count365
-\c@colnum=\count366
-\c@rowcount=\count367
-\c@colcount=\count368
-\abovesep=\dimen317
-\belowsep=\dimen318
-\leftsep=\dimen319
-\rightsep=\dimen320
-\g_tblr_level_int=\count369
-\g__tblr_data_row_key_count_int=\count370
-\g__tblr_data_column_key_count_int=\count371
-\g__tblr_data_cell_key_count_int=\count372
-\g__tblr_array_int=\count373
-\l__tblr_key_count_int=\count374
-\l__tblr_key_quotient_int=\count375
-\l__tblr_key_quotient_two_int=\count376
-\l__tblr_key_remainder_int=\count377
-\g__tblr_data_str_value_count_int=\count378
-\rulewidth=\dimen321
-\l__tblr_strut_dp_dim=\dimen322
-\l__tblr_strut_ht_dim=\dimen323
-\g__tblr_cell_wd_dim=\dimen324
-\g__tblr_cell_ht_dim=\dimen325
-\g__tblr_cell_head_dim=\dimen326
-\g__tblr_cell_foot_dim=\dimen327
-\l__column_target_dim=\dimen328
-\l__tblr_caption_box=\box84
-\l__tblr_caption_left_box=\box85
-\l__tblr_row_head_box=\box86
-\l__tblr_row_foot_box=\box87
-\l__tblr_row_head_foot_dim=\dimen329
-\tablewidth=\dimen330
-\l__tblr_table_firsthead_box=\box88
-\l__tblr_table_middlehead_box=\box89
-\l__tblr_table_lasthead_box=\box90
-\l__tblr_table_firstfoot_box=\box91
-\l__tblr_table_middlefoot_box=\box92
-\l__tblr_table_lastfoot_box=\box93
-\l__tblr_remain_height_dim=\dimen331
-\l__tblr_long_from_int=\count379
-\l__tblr_long_to_int=\count380
-\l__tblr_curr_i_int=\count381
-\l__tblr_prev_i_int=\count382
-\l__tblr_table_page_int=\count383
-\l__tblr_table_head_box=\box94
-\l__tblr_table_foot_box=\box95
-\l__tblr_table_head_foot_dim=\dimen332
-\l__tblr_table_head_body_foot_dim=\dimen333
-\l__tblr_table_box=\box96
-\l__tblr_table_hlines_box=\box97
-\l__tblr_hline_box=\box98
-\l__tblr_row_box=\box99
-\l__tblr_col_o_wd_dim=\dimen334
-\l__tblr_col_b_wd_dim=\dimen335
-\l__tblr_hline_leftskip_dim=\dimen336
-\l__tblr_hline_rightskip_dim=\dimen337
-\l__tblr_row_ht_dim=\dimen338
-\l__tblr_row_dp_dim=\dimen339
-\l__tblr_row_abovesep_dim=\dimen340
-\l__tblr_row_belowsep_dim=\dimen341
-\l__tblr_row_vlines_box=\box100
-\l__tblr_vline_box=\box101
-\l__tblr_cell_box=\box102
-\l__row_upper_dim=\dimen342
-\l__row_lower_dim=\dimen343
-\l__row_vpace_dim=\dimen344
-\l__tblr_vline_aboveskip_dim=\dimen345
-\l__tblr_vline_belowskip_dim=\dimen346
-\l__tblr_cell_wd_dim=\dimen347
-\l__tblr_cell_ht_dim=\dimen348
-\l__tblr_diag_box=\box103
+\l__tblr_a_int=\count380
+\l__tblr_c_int=\count381
+\l__tblr_r_int=\count382
+\l__tblr_d_dim=\dimen326
+\l__tblr_h_dim=\dimen327
+\l__tblr_o_dim=\dimen328
+\l__tblr_p_dim=\dimen329
+\l__tblr_q_dim=\dimen330
+\l__tblr_r_dim=\dimen331
+\l__tblr_s_dim=\dimen332
+\l__tblr_t_dim=\dimen333
+\l__tblr_v_dim=\dimen334
+\l__tblr_w_dim=\dimen335
+\l__tblr_a_box=\box86
+\l__tblr_b_box=\box87
+\l__tblr_c_box=\box88
+\l__tblr_d_box=\box89
+\g__tblr_table_count_int=\count383
+\c@rownum=\count384
+\c@colnum=\count385
+\c@rowcount=\count386
+\c@colcount=\count387
+\abovesep=\dimen336
+\belowsep=\dimen337
+\leftsep=\dimen338
+\rightsep=\dimen339
+\g_tblr_level_int=\count388
+\g__tblr_data_row_key_count_int=\count389
+\g__tblr_data_column_key_count_int=\count390
+\g__tblr_data_cell_key_count_int=\count391
+\g__tblr_array_int=\count392
+\l__tblr_key_count_int=\count393
+\l__tblr_key_quotient_int=\count394
+\l__tblr_key_quotient_two_int=\count395
+\l__tblr_key_remainder_int=\count396
+\g__tblr_data_str_value_count_int=\count397
+\rulewidth=\dimen340
+\l__tblr_strut_dp_dim=\dimen341
+\l__tblr_strut_ht_dim=\dimen342
+\g__tblr_cell_wd_dim=\dimen343
+\g__tblr_cell_ht_dim=\dimen344
+\g__tblr_cell_head_dim=\dimen345
+\g__tblr_cell_foot_dim=\dimen346
+\l__column_target_dim=\dimen347
+\l__tblr_caption_box=\box90
+\l__tblr_caption_left_box=\box91
+\l__tblr_row_head_box=\box92
+\l__tblr_row_foot_box=\box93
+\l__tblr_row_head_foot_dim=\dimen348
+\tablewidth=\dimen349
+\l__tblr_table_firsthead_box=\box94
+\l__tblr_table_middlehead_box=\box95
+\l__tblr_table_lasthead_box=\box96
+\l__tblr_table_firstfoot_box=\box97
+\l__tblr_table_middlefoot_box=\box98
+\l__tblr_table_lastfoot_box=\box99
+\l__tblr_remain_height_dim=\dimen350
+\l__tblr_long_from_int=\count398
+\l__tblr_long_to_int=\count399
+\l__tblr_curr_i_int=\count400
+\l__tblr_prev_i_int=\count401
+\l__tblr_table_page_int=\count402
+\l__tblr_table_head_box=\box100
+\l__tblr_table_foot_box=\box101
+\l__tblr_table_head_foot_dim=\dimen351
+\l__tblr_table_head_body_foot_dim=\dimen352
+\l__tblr_table_box=\box102
+\l__tblr_table_hlines_box=\box103
+\l__tblr_hline_box=\box104
+\l__tblr_row_box=\box105
+\l__tblr_col_o_wd_dim=\dimen353
+\l__tblr_col_b_wd_dim=\dimen354
+\l__tblr_hline_leftskip_dim=\dimen355
+\l__tblr_hline_rightskip_dim=\dimen356
+\l__tblr_row_ht_dim=\dimen357
+\l__tblr_row_dp_dim=\dimen358
+\l__tblr_row_abovesep_dim=\dimen359
+\l__tblr_row_belowsep_dim=\dimen360
+\l__tblr_row_vlines_box=\box106
+\l__tblr_vline_box=\box107
+\l__tblr_cell_box=\box108
+\l__row_upper_dim=\dimen361
+\l__row_lower_dim=\dimen362
+\l__row_vpace_dim=\dimen363
+\l__tblr_vline_aboveskip_dim=\dimen364
+\l__tblr_vline_belowskip_dim=\dimen365
+\l__tblr_cell_wd_dim=\dimen366
+\l__tblr_cell_ht_dim=\dimen367
+\l__tblr_diag_box=\box109
 )
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count384
-\c@tcbrasterrow=\count385
-\c@tcbrasternum=\count386
-\c@tcbraster=\count387
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
+\c@tcbrastercolumn=\count403
+\c@tcbrasterrow=\count404
+\c@tcbrasternum=\count405
+\c@tcbraster=\count406
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 
@@ -1024,83 +1111,83 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 )
 (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box104
+\l__tikzfill_img_box=\box110
 ))
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box105
-\tcb@totalupperbox=\box106
-\tcb@totallowerbox=\box107
+\tcb@testbox=\box111
+\tcb@totalupperbox=\box112
+\tcb@totallowerbox=\box113
 )
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
-\tcbfitdim=\dimen349
-\tcb@lowerfitdim=\dimen350
-\tcb@upperfitdim=\dimen351
-\tcb@cur@hbadness=\count388
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
+\tcbfitdim=\dimen368
+\tcb@lowerfitdim=\dimen369
+\tcb@upperfitdim=\dimen370
+\tcb@cur@hbadness=\count407
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count389
-\lst@gtempboxa=\box108
-\lst@token=\toks41
-\lst@length=\count390
-\lst@currlwidth=\dimen352
-\lst@column=\count391
-\lst@pos=\count392
-\lst@lostspace=\dimen353
-\lst@width=\dimen354
-\lst@newlines=\count393
-\lst@lineno=\count394
-\lst@maxwidth=\dimen355
+\lst@mode=\count408
+\lst@gtempboxa=\box114
+\lst@token=\toks43
+\lst@length=\count409
+\lst@currlwidth=\dimen371
+\lst@column=\count410
+\lst@pos=\count411
+\lst@lostspace=\dimen372
+\lst@width=\dimen373
+\lst@newlines=\count412
+\lst@lineno=\count413
+\lst@maxwidth=\dimen374
 
 (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count395
-\lst@skipnumbers=\count396
-\lst@framebox=\box109
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count414
+\lst@skipnumbers=\count415
+\lst@framebox=\box115
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/02/21 1.10 listings configuration
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2024/02/21 1.10 (Carsten Heinz)
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
 (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count397
-\l__xeCJK_listings_flag_int=\count398
+\l__xeCJK_listings_max_char_int=\count416
+\l__xeCJK_listings_flag_int=\count417
 )
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
 )
-\c@tcblisting=\count399
+\c@tcblisting=\count418
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.4.1'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.4.1'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.4.1'
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 fadings.code.tex
@@ -1110,27 +1197,27 @@ File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
 )
-\c@law=\count400
-\c@prove=\count401
-\c@example=\count402
-\c@ex=\count403
-\c@solution=\count404
-\c@so=\count405
-\c@apart=\count406
+\c@law=\count419
+\c@prove=\count420
+\c@example=\count421
+\c@ex=\count422
+\c@solution=\count423
+\c@so=\count424
+\c@apart=\count425
 ) (/usr/share/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
-\symugrf@m=\mathgroup7
+\symugrf@m=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (./tikzit.sty
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 backgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box110
-\pgf@layerboxsaved@background=\box111
+\pgf@layerbox@background=\box116
+\pgf@layerboxsaved@background=\box117
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
@@ -1138,7 +1225,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen356
+\arrowsize=\dimen375
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shapes.code.tex
@@ -1187,31 +1274,31 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
 art.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box112
-\pgfnodeparttwobox=\box113
-\pgfnodepartthreebox=\box114
-\pgfnodepartfourbox=\box115
-\pgfnodeparttwentybox=\box116
-\pgfnodepartnineteenbox=\box117
-\pgfnodeparteighteenbox=\box118
-\pgfnodepartseventeenbox=\box119
-\pgfnodepartsixteenbox=\box120
-\pgfnodepartfifteenbox=\box121
-\pgfnodepartfourteenbox=\box122
-\pgfnodepartthirteenbox=\box123
-\pgfnodeparttwelvebox=\box124
-\pgfnodepartelevenbox=\box125
-\pgfnodeparttenbox=\box126
-\pgfnodepartninebox=\box127
-\pgfnodeparteightbox=\box128
-\pgfnodepartsevenbox=\box129
-\pgfnodepartsixbox=\box130
-\pgfnodepartfivebox=\box131
+\pgfnodepartlowerbox=\box118
+\pgfnodeparttwobox=\box119
+\pgfnodepartthreebox=\box120
+\pgfnodepartfourbox=\box121
+\pgfnodeparttwentybox=\box122
+\pgfnodepartnineteenbox=\box123
+\pgfnodeparteighteenbox=\box124
+\pgfnodepartseventeenbox=\box125
+\pgfnodepartsixteenbox=\box126
+\pgfnodepartfifteenbox=\box127
+\pgfnodepartfourteenbox=\box128
+\pgfnodepartthirteenbox=\box129
+\pgfnodeparttwelvebox=\box130
+\pgfnodepartelevenbox=\box131
+\pgfnodeparttenbox=\box132
+\pgfnodepartninebox=\box133
+\pgfnodeparteightbox=\box134
+\pgfnodepartsevenbox=\box135
+\pgfnodepartsixbox=\box136
+\pgfnodepartfivebox=\box137
 )))
-\pgf@layerbox@edgelayer=\box132
-\pgf@layerboxsaved@edgelayer=\box133
-\pgf@layerbox@nodelayer=\box134
-\pgf@layerboxsaved@nodelayer=\box135
+\pgf@layerbox@edgelayer=\box138
+\pgf@layerboxsaved@edgelayer=\box139
+\pgf@layerbox@nodelayer=\box140
+\pgf@layerboxsaved@nodelayer=\box141
 ) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
@@ -1221,12 +1308,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks42
-\t@pgfplots@tokb=\toks43
-\t@pgfplots@tokc=\toks44
-\pgfplots@tmpa=\dimen357
-\c@pgfplots@coordindex=\count407
-\c@pgfplots@scanlineindex=\count408
+\t@pgfplots@toka=\toks44
+\t@pgfplots@tokb=\toks45
+\t@pgfplots@tokc=\toks46
+\pgfplots@tmpa=\dimen376
+\c@pgfplots@coordindex=\count426
+\c@pgfplots@scanlineindex=\count427
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -1234,9 +1321,9 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 oader.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks45
-\t@pgf@tokb=\toks46
-\t@pgf@tokc=\toks47
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
 gfutil-common-lists.tex))
@@ -1247,14 +1334,14 @@ gfutil-common-lists.tex))
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count409
+\c@pgfplotsarray@tmp=\count428
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count410
-\t@pgfplotstable@a=\toks48
+\c@pgfplotstable@counta=\count429
+\t@pgfplotstable@a=\toks50
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
 x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
@@ -1262,13 +1349,13 @@ x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count411
+\c@pgfplotslibrarysurf@no=\count430
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-xetex.def
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-dvipdfmx.def
-\c@pgfplotslibrarysurf@streamlen=\count412
+\c@pgfplotslibrarysurf@streamlen=\count431
 ))))
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
@@ -1285,16 +1372,16 @@ pgfsys-dvipdfmx.def
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen358
-\pgfdecoratedremainingdistance=\dimen359
-\pgfdecoratedinputsegmentcompleteddistance=\dimen360
-\pgfdecoratedinputsegmentremainingdistance=\dimen361
-\pgf@decorate@distancetomove=\dimen362
-\pgf@decorate@repeatstate=\count413
-\pgfdecorationsegmentamplitude=\dimen363
-\pgfdecorationsegmentlength=\dimen364
+\pgfdecoratedcompleteddistance=\dimen377
+\pgfdecoratedremainingdistance=\dimen378
+\pgfdecoratedinputsegmentcompleteddistance=\dimen379
+\pgfdecoratedinputsegmentremainingdistance=\dimen380
+\pgf@decorate@distancetomove=\dimen381
+\pgf@decorate@repeatstate=\count432
+\pgfdecorationsegmentamplitude=\dimen382
+\pgfdecorationsegmentlength=\dimen383
 )
-\tikz@lib@dec@box=\box136
+\tikz@lib@dec@box=\box142
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.pathmorphing.code.tex
@@ -1306,13 +1393,13 @@ decorations.pathreplacing.code.tex
 ons.pathreplacing.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
 .code.tex)
-\pgfplots@numplots=\count414
-\pgfplots@xmin@reg=\dimen365
-\pgfplots@xmax@reg=\dimen366
-\pgfplots@ymin@reg=\dimen367
-\pgfplots@ymax@reg=\dimen368
-\pgfplots@zmin@reg=\dimen369
-\pgfplots@zmax@reg=\dimen370
+\pgfplots@numplots=\count433
+\pgfplots@xmin@reg=\dimen384
+\pgfplots@xmax@reg=\dimen385
+\pgfplots@ymin@reg=\dimen386
+\pgfplots@ymax@reg=\dimen387
+\pgfplots@zmin@reg=\dimen388
+\pgfplots@zmax@reg=\dimen389
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 plotmarks.code.tex
@@ -1322,7 +1409,7 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 3d.code.tex
@@ -1370,7 +1457,7 @@ ode.tex
 intersections.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.t
 ex
-\pgf@intersect@solutions=\count415
+\pgf@intersect@solutions=\count434
 ))
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.s
 oftclip.code.tex
@@ -1386,10 +1473,46 @@ ons.fractals.code.tex))
 decorations.text.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.text.code.tex
-\pgf@lib@dec@text@box=\box137
+\pgf@lib@dec@text@box=\box143
 )
-\tikz@lib@dec@te@box=\box138
+\tikz@lib@dec@te@box=\box144
 ) (./build/main.aux
+
+LaTeX Warning: Label `RT:chapter8_电偶极子的电势与电势能' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电偶极子的电势与电势能@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_RC' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_RC@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电路等效变换.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_电路等效变换.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_磁场对磁偶极子的影响' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_磁场对磁偶极子的影响@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_一维无限深势力井.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_一维无限深势力井.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_隧穿效应.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter10_隧穿效应.png@cref' multiply defined.
+
 
 LaTeX Warning: Label `RT:chapter2_problem3.png' multiply defined.
 
@@ -1413,6 +1536,30 @@ LaTeX Warning: Label `RT:chapter4_流体动力学' multiply defined.
 
 
 LaTeX Warning: Label `RT:chapter4_流体动力学@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁场.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁场.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁阻.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise磁阻.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量1.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量1.png@cref' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量2.png' multiply defined.
+
+
+LaTeX Warning: Label `RT:chapter8_exercise坡应廷矢量2.png@cref' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1478,23 +1625,78 @@ Package hyperref Info: Link coloring ON on input line 20.
 \openout5 = `main.out'.
 
 
+Package chemgreek Info: Activating mapping `default' on line 20.
+
+
 (/usr/share/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
-\c@lstlisting=\count416
+\c@lstlisting=\count435
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-(../chapters/titlepage/titlepage.tex) [0
+(../chapters/titlepage/titlepage.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+3.
+
+(/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+3.
+
+(/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+73.
+
+(/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+73.
+
+(/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 73.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 7
+3.
+
+(/usr/share/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 82.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 82.
+
+
+LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <20.74> not available
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 84.
+
+)
+
+[0
 
 ]
 
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'FandolHei-Regular'. Check the typeset output, and if
+(fontspec)             it is okay then ignore this warning. Otherwise a
+(fontspec)             different font should be chosen.
 
 
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
+Package fontspec Info: 
+(fontspec)             Font family 'FandolHei-Regular(0)' created for font
 (fontspec)             'FandolHei-Regular' with options
 (fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
 ].
@@ -1503,75 +1705,82 @@ Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:script=hani;language=dflt
+;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:script=hani;language=dflt;"
 
-(./build/main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-.
- (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-.
-
-(/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
-
-(/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
-
-(/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 5.
+ (./build/main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
- [1
 
-] [2] [3] [4] [5] [6])
+
+[1
+
+]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
-[7] (../chapters/frontmatter/frontmatter.tex [1
+
+[9] (../chapters/frontmatter/frontmatter.tex
+
+[1
 
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 32.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 32.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 32.
- [2
 
-]
-
-LaTeX Warning: Unexpected alignment  on input line 39.
-
-\c@RT:frontmatter:ref=\count417
-)
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <12> not
  available
 (Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 25.
- [3]
-Missing character: There is no ^^89 ("89) in font nullfont!
-Missing character: There is no ^^89 ("89) in font nullfont!
-(../chapters/chapter1/chapter1_main.tex [1
+ input line 44.
+[2]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 55.
+
+
+[3
+
+]
+
+LaTeX Warning: Unexpected alignment  on input line 62.
+
+\c@RT:frontmatter:ref=\count436
+../chapters/frontmatter/frontmatter.tex:62: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.62 ...用鼠标点击的方式点击跳转(\refleaftext{frontmatter:ref}
+                                                  )。
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
+
+[4]
+Missing character: There is no ^^8f ("8F) in font nullfont!
+Missing character: There is no ^^8f ("8F) in font nullfont!
+(../chapters/chapter1/chapter1_main.tex
+
+[1
 
 ]
 第一章
@@ -1587,34 +1796,63 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
+
+Package ocgx2 Warning: Line 1: OCG `itr1' is not defined.
+
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.28> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1.
 
-LaTeX Font Warning: Font shape `TU/FandolHei-Regular(0)/b/it' undefined
-(Font)              using `TU/FandolHei-Regular(0)/b/n' instead on input line 1
-.
+Package ocgx2 Warning: Line 3: OCG `itr2' is not defined.
 
 
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <17.28> not available
 (Font)              Font shape `TU/lmr/b/sl' tried instead on input line 3.
 
 
-LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/b/it' undefined
-(Font)              using `TU/FandolSong-Regular(0)/b/n' instead on input line 
-3.
+Package ocgx2 Warning: Line 5: OCG `itr3' is not defined.
+
+
+Package ocgx2 Warning: Line 7: OCG `itr4' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr5' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 9.
+
+
+Package ocgx2 Warning: Line 10: OCG `itr6' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr7' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr8' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr9' is not defined.
+
+
 
 [2
 
 ]
 
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
+Package ocgx2 Warning: Line 18: OCG `itr10' is not defined.
 
 
-Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
+Package ocgx2 Warning: Line 20: OCG `itr11' is not defined.
+
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'FandolFang-Regular'. Check the typeset output, and if
+(fontspec)             it is okay then ignore this warning. Otherwise a
+(fontspec)             different font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             'FandolFang-Regular' with options
 (fontspec)             [Script={CJK},Extension={.otf}].
 (fontspec)              
@@ -1622,13 +1860,27 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dfl
+t;"
 
 ) (../chapters/chapter1/chapter1_exercise.tex
-\c@RT:solution1.1=\count418
-)
-(../chapters/chapter2/chapter2_main.tex [3]
+\c@RT:solution1.1=\count437
+
+
+Package ocgx2 Warning: Line 4: OCG `itr12' is not defined.
+
+
+Package ocgx2 Warning: Line 5: OCG `itr13' is not defined.
+
+
+Package ocgx2 Warning: Line 5: OCG `itr14' is not defined.
+
+
+Package ocgx2 Warning: Line 7: OCG `itr15' is not defined.
+
+) (../chapters/chapter2/chapter2_main.tex
+
+[3]
 第二章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -1636,32 +1888,185 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 
+Package ocgx2 Warning: Line 1: OCG `itr16' is not defined.
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
+ []
+ []
+
+
+Package ocgx2 Warning: Line 7: OCG `itr17' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr18' is not defined.
+
+
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <14.4> not available
 (Font)              Font shape `TU/lmr/b/sl' tried instead on input line 9.
+
+
+Package ocgx2 Warning: Line 12: OCG `itr19' is not defined.
+
+
 
 [4
 
 ]
 
+Package ocgx2 Warning: Line 13: OCG `itr20' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr21' is not defined.
+
+
+Package ocgx2 Warning: Line 15: OCG `itr22' is not defined.
+
+
+Package ocgx2 Warning: Line 18: OCG `itr23' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr24' is not defined.
+
+
+Package ocgx2 Warning: Line 20: OCG `itr25' is not defined.
+
+
+Package ocgx2 Warning: Line 23: OCG `itr26' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 29.
 
-[5] (./figures/chapter2_without_vectors.tikz) [6]
+
+
+[5]
+
+Package ocgx2 Warning: Line 54: OCG `itr27' is not defined.
+
+(./figures/chapter2_without_vectors.tikz)
+
+[6]
+
+Package ocgx2 Warning: Line 65: OCG `itr28' is not defined.
+
+
+Package ocgx2 Warning: Line 66: OCG `itr29' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr30' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr31' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr32' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr33' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr34' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 68.
 
 
+Package ocgx2 Warning: Line 75: OCG `itr35' is not defined.
+
+
+Package ocgx2 Warning: Line 76: OCG `itr36' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 79.
 
+
+Package ocgx2 Warning: Line 82: OCG `itr37' is not defined.
+
+
+
 [7]
+
+Package ocgx2 Warning: Line 98: OCG `itr38' is not defined.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 \TU/FandolSong-Regular(0)/m/n/12 个
  []
 
 
+Package ocgx2 Warning: Line 107: OCG `itr39' is not defined.
+
+
+Package ocgx2 Warning: Line 108: OCG `itr40' is not defined.
+
+
+Package ocgx2 Warning: Line 108: OCG `itr41' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr42' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr43' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr44' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr45' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr46' is not defined.
+
+
+Package ocgx2 Warning: Line 112: OCG `itr47' is not defined.
+
+
+Package ocgx2 Warning: Line 112: OCG `itr48' is not defined.
+
+
+Package ocgx2 Warning: Line 112: OCG `itr49' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 113.
 
+
+Package ocgx2 Warning: Line 113: OCG `itr50' is not defined.
+
+
+Package ocgx2 Warning: Line 118: OCG `itr51' is not defined.
+
+
+Package ocgx2 Warning: Line 118: OCG `itr52' is not defined.
+
+
+
 [8]
-\c@RT:chapter2_vector_expression=\count419
+
+Package ocgx2 Warning: Line 124: OCG `itr53' is not defined.
+
+
+Package ocgx2 Warning: Line 129: OCG `itr54' is not defined.
+
+
+Package ocgx2 Warning: Line 130: OCG `itr55' is not defined.
+
+\c@RT:chapter2_vector_expression=\count438
+../chapters/chapter2/chapter2_main.tex:132: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.132 ...refleaftext{chapter2_vector_expression}}来
+                                                  证明，推荐大家自己尝试一下。尝试之后可以发现，向量的...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (35.26118pt too wide) in paragraph at lines 132--132
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 132.
@@ -1670,155 +2075,572 @@ LaTeX Warning: Unexpected alignment  on input line 132.
 LaTeX Warning: Unexpected alignment  on input line 142.
 
 
+Package ocgx2 Warning: Line 144: OCG `itr56' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 144.
 
 
 LaTeX Warning: Unexpected alignment  on input line 145.
 
+
+
 [9]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 172.
+
+Package ocgx2 Warning: Line 162: OCG `itr57' is not defined.
+
+
+Package ocgx2 Warning: Line 164: OCG `itr58' is not defined.
+
+
+Package ocgx2 Warning: Line 166: OCG `itr59' is not defined.
+
+
+Package ocgx2 Warning: Line 172: OCG `itr60' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 172.
 
-[10] (./figures/chapter2_polar_coordinate_2d.tikz)
+(./figures/chapter2_polar_coordinate_2d.tikz)
+
+[10]
 Missing character: There is no ; ("3B) in font nullfont!
-(./figures/chapter2_basis_transformation.tikz) [11]
+
+Package ocgx2 Warning: Line 244: OCG `itr61' is not defined.
+
+(./figures/chapter2_basis_transformation.tikz)
+
+[11]
+
+Package ocgx2 Warning: Line 263: OCG `itr62' is not defined.
+
+
+Package ocgx2 Warning: Line 266: OCG `itr63' is not defined.
+
+
+Package ocgx2 Warning: Line 267: OCG `itr64' is not defined.
+
+
+Package ocgx2 Warning: Line 268: OCG `itr65' is not defined.
+
+
+Package ocgx2 Warning: Line 269: OCG `itr66' is not defined.
+
+
+Package ocgx2 Warning: Line 270: OCG `itr67' is not defined.
+
+
+Package ocgx2 Warning: Line 271: OCG `itr68' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 277.
 
-[12] [13]
-File: ../figures/figure2/chapter2_uniform circular motion.png Graphic file (typ
-e bmp)
-<../figures/figure2/chapter2_uniform circular motion.png>
- [14] [15]
-\c@RT:prove2.1=\count420
 
-Underfull \hbox (badness 4353) in paragraph at lines 476--476
-[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 2\TU/lmr/m/it/12 .1[]
-[]|  []Newton’s First Law of Motion(\TU/FandolSong-Regular(0)/m/it/12 牛 顿 第 一 运
- 动 定 律\TU/lmr/m/it/12 )[]—
- []
+Package ocgx2 Warning: Line 291: OCG `itr69' is not defined.
 
-[16]
+
+
+[12]
+
+[13]
+
+Package ocgx2 Warning: Line 378: OCG `itr70' is not defined.
+
+File: ../figures/figure2/inversed_chapter2_uniform circular motion.png Graphic 
+file (type bmp)
+<../figures/figure2/inversed_chapter2_uniform circular motion.png>
+
+
+[14]
+
+Package ocgx2 Warning: Line 443: OCG `itr71' is not defined.
+
+
+Package ocgx2 Warning: Line 454: OCG `itr72' is not defined.
+
+
+
+[15]
+
+Package ocgx2 Warning: Line 464: OCG `itr73' is not defined.
+
+
+Package ocgx2 Warning: Line 464: OCG `itr74' is not defined.
+
+
+Package ocgx2 Warning: Line 466: OCG `itr75' is not defined.
+
+
+Package ocgx2 Warning: Line 471: OCG `itr76' is not defined.
+
+
+Package ocgx2 Warning: Line 471: OCG `itr77' is not defined.
+
+
+Package ocgx2 Warning: Line 475: OCG `itr78' is not defined.
+
+
+Package ocgx2 Warning: Line 476: OCG `itr79' is not defined.
+
+\c@RT:prove2.1=\count439
+
+Package ocgx2 Warning: Line 477: OCG `itr80' is not defined.
+
+
+Package ocgx2 Warning: Line 477: OCG `itr81' is not defined.
+
+
+Package ocgx2 Warning: Line 477: OCG `itr82' is not defined.
+
+
+Package ocgx2 Warning: Line 480: OCG `itr83' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 480.
 
 
-Overfull \hbox (6.62375pt too wide) in paragraph at lines 479--482
-\TU/FandolSong-Regular(0)/m/n/12 运 动 需 要 持 续 的 动 力 \TU/lmr/m/n/12 (need continu
-ous action of an agent)[][][]\TU/FandolSong-Regular(0)/m/n/12 ；| \TU/lmr/m/n/12
- 1564~1642\TU/FandolSong-Regular(0)/m/n/12 ，| []\TU/lmr/m/it/12 Galilei\TU/lmr/
-m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 伽
+Package ocgx2 Warning: Line 481: OCG `itr84' is not defined.
+
+
+Package ocgx2 Warning: Line 481: OCG `itr85' is not defined.
+
+
+Package ocgx2 Warning: Line 482: OCG `itr86' is not defined.
+
+
+Package ocgx2 Warning: Line 483: OCG `itr87' is not defined.
+
+\c@RT:prove2.2=\count440
+
+Package ocgx2 Warning: Line 484: OCG `itr88' is not defined.
+
+
+Package ocgx2 Warning: Line 484: OCG `itr89' is not defined.
+
+
+Package ocgx2 Warning: Line 484: OCG `itr90' is not defined.
+
+
+
+[16]
+
+Package ocgx2 Warning: Line 487: OCG `itr91' is not defined.
+
+
+Package ocgx2 Warning: Line 488: OCG `itr92' is not defined.
+
+\c@RT:prove2.3=\count441
+
+Package ocgx2 Warning: Line 489: OCG `itr93' is not defined.
+
+
+Package ocgx2 Warning: Line 489: OCG `itr94' is not defined.
+
+
+Package ocgx2 Warning: Line 492: OCG `itr95' is not defined.
+
+
+Overfull \hbox (3.72446pt too wide) in paragraph at lines 492--492
+[] []
  []
 
-\c@RT:prove2.2=\count421
 
-Underfull \hbox (badness 2547) in paragraph at lines 483--483
-[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 2\TU/lmr/m/it/12 .2[]
-[]|  []Newton’s Second Law of Motion(\TU/FandolSong-Regular(0)/m/it/12 牛 顿 第 二 
-运 动 定 律\TU/lmr/m/it/12 )[]—
+Overfull \hbox (0.52765pt too wide) in paragraph at lines 492--492
+[] 
  []
 
-\c@RT:prove2.3=\count422
-
-Underfull \hbox (badness 3657) in paragraph at lines 488--488
-[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 2\TU/lmr/m/it/12 .3[]
-[]|  []Newton’s Third Law of Motion(\TU/FandolSong-Regular(0)/m/it/12 牛 顿 第 三 运
- 动 定 律\TU/lmr/m/it/12 )[]—
- []
-
-
-Overfull \hbox (11.3277pt too wide) in paragraph at lines 492--492
-[][]\TU/lmr/b/sl/14.4 Inertial Reference Frame & Non-inertial Reference Frame\T
-U/lmr/b/n/14.4 (\TU/FandolSong-Regular(0)/b/it/14.4 惯
- []
-
-[17]
 
 LaTeX Warning: Unexpected alignment  on input line 499.
 
-\c@RT:prove2.4=\count423
+\c@RT:prove2.4=\count442
+
+Package ocgx2 Warning: Line 502: OCG `itr96' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 505.
 
-(./figures/chapter2_galilean_transformation.tikz) [18]
-(./figures/chapter2_noninertial_frame.tikz) [19]
-\c@RT:chapter2_scalar_product=\count424
+
+
+[17] (./figures/chapter2_galilean_transformation.tikz)
+
+Package ocgx2 Warning: Line 521: OCG `itr97' is not defined.
+
+(./figures/chapter2_noninertial_frame.tikz)
+
+[18]
+
+Package ocgx2 Warning: Line 538: OCG `itr98' is not defined.
+
+
+Package ocgx2 Warning: Line 539: OCG `itr99' is not defined.
+
+
+Package ocgx2 Warning: Line 541: OCG `itr100' is not defined.
+
+
+Package ocgx2 Warning: Line 541: OCG `itr101' is not defined.
+
+
+Package ocgx2 Warning: Line 541: OCG `itr102' is not defined.
+
+
+Package ocgx2 Warning: Line 545: OCG `itr103' is not defined.
+
+
+Package ocgx2 Warning: Line 547: OCG `itr104' is not defined.
+
+\c@RT:chapter2_scalar_product=\count443
+../chapters/chapter2/chapter2_main.tex:547: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.547 ...见\refleaftext{chapter2_scalar_product}。}。
+                                                  因此，功是一个标量，其单位为$\mathrm{N}\...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (38.82118pt too wide) in paragraph at lines 547--547
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]。|  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 547.
 
+
+Package ocgx2 Warning: Line 549: OCG `itr105' is not defined.
+
 (./figures/chapter2_work_done_by_varying_force.tikz)
+
+[19]
 
 LaTeX Warning: Unexpected alignment  on input line 563.
 
-[20] (./figures/chapter2_hook.tikz) [21]
-\c@RT:prove2.5=\count425
- [22]
-\c@RT:chapter2_potential_energy_of_spring=\count426
- [23]
+(./figures/chapter2_hook.tikz)
+
+Package ocgx2 Warning: Line 571: OCG `itr106' is not defined.
+
+
+
+[20]
+
+Package ocgx2 Warning: Line 590: OCG `itr107' is not defined.
+
+
+Package ocgx2 Warning: Line 591: OCG `itr108' is not defined.
+
+\c@RT:prove2.5=\count444
+
+Package ocgx2 Warning: Line 594: OCG `itr109' is not defined.
+
+
+Package ocgx2 Warning: Line 595: OCG `itr110' is not defined.
+
+
+Package ocgx2 Warning: Line 597: OCG `itr111' is not defined.
+
+
+Package ocgx2 Warning: Line 597: OCG `itr112' is not defined.
+
+
+Package ocgx2 Warning: Line 598: OCG `itr113' is not defined.
+
+
+Package ocgx2 Warning: Line 599: OCG `itr114' is not defined.
+
+
+
+[21]
+
+Package ocgx2 Warning: Line 603: OCG `itr115' is not defined.
+
+
+Package ocgx2 Warning: Line 604: OCG `itr116' is not defined.
+
+
+Package ocgx2 Warning: Line 606: OCG `itr117' is not defined.
+
+
+Package ocgx2 Warning: Line 612: OCG `itr118' is not defined.
+
+\c@RT:chapter2_potential_energy_of_spring=\count445
+../chapters/chapter2/chapter2_main.tex:615: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.615 ...text{chapter2_potential_energy_of_spring}
+                                                  )为$U_{s}=\frac{1}{2}kx^{2}...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Package ocgx2 Warning: Line 620: OCG `itr119' is not defined.
+
+
+
+[22]
+
+Package ocgx2 Warning: Line 623: OCG `itr120' is not defined.
+
+
+Package ocgx2 Warning: Line 623: OCG `itr121' is not defined.
+
+
+Package ocgx2 Warning: Line 625: OCG `itr122' is not defined.
+
+
+Package ocgx2 Warning: Line 626: OCG `itr123' is not defined.
+
+
+Package ocgx2 Warning: Line 628: OCG `itr124' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 630.
 
-[24]
-\c@RT:Galilean transformation=\count427
- [25]
-\c@RT:prove2.6=\count428
- [26]
-\c@RT:law3.2=\count429
- (./figures/chapter2_CM.tikz) [27]
-\c@RT:prove2.7=\count430
-\c@RT:prove2.8=\count431
 
-Underfull \hbox (badness 3679) in paragraph at lines 751--751
-[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 2\TU/lmr/m/it/12 .7[]
-[]|  []The Law of Universal Gravitation(\TU/FandolSong-Regular(0)/m/it/12 万 有 引
- 力 定 律\TU/lmr/m/it/12 )[] —
+Package ocgx2 Warning: Line 641: OCG `itr125' is not defined.
+
+
+Package ocgx2 Warning: Line 641: OCG `itr126' is not defined.
+
+
+
+[23]
+
+Package ocgx2 Warning: Line 662: OCG `itr127' is not defined.
+
+
+Package ocgx2 Warning: Line 665: OCG `itr128' is not defined.
+
+
+Package ocgx2 Warning: Line 665: OCG `itr129' is not defined.
+
+
+Package ocgx2 Warning: Line 666: OCG `itr130' is not defined.
+
+
+Package ocgx2 Warning: Line 666: OCG `itr131' is not defined.
+
+
+Package ocgx2 Warning: Line 668: OCG `itr132' is not defined.
+
+
+Package ocgx2 Warning: Line 670: OCG `itr133' is not defined.
+
+\c@RT:Galilean transformation=\count446
+../chapters/chapter2/chapter2_main.tex:673: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.673 ...ation})下，动能定理是否依旧成立，即动能定理在伽利略变换下是否具有不变性？}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+
+[24]
+
+Package ocgx2 Warning: Line 688: OCG `itr134' is not defined.
+
+\c@RT:prove2.6=\count447
+
+Package ocgx2 Warning: Line 689: OCG `itr135' is not defined.
+
+
+Package ocgx2 Warning: Line 691: OCG `itr136' is not defined.
+
+
+Package ocgx2 Warning: Line 691: OCG `itr137' is not defined.
+
+
+Package ocgx2 Warning: Line 693: OCG `itr138' is not defined.
+
+
+Package ocgx2 Warning: Line 703: OCG `itr139' is not defined.
+
+
+Package ocgx2 Warning: Line 704: OCG `itr140' is not defined.
+
+
+Package ocgx2 Warning: Line 707: OCG `itr141' is not defined.
+
+
+Package ocgx2 Warning: Line 709: OCG `itr142' is not defined.
+
+
+
+[25]
+
+Package ocgx2 Warning: Line 712: OCG `itr143' is not defined.
+
+
+Package ocgx2 Warning: Line 712: OCG `itr144' is not defined.
+
+
+Package ocgx2 Warning: Line 714: OCG `itr145' is not defined.
+
+
+Package ocgx2 Warning: Line 714: OCG `itr146' is not defined.
+
+\c@RT:law3.2=\count448
+
+Package ocgx2 Warning: Line 728: OCG `itr147' is not defined.
+
+(./figures/chapter2_CM.tikz)
+
+[26]
+\c@RT:prove2.7=\count449
+
+
+Package ocgx2 Warning: Line 746: OCG `itr148' is not defined.
+
+
+Package ocgx2 Warning: Line 747: OCG `itr149' is not defined.
+
+
+Package ocgx2 Warning: Line 751: OCG `itr150' is not defined.
+
+\c@RT:prove2.8=\count450
+
+Package ocgx2 Warning: Line 752: OCG `itr151' is not defined.
+
+
+Package ocgx2 Warning: Line 752: OCG `itr152' is not defined.
+
+
+Package ocgx2 Warning: Line 752: OCG `itr153' is not defined.
+
+
+Package ocgx2 Warning: Line 752: OCG `itr154' is not defined.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 752--753
+\TU/lmr/m/it/12 that is directly  [] [] to the  [] [] of their masses and
  []
 
-[28]
-\c@RT:law2.8=\count432
+
+
+[27]
+\c@RT:law2.8=\count451
+
+
+Package ocgx2 Warning: Line 786: OCG `itr155' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 788.
 
-[29]
+
+Package ocgx2 Warning: Line 790: OCG `itr156' is not defined.
+
+
+Package ocgx2 Warning: Line 790: OCG `itr157' is not defined.
+
+
+Package ocgx2 Warning: Line 791: OCG `itr158' is not defined.
+
+
+Package ocgx2 Warning: Line 791: OCG `itr159' is not defined.
+
+
+Package ocgx2 Warning: Line 792: OCG `itr160' is not defined.
+
+
+Package ocgx2 Warning: Line 792: OCG `itr161' is not defined.
+
+
+
+[28]
+
+Package ocgx2 Warning: Line 796: OCG `itr162' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 796.
 
-File: ../figures/figure2/chapter2_conic_section.png Graphic file (type bmp)
-<../figures/figure2/chapter2_conic_section.png>
+File: ../figures/figure2/inversed_chapter2_conic_section.png Graphic file (type
+ bmp)
+<../figures/figure2/inversed_chapter2_conic_section.png>
+
+Package ocgx2 Warning: Line 799: OCG `itr163' is not defined.
+
+
+
+[29]
+File: ../figures/figure2/inversed_chapter2_cavendish.png Graphic file (type bmp
+)
+<../figures/figure2/inversed_chapter2_cavendish.png>
+
+
+Package ocgx2 Warning: Line 829: OCG `itr164' is not defined.
+
+
+Package ocgx2 Warning: Line 832: OCG `itr165' is not defined.
+
+
+
 [30]
-File: ../figures/figure2/chapter2_cavendish.png Graphic file (type bmp)
-<../figures/figure2/chapter2_cavendish.png>
- [31]
 
 LaTeX Warning: Unexpected alignment  on input line 848.
 
-[32]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 862.
-File: ../figures/figure2/chapter2_rocket.png Graphic file (type bmp)
-<../figures/figure2/chapter2_rocket.png>
- [33]
+
+
+[31]
+
+Package ocgx2 Warning: Line 881: OCG `itr166' is not defined.
+
+File: ../figures/figure2/inversed_chapter2_rocket.png Graphic file (type bmp)
+<../figures/figure2/inversed_chapter2_rocket.png>
 
 LaTeX Warning: Unexpected alignment  on input line 888.
 
-) (../chapters/chapter2/chapter2_exercise.tex
-\c@RT:solution2.1=\count433
-\c@RT:solution2.2=\count434
- [34]
-\c@RT:solution2.3=\count435
-\c@RT:solution2.4=\count436
-File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/chapter2_problem3.png>
-\c@RT:solution2.5=\count437
-File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/chapter2_problem4.png>
- [35])
-(../chapters/chapter3/chapter3_main.tex [36]
+
+
+[32]) (../chapters/chapter2/chapter2_exercise.tex
+\c@RT:solution2.1=\count452
+\c@RT:solution2.2=\count453
+
+
+Package ocgx2 Warning: Line 7: OCG `itr167' is not defined.
+
+\c@RT:solution2.3=\count454
+
+Package ocgx2 Warning: Line 13: OCG `itr168' is not defined.
+
+
+
+[33]
+\c@RT:solution2.4=\count455
+
+
+Package ocgx2 Warning: Line 23: OCG `itr169' is not defined.
+
+
+Package ocgx2 Warning: Line 23: OCG `itr170' is not defined.
+
+
+Package ocgx2 Warning: Line 26: OCG `itr171' is not defined.
+
+
+Package ocgx2 Warning: Line 27: OCG `itr172' is not defined.
+
+File: ../figures/figure2/inversed_chapter2_problem3.png Graphic file (type bmp)
+
+<../figures/figure2/inversed_chapter2_problem3.png>
+\c@RT:solution2.5=\count456
+
+Package ocgx2 Warning: Line 38: OCG `itr173' is not defined.
+
+
+Package ocgx2 Warning: Line 38: OCG `itr174' is not defined.
+
+
+Package ocgx2 Warning: Line 38: OCG `itr175' is not defined.
+
+
+Package ocgx2 Warning: Line 40: OCG `itr176' is not defined.
+
+File: ../figures/figure2/inversed_chapter2_problem4.png Graphic file (type bmp)
+
+<../figures/figure2/inversed_chapter2_problem4.png>
+
+
+[34]) (../chapters/chapter3/chapter3_main.tex
+
+[35]
 第三章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -1826,36 +2648,100 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 
+Package ocgx2 Warning: Line 1: OCG `itr177' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-[37
 
-]
-\c@RT:chapter2_polar_coordinate=\count438
- (./figures/chapter3_polar_coordinate.tikz)
+Package ocgx2 Warning: Line 3: OCG `itr178' is not defined.
+
+
+Package ocgx2 Warning: Line 6: OCG `itr179' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr180' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr181' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr182' is not defined.
+
+\c@RT:chapter2_polar_coordinate=\count457
+../chapters/chapter3/chapter3_main.tex:19: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.19 ...了垂直于平面的方向。在本章及其证明与习题中所提到的极坐标系，都按照本章的约定方式。}
+                                                  的基本要素是极点和极轴，其中极轴是一条从极点引出的有向轴。
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+
+[36
+
+] (./figures/chapter3_polar_coordinate.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 28.
 
-[38]
+
+Package ocgx2 Warning: Line 28: OCG `itr183' is not defined.
+
+
+Package ocgx2 Warning: Line 28: OCG `itr184' is not defined.
+
+
+
+[37]
+
+Package ocgx2 Warning: Line 176: OCG `itr185' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 176.
 
 
 LaTeX Warning: Unexpected alignment  on input line 181.
 
-[39]
-\c@RT:chapter3_direction=\count439
+\c@RT:chapter3_direction=\count458
+../chapters/chapter3/chapter3_main.tex:185: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.185 ...，可回见\\\refleaftext{chapter3_direction}。}。
+                                                  在几何意义上，$\vec{C}$与$\vec{A},...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (33.93118pt too wide) in paragraph at lines 185--185
+[][][][][][]\TU/FandolSong-Regular(0)/m/n/10 。|  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 185.
 
-File: ../figures/figure3/chapter3_right_hand_rule.jpg Graphic file (type bmp)
-<../figures/figure3/chapter3_right_hand_rule.jpg>
+
+
+[38]
+File: ../figures/figure3/inversed_chapter3_right_hand_rule.jpg Graphic file (ty
+pe bmp)
+<../figures/figure3/inversed_chapter3_right_hand_rule.jpg>
+
+
+Package ocgx2 Warning: Line 199: OCG `itr186' is not defined.
+
+
+Package ocgx2 Warning: Line 200: OCG `itr187' is not defined.
+
+
+Package ocgx2 Warning: Line 201: OCG `itr188' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 201.
 
 
-LaTeX Warning: Unexpected alignment  on input line 209.
+Package ocgx2 Warning: Line 205: OCG `itr189' is not defined.
+
+
+Package ocgx2 Warning: Line 209: OCG `itr190' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 209.
@@ -1863,142 +2749,527 @@ LaTeX Warning: Unexpected alignment  on input line 209.
 
 LaTeX Warning: Unexpected alignment  on input line 209.
 
-[40]
+
+LaTeX Warning: Unexpected alignment  on input line 209.
+
+
+
+[39]
+
+Package ocgx2 Warning: Line 217: OCG `itr191' is not defined.
+
+
+Package ocgx2 Warning: Line 223: OCG `itr192' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 223.
 
 
+Package ocgx2 Warning: Line 224: OCG `itr193' is not defined.
+
+
+Package ocgx2 Warning: Line 225: OCG `itr194' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 238.
 
-\c@RT:chapter3_cross_product=\count440
-[41]
+
+Package ocgx2 Warning: Line 240: OCG `itr195' is not defined.
+
+
+Package ocgx2 Warning: Line 241: OCG `itr196' is not defined.
+
+
+Package ocgx2 Warning: Line 248: OCG `itr197' is not defined.
+
+\c@RT:chapter3_cross_product=\count459
+../chapters/chapter3/chapter3_main.tex:249: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.249 在引入了叉乘(见\refleaftext{chapter3_cross_product}
+                                                  )这一数学工具后，我们得以较为轻松地描述转动的动力学概念。
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+
+[40]
 
 LaTeX Warning: Unexpected alignment  on input line 251.
 
-File: ../figures/figure3/chapter3_torque.png Graphic file (type bmp)
-<../figures/figure3/chapter3_torque.png>
+
+Package ocgx2 Warning: Line 254: OCG `itr198' is not defined.
+
+
+Package ocgx2 Warning: Line 260: OCG `itr199' is not defined.
+
+
+Package ocgx2 Warning: Line 261: OCG `itr200' is not defined.
+
+File: ../figures/figure3/inversed_chapter3_torque.png Graphic file (type bmp)
+<../figures/figure3/inversed_chapter3_torque.png>
+
+
+[41]
+\c@RT:prove3.1=\count460
+
+
+Package ocgx2 Warning: Line 271: OCG `itr201' is not defined.
+
+(./figures/chapter3_moment_arm.tikz)
+File: ../figures/figure3/inversed_chapter3_moment_inertia1.jpg Graphic file (ty
+pe bmp)
+<../figures/figure3/inversed_chapter3_moment_inertia1.jpg>
+
+
 [42]
-\c@RT:prove3.1=\count441
- (./figures/chapter3_moment_arm.tikz)
-File: ../figures/figure3/chapter3_moment_inertia1.jpg Graphic file (type bmp)
-<../figures/figure3/chapter3_moment_inertia1.jpg>
- [43]
-File: ../figures/figure3/chapter3_moment_inertia2.png Graphic file (type bmp)
-<../figures/figure3/chapter3_moment_inertia2.png>
+File: ../figures/figure3/inversed_chapter3_moment_inertia2.png Graphic file (ty
+pe bmp)
+<../figures/figure3/inversed_chapter3_moment_inertia2.png>
 
 
 LaTeX Warning: Unexpected alignment  on input line 282.
 
-\c@RT:chapter3_axis=\count442
+
+Package ocgx2 Warning: Line 284: OCG `itr202' is not defined.
+
+\c@RT:chapter3_axis=\count461
+../chapters/chapter3/chapter3_main.tex:285: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.285 ...选定的\mgnote{见\refleaftext{chapter3_axis}}，
+                                                  这是因为，当转轴不同时，转动惯量与合力矩都会发生变化...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (40.37119pt too wide) in paragraph at lines 285--285
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
+
 
 LaTeX Warning: Unexpected alignment  on input line 285.
 
 
 LaTeX Warning: Unexpected alignment  on input line 287.
 
-\c@RT:prove3.2=\count443
-[44]
-\c@RT:prove3.3=\count444
- [45]
+
+Package ocgx2 Warning: Line 287: OCG `itr203' is not defined.
+
+\c@RT:prove3.2=\count462
+
+
+[43]
+
+Package ocgx2 Warning: Line 294: OCG `itr204' is not defined.
+
+
+Package ocgx2 Warning: Line 296: OCG `itr205' is not defined.
+
+\c@RT:prove3.3=\count463
+
+Package ocgx2 Warning: Line 308: OCG `itr206' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 314.
 
 
+
+[44]
+
 LaTeX Warning: Unexpected alignment  on input line 318.
 
-\c@RT:prove3.4=\count445
-\c@RT:prove3.5=\count446
+
+Package ocgx2 Warning: Line 318: OCG `itr207' is not defined.
+
+\c@RT:prove3.4=\count464
+
+Package ocgx2 Warning: Line 326: OCG `itr208' is not defined.
+
+
+Package ocgx2 Warning: Line 330: OCG `itr209' is not defined.
+
+\c@RT:prove3.5=\count465
+
+Package ocgx2 Warning: Line 336: OCG `itr210' is not defined.
+
+
+Package ocgx2 Warning: Line 338: OCG `itr211' is not defined.
+
+
+
+[45]
+File: ../figures/figure3/inversed_chapter3_kepler's_second_law.png Graphic file
+ (type bmp)
+<../figures/figure3/inversed_chapter3_kepler's_second_law.png>
+
+
+Package ocgx2 Warning: Line 349: OCG `itr212' is not defined.
+
+
+Package ocgx2 Warning: Line 355: OCG `itr213' is not defined.
+
+
+Package ocgx2 Warning: Line 357: OCG `itr214' is not defined.
+
+\c@RT:prove3.6=\count466
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .3[]
+[]|   [] [][]—
+ []
+
+
+
 [46]
-File: ../figures/figure3/chapter3_kepler's_second_law.png Graphic file (type bm
-p)
-<../figures/figure3/chapter3_kepler's_second_law.png>
-\c@RT:prove3.6=\count447
- [47]
-\c@RT:prove3.7=\count448
+
+Package ocgx2 Warning: Line 362: OCG `itr215' is not defined.
+
+\c@RT:prove3.7=\count467
+
+Package ocgx2 Warning: Line 371: OCG `itr216' is not defined.
+
+
+Package ocgx2 Warning: Line 372: OCG `itr217' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 373.
 
-\c@RT:chapter3_translation=\count449
+
+Package ocgx2 Warning: Line 375: OCG `itr218' is not defined.
+
+\c@RT:chapter3_translation=\count468
+../chapters/chapter3/chapter3_main.tex:376: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.376 ...ote{见\refleaftext{chapter3_translation}}。
+                                                  这暗示着，如果参考系还发生着转动，情况又会有所不同。
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (40.37119pt too wide) in paragraph at lines 376--376
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
+
 
 LaTeX Warning: Unexpected alignment  on input line 376.
 
-\c@RT:prove3.8=\count450
-[48]
-File: ../figures/figure3/chapter3_earth.png Graphic file (type bmp)
-<../figures/figure3/chapter3_earth.png>
+
+Package ocgx2 Warning: Line 379: OCG `itr219' is not defined.
+
+\c@RT:prove3.8=\count469
+
+Package ocgx2 Warning: Line 386: OCG `itr220' is not defined.
+
+
+Package ocgx2 Warning: Line 386: OCG `itr221' is not defined.
+
+
+
+[47]
+File: ../figures/figure3/inversed_chapter3_earth.png Graphic file (type bmp)
+<../figures/figure3/inversed_chapter3_earth.png>
 
 Overfull \hbox (40.4824pt too wide) detected at line 409
   [][]
  []
 
-[49]) (../chapters/chapter3/chapter3_exercise.tex [50]
-\c@RT:solution3.1=\count451
-File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/chapter3_example_1.jpg>
-\c@RT:solution3.2=\count452
-File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/chapter3_example_2.png>
- [51]
-\c@RT:solution3.3=\count453
+
+
+[48]) (../chapters/chapter3/chapter3_exercise.tex
+
+[49]
+\c@RT:solution3.1=\count470
+
+
+Package ocgx2 Warning: Line 6: OCG `itr222' is not defined.
+
+File: ../figures/figure3/inversed_chapter3_example_1.jpg Graphic file (type bmp
+)
+<../figures/figure3/inversed_chapter3_example_1.jpg>
+
+Package ocgx2 Warning: Line 11: OCG `itr223' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr224' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr225' is not defined.
+
+
+Package ocgx2 Warning: Line 12: OCG `itr226' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr227' is not defined.
+
+\c@RT:solution3.2=\count471
+
+Package ocgx2 Warning: Line 19: OCG `itr228' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr229' is not defined.
+
+
+Package ocgx2 Warning: Line 20: OCG `itr230' is not defined.
+
+
+Package ocgx2 Warning: Line 20: OCG `itr231' is not defined.
+
+
+Package ocgx2 Warning: Line 21: OCG `itr232' is not defined.
+
+File: ../figures/figure3/inversed_chapter3_example_2.png Graphic file (type bmp
+)
+<../figures/figure3/inversed_chapter3_example_2.png>
+
+Package ocgx2 Warning: Line 26: OCG `itr233' is not defined.
+
+
+Package ocgx2 Warning: Line 26: OCG `itr234' is not defined.
+
+
+
+[50]
+\c@RT:solution3.3=\count472
+
+
+Package ocgx2 Warning: Line 29: OCG `itr235' is not defined.
 
 (./figures/chapter3_example_3_3.tikz)
-\c@RT:solution3.4=\count454
-File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/chapter3_massive_pulley.png>
- [52]
-\c@RT:solution3.5=\count455
+
+Package ocgx2 Warning: Line 37: OCG `itr236' is not defined.
+
+\c@RT:solution3.4=\count473
+
+Package ocgx2 Warning: Line 38: OCG `itr237' is not defined.
+
+File: ../figures/figure3/inversed_chapter3_massive_pulley.png Graphic file (typ
+e bmp)
+<../figures/figure3/inversed_chapter3_massive_pulley.png>
+
+Package ocgx2 Warning: Line 45: OCG `itr238' is not defined.
+
+
+Package ocgx2 Warning: Line 50: OCG `itr239' is not defined.
+
+
+
+[51]
+\c@RT:solution3.5=\count474
 
 Underfull \hbox (badness 8170) in paragraph at lines 55--55
 []\TU/FandolSong-Regular(0)/m/it/12 习 题 \TU/lmr/m/it/14.4 3\TU/lmr/m/it/12 .5[]
 []|  Object rotating on a string of changing length—
  []
 
-File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/chapter3_string.png>
-\c@RT:solution3.6=\count456
+
+Package ocgx2 Warning: Line 56: OCG `itr240' is not defined.
+
+File: ../figures/figure3/inversed_chapter3_string.png Graphic file (type bmp)
+<../figures/figure3/inversed_chapter3_string.png>
+\c@RT:solution3.6=\count475
+
+Package ocgx2 Warning: Line 66: OCG `itr241' is not defined.
+
 (./figures/chapter3_rotating_rod_1.tikz)
 (./figures/chapter3_rotating_rod_2.tikz)
 Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[53]) (../chapters/chapter4/chapter4_main.tex [54]
+
+
+[52]) (../chapters/chapter4/chapter4_main.tex
+
+[53]
 第四章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-[55
 
-] [56]) (../chapters/chapter4/chapter4_exercise.tex [57]
-\c@RT:solution4.1=\count457
-File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/chapter4_流体静力学.png>
-\c@RT:solution4.2=\count458
-File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/chapter4_流体动力学.png>
- [58])
-(../chapters/chapter5/chapter5_main.tex [59]
+Package ocgx2 Warning: Line 1: OCG `itr242' is not defined.
+
+
+Package ocgx2 Warning: Line 6: OCG `itr243' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr244' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr245' is not defined.
+
+
+Package ocgx2 Warning: Line 9: OCG `itr246' is not defined.
+
+
+Package ocgx2 Warning: Line 10: OCG `itr247' is not defined.
+
+
+Package ocgx2 Warning: Line 11: OCG `itr248' is not defined.
+
+
+Package ocgx2 Warning: Line 12: OCG `itr249' is not defined.
+
+
+
+[54
+
+]
+
+Package ocgx2 Warning: Line 26: OCG `itr250' is not defined.
+
+
+Package ocgx2 Warning: Line 35: OCG `itr251' is not defined.
+
+
+
+[55]
+
+Package ocgx2 Warning: Line 55: OCG `itr252' is not defined.
+
+
+Package ocgx2 Warning: Line 65: OCG `itr253' is not defined.
+
+) (../chapters/chapter4/chapter4_exercise.tex
+\c@RT:solution4.1=\count476
+File: ../figures/figure4/inversed_chapter4_流体静力学.png Graphic file (type bmp)
+<../figures/figure4/inversed_chapter4_流体静力学.png>
+
+
+Package ocgx2 Warning: Line 7: OCG `itr254' is not defined.
+
+
+Package ocgx2 Warning: Line 7: OCG `itr255' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr256' is not defined.
+
+
+
+[56]
+\c@RT:solution4.2=\count477
+
+
+Package ocgx2 Warning: Line 17: OCG `itr257' is not defined.
+
+
+Package ocgx2 Warning: Line 17: OCG `itr258' is not defined.
+
+
+Package ocgx2 Warning: Line 18: OCG `itr259' is not defined.
+
+
+Package ocgx2 Warning: Line 18: OCG `itr260' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr261' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr262' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr263' is not defined.
+
+File: ../figures/figure4/inversed_chapter4_流体动力学.png Graphic file (type bmp)
+<../figures/figure4/inversed_chapter4_流体动力学.png>
+
+
+[57]) (../chapters/chapter5/chapter5_main.tex
+
+[58]
 第五章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 5--5
 [][][][][][][][][]  
  []
 
-[60
+
+Package ocgx2 Warning: Line 5: OCG `itr264' is not defined.
+
+
+Package ocgx2 Warning: Line 19: OCG `itr265' is not defined.
+
+
+Package ocgx2 Warning: Line 24: OCG `itr266' is not defined.
+
+
+
+[59
 
 ]
-\c@RT:prove5.1=\count459
+\c@RT:prove5.1=\count478
+
+
+Package ocgx2 Warning: Line 57: OCG `itr267' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 59.
 
-[61]
+
+Package ocgx2 Warning: Line 61: OCG `itr268' is not defined.
+
+
+Package ocgx2 Warning: Line 62: OCG `itr269' is not defined.
+
+
+Package ocgx2 Warning: Line 63: OCG `itr270' is not defined.
+
+
+Package ocgx2 Warning: Line 66: OCG `itr271' is not defined.
+
+
+Package ocgx2 Warning: Line 66: OCG `itr272' is not defined.
+
+
+Package ocgx2 Warning: Line 66: OCG `itr273' is not defined.
+
+
+Package ocgx2 Warning: Line 67: OCG `itr274' is not defined.
+
+
+Package ocgx2 Warning: Line 68: OCG `itr275' is not defined.
+
+
+
+[60]
+
+Package ocgx2 Warning: Line 71: OCG `itr276' is not defined.
+
+
+Package ocgx2 Warning: Line 71: OCG `itr277' is not defined.
+
+
+Package ocgx2 Warning: Line 88: OCG `itr278' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 91.
 
-\c@RT:prove5.2=\count460
-[62] [63]
+\c@RT:prove5.2=\count479
+
+Package ocgx2 Warning: Line 97: OCG `itr279' is not defined.
+
+
+Package ocgx2 Warning: Line 98: OCG `itr280' is not defined.
+
+
+Package ocgx2 Warning: Line 99: OCG `itr281' is not defined.
+
+
+Package ocgx2 Warning: Line 104: OCG `itr282' is not defined.
+
+
+
+[61]
+
+Package ocgx2 Warning: Line 105: OCG `itr283' is not defined.
+
+
+Package ocgx2 Warning: Line 152: OCG `itr284' is not defined.
+
+
+
+[62]
+
+Package ocgx2 Warning: Line 177: OCG `itr285' is not defined.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 177.
@@ -2011,7 +3282,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 177.
 
-\c@RT:prove5.3=\count461
+\c@RT:prove5.3=\count480
+
+Package ocgx2 Warning: Line 189: OCG `itr286' is not defined.
+
+
+Package ocgx2 Warning: Line 189: OCG `itr287' is not defined.
+
+
+Package ocgx2 Warning: Line 189: OCG `itr288' is not defined.
+
 
 Underfull \hbox (badness 1953) in paragraph at lines 189--190
 []\TU/FandolSong-Regular(0)/m/n/12 解 这 个 微 分 方 程 \TU/lmr/m/n/12 ([][][][][][][]
@@ -2019,21 +3299,35 @@ Underfull \hbox (badness 1953) in paragraph at lines 189--190
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-\TU/lmr/m/it/12 damped\TU/lmr/m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 过 阻 尼\T
-U/lmr/m/n/12 )[]\TU/FandolSong-Regular(0)/m/n/12 ，|
- []
 
-[64]
+[63]
+
+Package ocgx2 Warning: Line 191: OCG `itr289' is not defined.
+
+
+Package ocgx2 Warning: Line 193: OCG `itr290' is not defined.
+
+
+Package ocgx2 Warning: Line 197: OCG `itr291' is not defined.
+
+
 Overfull \hbox (39.27684pt too wide) detected at line 200
 \OML/lmm/m/it/12 x \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12
  + \OML/lmm/m/it/12 A[] [] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 x[]
  []
 
 
+Package ocgx2 Warning: Line 201: OCG `itr292' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 220.
 
-[65]
+
+
+[64]
+
+Package ocgx2 Warning: Line 239: OCG `itr293' is not defined.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 239.
@@ -2047,40 +3341,165 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 239.
 
 
+Package ocgx2 Warning: Line 242: OCG `itr294' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 245.
 
-\c@RT:prove5.4=\count462
+\c@RT:prove5.4=\count481
 
 LaTeX Warning: Unexpected alignment  on input line 250.
 
-[66] [67]
-\c@RT:chapter5_resonance=\count463
 
+Package ocgx2 Warning: Line 259: OCG `itr295' is not defined.
+
+
+Package ocgx2 Warning: Line 259: OCG `itr296' is not defined.
+
+
+
+[65]
+
+[66]
+
+Package ocgx2 Warning: Line 342: OCG `itr297' is not defined.
+
+\c@RT:chapter5_resonance=\count482
 
 LaTeX Warning: Unexpected alignment  on input line 342.
 
-[68]
+
+
+[67]
 
 LaTeX Warning: Unexpected alignment  on input line 393.
 
-[69]
-Overfull \hbox (4.01909pt too wide) in paragraph at lines 415--416
-[] \TU/lmr/m/n/12 Physical connection between []\TU/lmr/m/it/12 adjacent\TU/lmr
-/m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 邻 近 的\TU/lmr/m/n/12 )[][]\TU/lmr/m/i
-t/12 portions\TU/lmr/m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 部 分\TU/lmr/m/n/1
-2 )[] of the medium 
- []
 
-File: ../figures/figure5/chapter5_pulse_wave.png Graphic file (type bmp)
-<../figures/figure5/chapter5_pulse_wave.png>
+Package ocgx2 Warning: Line 395: OCG `itr298' is not defined.
+
+
+Package ocgx2 Warning: Line 401: OCG `itr299' is not defined.
+
+
+Package ocgx2 Warning: Line 401: OCG `itr300' is not defined.
+
+
+Package ocgx2 Warning: Line 402: OCG `itr301' is not defined.
+
+
+Package ocgx2 Warning: Line 403: OCG `itr302' is not defined.
+
+
+Package ocgx2 Warning: Line 405: OCG `itr303' is not defined.
+
+
+Package ocgx2 Warning: Line 408: OCG `itr304' is not defined.
+
+
+Package ocgx2 Warning: Line 413: OCG `itr305' is not defined.
+
+
+Package ocgx2 Warning: Line 414: OCG `itr306' is not defined.
+
+
+
+[68]
+
+Package ocgx2 Warning: Line 415: OCG `itr307' is not defined.
+
+
+Package ocgx2 Warning: Line 415: OCG `itr308' is not defined.
+
+
+Package ocgx2 Warning: Line 417: OCG `itr309' is not defined.
+
+File: ../figures/figure5/inversed_chapter5_pulse_wave.png Graphic file (type bm
+p)
+<../figures/figure5/inversed_chapter5_pulse_wave.png>
+
+Package ocgx2 Warning: Line 421: OCG `itr310' is not defined.
+
+
+Package ocgx2 Warning: Line 421: OCG `itr311' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 421.
 
-[70]
+
+Package ocgx2 Warning: Line 423: OCG `itr312' is not defined.
+
+
+Package ocgx2 Warning: Line 423: OCG `itr313' is not defined.
+
+
+Package ocgx2 Warning: Line 423: OCG `itr314' is not defined.
+
+
+Package ocgx2 Warning: Line 425: OCG `itr315' is not defined.
+
+
+Package ocgx2 Warning: Line 425: OCG `itr316' is not defined.
+
+
+Package ocgx2 Warning: Line 425: OCG `itr317' is not defined.
+
+
+Package ocgx2 Warning: Line 427: OCG `itr318' is not defined.
+
+
+Package ocgx2 Warning: Line 429: OCG `itr319' is not defined.
+
+
+Package ocgx2 Warning: Line 431: OCG `itr320' is not defined.
+
+
+Package ocgx2 Warning: Line 432: OCG `itr321' is not defined.
+
+
+Package ocgx2 Warning: Line 434: OCG `itr322' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 435.
 
-[71]
+
+
+[69]
+
+Package ocgx2 Warning: Line 438: OCG `itr323' is not defined.
+
+
+Package ocgx2 Warning: Line 438: OCG `itr324' is not defined.
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 438--439
+[]\TU/FandolSong-Regular(0)/m/n/12 对 于 满 足 这 一 关 系 的 波\TU/lmr/m/n/12 , \TU/Fand
+olSong-Regular(0)/m/n/12 我 们 称 之 为  [] []；|  否 则 称 之 为
+ []
+
+
+Package ocgx2 Warning: Line 440: OCG `itr325' is not defined.
+
+
+Package ocgx2 Warning: Line 442: OCG `itr326' is not defined.
+
+
+Package ocgx2 Warning: Line 448: OCG `itr327' is not defined.
+
+
+Package ocgx2 Warning: Line 468: OCG `itr328' is not defined.
+
+
+Package ocgx2 Warning: Line 470: OCG `itr329' is not defined.
+
+
+
+[70]
+
+Package ocgx2 Warning: Line 490: OCG `itr330' is not defined.
+
+
+Package ocgx2 Warning: Line 493: OCG `itr331' is not defined.
+
 
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <12> not available
 (Font)              Font shape `TU/lmr/b/sl' tried instead on input line 493.
@@ -2088,51 +3507,214 @@ LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <12> not available
 
 LaTeX Warning: Unexpected alignment  on input line 494.
 
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
-\TU/FandolSong-Regular(0)/m/n/12 发 生
+
+Package ocgx2 Warning: Line 494: OCG `itr332' is not defined.
+
+
+Package ocgx2 Warning: Line 498: OCG `itr333' is not defined.
+
+
+Package ocgx2 Warning: Line 526: OCG `itr334' is not defined.
+
+
+
+[71]
+
+Package ocgx2 Warning: Line 555: OCG `itr335' is not defined.
+
+
+Package ocgx2 Warning: Line 558: OCG `itr336' is not defined.
+
+
+Package ocgx2 Warning: Line 558: OCG `itr337' is not defined.
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 558--559
+[]$\OML/lmm/m/it/12 v[] > v[]$\TU/FandolSong-Regular(0)/m/n/12 ：|  此 时 波 的 传 播 
+接 近 于  [] []，|  发 生
  []
 
-[73] [74]
+
+Package ocgx2 Warning: Line 575: OCG `itr338' is not defined.
+
+
+
+[72]
+
+Package ocgx2 Warning: Line 592: OCG `itr339' is not defined.
+
+
+Package ocgx2 Warning: Line 595: OCG `itr340' is not defined.
+
+
+Package ocgx2 Warning: Line 621: OCG `itr341' is not defined.
+
+
+
+[73]
 
 LaTeX Warning: Unexpected alignment  on input line 641.
 
 
 LaTeX Warning: Unexpected alignment  on input line 650.
 
-[75]
-\c@RT:prove5.5=\count464
+
+
+[74]
+\c@RT:prove5.5=\count483
 
 
 LaTeX Warning: Unexpected alignment  on input line 692.
 
-[76] [77]
+
+Package ocgx2 Warning: Line 696: OCG `itr342' is not defined.
+
+
+Package ocgx2 Warning: Line 699: OCG `itr343' is not defined.
+
+
+Package ocgx2 Warning: Line 700: OCG `itr344' is not defined.
+
+
+Package ocgx2 Warning: Line 701: OCG `itr345' is not defined.
+
+
+Package ocgx2 Warning: Line 702: OCG `itr346' is not defined.
+
+
+Package ocgx2 Warning: Line 703: OCG `itr347' is not defined.
+
+
+Package ocgx2 Warning: Line 704: OCG `itr348' is not defined.
+
+
+
+[75]
+
+Package ocgx2 Warning: Line 728: OCG `itr349' is not defined.
+
+
+
+[76]
 
 LaTeX Warning: Unexpected alignment  on input line 778.
 
-[78] [79]
+
+Package ocgx2 Warning: Line 782: OCG `itr350' is not defined.
+
+
+Package ocgx2 Warning: Line 783: OCG `itr351' is not defined.
+
+
+Package ocgx2 Warning: Line 806: OCG `itr352' is not defined.
+
+
+Package ocgx2 Warning: Line 807: OCG `itr353' is not defined.
+
+
+
+[77]
+
+Package ocgx2 Warning: Line 809: OCG `itr354' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 837.
 
-[80]
+
+Package ocgx2 Warning: Line 840: OCG `itr355' is not defined.
+
+
+
+[78]
+
+Package ocgx2 Warning: Line 860: OCG `itr356' is not defined.
+
+
+Package ocgx2 Warning: Line 861: OCG `itr357' is not defined.
+
+
+Package ocgx2 Warning: Line 874: OCG `itr358' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 874.
+
+
+Package ocgx2 Warning: Line 876: OCG `itr359' is not defined.
+
+
+Package ocgx2 Warning: Line 877: OCG `itr360' is not defined.
+
+
+Package ocgx2 Warning: Line 880: OCG `itr361' is not defined.
+
+
+Package ocgx2 Warning: Line 880: OCG `itr362' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 880.
 
 
+Package ocgx2 Warning: Line 880: OCG `itr363' is not defined.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 880--881
-\TU/FandolSong-Regular(0)/m/n/12 通 过
+\TU/FandolSong-Regular(0)/m/n/12 能 保 持 其 形 状 不 变，|  我 们 便 用  [] [][][][]来 描 述 它
+。|  通 过
  []
 
-[81] [82]
-Overfull \hbox (1.67906pt too wide) in paragraph at lines 1000--1001
-[]\TU/FandolSong-Regular(0)/m/n/12 吉 他 弦 的 振 动 产 生 了 声 音。|  声 音 的 三 个 基 本 要 素 是
- []\TU/lmr/m/it/12 Pitch\TU/lmr/m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 音 高\T
-U/lmr/m/n/12 )[]\TU/FandolSong-Regular(0)/m/n/12 、| []\TU/lmr/m/it/12 Loudness\
-TU/lmr/m/n/12 (\TU/FandolSong-Regular(0)/m/it/12 响
- []
+
+
+[79]
+
+Package ocgx2 Warning: Line 882: OCG `itr364' is not defined.
+
+
+Package ocgx2 Warning: Line 884: OCG `itr365' is not defined.
+
+
+Package ocgx2 Warning: Line 885: OCG `itr366' is not defined.
+
+
+Package ocgx2 Warning: Line 886: OCG `itr367' is not defined.
+
+
+Package ocgx2 Warning: Line 896: OCG `itr368' is not defined.
+
+
+Package ocgx2 Warning: Line 898: OCG `itr369' is not defined.
+
+
+Package ocgx2 Warning: Line 899: OCG `itr370' is not defined.
+
+
+Package ocgx2 Warning: Line 916: OCG `itr371' is not defined.
+
+
+Package ocgx2 Warning: Line 923: OCG `itr372' is not defined.
+
+
+Package ocgx2 Warning: Line 923: OCG `itr373' is not defined.
+
+
+Package ocgx2 Warning: Line 923: OCG `itr374' is not defined.
+
+
+
+[80]
+
+Package ocgx2 Warning: Line 1000: OCG `itr375' is not defined.
+
+
+Package ocgx2 Warning: Line 1000: OCG `itr376' is not defined.
+
+
+Package ocgx2 Warning: Line 1000: OCG `itr377' is not defined.
+
+
+Package ocgx2 Warning: Line 1002: OCG `itr378' is not defined.
+
+
+Package ocgx2 Warning: Line 1002: OCG `itr379' is not defined.
 
 
 Underfull \hbox (badness 5460) in paragraph at lines 1002--1003
@@ -2140,108 +3722,379 @@ Underfull \hbox (badness 5460) in paragraph at lines 1002--1003
 ]$\TU/FandolSong-Regular(0)/m/n/12 ，|  还 包 含 一 系 列 整 数 倍[]于 基 频 的
  []
 
-[83]
-\c@RT:prove5.6=\count465
 
+
+[81]
+
+Package ocgx2 Warning: Line 1047: OCG `itr380' is not defined.
+
+
+Package ocgx2 Warning: Line 1049: OCG `itr381' is not defined.
+
+\c@RT:prove5.6=\count484
 
 LaTeX Warning: Unexpected alignment  on input line 1057.
 
-\c@RT:prove5.7=\count466
+\c@RT:prove5.7=\count485
 
 LaTeX Warning: Unexpected alignment  on input line 1070.
 
-[84] [85] [86] [87]
-\c@RT:chapter5_Energy_Transfer=\count467
+
+Package ocgx2 Warning: Line 1070: OCG `itr382' is not defined.
+
+
+
+[82]
+
+Package ocgx2 Warning: Line 1087: OCG `itr383' is not defined.
+
+
+Package ocgx2 Warning: Line 1093: OCG `itr384' is not defined.
+
+
+Package ocgx2 Warning: Line 1094: OCG `itr385' is not defined.
+
+
+Package ocgx2 Warning: Line 1094: OCG `itr386' is not defined.
+
+
+Package ocgx2 Warning: Line 1104: OCG `itr387' is not defined.
+
+
+Package ocgx2 Warning: Line 1104: OCG `itr388' is not defined.
+
+
+Package ocgx2 Warning: Line 1107: OCG `itr389' is not defined.
+
+
+Package ocgx2 Warning: Line 1108: OCG `itr390' is not defined.
+
+
+Package ocgx2 Warning: Line 1111: OCG `itr391' is not defined.
+
+
+Package ocgx2 Warning: Line 1115: OCG `itr392' is not defined.
+
+
+Package ocgx2 Warning: Line 1118: OCG `itr393' is not defined.
+
+
+Package ocgx2 Warning: Line 1119: OCG `itr394' is not defined.
+
+
+Package ocgx2 Warning: Line 1121: OCG `itr395' is not defined.
+
+
+
+[83]
+
+Package ocgx2 Warning: Line 1126: OCG `itr396' is not defined.
+
+
+Package ocgx2 Warning: Line 1129: OCG `itr397' is not defined.
+
+
+Package ocgx2 Warning: Line 1130: OCG `itr398' is not defined.
+
+
+Package ocgx2 Warning: Line 1132: OCG `itr399' is not defined.
+
+
+Package ocgx2 Warning: Line 1139: OCG `itr400' is not defined.
+
+
+Package ocgx2 Warning: Line 1160: OCG `itr401' is not defined.
+
+
+Package ocgx2 Warning: Line 1164: OCG `itr402' is not defined.
+
+
+Package ocgx2 Warning: Line 1166: OCG `itr403' is not defined.
+
+
+Package ocgx2 Warning: Line 1168: OCG `itr404' is not defined.
+
+
+
+[84]
+
+Package ocgx2 Warning: Line 1183: OCG `itr405' is not defined.
+
+
+
+[85]
+
+Package ocgx2 Warning: Line 1230: OCG `itr406' is not defined.
+
+\c@RT:chapter5_Energy_Transfer=\count486
+../chapters/chapter5/chapter5_main.tex:1242: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.1242 根据 \refleaftext{chapter5_Energy_Transfer}
+                                                 的结果，我们有
+I'm ignoring this, since I wasn't doing a \csname.
 
 
 LaTeX Warning: Unexpected alignment  on input line 1253.
 
-[88] [89]) (../chapters/chapter5/chapter5_exercise.tex
-\c@RT:solution5.1=\count468
- [90]
-\c@RT:solution5.2=\count469
-\c@RT:solution5.3=\count470
- [91]
-\c@RT:solution5.4=\count471
-)
-(../chapters/chapter6/chapter6_main.tex [92]
+
+Package ocgx2 Warning: Line 1258: OCG `itr407' is not defined.
+
+
+Package ocgx2 Warning: Line 1265: OCG `itr408' is not defined.
+
+
+
+[86]
+
+[87]
+
+Package ocgx2 Warning: Line 1333: OCG `itr409' is not defined.
+
+
+Package ocgx2 Warning: Line 1346: OCG `itr410' is not defined.
+
+
+Package ocgx2 Warning: Line 1347: OCG `itr411' is not defined.
+
+
+
+[88]
+
+Package ocgx2 Warning: Line 1366: OCG `itr412' is not defined.
+
+
+Package ocgx2 Warning: Line 1368: OCG `itr413' is not defined.
+
+
+Package ocgx2 Warning: Line 1369: OCG `itr414' is not defined.
+
+) (../chapters/chapter5/chapter5_exercise.tex
+\c@RT:solution5.1=\count487
+\c@RT:solution5.2=\count488
+
+
+[89]
+\c@RT:solution5.3=\count489
+
+
+Package ocgx2 Warning: Line 18: OCG `itr415' is not defined.
+
+
+Package ocgx2 Warning: Line 18: OCG `itr416' is not defined.
+
+\c@RT:solution5.4=\count490
+) (../chapters/chapter6/chapter6_main.tex
+
+[90]
 第六章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-[93
 
-] (./figures/chapter6_frames.tikz) [94]
+Package ocgx2 Warning: Line 1: OCG `itr417' is not defined.
+
+
+Package ocgx2 Warning: Line 4: OCG `itr418' is not defined.
+
+
+Package ocgx2 Warning: Line 15: OCG `itr419' is not defined.
+
+
+
+[91
+
+] (./figures/chapter6_frames.tikz)
+
+Package ocgx2 Warning: Line 35: OCG `itr420' is not defined.
+
+
+Package ocgx2 Warning: Line 44: OCG `itr421' is not defined.
+
+
+
+[92]
+
+Package ocgx2 Warning: Line 54: OCG `itr422' is not defined.
+
+
+Package ocgx2 Warning: Line 55: OCG `itr423' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 55.
 
 
+Package ocgx2 Warning: Line 58: OCG `itr424' is not defined.
+
+
+Package ocgx2 Warning: Line 60: OCG `itr425' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 61.
 
-\c@RT:prove6.1=\count472
-(./figures/chapter6_framess.tikz) [95]
+
+Package ocgx2 Warning: Line 61: OCG `itr426' is not defined.
+
+\c@RT:prove6.1=\count491
+(./figures/chapter6_framess.tikz)
+
+[93]
+
+Package ocgx2 Warning: Line 79: OCG `itr427' is not defined.
+
+
+Package ocgx2 Warning: Line 79: OCG `itr428' is not defined.
+
+
 Underfull \hbox (badness 2735) in paragraph at lines 79--80
 []\TU/FandolSong-Regular(0)/m/n/12 利 用 洛 伦 兹 变 换，|  我 们 可 以 进 一 步 解 释 两 个 著 名 的
  相 对 论 效 应，|  即
  []
 
-File: ../figures/figure6/chapter_6_2.png Graphic file (type bmp)
-<../figures/figure6/chapter_6_2.png>
-[96]
+
+Package ocgx2 Warning: Line 80: OCG `itr429' is not defined.
+
+
+Package ocgx2 Warning: Line 85: OCG `itr430' is not defined.
+
+File: ../figures/figure6/inversed_chapter_6_2.png Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_2.png>
+
+
+[94]
+
+Package ocgx2 Warning: Line 90: OCG `itr431' is not defined.
+
+
+
+[95]
 
 LaTeX Warning: Unexpected alignment  on input line 120.
 
-\c@RT:prove6.2=\count473
-[97] (./figures/chapter6_frames.tikz)
+\c@RT:prove6.2=\count492
+
+Package ocgx2 Warning: Line 125: OCG `itr432' is not defined.
+
+(./figures/chapter6_frames.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 130.
 
-[98]
-\c@RT:prove6.3=\count474
- (./figures/chapter6_example_6_2.tikz) [99]
-\c@RT:chapter6_length_contraction=\count475
+
+Package ocgx2 Warning: Line 134: OCG `itr433' is not defined.
+
+
+
+[96]
+
+Package ocgx2 Warning: Line 163: OCG `itr434' is not defined.
+
+
+Package ocgx2 Warning: Line 165: OCG `itr435' is not defined.
+
+\c@RT:prove6.3=\count493
+
+
+[97]
+
+Package ocgx2 Warning: Line 183: OCG `itr436' is not defined.
+
+(./figures/chapter6_example_6_2.tikz)
+
+Package ocgx2 Warning: Line 187: OCG `itr437' is not defined.
+
+\c@RT:chapter6_length_contraction=\count494
+../chapters/chapter6/chapter6_main.tex:189: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.189 ...efleaftext{chapter6_length_contraction}}，
+                                                  我们只考虑尺$1$方向上的相对速度。
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (40.37119pt too wide) in paragraph at lines 189--189
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 189.
 
-\c@RT:law6.1=\count476
+\c@RT:law6.1=\count495
 
 LaTeX Warning: Unexpected alignment  on input line 199.
 
 
+
+[98]
+
+Package ocgx2 Warning: Line 202: OCG `itr438' is not defined.
+
+
+Package ocgx2 Warning: Line 203: OCG `itr439' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 204.
 
-\c@RT:prove6.4=\count477
-[100]
-File: ../figures/figure6/chapter_6_3.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_3.jpg>
- [101]
-\c@RT:prove6.5=\count478
+\c@RT:prove6.4=\count496
+File: ../figures/figure6/inversed_chapter_6_3.jpg Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_3.jpg>
 
+
+[99]
+
+Package ocgx2 Warning: Line 214: OCG `itr440' is not defined.
+
+\c@RT:prove6.5=\count497
+
+
+[100]
 
 LaTeX Warning: Unexpected alignment  on input line 241.
 
 
 LaTeX Warning: Unexpected alignment  on input line 245.
 
-\c@RT:prove6.6=\count479
 
-Underfull \hbox (badness 1484) in paragraph at lines 251--251
-[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 6\TU/lmr/m/it/12 .3[]
-[]|  []Energy and Momentum Transformation(\TU/FandolSong-Regular(0)/m/it/12 动 量
- 能 量 变 换\TU/lmr/m/it/12 )[]—
- []
+Package ocgx2 Warning: Line 248: OCG `itr441' is not defined.
 
-(./figures/chapter6_framess.tikz) [102] (./figures/chapter6_framess.tikz)
-[103]
+
+Package ocgx2 Warning: Line 251: OCG `itr442' is not defined.
+
+\c@RT:prove6.6=\count498
+(./figures/chapter6_framess.tikz)
+
+[101]
+
+Package ocgx2 Warning: Line 264: OCG `itr443' is not defined.
+
+
+Package ocgx2 Warning: Line 268: OCG `itr444' is not defined.
+
+(./figures/chapter6_framess.tikz)
+
+[102]
 
 LaTeX Warning: Unexpected alignment  on input line 282.
 
-(./figures/chapter6_framess.tikz) [104]
+
+Package ocgx2 Warning: Line 282: OCG `itr445' is not defined.
+
+
+Overfull \hbox (5.3116pt too wide) in paragraph at lines 282--282
+[]\TU/FandolSong-Regular(0)/m/it/12 定 理 \TU/lmr/m/it/14.4 6\TU/lmr/m/it/12 .5[]
+[][][][]|   []
+ []
+
+(./figures/chapter6_framess.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 296.
+
+
+
+[103]
+
+Package ocgx2 Warning: Line 297: OCG `itr446' is not defined.
 
 
 LaTeX Warning: Unexpected alignment  on input line 297.
@@ -2252,722 +4105,771 @@ LaTeX Warning: Unexpected alignment  on input line 297.
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
-[105] (./figures/chapter6_dpl.tikz)
-\c@RT:chapter6_principle_of_relativity=\count480
+
+Package ocgx2 Warning: Line 314: OCG `itr447' is not defined.
+
+(./figures/chapter6_dpl.tikz)
+
+[104]
+\c@RT:chapter6_principle_of_relativity=\count499
+
+../chapters/chapter6/chapter6_main.tex:333: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.333 ...ftext{chapter6_principle_of_relativity}}，
+                                                  我们知道，观察者相对波源运动和波源相对观察者运动，其...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (40.37119pt too wide) in paragraph at lines 333--333
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 333.
 
-[106]
-\c@RT:chapter6_invariant=\count481
+
+Package ocgx2 Warning: Line 335: OCG `itr448' is not defined.
+
+
+Package ocgx2 Warning: Line 337: OCG `itr449' is not defined.
+
+\c@RT:chapter6_invariant=\count500
+../chapters/chapter6/chapter6_main.tex:338: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.338 ...gnote{见\refleaftext{chapter6_invariant}}的
+                                                  讨论中，我们提到，不变量$(ct)^2-x^2-y^...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Overfull \hbox (45.48119pt too wide) in paragraph at lines 338--338
+\TU/FandolSong-Regular(0)/m/n/10 见[][][][][][][]  
+ []
 
 
 LaTeX Warning: Unexpected alignment  on input line 338.
 
-[107] (./figures/chapter6_mins1.tikz)
+
+
+[105] (./figures/chapter6_mins1.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 361.
 
 
 LaTeX Warning: Unexpected alignment  on input line 362.
 
-(./figures/chapter6_mins4.tikz) [108] (./figures/chapter6_mins2.tikz)
+
+
+[106]
+
+Package ocgx2 Warning: Line 369: OCG `itr450' is not defined.
+
+(./figures/chapter6_mins4.tikz)
+
+Package ocgx2 Warning: Line 375: OCG `itr451' is not defined.
+
+(./figures/chapter6_mins2.tikz)
+
+[107]
+
+Package ocgx2 Warning: Line 380: OCG `itr452' is not defined.
+
+
+Package ocgx2 Warning: Line 380: OCG `itr453' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 381.
 
-[109] (./figures/chapter6_mins3.tikz)
+
+Package ocgx2 Warning: Line 382: OCG `itr454' is not defined.
+
+
+Package ocgx2 Warning: Line 382: OCG `itr455' is not defined.
+
+
+Package ocgx2 Warning: Line 382: OCG `itr456' is not defined.
+
+
+Package ocgx2 Warning: Line 382: OCG `itr457' is not defined.
+
+
+Package ocgx2 Warning: Line 383: OCG `itr458' is not defined.
+
+
+Package ocgx2 Warning: Line 383: OCG `itr459' is not defined.
+
+
+Package ocgx2 Warning: Line 384: OCG `itr460' is not defined.
+
+
+Package ocgx2 Warning: Line 384: OCG `itr461' is not defined.
+
+
+Package ocgx2 Warning: Line 385: OCG `itr462' is not defined.
+
+
+Package ocgx2 Warning: Line 385: OCG `itr463' is not defined.
+
+
+
+[108] (./figures/chapter6_mins3.tikz)
 
 LaTeX Warning: Unexpected alignment  on input line 397.
 
-[110] (./figures/chapter6_mins5.tikz) (./figures/chapter6_mins6.tikz) [111]
-\c@RT:prove6.7=\count482
 
-[112] (./figures/chapter6_mins7.tikz) (./figures/chapter6_mins8.tikz) [113]
-[114]
+Package ocgx2 Warning: Line 401: OCG `itr464' is not defined.
+
+(./figures/chapter6_mins5.tikz)
+
+[109]
+
+Package ocgx2 Warning: Line 405: OCG `itr465' is not defined.
+
+
+Package ocgx2 Warning: Line 405: OCG `itr466' is not defined.
+
+
+Package ocgx2 Warning: Line 406: OCG `itr467' is not defined.
+
+
+Package ocgx2 Warning: Line 406: OCG `itr468' is not defined.
+
+
+Package ocgx2 Warning: Line 407: OCG `itr469' is not defined.
+
+
+Package ocgx2 Warning: Line 407: OCG `itr470' is not defined.
+
+(./figures/chapter6_mins6.tikz)
+
+[110]
+
+Package ocgx2 Warning: Line 421: OCG `itr471' is not defined.
+
+\c@RT:prove6.7=\count501
+
+Package ocgx2 Warning: Line 430: OCG `itr472' is not defined.
+
+
+Package ocgx2 Warning: Line 434: OCG `itr473' is not defined.
+
+(./figures/chapter6_mins7.tikz) (./figures/chapter6_mins8.tikz)
+
+[111]
+
+[112]
+
+[113]
 
 LaTeX Warning: Unexpected alignment  on input line 497.
 
 
 LaTeX Warning: Unexpected alignment  on input line 497.
 
-(./figures/chapter6_mins9.tikz) [115
+(./figures/chapter6_mins9.tikz)
 
-])
-(../chapters/chapter6/chapter6_exercise.tex
-\c@RT:solution6.1=\count483
-File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_7.jpg>
- [116]
-\c@RT:solution6.2=\count484
+[114]) (../chapters/chapter6/chapter6_exercise.tex
+\c@RT:solution6.1=\count502
 
+
+Package ocgx2 Warning: Line 4: OCG `itr474' is not defined.
+
+
+Package ocgx2 Warning: Line 4: OCG `itr475' is not defined.
+
+
+Package ocgx2 Warning: Line 5: OCG `itr476' is not defined.
+
+
+Package ocgx2 Warning: Line 5: OCG `itr477' is not defined.
+
+
+Package ocgx2 Warning: Line 6: OCG `itr478' is not defined.
+
+
+Package ocgx2 Warning: Line 15: OCG `itr479' is not defined.
+
+
+Package ocgx2 Warning: Line 15: OCG `itr480' is not defined.
+
+File: ../figures/figure6/inversed_chapter_6_7.jpg Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_7.jpg>
+
+
+[115]
+
+Package ocgx2 Warning: Line 22: OCG `itr481' is not defined.
+
+\c@RT:solution6.2=\count503
 (./figures/chapter6_solution_6_2_1.tikz)
-\c@RT:solution6.3=\count485
- [117]
-\c@RT:solution6.4=\count486
-File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_20.jpg>
- [118]
-\c@RT:solution6.5=\count487
-File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_23.jpg>
- [119]
-\c@RT:solution6.6=\count488
-File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_24.jpg>
- [120]
-\c@RT:solution6.7=\count489
- [121])
-(../chapters/chapter7/Chapter7_main.tex [122]
+\c@RT:solution6.3=\count504
+
+
+Package ocgx2 Warning: Line 35: OCG `itr482' is not defined.
+
+
+
+[116]
+
+Package ocgx2 Warning: Line 38: OCG `itr483' is not defined.
+
+
+Package ocgx2 Warning: Line 38: OCG `itr484' is not defined.
+
+\c@RT:solution6.4=\count505
+File: ../figures/figure6/inversed_chapter_6_20.jpg Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_20.jpg>
+
+Package ocgx2 Warning: Line 44: OCG `itr485' is not defined.
+
+
+
+[117]
+\c@RT:solution6.5=\count506
+File: ../figures/figure6/inversed_chapter_6_23.jpg Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_23.jpg>
+
+
+[118]
+\c@RT:solution6.6=\count507
+File: ../figures/figure6/inversed_chapter_6_24.jpg Graphic file (type bmp)
+<../figures/figure6/inversed_chapter_6_24.jpg>
+
+
+[119]
+\c@RT:solution6.7=\count508
+
+
+Package ocgx2 Warning: Line 80: OCG `itr486' is not defined.
+
+
+Package ocgx2 Warning: Line 80: OCG `itr487' is not defined.
+
+
+Package ocgx2 Warning: Line 80: OCG `itr488' is not defined.
+
+
+Package ocgx2 Warning: Line 89: OCG `itr489' is not defined.
+
+
+
+[120]) (../chapters/chapter7/Chapter7_main.tex
+
+[121]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-[123
+
+Package ocgx2 Warning: Line 1: OCG `itr490' is not defined.
+
+
+Package ocgx2 Warning: Line 2: OCG `itr491' is not defined.
+
+
+Package ocgx2 Warning: Line 8: OCG `itr492' is not defined.
+
+
+Package ocgx2 Warning: Line 8: OCG `itr493' is not defined.
+
+
+Package ocgx2 Warning: Line 10: OCG `itr494' is not defined.
+
+
+Package ocgx2 Warning: Line 12: OCG `itr495' is not defined.
+
+
+Package ocgx2 Warning: Line 13: OCG `itr496' is not defined.
+
+
+Package ocgx2 Warning: Line 14: OCG `itr497' is not defined.
+
+
+
+[122
 
 ]
 
+Package ocgx2 Warning: Line 23: OCG `itr498' is not defined.
+
+
+Package ocgx2 Warning: Line 25: OCG `itr499' is not defined.
+
+
+Package ocgx2 Warning: Line 26: OCG `itr500' is not defined.
+
+
+Package ocgx2 Warning: Line 28: OCG `itr501' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 28.
 
-\c@RT:prove7.11=\count490
-\c@RT:prove7.1=\count491
-[124]
+
+Package ocgx2 Warning: Line 30: OCG `itr502' is not defined.
+
+
+Package ocgx2 Warning: Line 32: OCG `itr503' is not defined.
+
+\c@RT:prove7.11=\count509
+
+Package ocgx2 Warning: Line 36: OCG `itr504' is not defined.
+
+
+Package ocgx2 Warning: Line 37: OCG `itr505' is not defined.
+
+\c@RT:prove7.1=\count510
+
+
+[123]
+
+Package ocgx2 Warning: Line 54: OCG `itr506' is not defined.
+
+
+Package ocgx2 Warning: Line 55: OCG `itr507' is not defined.
+
+
+Package ocgx2 Warning: Line 59: OCG `itr508' is not defined.
+
+
+Package ocgx2 Warning: Line 61: OCG `itr509' is not defined.
+
+
+Package ocgx2 Warning: Line 63: OCG `itr510' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
+
+Package ocgx2 Warning: Line 71: OCG `itr511' is not defined.
+
+
+Package ocgx2 Warning: Line 78: OCG `itr512' is not defined.
+
+
+
+[124]
+
+Package ocgx2 Warning: Line 79: OCG `itr513' is not defined.
+
+
+Package ocgx2 Warning: Line 93: OCG `itr514' is not defined.
+
+\c@RT:prove7.10=\count511
+
+Package ocgx2 Warning: Line 104: OCG `itr515' is not defined.
+
+
+Package ocgx2 Warning: Line 110: OCG `itr516' is not defined.
+
+
+
 [125]
-\c@RT:prove7.10=\count492
- [126]
-\c@RT:prove7.9=\count493
- [127]
-\c@RT:prove7.2=\count494
- [128]
+
+Package ocgx2 Warning: Line 116: OCG `itr517' is not defined.
+
+
+Package ocgx2 Warning: Line 123: OCG `itr518' is not defined.
+
+
+Package ocgx2 Warning: Line 152: OCG `itr519' is not defined.
+
+\c@RT:prove7.9=\count512
+
+
+[126]
+
+Package ocgx2 Warning: Line 161: OCG `itr520' is not defined.
+
+
+Package ocgx2 Warning: Line 162: OCG `itr521' is not defined.
+
+\c@RT:prove7.2=\count513
+
+Package ocgx2 Warning: Line 174: OCG `itr522' is not defined.
+
+
+Package ocgx2 Warning: Line 181: OCG `itr523' is not defined.
+
+
+
+[127]
+
+Package ocgx2 Warning: Line 198: OCG `itr524' is not defined.
+
+
+Package ocgx2 Warning: Line 200: OCG `itr525' is not defined.
+
+
+Package ocgx2 Warning: Line 200: OCG `itr526' is not defined.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 200--202
-\TU/FandolSong-Regular(0)/m/n/12 是 有 []\TU/lmr/m/it/12 Boundary\TU/lmr/m/n/12 (
-\TU/FandolSong-Regular(0)/m/it/12 边 界\TU/lmr/m/n/12 )[]
+[] []
  []
 
+
+Package ocgx2 Warning: Line 202: OCG `itr527' is not defined.
+
+
+Package ocgx2 Warning: Line 203: OCG `itr528' is not defined.
+
+
+Package ocgx2 Warning: Line 204: OCG `itr529' is not defined.
+
+
+Package ocgx2 Warning: Line 205: OCG `itr530' is not defined.
+
+
+Package ocgx2 Warning: Line 206: OCG `itr531' is not defined.
+
+
+Package ocgx2 Warning: Line 209: OCG `itr532' is not defined.
+
+
+
+[128]
+
+Package ocgx2 Warning: Line 211: OCG `itr533' is not defined.
+
+
+Package ocgx2 Warning: Line 213: OCG `itr534' is not defined.
+
+
+Package ocgx2 Warning: Line 214: OCG `itr535' is not defined.
+
+
+Package ocgx2 Warning: Line 214: OCG `itr536' is not defined.
+
+
+Package ocgx2 Warning: Line 221: OCG `itr537' is not defined.
+
+\c@RT:chapter7_thermodynamic_temperature=\count514
+../chapters/chapter7/Chapter7_main.tex:223: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.223 ...eaf{chapter7_thermodynamic_temperature}}是
+                                                  以 \itr{Absolute Zero}{绝对零度...
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+
+LaTeX Warning: Unexpected alignment  on input line 223.
+
+
+Package ocgx2 Warning: Line 223: OCG `itr538' is not defined.
+
+
+Package ocgx2 Warning: Line 224: OCG `itr539' is not defined.
+
+
+Package ocgx2 Warning: Line 225: OCG `itr540' is not defined.
+
+
+Package ocgx2 Warning: Line 227: OCG `itr541' is not defined.
+
+
+
 [129]
-\c@RT:chapter7_thermodynamic_temperature=\count495
+
+Package ocgx2 Warning: Line 232: OCG `itr542' is not defined.
 
 
-LaTeX Warning: Unexpected alignment  on input line 223.
+Package ocgx2 Warning: Line 233: OCG `itr543' is not defined.
 
 
-LaTeX Warning: Unexpected alignment  on input line 223.
+Package ocgx2 Warning: Line 243: OCG `itr544' is not defined.
+
+\c@RT:prove7.3=\count515
+
+Package ocgx2 Warning: Line 255: OCG `itr545' is not defined.
+
+
 
 [130]
-\c@RT:prove7.3=\count496
- [131]
+
+Package ocgx2 Warning: Line 263: OCG `itr546' is not defined.
+
 
 LaTeX Warning: Unexpected alignment  on input line 265.
 
 
+Package ocgx2 Warning: Line 278: OCG `itr547' is not defined.
+
+
 LaTeX Warning: Unexpected alignment  on input line 278.
 
-\c@RT:prove7.4=\count497
+
+Package ocgx2 Warning: Line 281: OCG `itr548' is not defined.
+
+\c@RT:prove7.4=\count516
+
+Package ocgx2 Warning: Line 295: OCG `itr549' is not defined.
+
+
+
+[131]
+
+Package ocgx2 Warning: Line 310: OCG `itr550' is not defined.
+
+\c@RT:prove7.5=\count517
+
+Package ocgx2 Warning: Line 324: OCG `itr551' is not defined.
+
+\c@RT:prove7.6=\count518
+
+Package ocgx2 Warning: Line 338: OCG `itr552' is not defined.
+
+
+Package ocgx2 Warning: Line 339: OCG `itr553' is not defined.
+
+
+
 [132]
-\c@RT:prove7.5=\count498
-\c@RT:prove7.6=\count499
- [133] (./figures/chapter7_otto_cycle.tikz) [134]
-\c@RT:prove7.7=\count500
+
+Package ocgx2 Warning: Line 342: OCG `itr554' is not defined.
+
+
+Package ocgx2 Warning: Line 343: OCG `itr555' is not defined.
+
+
+Package ocgx2 Warning: Line 345: OCG `itr556' is not defined.
+
+
+Package ocgx2 Warning: Line 346: OCG `itr557' is not defined.
+
+
+Package ocgx2 Warning: Line 349: OCG `itr558' is not defined.
+
+
+Package ocgx2 Warning: Line 355: OCG `itr559' is not defined.
+
+
+Package ocgx2 Warning: Line 362: OCG `itr560' is not defined.
+
+(./figures/chapter7_otto_cycle.tikz)
+\c@RT:prove7.7=\count519
+
+
+[133]
+
+Package ocgx2 Warning: Line 375: OCG `itr561' is not defined.
 
 (./figures/chapter7_carnot_cycle.tikz)
-\c@RT:prove7.8=\count501
 
+Package ocgx2 Warning: Line 382: OCG `itr562' is not defined.
+
+\c@RT:prove7.8=\count520
 
 LaTeX Warning: Unexpected alignment  on input line 385.
 
 
 LaTeX Warning: Unexpected alignment  on input line 387.
 
-[135]
-\c@RT:example7.6=\count502
 
+Package ocgx2 Warning: Line 397: OCG `itr563' is not defined.
+
+
+Package ocgx2 Warning: Line 398: OCG `itr564' is not defined.
+
+
+
+[134]
+
+Package ocgx2 Warning: Line 417: OCG `itr565' is not defined.
+
+\c@RT:example7.6=\count521
 
 LaTeX Warning: Unexpected alignment  on input line 419.
 
-[136] [137]) (../chapters/chapter7/Chapter7_exercise.tex
-\c@RT:solution7.1=\count503
-\c@RT:solution7.2=\count504
- [138]
-\c@RT:solution7.3=\count505
+
+Package ocgx2 Warning: Line 422: OCG `itr566' is not defined.
+
+
+
+[135]
+
+Package ocgx2 Warning: Line 448: OCG `itr567' is not defined.
+
+
+Package ocgx2 Warning: Line 452: OCG `itr568' is not defined.
+
+
+Package ocgx2 Warning: Line 452: OCG `itr569' is not defined.
+
+
+Package ocgx2 Warning: Line 460: OCG `itr570' is not defined.
+
+
+Package ocgx2 Warning: Line 471: OCG `itr571' is not defined.
+
+
+Package ocgx2 Warning: Line 479: OCG `itr572' is not defined.
+
+
+
+[136]) (../chapters/chapter7/Chapter7_exercise.tex
+\c@RT:solution7.1=\count522
+
+
+Package ocgx2 Warning: Line 3: OCG `itr573' is not defined.
+
+
+Package ocgx2 Warning: Line 3: OCG `itr574' is not defined.
+
+
+Package ocgx2 Warning: Line 4: OCG `itr575' is not defined.
+
+\c@RT:solution7.2=\count523
+
+Package ocgx2 Warning: Line 11: OCG `itr576' is not defined.
+
+
+Package ocgx2 Warning: Line 21: OCG `itr577' is not defined.
+
+
+Package ocgx2 Warning: Line 21: OCG `itr578' is not defined.
+
+\c@RT:solution7.3=\count524
+
+Package ocgx2 Warning: Line 30: OCG `itr579' is not defined.
+
 
 Underfull \hbox (badness 1331) in paragraph at lines 29--34
 \TU/lmr/m/n/12 Hint: The isothermal compressibility $\OML/lmm/m/it/12 ^^T[]$ \T
 U/lmr/m/n/12 is defined through $\OML/lmm/m/it/12 ^^T[] \OT1/lmr/m/n/12 =
  []
 
-\c@RT:solution7.4=\count506
-(./figures/chapter7_solution_7_4.tikz) [139]
-\c@RT:solution7.5=\count507
 
-(./figures/chapter7_solution_7_5.tikz) [140]
 
-LaTeX Warning: Unexpected alignment  on input line 83.
+[137]
+\c@RT:solution7.4=\count525
 
-\c@RT:solution7.6=\count508
-[141]) [142]
-Missing character: There is no ^^89 ("89) in font nullfont!
-Missing character: There is no ^^89 ("89) in font nullfont!
-(../chapters/chapter1/chapter1_prove.tex [143]
-第一章
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
+Package ocgx2 Warning: Line 44: OCG `itr580' is not defined.
 
-) (../chapters/chapter2/chapter2_prove.tex [144
 
-]
-第二章
+Package ocgx2 Warning: Line 44: OCG `itr581' is not defined.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
 
+Package ocgx2 Warning: Line 44: OCG `itr582' is not defined.
 
-LaTeX Warning: Unexpected alignment  on input line 2.
 
-(./figures/chapter2_newton's first law.tikz) [145
+Package ocgx2 Warning: Line 47: OCG `itr583' is not defined.
 
-]
+(./figures/chapter7_solution_7_4.tikz)
 
-LaTeX Warning: Unexpected alignment  on input line 24.
+[138]
+\c@RT:solution7.5=\count526
 
-[146]
 
-LaTeX Warning: Unexpected alignment  on input line 32.
+Package ocgx2 Warning: Line 60: OCG `itr584' is not defined.
 
 
-LaTeX Warning: Unexpected alignment  on input line 37.
+Package ocgx2 Warning: Line 60: OCG `itr585' is not defined.
 
-[147]
 
-LaTeX Warning: Unexpected alignment  on input line 49.
+Package ocgx2 Warning: Line 63: OCG `itr586' is not defined.
 
-[148]
 
-LaTeX Warning: Unexpected alignment  on input line 61.
+Package ocgx2 Warning: Line 64: OCG `itr587' is not defined.
 
 
-LaTeX Warning: Unexpected alignment  on input line 73.
-
-[149]
-
-LaTeX Warning: Unexpected alignment  on input line 129.
-
-[150]) (../chapters/chapter3/chapter3_prove.tex [151]
-第三章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 3.
-
-\c@RT:chapter3_connection=\count509
-\c@RT:chapter3_double_cross_product=\count510
-
-LaTeX Warning: Unexpected alignment  on input line 21.
-
-[152
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 32.
-
-
-LaTeX Warning: Unexpected alignment  on input line 44.
-
-\c@RT:chapter3_rotation_CM=\count511
-
-LaTeX Warning: Unexpected alignment  on input line 53.
-
-[153]
-
-LaTeX Warning: Unexpected alignment  on input line 58.
-
-
-LaTeX Warning: Unexpected alignment  on input line 65.
-
-\c@RT:chapter3_derivation=\count512
-[154]
-
-LaTeX Warning: Unexpected alignment  on input line 83.
-
-
-LaTeX Warning: Unexpected alignment  on input line 97.
-
-
-LaTeX Warning: Unexpected alignment  on input line 97.
-
-[155]
-
-LaTeX Warning: Unexpected alignment  on input line 111.
-
-
-LaTeX Warning: Unexpected alignment  on input line 179.
-
-
-LaTeX Warning: Unexpected alignment  on input line 179.
-
-[156] [157] [158]) (../chapters/chapter4/chapter4_prove.tex [159]
-第四章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 2--2
-[][][][][][][][][]  
- []
-
-) (../chapters/chapter5/chapter5_prove.tex [160
-
-]
-第五章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-
-LaTeX Warning: Unexpected alignment  on input line 15.
-
-[161
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 43.
-
-[162]
-
-LaTeX Warning: Unexpected alignment  on input line 91.
-
-[163] [164]
-
-LaTeX Warning: Unexpected alignment  on input line 187.
-
-[165] [166] [167]
-
-LaTeX Warning: Unexpected alignment  on input line 329.
-
-[168]
-
-LaTeX Warning: Unexpected alignment  on input line 359.
-
-[169]) (../chapters/chapter6/chapter6_prove.tex [170]
-第六章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-(./figures/chapter6_framess.tikz) [171
-
-] [172]
-
-LaTeX Warning: Unexpected alignment  on input line 76.
-
-(./figures/chapter6_length_contraction.tikz) [173]
-
-LaTeX Warning: Unexpected alignment  on input line 114.
-
-
-LaTeX Warning: Unexpected alignment  on input line 131.
-
-(./figures/chapter6_momentum1.tikz) (./figures/chapter6_momentum2.tikz)
-
-LaTeX Warning: Unexpected alignment  on input line 156.
-
-[174] [175] [176]
-
-LaTeX Warning: Unexpected alignment  on input line 186.
-
-
-LaTeX Warning: Unexpected alignment  on input line 204.
-
-
-LaTeX Warning: Unexpected alignment  on input line 204.
-
-(./figures/chapter6_framess.tikz) [177]
-
-LaTeX Warning: Unexpected alignment  on input line 229.
-
-[178]) (../chapters/chapter7/Chapter7_prove.tex [179]
-第七章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 6.
-
-[180
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 40.
-
-File: ../figures/figure7/chapter7_mean_path.png Graphic file (type bmp)
-<../figures/figure7/chapter7_mean_path.png>
-\c@RT:prove7.13=\count513
-
-LaTeX Warning: Unexpected alignment  on input line 56.
-
-[181]
-
-LaTeX Warning: Unexpected alignment  on input line 65.
-
-[182]
-
-LaTeX Warning: Unexpected alignment  on input line 87.
-
-
-LaTeX Warning: Unexpected alignment  on input line 87.
-
-
-LaTeX Warning: Unexpected alignment  on input line 95.
-
-
-LaTeX Warning: Unexpected alignment  on input line 106.
-
-
-LaTeX Warning: Unexpected alignment  on input line 106.
-
-[183]
-
-LaTeX Warning: Unexpected alignment  on input line 142.
-
-(./figures/chapter7_otto_cycle.tikz)
-
-LaTeX Warning: Unexpected alignment  on input line 159.
-
-(./figures/chapter7_carnot_cycle.tikz) [184]
-
-LaTeX Warning: Unexpected alignment  on input line 194.
-
-
-LaTeX Warning: Unexpected alignment  on input line 223.
-
-[185] [186] [187]
-
-LaTeX Warning: Unexpected alignment  on input line 313.
-
-
-LaTeX Warning: Unexpected alignment  on input line 313.
-
-[188] [189]
-
-LaTeX Warning: Unexpected alignment  on input line 359.
-
-
-LaTeX Warning: Unexpected alignment  on input line 359.
-
-
-LaTeX Warning: Unexpected alignment  on input line 369.
-
-
-LaTeX Warning: Unexpected alignment  on input line 374.
-
-[190
-
-] [191]
-
-LaTeX Warning: Unexpected alignment  on input line 435.
-
-
-LaTeX Warning: Unexpected alignment  on input line 457.
-
-[192] [193])
-Missing character: There is no ^^89 ("89) in font nullfont!
-Missing character: There is no ^^89 ("89) in font nullfont!
-(../chapters/chapter1/chapter1_answer.tex [194
-
-]
-第一章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-) (../chapters/chapter2/chapter2_answer.tex [195
-
-]
-第二章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-
-LaTeX Warning: Unexpected alignment  on input line 21.
-
-[196
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 40.
-
-[197]
-
-LaTeX Warning: Unexpected alignment  on input line 67.
-
-File: ../figures/figure2/chapter2_problem3.png Graphic file (type bmp)
-<../figures/figure2/chapter2_problem3.png>
-
-Overfull \hbox (8.62373pt too wide) detected at line 90
-[]
- []
-
-[198]
-
-LaTeX Warning: Unexpected alignment  on input line 106.
-
-File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
-<../figures/figure2/chapter2_problem4.png>
-[199]) (../chapters/chapter3/chapter3_answer.tex [200]
-第三章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
-<../figures/figure3/chapter3_example_1.jpg>
-[201
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 34.
-
-File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
-<../figures/figure3/chapter3_example_2.png>
-\c@RT:chapter3_moment_inertia2=\count514
-
-LaTeX Warning: Unexpected alignment  on input line 74.
-
-[202] [203]
-
-LaTeX Warning: Unexpected alignment  on input line 85.
-
-(./figures/chapter3_example_3_3.tikz)
-\c@RT:law3.1=\count515
- [204]
-
-LaTeX Warning: Unexpected alignment  on input line 116.
-
-File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
-<../figures/figure3/chapter3_massive_pulley.png>
-[205]
-
-LaTeX Warning: Unexpected alignment  on input line 158.
-
-File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
-<../figures/figure3/chapter3_string.png>
-[206]
-
-LaTeX Warning: Unexpected alignment  on input line 176.
-
-(./figures/chapter3_rotating_rod_1.tikz)
-(./figures/chapter3_rotating_rod_2.tikz)
-Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=t
-ex-text;!
-[207] [208] [209]) (../chapters/chapter4/chapter4_answer.tex [210]
-第四章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
-<../figures/figure4/chapter4_流体静力学.png>
-File: ../figures/figure4/chapter4_E1_A1.png Graphic file (type bmp)
-<../figures/figure4/chapter4_E1_A1.png>
-[211
-
-] [212]
-
-LaTeX Warning: Unexpected alignment  on input line 38.
-
-File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
-<../figures/figure4/chapter4_流体动力学.png>
-[213]) (../chapters/chapter5/chapter5_answer.tex [214]
-第五章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-[215
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 67.
-
-[216]
-
-LaTeX Warning: Unexpected alignment  on input line 91.
-
-[217] [218]
-
-LaTeX Warning: Unexpected alignment  on input line 159.
-
-) (../chapters/chapter6/chapter6_answer.tex [219]
-第六章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_7.jpg>
-[220
-
-]
-
-LaTeX Warning: Unexpected alignment  on input line 42.
-
-(./figures/chapter6_solution_6_2_1.tikz)
-(./figures/chapter6_solution_6_2_2.tikz)
-(./figures/chapter6_solution_6_2_3.tikz) [221] [222]
-
-LaTeX Warning: Unexpected alignment  on input line 72.
-
-(./figures/chapter6_solution_6_3.tikz) [223] [224]
-
-LaTeX Warning: Unexpected alignment  on input line 143.
-
-File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_20.jpg>
-(./figures/chapter6_solution_6_4_1.tikz)
-(./figures/chapter6_solution_6_4_2.tikz) [225] [226] [227]
-
-LaTeX Warning: Unexpected alignment  on input line 199.
-
-File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_23.jpg>
-[228] [229] [230]
-
-LaTeX Warning: Unexpected alignment  on input line 257.
-
-File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
-<../figures/figure6/chapter_6_24.jpg>
-[231] [232]
-
-LaTeX Warning: Unexpected alignment  on input line 298.
-
-\c@RT:law6.5=\count516
-
-LaTeX Warning: Unexpected alignment  on input line 328.
-
-\c@RT:chapter6_photon=\count517
-
-LaTeX Warning: Unexpected alignment  on input line 332.
-
-[233] [234] [235]) (../chapters/chapter7/Chapter7_answer.tex [236]
-第七章
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Unexpected alignment  on input line 2.
-
-
-LaTeX Warning: Unexpected alignment  on input line 15.
-
-[237
-
-] [238]
-
-LaTeX Warning: Unexpected alignment  on input line 62.
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 66--71
-\TU/lmr/m/n/12 Hint: The isothermal compressibility $\OML/lmm/m/it/12 ^^T[]$ \T
-U/lmr/m/n/12 is defined through $\OML/lmm/m/it/12 ^^T[] \OT1/lmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
-
- []
-
-[239
-
-] [240]
-
-LaTeX Warning: Unexpected alignment  on input line 172.
-
-(./figures/chapter7_solution_7_4.tikz) [241] [242]
-
-LaTeX Warning: Unexpected alignment  on input line 244.
+Package ocgx2 Warning: Line 66: OCG `itr588' is not defined.
 
 (./figures/chapter7_solution_7_5.tikz)
-\c@RT:law7.2=\count518
- [243] [244] [245] [246]
 
-LaTeX Warning: Unexpected alignment  on input line 417.
-
-\c@RT:chapter7_process_introduction=\count519
-
-LaTeX Warning: Unexpected alignment  on input line 446.
-
-[247] [248]) [249] (../chapters/afterall/afterall.tex) [250
+Package ocgx2 Warning: Line 77: OCG `itr589' is not defined.
 
 
-] (./build/main.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2022/08/05>
- ***********
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Underfull \hbox (badness 1354) in paragraph at lines 71--78
+\TU/lmr/m/n/12 (c) For a Carnot engine with efficiency $\OML/lmm/m/it/12 ^^O \O
+T1/lmr/m/n/12 = 1 \OMS/lmsy/m/n/12 ^^@ []$\TU/lmr/m/n/12 , verify the
+ []
 
 
-LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CFC148370917B9542099808B24AD9F12;21143.
- ) 
-Here is how much of TeX's memory you used:
- 66333 strings out of 476761
- 1657683 string characters out of 5802896
- 2291394 words of memory out of 5000000
- 87144 multiletter control sequences out of 15000+600000
- 626213 words of font info for 190 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 121i,20n,425p,3399b,1437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+[139]
 
-Output written on ./build/main.pdf (261 pages).
+LaTeX Warning: Unexpected alignment  on input line 83.
+
+\c@RT:solution7.6=\count527
+
+Package ocgx2 Warning: Line 85: OCG `itr590' is not defined.
+
+
+Package ocgx2 Warning: Line 87: OCG `itr591' is not defined.
+
+
+Package ocgx2 Warning: Line 94: OCG `itr592' is not defined.
+
+
+Package ocgx2 Warning: Line 96: OCG `itr593' is not defined.
+
+
+
+[140]) (../chapters/chapter8/chapter8_main.tex
+
+[141]
+第八章
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+Package ocgx2 Warning: Line 1: OCG `itr594' is not defined.
+
+
+Package ocgx2 Warning: Line 4: OCG `itr595' is not defined.
+
+
+Package ocgx2 Warning: Line 7: OCG `itr596' is not defined.
+
+
+
+[142
+
+]
+
+Package ocgx2 Warning: Line 29: OCG `itr597' is not defined.
+
+
+Package ocgx2 Warning: Line 54: OCG `itr598' is not defined.
+
+
+
+[143]
+
+Package ocgx2 Warning: Line 58: OCG `itr599' is not defined.
+
+
+
+[144]
+
+LaTeX Warning: File `inversed_chapter8_柱坐标系.png' not found on input line 83.
+
+../chapters/chapter8/chapter8_main.tex:83: Unable to load picture or PDF file '
+inversed_chapter8_柱坐标系.png'.
+<to be read again> 
+                   }
+l.83 ...inglefigure}[柱坐标系]{chapter8_柱坐标系.png}[0.9]
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+../chapters/chapter8/chapter8_main.tex:83: Package graphics Error: Division by 
+0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...inglefigure}[柱坐标系]{chapter8_柱坐标系.png}[0.9]
+                                                  
+Your command 
