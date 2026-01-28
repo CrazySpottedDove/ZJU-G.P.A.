@@ -227,16 +227,16 @@
 \contentsline {section}{\numberline {7.2}Part 2}{271}{section.2.7.2}%
 \contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{279}{chapter.2.8}%
 \contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{290}{chapter.2.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子力学}{291}{chapter.2.10}%
-\contentsline {chapter}{\large 答案部分}{297}{figure.2.10.4}%
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{298}{chapter.3.1}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学基础}{299}{chapter.3.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{304}{chapter.3.3}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{314}{chapter.3.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{318}{chapter.3.5}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{323}{chapter.3.6}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{340}{chapter.3.7}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{353}{chapter.3.8}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{367}{chapter.3.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{368}{chapter.3.10}%
-\contentsline {chapter}{后记}{374}{chapter*.52}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{291}{chapter.2.10}%
+\contentsline {chapter}{\large 答案部分}{298}{AMS.59}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{299}{chapter.3.1}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学基础}{300}{chapter.3.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{305}{chapter.3.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{315}{chapter.3.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{319}{chapter.3.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{324}{chapter.3.6}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{341}{chapter.3.7}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{354}{chapter.3.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{368}{chapter.3.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{369}{chapter.3.10}%
+\contentsline {chapter}{后记}{375}{chapter*.60}%

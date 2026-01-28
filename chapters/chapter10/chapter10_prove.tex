@@ -1,4 +1,4 @@
-\chapter[量子力学]{\itr{Quantum Mechanics}{量子力学}}
+\chapter[量子物理]{\itr{Quantum Physics}{量子物理}}
 \begin{prove}[The Compton Effect]
 \begin{minipage}{0.45\textwidth}
     \begin{singlefigure}[散射前图示]{chapter10_康普顿散射1.png}[0.99]
@@ -145,8 +145,47 @@
         \dfrac{\dif \psi_2(a)}{\dif{x}} &= \dfrac{\dif \psi_3(a)}{\dif{x}}\\
     \end{align*}
     
-    隧穿概率的定义为$T = \dfrac{|C_1|^2}{|A_1|^2}$，因此有：
-    \[T\propto  e^{-2ka} \qquad k = \dfrac{1}{\hbar} \sqrt{2m(U_0 - E)}\]
+    求解以下方程。首先我们代入已知，得：
+    \begin{align*}
+        A_1 + A_2 &= B_1 + B_2 \tag{1}\\
+        i\alpha(A_1 - A_2) &= i\beta(B_1 - B_2)\tag{2}\\
+        B_1 e^{i\beta a} + B_2 e^{-i\beta a} &= C_1 e^{i\alpha a} \tag{3}\\
+        i\beta(B_1 e^{i\beta a} + B_2 e^{-i\beta a}) &= i\alpha C_1 e^{i\alpha a} \tag{4}
+    \end{align*}
+
+    由方程(3)和(4)求解，得：
+    \begin{align*}
+        B_1 &= \dfrac{C_1 e^{i\alpha a}}{2\beta}(\beta + \alpha) e^{-i\beta a}\\
+        B_2 &= \dfrac{C_1 e^{i\alpha a}}{2\beta}(\beta - \alpha) e^{i\beta a}
+    \end{align*}
+
+    代入(1)和(2)中，并结合双曲三角函数$\cosh(x) = \dfrac{e^x + e^{-x}}{2}$、$\sinh(x) = \dfrac{e^x - e^{-x}}{2}$化简，得到：
+    \begin{align*}
+        A_1 + A_2 &= C_1 e^{i\beta a}[\cosh(i\beta a) - \dfrac{\alpha}{\beta}\sinh(i\beta a)]\\
+        A_1 - A_2 &= C_1 e^{i\beta a}[\cosh(i\beta a) - \dfrac{\beta}{\alpha}\sinh(i\beta a)]
+    \end{align*}
+
+    因此：
+    \[A_1 = C_1 e^{i\alpha a}[\cosh(i\beta a) - \dfrac{1}{2}(\dfrac{\alpha}{\beta} + \dfrac{\beta}{\alpha})\sinh(i\beta a)]\]
     
-    尽管这里只是正比关系，但明显$U_0 = 0$时这个概率应该为1，因此正比关系可以直接写作等号（在概率意义下）。
+    由双曲三角函数的奇偶性易得以下关系：
+    \[\cosh(-x) = \cosh(x)\qquad \sinh(-x) = -\sinh(x)\]
+
+    注意到这里$\beta$是一个虚数，因此做变量代换$\beta =i\kappa \quad (\kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar})$，得到：
+    \begin{align*}
+        A_1 &= C_1 e^{i\alpha a}[\cosh(-\kappa a) - \dfrac{1}{2}(\dfrac{\alpha}{i\kappa} + \dfrac{i\kappa}{\alpha})\sinh(-\kappa a)]\\
+            &= C_1 e^{i\alpha a}[\cosh(\kappa a) + \dfrac{i}{2}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})\sinh(\kappa a)]
+    \end{align*}
+    
+    隧穿概率的定义为$T = \dfrac{|C_1|^2}{|A_1|^2}$，因此$\dfrac{1}{T} = \dfrac{|A_1|^2}{|C_1|^2}$。
+
+    此时：
+    \[\dfrac{1}{T} = \cosh^2(\kappa a) + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})^2\sinh^2(\kappa a)\]
+
+    由双曲三角函数的性质$\cosh^2(x) = \sinh^2(x) + 1$，同时注意到$1 + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} - \dfrac{\alpha}{\kappa})^2 = \dfrac{1}{4}(\dfrac{\kappa}{\alpha} + \dfrac{\alpha}{\kappa})^2$可以得到：
+    \[T = \dfrac{1}{1 + \dfrac{1}{4}(\dfrac{\kappa}{\alpha} + \dfrac{\alpha}{\kappa})^2\sinh^2(\kappa a)}\quad \kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar}\quad\alpha = \dfrac{\sqrt{2mE}}{\hbar}\]
+    
+    当$\kappa a \gg 1$时，$\sinh(\kappa a) \approx \dfrac{1}{2}e^{\kappa a} \gg 1$（这被称为WKB近似），因此：
+    \[T = \dfrac{16E(U_0 - E)}{U_0^2}e^{-2\kappa a} \quad \kappa = \dfrac{\sqrt{2m(U_0 - E)}}{\hbar}\]
+
 \end{prove}
