@@ -27,7 +27,7 @@
 
 - 上传更新：
 
-已配置了 github workflow，只需要
+已配置了 github workflow，只需要打一个 git tag，然后上传到 master 分支，构建发布工作会由 github 资源自动执行。
 
 ## 关于构建
 
