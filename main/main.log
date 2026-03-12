@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.4)  28 JAN 2026 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.4)  10 MAR 2026 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,11 +746,11 @@ Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/esint/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-) (c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+) (./mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
  (c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
-) (c:/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+) (./chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
 \l__chemgreek_tmpa_int=\count360
 \g__chemgreek_tmpa_int=\count361
@@ -2246,6 +2246,7 @@ File: ../figures/figure8/chapter8_电场中的电偶极子.png Graphic file (typ
 <../figures/figure8/chapter8_电场中的电偶极子.png>
  [153] [154] [155]
 \c@RT:prove8.3=\count525
+ [156]
 File: ../figures/figure8/chapter8_电容器示意图.png Graphic file (type bmp)
 <../figures/figure8/chapter8_电容器示意图.png>
 
@@ -2253,22 +2254,21 @@ Overfull \hbox (5.97849pt too wide) in paragraph at lines 427--435
 []$[]$ $[]$
  []
 
-[156]
+[157]
 File: ../figures/figure8/chapter8_圆柱形电容器.png Graphic file (type bmp)
 <../figures/figure8/chapter8_圆柱形电容器.png>
- [157]
 File: ../figures/figure8/chapter8_球形电容器.png Graphic file (type bmp)
 <../figures/figure8/chapter8_球形电容器.png>
- [158]
+ [158] [159]
 File: ../figures/figure8/chapter8_平行板电容器.png Graphic file (type bmp)
 <../figures/figure8/chapter8_平行板电容器.png>
- [159]
+ [160]
 File: ../figures/figure8/chapter8_极化的宏观解释.png Graphic file (type bmp)
 <../figures/figure8/chapter8_极化的宏观解释.png>
- [160]
+ [161]
 File: ../figures/figure8/chapter8_电极化率.png Graphic file (type bmp)
 <../figures/figure8/chapter8_电极化率.png>
- [161]
+ [162]
 
 LaTeX Warning: Unexpected alignment  on input line 538.
 
@@ -2278,66 +2278,65 @@ LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
 
 File: ../figures/figure8/chapter8_极化与电容.png Graphic file (type bmp)
 <../figures/figure8/chapter8_极化与电容.png>
-[162] [163]
+[163] [164]
 
 LaTeX Warning: Unexpected alignment  on input line 600.
 
-[164]
 File: ../figures/figure8/chapter8_漂移速度.png Graphic file (type bmp)
 <../figures/figure8/chapter8_漂移速度.png>
- [165] [166] [167]
+[165] [166] [167] [168]
 File: ../figures/figure8/chapter8_RC.png Graphic file (type bmp)
 <../figures/figure8/chapter8_RC.png>
- [168]
-\c@RT:prove8.4=\count526
  [169]
+\c@RT:prove8.4=\count526
+ [170]
 File: ../figures/figure8/chapter8_电路等效变换.png Graphic file (type bmp)
 <../figures/figure8/chapter8_电路等效变换.png>
 \c@RT:prove8.5=\count527
- [170] [171]
+ [171] [172]
 File: ../figures/figure8/chapter8_磁力的定义.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁力的定义.png>
- [172]
-\c@RT:prove8.6=\count528
  [173]
+\c@RT:prove8.6=\count528
+ [174]
 File: ../figures/figure8/chapter8_螺线圈的磁场.png Graphic file (type bmp)
 <../figures/figure8/chapter8_螺线圈的磁场.png>
- [174]
+ [175]
 File: ../figures/figure8/chapter8_圆形螺线圈.png Graphic file (type bmp)
 <../figures/figure8/chapter8_圆形螺线圈.png>
- [175]
+ [176]
 File: ../figures/figure8/chapter8_磁偶极子.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁偶极子.png>
 File: ../figures/figure8/chapter8_磁场中的磁偶极子.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁场中的磁偶极子.png>
- [176]
+ [177]
 \c@RT:prove8.7=\count529
 File: ../figures/figure8/chapter8_磁场对磁偶极子的影响.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁场对磁偶极子的影响.png>
- [177]
+ [178]
 File: ../figures/figure8/chapter8_磁化的微观解释.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁化的微观解释.png>
 File: ../figures/figure8/chapter8_磁化对磁场的影响.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁化对磁场的影响.png>
- [178] [179]
+ [179] [180]
 File: ../figures/figure8/chapter8_磁滞回线.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁滞回线.png>
- [180] [181]
+ [181] [182]
 File: ../figures/figure8/chapter8_动生电动势.png Graphic file (type bmp)
 <../figures/figure8/chapter8_动生电动势.png>
- [182]
+ [183]
 File: ../figures/figure8/chapter8_直螺线圈电感.png Graphic file (type bmp)
 <../figures/figure8/chapter8_直螺线圈电感.png>
- [183]
+ [184]
 File: ../figures/figure8/chapter8_圆形螺线圈电感.png Graphic file (type bmp)
 <../figures/figure8/chapter8_圆形螺线圈电感.png>
- [184]
+ [185]
 File: ../figures/figure8/chapter8_互感的解释.png Graphic file (type bmp)
 <../figures/figure8/chapter8_互感的解释.png>
- [185]
+ [186]
 File: ../figures/figure8/chapter8_互感系数的计算.png Graphic file (type bmp)
 <../figures/figure8/chapter8_互感系数的计算.png>
- [186]
+ [187]
 Overfull \hbox (1.01726pt too wide) in paragraph at lines 1103--1103
 [] []
  []
@@ -2346,28 +2345,28 @@ File: ../figures/figure8/chapter8_边界条件.png Graphic file (type bmp)
 <../figures/figure8/chapter8_边界条件.png>
 File: ../figures/figure8/chapter8_边界条件2.png Graphic file (type bmp)
 <../figures/figure8/chapter8_边界条件2.png>
-[187]
+[188]
 File: ../figures/figure8/chapter8_磁场边界条件.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁场边界条件.png>
- [188] [189]
+ [189] [190]
 File: ../figures/figure8/chapter8_位移电流引入.png Graphic file (type bmp)
 <../figures/figure8/chapter8_位移电流引入.png>
- [190]
+ [191]
 Overfull \hbox (1.94829pt too wide) in paragraph at lines 1185--1192
 \TU/SimSun(0)/m/n/12 具 有 类 似 物 理 意 义 的 一 项 已 经 显 而 易 见 了，|  我 们 把 它 定 义 为 []
  []
 
 File: ../figures/figure8/chapter8_电磁波.png Graphic file (type bmp)
 <../figures/figure8/chapter8_电磁波.png>
-[191]
+[192]
 \c@RT:prove8.8=\count530
- [192]
+ [193]
 File: ../figures/figure8/chapter8_功率密度的理解.png Graphic file (type bmp)
 <../figures/figure8/chapter8_功率密度的理解.png>
- [193]
+ [194]
 File: ../figures/figure8/chapter8_光.png Graphic file (type bmp)
 <../figures/figure8/chapter8_光.png>
- [194]
+ [195]
 Overfull \hbox (5.68898pt too wide) in alignment at lines 1265--1268
  [] [] 
  []
@@ -2387,25 +2386,25 @@ Overfull \hbox (5.68898pt too wide) in alignment at lines 1273--1313
  [] [] 
  []
 
-[195]) (../chapters/chapter8/chapter8_exercise.tex
+[196]) (../chapters/chapter8/chapter8_exercise.tex
 \c@RT:solution8.1=\count531
 \c@RT:solution8.2=\count532
 File: ../figures/figure8/chapter8_exercise电流密度边界条件.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise电流密度边界条件.png>
- [196]
+ [197]
 \c@RT:solution8.3=\count533
 File: ../figures/figure8/chapter8_exercise磁场.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise磁场.png>
 File: ../figures/figure8/chapter8_exercise磁阻.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise磁阻.png>
- [197]
+ [198]
 \c@RT:solution8.4=\count534
 File: ../figures/figure8/chapter8_exercise坡应廷矢量1.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise坡应廷矢量1.png>
 File: ../figures/figure8/chapter8_exercise坡应廷矢量2.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise坡应廷矢量2.png>
 \c@RT:solution8.5=\count535
- [198]
+ [199]
 \c@RT:solution8.6=\count536
 \c@RT:solution8.7=\count537
 File: ../figures/figure8/chapter8_exercise虎哥1.jpg Graphic file (type bmp)
@@ -2413,18 +2412,18 @@ File: ../figures/figure8/chapter8_exercise虎哥1.jpg Graphic file (type bmp)
 \c@RT:solution8.8=\count538
 File: ../figures/figure8/chapter8_exercise虎哥2.jpg Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise虎哥2.jpg>
- [199]
+ [200]
 \c@RT:solution8.9=\count539
 File: ../figures/figure8/chapter8_exercise虎哥3.jpg Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise虎哥3.jpg>
-) (../chapters/chapter9/chapter9_main.tex [200]
+) (../chapters/chapter9/chapter9_main.tex [201]
 第九章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter9/chapter9_exercise.tex) (../chapters/chapter10/chapter10_main.tex [201
+) (../chapters/chapter9/chapter9_exercise.tex) (../chapters/chapter10/chapter10_main.tex [202
 
 ]
 第十章
@@ -2435,13 +2434,13 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 File: ../figures/figure10/chapter10_人类群星闪耀时.png Graphic file (type bmp)
 <../figures/figure10/chapter10_人类群星闪耀时.png>
-[202
+[203
 
-] [203] [204]
+] [204] [205]
 \c@RT:prove10.1=\count540
- [205]
+ [206]
 \c@RT:prove10.2=\count541
- [206] [207] [208]
+ [207] [208] [209]
 
 LaTeX Warning: Unexpected alignment  on input line 166.
 
@@ -2449,79 +2448,79 @@ LaTeX Warning: Unexpected alignment  on input line 166.
 
 LaTeX Warning: Unexpected alignment  on input line 187.
 
-[209]
+[210]
 
 LaTeX Warning: Unexpected alignment  on input line 197.
 
-[210]
+[211]
 
 LaTeX Warning: Unexpected alignment  on input line 204.
 
 
 LaTeX Warning: Unexpected alignment  on input line 212.
 
-[211]
+[212]
 File: ../figures/figure10/chapter10_一维无限深势力井.png Graphic file (type bmp)
 <../figures/figure10/chapter10_一维无限深势力井.png>
- [212]
+ [213]
 \c@RT:prove10.4=\count543
 File: ../figures/figure10/chapter10_检测概率.png Graphic file (type bmp)
 <../figures/figure10/chapter10_检测概率.png>
- [213]
+ [214]
 File: ../figures/figure10/chapter10_隧穿效应.png Graphic file (type bmp)
 <../figures/figure10/chapter10_隧穿效应.png>
- [214]
+ [215]
 \c@RT:prove10.5=\count544
 
 
 LaTeX Warning: Unexpected alignment  on input line 291.
 
-[215] [216]
+[216] [217]
 File: ../figures/figure10/chapter10_条带分裂.png Graphic file (type bmp)
 <../figures/figure10/chapter10_条带分裂.png>
- [217]
+ [218]
 File: ../figures/figure10/chapter10_连续X射线光谱.png Graphic file (type bmp)
 <../figures/figure10/chapter10_连续X射线光谱.png>
 File: ../figures/figure10/chapter10_特征X射线光谱.png Graphic file (type bmp)
 <../figures/figure10/chapter10_特征X射线光谱.png>
- [218]
+ [219]
 File: ../figures/figure10/chapter10_X射线光谱.png Graphic file (type bmp)
 <../figures/figure10/chapter10_X射线光谱.png>
 File: ../figures/figure10/chapter10_受激辐射.png Graphic file (type bmp)
 <../figures/figure10/chapter10_受激辐射.png>
- [219]
+ [220]
 File: ../figures/figure10/chapter10_粒子数反转.png Graphic file (type bmp)
 <../figures/figure10/chapter10_粒子数反转.png>
- [220]
+ [221]
 File: ../figures/figure10/chapter10_光学谐振腔.png Graphic file (type bmp)
 <../figures/figure10/chapter10_光学谐振腔.png>
- [221]
+ [222]
 File: ../figures/figure10/chapter10_能带示意图.png Graphic file (type bmp)
 <../figures/figure10/chapter10_能带示意图.png>
- [222] [223]
+ [223] [224]
 File: ../figures/figure10/chapter10_供主能级和施主能级.png Graphic file (type bmp)
 <../figures/figure10/chapter10_供主能级和施主能级.png>
- [224]
+ [225]
 File: ../figures/figure10/chapter10_PN结正偏.png Graphic file (type bmp)
 <../figures/figure10/chapter10_PN结正偏.png>
 File: ../figures/figure10/chapter10_PN结反偏.png Graphic file (type bmp)
 <../figures/figure10/chapter10_PN结反偏.png>
 ) (../chapters/chapter10/chapter10_exercise.tex
 \c@RT:solution10.1=\count545
- [225]
+ [226]
 \c@RT:solution10.2=\count546
 \c@RT:solution10.3=\count547
- [226]) [227]
+ [227]) [228]
 Missing character: There is no ^^8e ("8E) in font nullfont!
 Missing character: There is no ^^8e ("8E) in font nullfont!
-(../chapters/chapter1/chapter1_prove.tex [228]
+(../chapters/chapter1/chapter1_prove.tex [229]
 第一章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter2/chapter2_prove.tex [229
+) (../chapters/chapter2/chapter2_prove.tex [230
 
 ]
 第二章
@@ -2543,35 +2542,35 @@ Overfull \hbox (5.7045pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-(./figures/chapter2_newton's first law.tikz) [230
+(./figures/chapter2_newton's first law.tikz) [231
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 24.
 
-[231]
+[232]
 
 LaTeX Warning: Unexpected alignment  on input line 32.
 
 
 LaTeX Warning: Unexpected alignment  on input line 37.
 
-[232]
+[233]
 
 LaTeX Warning: Unexpected alignment  on input line 49.
 
-[233]
+[234]
 
 LaTeX Warning: Unexpected alignment  on input line 61.
 
 
 LaTeX Warning: Unexpected alignment  on input line 73.
 
-[234]
+[235]
 
 LaTeX Warning: Unexpected alignment  on input line 129.
 
-[235]) (../chapters/chapter3/chapter3_prove.tex [236]
+[236]) (../chapters/chapter3/chapter3_prove.tex [237]
 第三章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2586,7 +2585,7 @@ LaTeX Warning: Unexpected alignment  on input line 3.
 
 LaTeX Warning: Unexpected alignment  on input line 21.
 
-[237
+[238
 
 ]
 
@@ -2599,7 +2598,7 @@ LaTeX Warning: Unexpected alignment  on input line 44.
 
 LaTeX Warning: Unexpected alignment  on input line 53.
 
-[238]
+[239]
 
 LaTeX Warning: Unexpected alignment  on input line 58.
 
@@ -2607,7 +2606,7 @@ LaTeX Warning: Unexpected alignment  on input line 58.
 LaTeX Warning: Unexpected alignment  on input line 65.
 
 \c@RT:chapter3_derivation=\count551
-[239]
+[240]
 
 LaTeX Warning: Unexpected alignment  on input line 83.
 
@@ -2617,7 +2616,7 @@ LaTeX Warning: Unexpected alignment  on input line 97.
 
 LaTeX Warning: Unexpected alignment  on input line 97.
 
-[240]
+[241]
 
 LaTeX Warning: Unexpected alignment  on input line 111.
 
@@ -2627,14 +2626,14 @@ LaTeX Warning: Unexpected alignment  on input line 179.
 
 LaTeX Warning: Unexpected alignment  on input line 179.
 
-[241] [242] [243]) (../chapters/chapter4/chapter4_prove.tex [244]
+[242] [243] [244]) (../chapters/chapter4/chapter4_prove.tex [245]
 第四章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 2--2
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter5/chapter5_prove.tex [245
+) (../chapters/chapter5/chapter5_prove.tex [246
 
 ]
 第五章
@@ -2649,30 +2648,30 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 15.
 
-[246
+[247
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 43.
 
-[247]
+[248]
 
 LaTeX Warning: Unexpected alignment  on input line 91.
 
-[248] [249]
+[249] [250]
 
 LaTeX Warning: Unexpected alignment  on input line 187.
 
-[250] [251] [252] [253]
+[251] [252] [253] [254]
 
 LaTeX Warning: Unexpected alignment  on input line 329.
 
 
 LaTeX Warning: Unexpected alignment  on input line 359.
 
-[254
+[255
 
-]) (../chapters/chapter6/chapter6_prove.tex [255]
+]) (../chapters/chapter6/chapter6_prove.tex [256]
 第六章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2682,13 +2681,13 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-(./figures/chapter6_framess.tikz) [256
+(./figures/chapter6_framess.tikz) [257
 
-] [257]
+] [258]
 
 LaTeX Warning: Unexpected alignment  on input line 76.
 
-(./figures/chapter6_length_contraction.tikz) [258]
+(./figures/chapter6_length_contraction.tikz) [259]
 
 LaTeX Warning: Unexpected alignment  on input line 114.
 
@@ -2699,7 +2698,7 @@ LaTeX Warning: Unexpected alignment  on input line 131.
 
 LaTeX Warning: Unexpected alignment  on input line 156.
 
-[259] [260] [261]
+[260] [261] [262]
 
 LaTeX Warning: Unexpected alignment  on input line 186.
 
@@ -2709,11 +2708,11 @@ LaTeX Warning: Unexpected alignment  on input line 204.
 
 LaTeX Warning: Unexpected alignment  on input line 204.
 
-(./figures/chapter6_framess.tikz) [262]
+(./figures/chapter6_framess.tikz) [263]
 
 LaTeX Warning: Unexpected alignment  on input line 229.
 
-[263]) (../chapters/chapter7/Chapter7_prove.tex [264]
+[264]) (../chapters/chapter7/Chapter7_prove.tex [265]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2723,7 +2722,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 6.
 
-[265
+[266
 
 ]
 
@@ -2735,11 +2734,11 @@ File: ../figures/figure7/chapter7_mean_path.png Graphic file (type bmp)
 
 LaTeX Warning: Unexpected alignment  on input line 56.
 
-[266]
+[267]
 
 LaTeX Warning: Unexpected alignment  on input line 65.
 
-[267]
+[268]
 
 LaTeX Warning: Unexpected alignment  on input line 87.
 
@@ -2755,7 +2754,7 @@ LaTeX Warning: Unexpected alignment  on input line 106.
 
 LaTeX Warning: Unexpected alignment  on input line 106.
 
-[268]
+[269]
 
 LaTeX Warning: Unexpected alignment  on input line 142.
 
@@ -2763,21 +2762,21 @@ LaTeX Warning: Unexpected alignment  on input line 142.
 
 LaTeX Warning: Unexpected alignment  on input line 159.
 
-(./figures/chapter7_carnot_cycle.tikz) [269]
+(./figures/chapter7_carnot_cycle.tikz) [270]
 
 LaTeX Warning: Unexpected alignment  on input line 194.
 
 
 LaTeX Warning: Unexpected alignment  on input line 223.
 
-[270] [271] [272]
+[271] [272] [273]
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
 
 LaTeX Warning: Unexpected alignment  on input line 313.
 
-[273] [274]
+[274] [275]
 
 LaTeX Warning: Unexpected alignment  on input line 359.
 
@@ -2790,16 +2789,16 @@ LaTeX Warning: Unexpected alignment  on input line 369.
 
 LaTeX Warning: Unexpected alignment  on input line 374.
 
-[275
+[276
 
-] [276]
+] [277]
 
 LaTeX Warning: Unexpected alignment  on input line 435.
 
 
 LaTeX Warning: Unexpected alignment  on input line 457.
 
-[277] [278]) (../chapters/chapter8/chapter8_prove.tex
+[278] [279]) (../chapters/chapter8/chapter8_prove.tex
 第八章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2809,7 +2808,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-[279
+[280
 
 
 ]
@@ -2823,23 +2822,23 @@ Overfull \hbox (6.8428pt too wide) detected at line 42
 []
  []
 
-[280]
+[281]
 
 LaTeX Warning: Unexpected alignment  on input line 60.
 
-[281]
+[282]
 
 LaTeX Warning: Unexpected alignment  on input line 69.
 
 File: ../figures/figure8/chapter8_RC.png Graphic file (type bmp)
 <../figures/figure8/chapter8_RC.png>
-[282]
+[283]
 
 LaTeX Warning: Unexpected alignment  on input line 99.
 
 File: ../figures/figure8/chapter8_电路等效变换.png Graphic file (type bmp)
 <../figures/figure8/chapter8_电路等效变换.png>
-[283] [284]
+[284] [285]
 
 LaTeX Warning: Unexpected alignment  on input line 150.
 
@@ -2850,18 +2849,18 @@ LaTeX Warning: Unexpected alignment  on input line 162.
 
 File: ../figures/figure8/chapter8_磁场对磁偶极子的影响.png Graphic file (type bmp)
 <../figures/figure8/chapter8_磁场对磁偶极子的影响.png>
-[285]
+[286]
 
 LaTeX Warning: Unexpected alignment  on input line 179.
 
-[286] [287] [288]) (../chapters/chapter9/chapter9_prove.tex [289]
+[287] [288] [289]) (../chapters/chapter9/chapter9_prove.tex [290]
 第九章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter10/chapter10_prove.tex [290
+) (../chapters/chapter10/chapter10_prove.tex [291
 
 ]
 第十章
@@ -2885,13 +2884,13 @@ Missing character: There is no 方 ("65B9) in font rm-lmr12!
 Missing character: There is no 向 ("5411) in font rm-lmr12!
 Missing character: There is no 方 ("65B9) in font rm-lmr12!
 Missing character: There is no 向 ("5411) in font rm-lmr12!
-[291
+[292
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 47.
 
-[292]
+[293]
 
 LaTeX Warning: Unexpected alignment  on input line 63.
 
@@ -2903,16 +2902,16 @@ LaTeX Warning: Unexpected alignment  on input line 85.
 
 File: ../figures/figure10/chapter10_一维无限深势力井.png Graphic file (type bmp)
 <../figures/figure10/chapter10_一维无限深势力井.png>
-[293] [294]
+[294] [295]
 
 LaTeX Warning: Unexpected alignment  on input line 119.
 
 File: ../figures/figure10/chapter10_隧穿效应.png Graphic file (type bmp)
 <../figures/figure10/chapter10_隧穿效应.png>
-[295] [296]) [297]
+[296] [297]) [298]
 Missing character: There is no ^^8e ("8E) in font nullfont!
 Missing character: There is no ^^8e ("8E) in font nullfont!
-(../chapters/chapter1/chapter1_answer.tex [298]
+(../chapters/chapter1/chapter1_answer.tex [299]
 第一章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2922,7 +2921,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-) (../chapters/chapter2/chapter2_answer.tex [299
+) (../chapters/chapter2/chapter2_answer.tex [300
 
 ]
 第二章
@@ -2947,13 +2946,13 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 21.
 
-[300
+[301
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 40.
 
-[301]
+[302]
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
@@ -2964,13 +2963,13 @@ Overfull \hbox (8.62373pt too wide) detected at line 90
 []
  []
 
-[302]
+[303]
 
 LaTeX Warning: Unexpected alignment  on input line 106.
 
 File: ../figures/figure2/chapter2_problem4.png Graphic file (type bmp)
 <../figures/figure2/chapter2_problem4.png>
-[303]) (../chapters/chapter3/chapter3_answer.tex [304]
+[304]) (../chapters/chapter3/chapter3_answer.tex [305]
 第三章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -2982,7 +2981,7 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 File: ../figures/figure3/chapter3_example_1.jpg Graphic file (type bmp)
 <../figures/figure3/chapter3_example_1.jpg>
-[305
+[306
 
 ]
 
@@ -2994,13 +2993,13 @@ File: ../figures/figure3/chapter3_example_2.png Graphic file (type bmp)
 
 LaTeX Warning: Unexpected alignment  on input line 74.
 
-[306] [307]
+[307] [308]
 
 LaTeX Warning: Unexpected alignment  on input line 85.
 
 (./figures/chapter3_example_3_3.tikz)
 \c@RT:law3.1=\count554
- [308
+ [309
 
 ]
 
@@ -3008,19 +3007,19 @@ LaTeX Warning: Unexpected alignment  on input line 116.
 
 File: ../figures/figure3/chapter3_massive_pulley.png Graphic file (type bmp)
 <../figures/figure3/chapter3_massive_pulley.png>
-[309]
+[310]
 
 LaTeX Warning: Unexpected alignment  on input line 158.
 
 File: ../figures/figure3/chapter3_string.png Graphic file (type bmp)
 <../figures/figure3/chapter3_string.png>
-[310]
+[311]
 
 LaTeX Warning: Unexpected alignment  on input line 176.
 
 (./figures/chapter3_rotating_rod_1.tikz) (./figures/chapter3_rotating_rod_2.tikz)
 Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
-[311] [312] [313]) (../chapters/chapter4/chapter4_answer.tex [314]
+[312] [313] [314]) (../chapters/chapter4/chapter4_answer.tex [315]
 第四章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3034,15 +3033,15 @@ File: ../figures/figure4/chapter4_流体静力学.png Graphic file (type bmp)
 <../figures/figure4/chapter4_流体静力学.png>
 File: ../figures/figure4/chapter4_E1_A1.png Graphic file (type bmp)
 <../figures/figure4/chapter4_E1_A1.png>
-[315
+[316
 
-] [316]
+] [317]
 
 LaTeX Warning: Unexpected alignment  on input line 38.
 
 File: ../figures/figure4/chapter4_流体动力学.png Graphic file (type bmp)
 <../figures/figure4/chapter4_流体动力学.png>
-[317]) (../chapters/chapter5/chapter5_answer.tex [318]
+[318]) (../chapters/chapter5/chapter5_answer.tex [319]
 第五章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3052,21 +3051,21 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 LaTeX Warning: Unexpected alignment  on input line 2.
 
-[319
+[320
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 67.
 
-[320]
+[321]
 
 LaTeX Warning: Unexpected alignment  on input line 91.
 
-[321] [322]
+[322] [323]
 
 LaTeX Warning: Unexpected alignment  on input line 159.
 
-) (../chapters/chapter6/chapter6_answer.tex [323]
+) (../chapters/chapter6/chapter6_answer.tex [324]
 第六章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3078,35 +3077,35 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 File: ../figures/figure6/chapter_6_7.jpg Graphic file (type bmp)
 <../figures/figure6/chapter_6_7.jpg>
-[324
+[325
 
 ]
 
 LaTeX Warning: Unexpected alignment  on input line 42.
 
-(./figures/chapter6_solution_6_2_1.tikz) (./figures/chapter6_solution_6_2_2.tikz) (./figures/chapter6_solution_6_2_3.tikz) [325] [326]
+(./figures/chapter6_solution_6_2_1.tikz) (./figures/chapter6_solution_6_2_2.tikz) (./figures/chapter6_solution_6_2_3.tikz) [326] [327]
 
 LaTeX Warning: Unexpected alignment  on input line 72.
 
-(./figures/chapter6_solution_6_3.tikz) [327] [328]
+(./figures/chapter6_solution_6_3.tikz) [328] [329]
 
 LaTeX Warning: Unexpected alignment  on input line 143.
 
 File: ../figures/figure6/chapter_6_20.jpg Graphic file (type bmp)
 <../figures/figure6/chapter_6_20.jpg>
-(./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [329] [330] [331]
+(./figures/chapter6_solution_6_4_1.tikz) (./figures/chapter6_solution_6_4_2.tikz) [330] [331] [332]
 
 LaTeX Warning: Unexpected alignment  on input line 199.
 
 File: ../figures/figure6/chapter_6_23.jpg Graphic file (type bmp)
 <../figures/figure6/chapter_6_23.jpg>
-[332] [333] [334]
+[333] [334] [335]
 
 LaTeX Warning: Unexpected alignment  on input line 257.
 
 File: ../figures/figure6/chapter_6_24.jpg Graphic file (type bmp)
 <../figures/figure6/chapter_6_24.jpg>
-[335] [336]
+[336] [337]
 
 LaTeX Warning: Unexpected alignment  on input line 298.
 
@@ -3118,7 +3117,7 @@ LaTeX Warning: Unexpected alignment  on input line 328.
 
 LaTeX Warning: Unexpected alignment  on input line 332.
 
-[337] [338] [339]) (../chapters/chapter7/Chapter7_answer.tex [340]
+[338] [339] [340]) (../chapters/chapter7/Chapter7_answer.tex [341]
 第七章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3131,9 +3130,9 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 15.
 
-[341
+[342
 
-] [342]
+] [343]
 
 LaTeX Warning: Unexpected alignment  on input line 62.
 
@@ -3152,13 +3151,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
-[343
+[344
 
-] [344]
+] [345]
 
 LaTeX Warning: Unexpected alignment  on input line 172.
 
-(./figures/chapter7_solution_7_4.tikz) [345] [346]
+(./figures/chapter7_solution_7_4.tikz) [346] [347]
 
 LaTeX Warning: Unexpected alignment  on input line 244.
 
@@ -3168,7 +3167,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 258--265
  []
 
 \c@RT:law7.2=\count557
-[347] [348] [349] [350]
+[348] [349] [350] [351]
 
 LaTeX Warning: Unexpected alignment  on input line 417.
 
@@ -3181,7 +3180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--432
 
 LaTeX Warning: Unexpected alignment  on input line 446.
 
-[351] [352]) (../chapters/chapter8/chapter8_answer.tex [353]
+[352] [353]) (../chapters/chapter8/chapter8_answer.tex [354]
 第八章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3193,7 +3192,7 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 File: ../figures/figure8/chapter8_answer1.png Graphic file (type bmp)
 <../figures/figure8/chapter8_answer1.png>
-[354
+[355
 
 ]
 
@@ -3201,7 +3200,7 @@ LaTeX Warning: Unexpected alignment  on input line 38.
 
 File: ../figures/figure8/chapter8_exercise电流密度边界条件.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise电流密度边界条件.png>
-[355] [356]
+[356] [357]
 
 LaTeX Warning: Unexpected alignment  on input line 74.
 
@@ -3211,9 +3210,9 @@ File: ../figures/figure8/chapter8_exercise磁阻.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise磁阻.png>
 File: ../figures/figure8/chapter8_answer3.png Graphic file (type bmp)
 <../figures/figure8/chapter8_answer3.png>
-[357
+[358
 
-] [358]
+] [359]
 
 LaTeX Warning: Unexpected alignment  on input line 147.
 
@@ -3221,14 +3220,14 @@ File: ../figures/figure8/chapter8_exercise坡应廷矢量1.png Graphic file (typ
 <../figures/figure8/chapter8_exercise坡应廷矢量1.png>
 File: ../figures/figure8/chapter8_exercise坡应廷矢量2.png Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise坡应廷矢量2.png>
-[359] [360]
+[360] [361]
 
 LaTeX Warning: Unexpected alignment  on input line 182.
 
 
 LaTeX Warning: Unexpected alignment  on input line 200.
 
-[361] [362] [363]
+[362] [363] [364]
 
 LaTeX Warning: Unexpected alignment  on input line 264.
 
@@ -3239,7 +3238,7 @@ LaTeX Warning: Unexpected alignment  on input line 285.
 
 File: ../figures/figure8/chapter8_exercise虎哥2.jpg Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise虎哥2.jpg>
-[364
+[365
 
 ]
 
@@ -3247,14 +3246,14 @@ LaTeX Warning: Unexpected alignment  on input line 310.
 
 File: ../figures/figure8/chapter8_exercise虎哥3.jpg Graphic file (type bmp)
 <../figures/figure8/chapter8_exercise虎哥3.jpg>
-[365] [366]) (../chapters/chapter9/chapter9_answer.tex [367]
+[366] [367]) (../chapters/chapter9/chapter9_answer.tex [368]
 第九章
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-) (../chapters/chapter10/chapter10_answer.tex [368
+) (../chapters/chapter10/chapter10_answer.tex [369
 
 ]
 第十章
@@ -3269,7 +3268,7 @@ LaTeX Warning: Unexpected alignment  on input line 2.
 
 LaTeX Warning: Unexpected alignment  on input line 21.
 
-[369
+[370
 
 ]
 
@@ -3278,11 +3277,11 @@ LaTeX Warning: Unexpected alignment  on input line 51.
 
 LaTeX Warning: Unexpected alignment  on input line 51.
 
-[370]
+[371]
 
 LaTeX Warning: Unexpected alignment  on input line 143.
 
-[371] [372] [373]) [374] (../chapters/afterall/afterall.tex) [375
+[372] [373] [374]) [375] (../chapters/afterall/afterall.tex) [376
 
 
 ] (./main.aux)
@@ -3301,12 +3300,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5CAEB90DE76A0AF6375268B84CC481A4;30201.
  ) 
 Here is how much of TeX's memory you used:
- 76822 strings out of 474773
- 1894045 string characters out of 5761290
- 2398780 words of memory out of 5000000
- 97643 multiletter control sequences out of 15000+600000
+ 76839 strings out of 474773
+ 1894196 string characters out of 5761290
+ 2398881 words of memory out of 5000000
+ 97663 multiletter control sequences out of 15000+600000
  626797 words of font info for 204 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 117i,22n,422p,3341b,2407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,22n,422p,3341b,2409s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (389 pages).
+Output written on main.pdf (390 pages).
