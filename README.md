@@ -25,6 +25,8 @@
 
 同时贡献 `foo.png` 和 `inversed_foo.png`，以保证暗色版可编译。
 
+暗色版编译时自动替换`singlefigure`函数中的文件名。若暗色版使用与原图一致的效果，请将原图复制一份并添加`inversed_`前缀
+
 - 上传更新：
 
 已配置了 github workflow，只需要打一个 git tag，然后上传到 master 分支，构建发布工作会由 github 资源自动执行。
@@ -41,6 +43,13 @@ git push origin --tags
 
 * 如果需要稳定版，为documentclass添加可选参数stable
 * 如果需要暗色版，为documentclass添加可选参数dark
+
+```latex
+% 示例：
+\documentclass[stable]{Physics_H_Notes}
+% 参数可同时使用，例如[stable,dark]
+```
+
 * 不要删除辅助文件，除非你想连续编译 11 次！
 * 如果提示没有 Times New Roman 字体，只需在 Physics_H_Notes.cls 中将以下命令注释掉：
 
