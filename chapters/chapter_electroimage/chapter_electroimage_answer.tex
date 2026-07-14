@@ -1,0 +1,236 @@
+% 循迹之外独立编号
+\setcounter{solution}{0}
+\renewcommand{\thesolution}{\arabic{solution}}
+
+\begin{solution}[接地导体球的表面电荷分布]
+    由于系统具有轴对称性，球面上极角 $\theta$ 相等的点必定有相同的电荷面密度。设 $P$ 为球面上极角为 $\theta$ 的一个点，$q$ 所在处为 $M$，像电荷 $q'$ 所在处为 $N$。
+
+    \begin{singlefigure}[练习图：接地导体球表面电荷分布]{electroimage_8.png}[0.85]
+        （a）接地导体球与右侧点电荷 $q$（距球心 $d$），标注了极角 $\theta$；
+        （b）点电荷 $q$ 和像电荷 $q'$ 分别到球面上点 $P$ 的距离及几何关系。
+    \end{singlefigure}
+
+    系统达静电平衡时，球面处的电场强度均与球面垂直，即沿球半径方向。设 $q>0$（结果对 $q<0$ 也正确），$P$ 点电场强度指向球心 $O$，由球外点电荷 $q$ 和像电荷 $q'$ 共同激发。由于 $P$ 点处电场强度沿径向指向 $O$ 点，其大小为
+    \[
+        E = k \frac{|q'|}{r_1^2} \cos(\psi - \theta) + k \frac{q}{r_2^2} \cos(\theta + \varphi),
+    \]
+    其中 $k = 1/(4\pi\varepsilon_0)$。利用 $|q'| = \frac{R}{d}q$，化简为
+    \[
+        E = kq \left[ \frac{R}{r_1^2 d} \cos(\psi - \theta) + \frac{1}{r_2^2} \cos(\theta + \varphi) \right]. \tag{1}
+    \]
+
+    由导体球面零电势关系 $x = R^2/d$ 及几何关系，有
+    \begin{align*}
+        \frac{r_1}{r_2}        & = \frac{|q'|}{q} = \frac{R}{d} = \frac{x}{R}, \tag{2}                                                                 \\
+        \frac{r_1}{\sin\theta} & = \frac{x}{\sin(\psi - \theta)}, \quad \text{即} \quad \frac{r_2}{\sin\theta} = \frac{R}{\sin(\psi - \theta)}, \tag{3} \\
+        \frac{r_2}{\sin\theta} & = \frac{d}{\sin(\theta + \varphi)}, \tag{4}                                                                           \\
+        r_2^2                  & = R^2 + d^2 - 2Rd \cos\theta. \tag{5}
+    \end{align*}
+
+    由式(2)--(4)得
+    \begin{align*}
+        r_1                    & = \frac{R}{d} r_2, \tag{6}                                                   \\
+        \cos(\psi - \theta)    & = \sqrt{1 - \sin^2(\psi - \theta)} = \frac{1}{r_2}(d - R\cos\theta), \tag{7} \\
+        \cos(\theta + \varphi) & = \frac{1}{r_2}(d\cos\theta - R). \tag{8}
+    \end{align*}
+
+    将式(5)--(8)代入式(1)，整理得
+    \[
+        E = \frac{kq}{r_2^2} \left[ \frac{d}{R}(d - R\cos\theta) + (d\cos\theta - R) \right] = \frac{kq}{R} \frac{d^2 - R^2}{(R^2 + d^2 - 2Rd \cos\theta)^{3/2}}.
+    \]
+
+    再利用导体表面 $E$ 和 $\sigma_e$ 的关系 $\sigma_e = -\varepsilon_0 E$，得到电荷面密度随 $\theta$ 变化的表达式
+    \[
+        \sigma_e(\theta) = -\varepsilon_0 E = -\frac{q}{4\pi R} \frac{d^2 - R^2}{(R^2 + d^2 - 2Rd \cos\theta)^{3/2}}.
+    \]
+
+    设系统对称轴线与球面相交两点为 $A$（$\theta = 0$）和 $B$（$\theta = \pi$），分别代入得
+    \[
+        \begin{aligned}
+            \sigma_A & = -\frac{q}{4\pi(d-R)^2} \left( \frac{d}{R} + 1 \right), \\
+            \sigma_B & = -\frac{q}{4\pi(d+R)^2} \left( \frac{d}{R} - 1 \right).
+        \end{aligned}
+    \]
+
+    利用 $\sigma_e(\theta)$ 分布式计算球面上感应电荷的总量 $Q$ 可以验证：
+    \[
+        Q = \int_0^{\pi} \sigma_e(\theta) \cdot 2\pi R \sin\theta \cdot R \dif\theta = -\frac{R}{d}q = q',
+    \]
+    恰好等于像电荷的电量，与正文中的结论自洽。
+\end{solution}
+
+\begin{solution}[接地无限长圆柱形导体的电势分布]
+    本题系统在任意一个垂直于柱轴的平面内电场分布相同，即与 $z$ 轴无关。采用电像法：在 $x = x_2$ 处放置一条平行于柱轴、单位长带电量为 $\lambda'$ 的无限长带电直线，代替柱面上的感应电荷。柱外电势由 $\lambda$ 和 $\lambda'$ 共同激发。
+
+    \begin{singlefigure}[解答图：接地圆柱形导体与线电荷]{electroimage_9.png}[0.85]
+        （a）半径为 $R$ 的接地圆柱形导体，外部线电荷 $\lambda$ 位于 $x_1=a$ 处，像电荷线 $\lambda'$ 位于 $x_2$ 处；
+        （b）垂直于柱轴的横截面极坐标图，点 $P(r,\theta)$ 到两线电荷的距离分别为 $r_1$ 和 $r_2$。
+    \end{singlefigure}
+
+    首先求 $x_2$ 和 $\lambda'$。任取垂直于柱轴的 $Oxy$ 截面，考察面上任一点 $P(r,\theta)$ 处的电势。无限长均匀带电直线的电势正比于 $\ln r$（取无穷远为参考点时发散，但这里只需电势差的表达式），有
+    \[
+        u = -\frac{1}{2\pi\varepsilon_0} (\lambda \ln r_1 + \lambda' \ln r_2) = -\frac{1}{4\pi\varepsilon_0} \bigl[ \lambda \ln(r_1^2) + \lambda' \ln(r_2^2) \bigr].
+    \]
+
+    由几何关系 $r_1^2 = r^2 + x_1^2 - 2r x_1 \cos\theta$，$r_2^2 = r^2 + x_2^2 - 2r x_2 \cos\theta$，代入得
+    \[
+        u = -\frac{1}{4\pi\varepsilon_0} \bigl[ \lambda \ln(r^2 + x_1^2 - 2r x_1 \cos\theta) + \lambda' \ln(r^2 + x_2^2 - 2r x_2 \cos\theta) \bigr]. \tag{1}
+    \]
+
+    柱面为等势面，即 $\left.\frac{\partial u}{\partial\theta}\right|_{r=R} = 0$。由式(1)求导：
+    \[
+        -\frac{1}{4\pi\varepsilon_0} \biggl(
+        \lambda \frac{2R x_1 \sin\theta}{R^2 + x_1^2 - 2R x_1 \cos\theta}
+        + \lambda' \frac{2R x_2 \sin\theta}{R^2 + x_2^2 - 2R x_2 \cos\theta}
+        \biggr) = 0.
+    \]
+
+    化简整理得
+    \[
+        \begin{aligned}
+            x_1\lambda (R^2 + x_2^2 - 2R x_2 \cos\theta)
+            = -x_2\lambda' (R^2 + x_1^2 - 2R x_1 \cos\theta).
+        \end{aligned}
+    \]
+
+    比较 $\cos\theta$ 项和常数项，得到两个方程：
+    \[
+        \begin{cases}
+            x_1\lambda (R^2 + x_2^2) = -x_2\lambda' (R^2 + x_1^2), \\
+            -2R x_1 x_2 \lambda = 2R \lambda' x_1 x_2.
+        \end{cases}
+    \]
+
+    从中解得
+    \[
+        \lambda' = -\lambda, \qquad x_2 = \frac{R^2}{x_1} = \frac{R^2}{a}.
+    \]
+
+    这与接地导体球的像电荷公式形式完全一致：像电荷的符号相反、大小相同，像电荷位置满足 $x_2 = R^2/a$。
+
+    代入式(1)，得
+    \[
+        \begin{aligned}
+            u = \frac{\lambda}{4\pi\varepsilon_0} \biggl\{
+             & \ln\!\left[ r^2 + \left(\frac{R^2}{a}\right)^2 - 2\frac{R^2 r}{a}\cos\theta \right] \\
+             & - \ln(r^2 + a^2 - 2ra\cos\theta) \biggr\}.
+        \end{aligned}
+    \]
+
+    为满足接地圆柱表面 $U(R)=0$ 的边界条件，需减去柱面电势 $u(R)$。计算柱面上的电势值：
+    \[
+        \begin{aligned}
+            u(R) & = \frac{\lambda}{4\pi\varepsilon_0}
+            \ln\frac{R^2 + \left(\frac{R^2}{a}\right)^2 - 2\frac{R^3}{a}\cos\theta}
+            {R^2 + a^2 - 2Ra\cos\theta}                \\
+                 & = \frac{\lambda}{4\pi\varepsilon_0}
+            \ln\!\left( \frac{R^2}{a^2} \,
+            \frac{a^2 + R^2 - 2Ra\cos\theta}{R^2 + a^2 - 2Ra\cos\theta} \right)
+            = \frac{\lambda}{2\pi\varepsilon_0} \ln\frac{R}{a}.
+        \end{aligned}
+    \]
+
+    最终得到接地圆柱导体外部空间的电势分布为
+    \[
+        \begin{aligned}
+            U(r,\theta) = u(r,\theta) - u(R)
+            = \frac{\lambda}{4\pi\varepsilon_0} \biggl\{
+             & \ln\!\left[ r^2 + \left(\frac{R^2}{a}\right)^2 - 2\frac{R^2 r}{a}\cos\theta \right] \\
+             & - \ln(r^2 + a^2 - 2ra\cos\theta) \biggr\}
+            - \frac{\lambda}{2\pi\varepsilon_0} \ln\frac{R}{a}.
+        \end{aligned}
+    \]
+
+    可以验证：当 $r = R$ 时，$U(R,\theta) = 0$；当 $a \to \infty$（线电荷远离圆柱）时，$U \to 0$，均满足边界条件。
+\end{solution}
+
+\begin{solution}[\itr{Image of Image Charge Method}{像电荷的像电荷法}]
+    \begin{singlefigure}[]{electroimage_11_ans.png}[0.70]
+    \end{singlefigure}
+    本题是\textbf{像电荷的像电荷迭代法}的经典范例，涉及接地平面与导体球两个边界的相互修正。
+    
+    \medskip
+
+    \textbf{(a) 边界条件的数目与方程}
+
+    本问题涉及\textbf{两个边界}（接地平面 + 导体球表面），共需\textbf{三个边界条件}：
+
+    \begin{Itemize}
+        \item \textbf{边界 1：接地平面}（$z=0$）。由于平面接地，电势恒为零：
+        \[
+            U(x,y,0) = 0 \quad \text{（Dirichlet 边界条件）}.
+        \]
+        \item \textbf{边界 2：导体球表面}（$|\vec{r} - \vec{r}_c| = R$，其中 $\vec{r}_c = (0,0,d)$）。导体表面为等势面，但电势值 $U_0$ 未知：
+        \[
+            U(\vec{r}) = U_0 \quad \text{（等势条件，$U_0$ 待求）}.
+        \]
+        此外，导体球的总电荷给定为 $Q$，这给出\textbf{积分型的 Neumann 边界条件}：
+        \[
+            \oiint_{S} \varepsilon_0 \left(-\frac{\partial U}{\partial n}\right) \dif S = Q,
+        \]
+        其中 $S$ 为球面，$\partial/\partial n$ 为外法向导数。
+    \end{Itemize}
+
+    注意：$U_0$ 是未知常数，需要作为解的一部分来确定——这与接地导体（$U=0$ 已知）的本质区别在于，非接地导体的电势由其所带总电荷 $Q$ 和外部电荷共同决定。
+
+    \medskip
+
+    \textbf{(b) 最少像电荷数目、位置与电荷量}
+
+    若球面上的电荷\textbf{初始均匀分布}，由球壳定理，球外空间（$z>0$）的电场等价于全部电荷集中于球心的点电荷 $Q$。为满足接地平面的边界条件 $U(z=0)=0$，需在下半空间引入该点电荷的镜像。
+
+    因此，最少需要 $\bm{2}$ 个像电荷：
+
+    \[
+        \begin{aligned}
+            q_1 & = +Q, \qquad \vec{r}_1 = (0,\,0,\,d) \quad \text{（球心处，等效于均匀带电球壳）},         \\[4pt]
+            q_2 & = -Q, \qquad \vec{r}_2 = (0,\,0,\,-d) \quad \text{（$q_1$ 关于 $z=0$ 平面的镜像）}.
+        \end{aligned}
+    \]
+
+    这两个点电荷在上半空间激发的电场，与"均匀带电球壳 $+$ 平面镜像球壳"的结果完全一致。但须注意——$q_2=-Q$ 在球面上的电势\textbf{不是常数}，因此球面并非等势面。这意味着\textbf{均匀分布假设不成立}，电荷将在球面上重新分布。接下来 (c)(d) 两部分正是为了修正这一误差。
+
+    \medskip
+
+    \textbf{(c) 像电荷的像电荷}
+
+    由 (b)，$q_2 = -Q$ 位于 $(0,0,-d)$，它到球心 $(0,0,d)$ 的距离为
+    \[
+        a = d - (-d) = 2d.
+    \]
+
+    将 $q_2$ 视为球外的点电荷，其关于导体球（半径 $R$）的像电荷为（接地导体球公式 $q' = -\frac{R}{a}q$，$x = \frac{R^2}{a}$）：
+    \[
+        \begin{aligned}
+            q_3 &= -\frac{R}{2d}\, q_2 = -\frac{R}{2d}\,(-Q) = \boxed{\frac{R}{2d}\,Q},\\[6pt]
+            z_3 &= d - \frac{R^2}{2d},
+        \end{aligned}
+    \]
+    即 $\vec{r}_3 = \bigl(0,\,0,\,d - \frac{R^2}{2d}\bigr)$。
+
+    $q_3$ 关于 $z=0$ 平面的像电荷为
+    \[
+        \begin{aligned}
+            q_4 &= -q_3 = \boxed{-\frac{R}{2d}\,Q},\\[6pt]
+            z_4 &= -z_3 = \frac{R^2}{2d} - d,
+        \end{aligned}
+    \]
+    即 $\vec{r}_4 = \bigl(0,\,0,\,\frac{R^2}{2d} - d\bigr)$。
+
+    \medskip
+
+    \textbf{(d) 精确解的递推表达式}
+
+    需\textbf{无穷多个}像电荷。设上半空间像电荷序列为 $\{(q_n, z_n)\}$（$n = 1,2,\dots$），初始 $q_1 = Q$，$z_1 = d$。平面镜像 $(-q_n, -z_n)$ 到球心距离 $a_n = d + z_n$，其球面镜像即为下一级像电荷：
+    \[
+        \boxed{q_{n+1} = \frac{R}{d + z_n}\,q_n},
+        \qquad
+        \boxed{z_{n+1} = d - \frac{R^2}{d + z_n}}.
+    \]
+
+    下半空间的平面镜像为 $(-q_{n+1}, -z_{n+1})$。迭代映射的不动点给出了像电荷位置的极限：
+    \[
+        z_{\infty} = \sqrt{d^2 - R^2}.
+    \]
+
+\end{solution}

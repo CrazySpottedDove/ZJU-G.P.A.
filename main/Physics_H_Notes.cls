@@ -27,7 +27,8 @@
     {../figures/figure7/},
 	{../figures/figure8/},%电磁学
 	{../figures/figure9/},%光学
-	{../figures/figure10/}%量子力学
+	{../figures/figure10/},%量子力学
+	{../figures/figure_electroimage/},%电像法
     %{../figures/cover/}
 }
 %图片地址
