@@ -1,3 +1,19 @@
-main/build/*.pdf
-main/build/main.synctex.gz
-main/build/main.synctex.zip
+# === 全书编译产物 ===
+main/build/
+main/main.pdf
+main/main.synctex.gz
+main/main.synctex(busy)
+main/indent.log
+
+# === Bonus 章节单独编译产物 ===
+bonus*/*.pdf
+bonus*/*.synctex.gz
+bonus*/*.synctex.zip
+
+# === ref 目录编译产物 ===
+ref/*.pdf
+ref/*.synctex.gz
+ref/*.aux
+ref/*.log
+ref/*.out
+ref/*.toc
