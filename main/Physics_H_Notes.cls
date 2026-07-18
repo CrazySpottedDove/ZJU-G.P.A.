@@ -28,7 +28,6 @@
 	{../figures/figure8/},%电磁学
 	{../figures/figure9/},%光学
 	{../figures/figure10/}%量子力学
-	{../figures/figure_bonus1}
     %{../figures/cover/}
 }
 %图片地址
@@ -269,7 +268,6 @@ citecolor=thisblue
 %作者：dovelogo
 %-------------------------------------------------------------
 \RequirePackage{amsmath}
-\RequirePackage{yhmath}% 用于几何弧线相关的表示
 \RequirePackage{esint}% 添加该包，以提供多重积分符号的正确表示（20250117添加）
 \RequirePackage{bm}
 %数学公式排版宏包
