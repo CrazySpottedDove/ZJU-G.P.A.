@@ -1,6 +1,221 @@
 \chapter[光学]{\itr{Optics}{光学}}
-{\LARGE \centering \color{red}\itshape
-  BLANK\\
-  期待你的建设
+% {\LARGE \centering \color{red}\itshape
+%   BLANK\\
+%   期待你的建设
 
- }
+%  }
+\begin{prove}[Reflection]
+  \begin{singlefigure}[光的反射]{chapter9_光的反射}[0.7]
+  \end{singlefigure}
+  如上图所示，由于介质相同，我们仅考虑最短距离。我们知道光必然经过镜面，因此总距离可以写为：
+  \[L = \sqrt{a^2 + x^2}+ \sqrt{b^2 + (d-x)^2}\]
+
+  根据费马原理，这个距离在真实光路时应该为极值，因此：
+  \[\dfrac{\dif L}{\dif x} = 0\quad\Rightarrow\quad \dfrac{x}{\sqrt{a^2 + x^2}} - \dfrac{d-x}{\sqrt{b^2 + (d-x)^2}} = 0\]
+
+  化简后可得：
+  \[\sin \theta_1 = \sin \theta_2\]
+  
+  即：
+  \[\theta_1 = \theta_2\]
+\end{prove}
+
+\begin{prove}[Refraction]
+  \begin{singlefigure}[光的折射]{chapter9_光的折射}[0.6]
+  \end{singlefigure}
+  先写出光程的表达式，为：
+  \[L = n_1\sqrt{a^2 + x^2}+ n_2\sqrt{b^2 + (d-x)^2}\]
+
+  根据费马原理，光程在真实光路时应该为极值，因此：
+  \[\dfrac{\dif L}{\dif x} = 0\quad\Rightarrow\quad n_1\dfrac{x}{\sqrt{a^2 + x^2}} = n_2\dfrac{d-x}{\sqrt{b^2 + (d-x)^2}}\]
+  
+  化简后可得$n_1\sin \theta_1 = n_2\sin \theta_2$。
+\end{prove}
+
+\begin{prove}[棱镜顶角、最小偏向角与折射率的关系]
+  \begin{singlefigure}[棱镜]{chapter9_棱镜}[0.6]
+  \end{singlefigure}
+  假定从空气中入射，根据几何关系，我们可以得到：
+  \begin{align*}
+    \sin i_1 = n\sin i_1'\\
+    \sin i_2 = n\sin i_2'\\
+    i_2 + i_2' = \alpha\\
+    \delta = i_1 + i_1' - \alpha
+  \end{align*}
+
+  我们要得到$\delta$角最小值，那么可以对其求导，$i_1$或$i_1'$为自变量。此处取前者，因为$\alpha$为定值，求导得到：
+  \[\dfrac{\dif \delta}{\dif i_1} = 1 + \dfrac{\dif i_1'}{\dif i_1}\]
+
+  现在我们需要一个导数的关系，那么对前三项依次求导，得到：
+  \[\cos i_1 = n\cos i_2\dif{i_2}\]
+  \[\cos i_1' = n\cos i_2'\dif{i_2'}\]
+  \[\dif{i_2} + \dif{i_2'} = 0\]
+
+  根据后三个关系式可以得到：
+  \[\dfrac{\dif i_1'}{\dif i_1} = -\dfrac{\cos i_1\cos i_2'}{\cos i_1'\cos i_2}\]
+
+  结合求导得到的关系式，由于每个角度都是小于$\pi/2$，并且满足联立得到的对称条件，那么当出现最小偏向角时，入射角和反射角分别对应相等，且:
+  \[i_1 = i_1' = \dfrac{\delta +\alpha}{2}\qquad i_2 = i_2' = \dfrac{\alpha}{2}\]
+
+  因此：
+  \[n = \dfrac{\sin(\dfrac{\delta +\alpha}{2})}{\sin(\alpha/2)}\]
+\end{prove}
+
+\begin{prove}[球面透镜的成像规律]
+  \begin{singlefigure}[球面透镜]{chapter9_球面透镜}[0.8]
+  \end{singlefigure}
+
+  我们先从一般情况出发，在$\Delta MQC$和$\Delta MQ'C$中应用正弦定理，可得：
+  \[\dfrac{p}{\sin \phi} = \dfrac{o + r}{\sin \theta} = \dfrac{r}{\sin u}\]
+  \[\dfrac{p'}{\sin \phi} = \dfrac{i - r}{\sin \theta'} = \dfrac{r}{\sin u'}\]
+
+  两式相除，得到：
+  \[\dfrac{p}{p'} = \dfrac{(o+r)\sin \theta'}{(i-r)\sin \theta} = \dfrac{(o+r)n}{(i-r)n'}\]
+
+  再在两个三角形中应用余弦定理，得到：
+  \[p^2 = r^2 + (o+r)^2 - 2r(o+r)\cos\phi = o^2 + 4r(o+r)\sin^2\dfrac{\phi}{2}\]
+  \[p'^2 = r^2 + (i-r)^2 + 2r(i-r)\cos\phi = i^2 - 4r(i-r)\sin^2\dfrac{\phi}{2}\]
+
+  两式相除，联立前面的$p - p'$关系式，可得：
+  \[\dfrac{o^2 + 4r(o+r)\sin^2\dfrac{\phi}{2}}{i^2 - 4r(i-r)\sin^2\dfrac{\phi}{2}} = \dfrac{(o+r)^2 n^2}{(i-r)^2 n'^2}\]
+
+  化简得到：
+  \[\dfrac{o^2}{(o+r)^2 n^2} - \dfrac{i^2}{(i-r)^2 n'^2} = -4r\sin^2\dfrac{\phi}{2}\left[\dfrac{1}{(o+r)n^2} + \dfrac{1}{(i-r)n'^2}\right]\]
+
+  可以看到$o$和$i$的取值与$\phi$有关，也就是说Q点发射的光无法一定到达我们理想的Q'点。如果不做近似，那么单个球面透镜无法对任意一点成像。当然也有一个特例，那就是等式两边同时取到0的时候，物距和像距的取值便与$\phi$无关，此时对应唯一的一组Q和Q'，其被称为齐明点。
+
+  一般情况下球面镜成像需要满足傍轴近似，即$\phi\rightarrow 0$，此时$\sin^2\dfrac{\phi}{2} \approx 0$且$h \ll r$，上式可化简为：
+  \[\dfrac{o^2}{(o+r)^2 n^2} = \dfrac{i^2}{(i-r)^2 n'^2}\]
+
+  化简可得：
+  \[\dfrac{n}{o} + \dfrac{n'}{i} = \dfrac{n'-n}{r}\]
+  \tcbrule
+  当然上面的推导可能比较繁琐，但我们已经知道公式的推导需要傍轴近似作为前提条件，那么满足$\phi$ 和$\theta$等角度都接近于0。另外，由图上的几何关系可知以下关系：
+  \[\dfrac{r}{\sin u} = \dfrac{o+r}{\sin \theta}\qquad \dfrac{r}{\sin u'} = \dfrac{i-r}{\sin \theta'}\]
+  \[n\sin\theta = n'\sin\theta'\qquad u+u' = \theta - \theta'\]
+
+  傍轴近似下：
+  \[\dfrac{r}{u} = \dfrac{o+r}{\theta}\qquad \dfrac{r}{u'} = \dfrac{i-r}{\theta'}\]
+  \[n\theta = n'\theta'\qquad u+u' = \theta - \theta'\]
+
+  联立消去$\theta$和$\theta'$，得到：
+  \[i = r + \dfrac{n}{n'}\dfrac{u}{u'}(o+r)\]
+
+  另外从图中可得$h = ou = iu'$，代入得到结果：
+  \[\dfrac{n}{o} + \dfrac{n'}{i} = \dfrac{n'-n}{r}\]
+\end{prove}
+
+\begin{prove}[球面反射镜的成像规律]
+  \begin{singlefigure}[球面反射镜]{chapter9_球面反射镜}[0.8]
+  \end{singlefigure}
+
+  我们可以直接代入上面求解得到的透镜折射公式，但由于反射镜本身是虚像，而我们图中表示的是正距离，因此像距为$-i$，且折射率$n' = -n$，因此：
+  \[\dfrac{n}{o} + \dfrac{-n}{-i} = \dfrac{-n-n}{r} = -\dfrac{2}{r}\]
+
+  分别取物距和像距到无穷大，则物像焦距为：
+  \[f = -\dfrac{r}{2}\qquad f' = \dfrac{r}{2}\]
+
+  这里的负号仅仅对应我们先前统一的正负号表达含义，不影响大小。
+  \tcbrule
+
+  或者我们也可以从几何的角度分析，同样也需要一些近似。
+  
+  由角度关系：
+  \[\beta = \alpha + \theta \qquad \gamma = \alpha + 2\theta \qquad \alpha + \gamma = 2\beta\]
+
+  由弧长公式结合一定的近似，有：
+  \[\alpha\approx\dfrac{\overset{\Large{\frown}}{S}}{o}\qquad \beta = \dfrac{\overset{\Large{\frown}}{S}}{r}\qquad \gamma\approx\dfrac{\overset{\Large{\frown}}{S}}{i}\]
+
+  因此可以得到一个和上面的推导仅仅相差一个负号的表达式：
+  \[\dfrac{1}{o} + \dfrac{1}{i} = \dfrac{2}{r}\]
+\end{prove}
+
+\begin{prove}[\itr{Lens maker’s equation}{磨镜者公式}]
+  \begin{singlefigure}[薄透镜成像]{chapter9_薄透镜成像}[0.9]
+  \end{singlefigure}
+
+  对于面$\Sigma_1$，有：
+  \[\dfrac{f_1}{o_1} + \dfrac{f'_1}{i_1} = 1\]
+  \[f_1 = \dfrac{nr_1}{n_L - n}\]
+  \[f'_1 = \dfrac{n_L r_1}{n_L - n}\]
+
+  对于面$\Sigma_2$，有：
+  \[\dfrac{f_2}{o_2} + \dfrac{f'_2}{i_2} = 1\]
+  \[f_2 = \dfrac{n_L r_2}{n' - n_L}\]
+  \[f'_2 = \dfrac{n' r_2}{n' - n_L}\]
+
+  其中第一个透镜的像即为第二个镜的物，满足以下关系：
+  \[i_1 = -o_2 + d\approx -o_2\]
+
+  把两个面看做一个整体，取物距为$o_1$，像距为$i_2$，消去$o_2$、$i_2$，并按照透镜成像的形式化简得到：
+  \[\dfrac{f_1f_2}{o} + \dfrac{f'_1f'_2}{i} = f'_1 + f_2\]
+
+  因此物方焦距：
+  \[f = \dfrac{f_1f_2}{f'_1 + f_2} = \dfrac{nr_1 r_2}{(n'-n_L)r_1 + (n_L - n)r_2}\]
+
+  像方焦距：
+  \[f' = \dfrac{f'_1f'_2}{f'_1 + f_2} = \dfrac{n'r_1 r_2}{(n'-n_L)r_1 + (n_L - n)r_2}\]
+
+  如果透镜两侧均为空气，即$n = n' = 1$，则：
+  \[f = f' = \dfrac{1}{(n_L - 1)(\dfrac{1}{r_1} - \dfrac{1}{r_2})}\]
+\end{prove}
+
+\begin{prove}\itr{Newton’s law of refraction}{牛顿公式}
+  \begin{singlefigure}[牛顿公式示意图]{chapter9_牛顿公式}[0.9]
+  \end{singlefigure}
+
+  根据上图有如下几何关系：
+  \[o = x + f\]
+  \[i = x' + f'\]
+  代入透镜成像公式，得到：
+  \[\dfrac{f}{x+f} + \dfrac{f'}{x' + f'} = 1\]
+
+  化简得到：
+  \[xx' = ff'\]
+\end{prove}
+
+\begin{prove}\itr{Double-Slit Interference}{双缝干涉}
+  \begin{singlefigure}[双缝干涉]{chapter9_双缝干涉}[0.8]
+  \end{singlefigure}
+  我们已经得到两个波的叠加结果为：
+  \[I(P) = 4I_1\cos^2(\dfrac{\varphi_1(P) - \varphi_2(P)}{2})\]
+
+  从图中可知，两个点射出的光的相位差为：
+  \[\varphi_1(P) - \varphi_2(P) = \dfrac{2\pi}{\lambda}(r_1 - r_2)\]
+
+  当$L \gg d$时，可以得到光程差为：
+  \[r_1 - r_2 = d\sin\theta \approx d\dfrac{y}{L}\]
+
+  因此可知光强按照$\cos^2(\dfrac{\pi d y}{\lambda L})$在屏幕上变化。因此可得：
+  \[y = \begin{cases}
+        \dfrac{L}{d}m\lambda \quad \text{m为整数} & \text{明纹}\\[1em]
+        \dfrac{L}{d}(m+\dfrac{1}{2})\lambda \quad \text{m为整数} \quad & \text{暗纹}
+  \end{cases}\]
+\end{prove}
+
+\begin{prove}[\itr{Half-Wave Loss of Reflecting Light}{反射光的半波损失}]
+  
+\end{prove}
+
+\begin{prove}[牛顿环的曲率半径]
+  \begin{singlefigure}[牛顿环]{chapter9_牛顿环}[0.6]
+  \end{singlefigure}
+  根据几何关系可知：
+  \[R^2 = (R - e_m)^2 + r_m^2\]
+
+  因此：
+  \[2Re_m = e_m^2 + r_m^2\]
+
+  由于$e_m$很小，忽略其高阶项，得到：
+  \[e_m = \dfrac{r_m^2}{2R}\]
+
+  由于中间层为空气，需要考虑半波损失，并代入第$m$个暗环的方程：
+  \[2e_m + \dfrac{\lambda}{2} = (m + \dfrac{1}{2})\lambda\]
+
+  得到：
+  \[R = \dfrac{r_m^2}{m\lambda}\]
+\end{prove}
+
+\begin{prove}[\itr{Multi-slit diffraction}{多缝衍射}]
+  
+\end{prove}
