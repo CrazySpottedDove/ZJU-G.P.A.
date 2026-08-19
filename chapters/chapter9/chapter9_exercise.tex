@@ -1,0 +1,62 @@
+\section{课后习题：光学}
+由于题目产出有限，题目未能完全覆盖本章所有知识点。下述少数题目可能涉及模型推导因此难度稍大，复习阶段请回归课件确保没有遗漏，掌握经典模型。本章考试题不会过于复杂。
+\begin{example}[Geometric Optics---\refleaftext{solution9.1}]
+    As shown in the figure below, a thin lens in air forms an image $A'B'$ of a virtual object $AB$. Determine the image of $CD$ by graphical construction, showing the necessary ray‑tracing steps.
+    \begin{singlefigure}[Geometric Optics]{chapter9_exercise透镜成像}[0.8]
+    \end{singlefigure}
+\end{example}
+
+\begin{example}[Double Refraction---\refleaftext{solution9.2}]
+    Rochon prism consists of two pieces of positive uniaxial quartz crystal with their optic axes perpendicular to each other. Monochromatic natural light is incident normally on the left surface of the prism, as shown in the figure. The optic-axis directions are already marked in the figure.
+
+    Qualitatively sketch the propagation directions and polarization directions of the refracted and emerging rays after the light passes through the Rochon prism.
+    \begin{singlefigure}[Double Refraction]{chapter9_exercise双折射}[0.6]
+    \end{singlefigure}
+\end{example}
+
+\begin{example}[Interference---\refleaftext{solution9.3}]
+    In the Newton's rings shown below, the illumination wavelength is $\lambda = 600\,\text{nm}$, the radius of curvature of the reference spherical surface is $R_0 = 100\,\text{mm}$, and the test workpiece is a spherical lens with radius $R$ slightly smaller than $R_0$. The aperture of the test lens is $\phi = 50\,\text{mm}$. The radius of the 3rd dark ring is observed to be $15\,\text{mm}$.
+    \begin{singlefigure}[Newton's Rings]{chapter9_exercise牛顿环}[0.7]
+    \end{singlefigure}
+
+    (a) Is the center of the Newton's rings pattern bright or dark? Give your reasoning.\\
+    (b) Determine the radius of curvature $R$ of the test spherical surface.\\
+    (c) How many dark rings can be observed at most?
+\end{example}
+
+\begin{example}[Grating---\refleaftext{solution9.4}]
+    Light of $\lambda = 500$ nm is normally incident on a plane transmission grating. Two adjacent principal maxima are observed at $\sin\theta = 0.2$ and $\sin\theta = 0.3$, respectively, and the fourth order is missing. Find:
+
+    (a) The spacing between adjacent slits on the grating.\\
+    (b) The possible minimum width of each slit on the grating.\\
+    (c) After choosing the values from (1) and (2), determine all the orders that actually appear on the screen.\\
+    (d) When the light is incident at an angle of $45^\circ$, determine all the orders that actually appear on the screen.
+\end{example}
+
+\begin{example}[Multi-slit Diffraction---\refleaftext{solution9.5}]
+    Conventional gratings concentrate most energy in the undispersed zeroth order, leaving higher-order spectra weak. \itr{Blazed gratings}{闪耀光栅} overcome this by tilting each groove facet by the \itr{blaze angle}{闪耀角} $\gamma$, so that the diffraction maximum from a single facet coincides with a higher-order interference direction of the whole array.
+
+    \begin{singlefigure}[Reflective blazed grating]{chapter9_exercise反射式闪耀光栅}[0.9]
+    \end{singlefigure}
+
+    Consider a reflective blazed grating of total width 260 mm, with 300 grooves/mm, and $\gamma = 17.46^\circ$. When light is incident normal to the groove facet, the blaze condition is:
+    \[2d \sin\gamma = m \lambda\]
+
+    where $m = 1$ gives the first-order blaze wavelength $\lambda_B$. Under this normal-to-groove-facet incidence, determine:
+
+    (a) the resolving power $R$ for light of $\lambda = 500$ nm;\\
+    (b) the first‑order blaze wavelength $\lambda_B$;\\
+    (c) if light is incident normal to the grating plane, write the corresponding blaze condition (the relation among $d$、$\lambda$、$m$ and $\gamma$)\\
+    (d) Under the same incidence condition as in (c), with light incident perpendicular to the grating plane and each tilted groove facet of width $a$, prove that the diffraction intensity distribution is:
+    \[I(\theta) = I_0 \left[ \frac{\sin( \pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda)}{\pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda} \right]^2 \left[ \frac{\sin( N \pi d \sin\theta /\lambda)}{\sin(\pi d \sin\theta /\lambda)} \right]^2\]
+
+    where $\theta$ is the diffraction angle measured from the grating‑plane normal, and $I_0$ is the total intensity in the reflected direction when the blaze condition is satisfied (i.e., the maximum peak intensity)
+\end{example}
+
+\begin{example}[Polarization---\refleaftext{solution9.6}]
+    Unpolarized light passes through a linear polarizer (which converts unpolarized light into linearly polarized light) whose transmission axis makes an angle of $45^\circ$ with the $x$-direction, and then the same beam is normally incident on the two quarter‑wave plates in succession. The fast axis of the first quarter-wave plate is along the $x$-direction
+
+    (a) What is the polarization state of the light emerging from the first quarter-wave plate? If it is circularly polarized, determine its handedness.\\
+    (b) How should the fast or slow axis of the second quarter-wave plate be oriented so that the polarization direction of the final emerging light is perpendicular to that of the light emerging from the linear polarizer? \\
+    (c) Jones vectors are effective tools for handling the effects of optical instruments on polarization. The Jones vector of a light wave is expressed as $E = \left(\begin{matrix} E_x\\ E_y \end{matrix}\right) = \left(\begin{matrix}a_1 e^{i\alpha_1}\\ a_2 e^{i\alpha_2} \end{matrix}\right)$; usually, after omitting the common phase and normalizing the vector, it is written as $\dfrac{1}{\sqrt{a_1^2 + a_2^2}}\left(\begin{matrix}a_1\\ a_2 e^{i\delta}\end{matrix}\right)$. For example, the linearly polarized light produced by the polarizer in this problem is expressed as $\dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ 1\end{matrix}\right)$, and left‑handed circularly polarized light as $\dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ i\end{matrix}\right)$. Devices that can change the polarization state of light can be represented by Jones matrices. For instance, a linear polarizer with its transmission axis along the $x$‑direction is represented by $\left(\begin{matrix}1 & 0\\ 0 & 0\end{matrix}\right)$ and a quarter‑wave plate with its fast axis along $x$ is represented by $\left(\begin{matrix}1 & 0\\ 0 & i\end{matrix}\right)$. Use the Jones vector and Jones matrix to verify the result obtained in part (b).
+\end{example}

@@ -1,6 +1,204 @@
 \chapter[光学]{\itr{Optics}{光学}}
-{\LARGE \centering \color{red}\itshape
-  BLANK\\
-  期待你的建设
+\begin{solution}[Geometric Optics]
+    As shown in the figure below, a thin lens in air forms an image $A'B'$ of a virtual object $AB$. Determine the image of $CD$ by graphical construction, showing the necessary ray‑tracing steps.
+    \begin{singlefigure}[Geometric Optics]{chapter9_exercise透镜成像}[0.8]
+    \end{singlefigure}
+    \vspace{-2em}
+    \tcbrule
 
-}
+    首先确定透镜的位置。连接$BB'$，和光轴交于一点，透镜则位于该点处。从$B$点绘制平行线与透镜相交，交点与$B'$连线，与光轴相交，则该点为像方焦点。如下图所示（双箭头表示薄透镜）：
+    \begin{singlefigure}[answer1-step1]{chapter9_answer1_step1}[0.8]
+    \end{singlefigure}
+
+    $CD$连线与光轴水平，继续水平延长到透镜处产生一个交点。由于平行光入射透射光经过像方焦点，而像方焦点在左边，因此连到左侧焦点。此外$C$、$D$点分别与透镜中心点连线，产生两个交点即为像$C'D'$，如下图所示：
+    \begin{singlefigure}[answer1-step2]{chapter9_answer1_step2}[0.9]
+    \end{singlefigure}
+\end{solution}
+
+\begin{solution}[Double Refraction]
+    Rochon prism consists of two pieces of positive uniaxial quartz crystal with their optic axes perpendicular to each other. Monochromatic natural light is incident normally on the left surface of the prism, as shown in the figure. The optic-axis directions are already marked in the figure.
+
+    Qualitatively sketch the propagation directions and polarization directions of the refracted and emerging rays after the light passes through the Rochon prism.
+    \begin{singlefigure}[Double Refraction]{chapter9_exercise双折射}[0.5]
+    \end{singlefigure}
+    \tcbrule
+
+    o光偏振方向垂直于两个光轴，因此是上下偏振；e光的偏振方向与o光的偏振方向以及光的传播方向均垂直，可确定唯一的偏振方向。在折射过程中，垂直入射时两光的方向均不改变，o光的折射率不受材料光轴方向影响，因此光径是一条直线；但e光的折射率受到影响，在材料内部的交界面处折射率不同，发生折射。由于是石英正晶体，e光速度更慢。左半侧传播方向沿着光轴，e光速度快，折射率小；右半边垂直于光轴，e光速度慢，折射率大，因此入射角大折射角小。最后出射到空气中，得到完整路径图如下：
+    \begin{singlefigure}[answer2]{chapter9_answer2}[0.7]
+    \end{singlefigure}
+\end{solution}
+
+\begin{solution}[Interference]
+    In the Newton's rings shown below, the illumination wavelength is $\lambda = 600\,\text{nm}$, the radius of curvature of the reference spherical surface is $R_0 = 100\,\text{mm}$, and the test workpiece is a spherical lens with radius $R$ slightly smaller than $R_0$. The aperture of the test lens is $\phi = 50\,\text{mm}$. The radius of the 3rd dark ring is observed to be $15\,\text{mm}$.
+    \begin{singlefigure}[Newton's Rings]{chapter9_exercise牛顿环}[0.7]
+    \end{singlefigure}
+
+    (a) Is the center of the Newton's rings pattern bright or dark? Give your reasoning.\\
+    (b) Determine the radius of curvature $R$ of the test spherical surface.\\
+    (c) How many dark rings can be observed at most?
+    \tcbrule
+
+    (a) 中心处光程差为0，同时两束反射光只有一个存在半波损失，因此为暗色条纹（如果你认为折射率没有变所以不产生半波损失，那么该假设下不存在反射光）。
+
+    (b) 按照牛顿环的明暗纹推导思路，对于任意一个弧面与水平面组成的典型牛顿环系统，，假设离平面的高度为$h$，对应半径为$r$，由勾股定理可计算得：
+    \[R^2 = (R - h)^2 + r^2\]
+
+    化简并忽略$h^2$项，得到：
+    \[h = \dfrac{r^2}{2R}\]
+
+    该题目中，对应光程差为两个牛顿环对应的$h$之差的两倍，即：
+    \[2\Delta h = r^2 (\dfrac{1}{R} - \dfrac{1}{R_0})\]
+
+    分析折射率关系可得，该模型依然存在半波损失，发生于空气到玻璃的反射。因此暗纹方程满足：
+    \[2\Delta h = m\lambda\]
+
+    代入第三暗纹的半径15mm，联立上面两个方程，可解得：
+    \[R = 99.92\,\text{mm}\]
+
+    (c) 根据上一问的结论，暗纹半径与级次的关系有：
+    \[r^2 (\dfrac{1}{R} - \dfrac{1}{R_0}) = m\lambda\]
+
+    最大半径不超过$\dfrac{\phi}{2} = 25\,\text{mm}$，代入已知以及前一问求解的结果，得到：
+    \[m_{max} = 8.33\]
+
+    因此最多可观察到8个暗纹。
+\end{solution}
+
+\begin{solution}[Grating]
+    Light of $\lambda = 500$ nm is normally incident on a plane transmission grating. Two adjacent principal maxima are observed at $\sin\theta = 0.2$ and $\sin\theta = 0.3$, respectively, and the fourth order is missing. Find:
+
+    (a) The spacing between adjacent slits on the grating.\\
+    (b) The possible minimum width of each slit on the grating.\\
+    (c) After choosing the values from (1) and (2), determine all the orders that actually appear on the screen.\\
+    (d) When the light is incident at an angle of $45^\circ$, determine all the orders that actually appear on the screen.
+    \tcbrule
+
+    (a) 根据主极大的关系式，有：
+    \[d\sin\theta_1 = m\lambda\qquad d\sin\theta_2 = (m + 1)\lambda\]
+
+    代入已知条件，得到：
+    \[d = 5\,\mathrm{\mu m}\]
+
+    (b) 根据缺级条件，有：
+    \[\dfrac{d}{a} = 4k\quad k = 1, 2, 3, \cdots\]
+
+    所以：
+    \[a_{\min} = 1.25\,\mathrm{\mu m}\]
+
+    (c) 根据光栅方程$d\sin\theta = m\lambda$，取$\theta = 90^\circ$，得到：
+    \[|m| < 10\]
+
+    $m$为整数，考虑到第四级缺项导致前一问中选定$\dfrac{d}{a} = 4$，因此$\pm 4$、$\pm 8$级缺项，结合前面求得的级次范围，可得实际出现的级次为：
+    \[0,\pm 1,\pm 2,\pm 3,\pm 5,\pm 6,\pm 7,\pm 9\]
+
+    (d) $45^\circ$斜入射情况下，光栅方程变为：
+    \[d\sin i \pm d\sin\theta = m\lambda\]
+
+    其中$i = 45^\circ$、$\theta = 90^\circ$。当折射（即入射光与出射光位于法线两侧）时左边取负号，否则取正号，得到级次满足的范围为：
+    \[-2.93 < m < 17.07\]
+
+    $m$为整数，去除四的倍数，即缺级项，得到实际出现的级次为：
+    \[-2,-1,0,1,2,3,5,6,7,9,10,11,13,14,15,17\]
+\end{solution}
+
+\begin{solution}[Multi-slit Diffraction]
+    Conventional gratings concentrate most energy in the undispersed zeroth order, leaving higher-order spectra weak. \itr{Blazed gratings}{闪耀光栅} overcome this by tilting each groove facet by the \itr{blaze angle}{闪耀角} $\gamma$, so that the diffraction maximum from a single facet coincides with a higher-order interference direction of the whole array.
+
+    \begin{singlefigure}[Reflective blazed grating]{chapter9_exercise反射式闪耀光栅}[0.9]
+    \end{singlefigure}
+
+    Consider a reflective blazed grating of total width 260 mm, with 300 grooves/mm, and $\gamma = 17.46^\circ$. When light is incident normal to the groove facet, the blaze condition is:
+    \[2d \sin\gamma = m \lambda\]
+
+    where $m = 1$ gives the first-order blaze wavelength $\lambda_B$. Under this normal-to-groove-facet incidence, determine:
+
+    (a) the resolving power $R$ for light of $\lambda = 500$ nm;\\
+    (b) the first‑order blaze wavelength $\lambda_B$;\\
+    (c) if light is incident normal to the grating plane, write the corresponding blaze condition (the relation among $d$、$\lambda$、$m$ and $\gamma$)\\
+    (d) Under the same incidence condition as in (c), with light incident perpendicular to the grating plane and each tilted groove facet of width $a$, prove that the diffraction intensity distribution is:
+    \[I(\theta) = I_0 \left[ \frac{\sin( \pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda)}{\pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda} \right]^2 \left[ \frac{\sin( N \pi d \sin\theta /\lambda)}{\sin(\pi d \sin\theta /\lambda)} \right]^2\]
+
+    where $\theta$ is the diffraction angle measured from the grating‑plane normal, and $I_0$ is the total intensity in the reflected direction when the blaze condition is satisfied (i.e., the maximum peak intensity)
+    \tcbrule
+
+    (a) 对于闪耀光栅，分辨率$R = mN$。在该题目中，可以求得光栅的相关参数：总刻槽数$N = 260\times 300 = 78000$、刻槽间距$d = \dfrac{1}{300}\times 10^6\,\text{nm}$。根据题目中给到的闪耀条件方程，得到该波长的光对应的分辨级次：
+    \[m = \dfrac{2d\sin\gamma}{\lambda} = 4\]
+
+    因此分辨率为：
+    \[R = mN = 3.12\times 10^5\]
+    (b) 直接代入闪耀条件公式，取$m = 1$：
+    \[\lambda_B = 2d\sin\gamma = 2000.27\,\text{nm}\]
+
+    (c) 考虑几何关系，光程差的结论。如下图所示，我们取相邻刻槽分析：
+    \begin{singlefigure}[answer5-3]{chapter9_answer5}[0.7]
+    \end{singlefigure}
+
+    闪耀条件针对亮度最高的级次，为几何意义上该光线的反射方向。明显可见相邻光线的光程差为$d\sin 2\gamma$，因此可得该入射条件下光栅的闪耀条件为：
+    \[d\sin 2\gamma = m\lambda\]
+
+    或者我们考虑另一个思路，光栅方程满足：
+    \[d\sin i \pm d\sin\theta = m\lambda\]
+
+    此时入射角和反射角均为$\gamma$。而对应光栅面法线，入射角折算夹角为$0$，反射角折算为$2\gamma$。直接代入，亦可得上面的结论。
+
+    (d) 在一般的透射光栅中，衍射强度满足：
+    \[I = I_0\left(\dfrac{\sin\alpha}{\alpha}\right)^2\left(\dfrac{\sin(N\beta)}{\sin\beta}\right)^2\]
+
+    其中$\alpha = \dfrac{\pi}{\lambda}a\sin \theta$，$N$为缝的个数，$\beta = \dfrac{\pi}{\lambda}d\sin \theta$。前一项为单缝衍射项，后一项为多缝干涉项。
+
+    对于闪耀光栅，单缝衍射项的主极大位于几何光学中的反射方向。先分析衍射项，如下图所示，我们分析光程的问题，得到以下关系：
+    \begin{singlefigure}[answer5-4]{chapter9_answer5-4}[0.7]
+    \end{singlefigure}
+
+    光程差由入射过程和反射过程两部分决定。如图所示，假定单个刻槽的左下角处相位为0，那么经过距离该点$u$处的刻槽面上的点的光的光程将会增加：
+    \[\Delta L = u[\sin(\theta - \gamma) - \sin\gamma]\]
+
+    对应到衍射的证明过程，平均切分的点对应每一段的光程增加量为$\dfrac{a}{N}\sin\theta$得到的求和结果对应光强满足：
+    \[I = I_0\left(\dfrac{\sin\alpha}{\alpha}\right)^2\qquad \alpha = \dfrac{\pi}{\lambda}a\sin \theta\]
+
+    从积分的角度，这表明：
+    \[\left|\int_0^a e^{i\frac{2\pi}{\lambda}x\sin\theta}\dif x\right|^2 = a^2\left(\dfrac{\sin(\frac{\pi a}{\lambda}\sin\theta)}{\frac{\pi a}{\lambda}\sin\theta}\right)^2\]
+
+    无论采取相幅矢量结合半波带法叠加法或直接积分并结合欧拉公式计算，都可得单个刻槽衍射项对应的衍射光强项为：
+    \[a^2\left(\dfrac{\sin(\frac{\pi a}{\lambda}[\sin(\theta - \gamma)-\sin\gamma])}{\frac{\pi a}{\lambda}[\sin(\theta - \gamma)-\sin\gamma]}\right)^2\]
+
+    而多缝干涉项模型部分与之前的推导一致，结果不变，仍为：
+    \[\left(\dfrac{\sin(\frac{N\pi d}{\lambda}\sin\theta)}{\sin(\frac{\pi d}{\lambda}\sin\theta)}\right)^2\]
+
+    由于最终计算时$a^2$项会被归入$I_0$中，因此最终结果为：
+    \[I(\theta) = I_0 \left[ \frac{\sin( \pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda)}{\pi a [\sin(\theta-\gamma) - \sin\gamma]/\lambda} \right]^2 \left[ \frac{\sin( N \pi d \sin\theta /\lambda)}{\sin(\pi d \sin\theta /\lambda)} \right]^2\]
+
+    当$\theta = 2\gamma$时，上式取到最大值。
+\end{solution}
+
+\begin{solution}[Polarization]
+    Unpolarized light passes through a linear polarizer (which converts unpolarized light into linearly polarized light) whose transmission axis makes an angle of $45^\circ$ with the $x$-direction, and then the same beam is normally incident on the two quarter‑wave plates in succession. The fast axis of the first quarter-wave plate is along the $x$-direction
+
+    (a) What is the polarization state of the light emerging from the first quarter-wave plate? If it is circularly polarized, determine its handedness.\\
+    (b) How should the fast or slow axis of the second quarter-wave plate be oriented so that the polarization direction of the final emerging light is perpendicular to that of the light emerging from the linear polarizer? \\
+    (c) Jones vectors are effective tools for handling the effects of optical instruments on polarization. The Jones vector of a light wave is expressed as $E = \left(\begin{matrix} E_x\\ E_y \end{matrix}\right) = \left(\begin{matrix}a_1 e^{i\alpha_1}\\ a_2 e^{i\alpha_2} \end{matrix}\right)$; usually, after omitting the common phase and normalizing the vector, it is written as $\dfrac{1}{\sqrt{a_1^2 + a_2^2}}\left(\begin{matrix}a_1\\ a_2 e^{i\delta}\end{matrix}\right)$. For example, left‑handed circularly polarized light is expressed as $\dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ i\end{matrix}\right)$. Devices that can change the polarization state of light can be represented by Jones matrices. For instance, a linear polarizer with its transmission axis along the $x$‑direction is represented by $\left(\begin{matrix}1 & 0\\ 0 & 0\end{matrix}\right)$ and a quarter‑wave plate with its fast axis along $x$ is represented by $\left(\begin{matrix}1 & 0\\ 0 & i\end{matrix}\right)$. Use the Jones vector and Jones matrix to verify the result obtained in part (b).
+    \tcbrule
+
+    (a) 光线经过起偏器后，由于起偏器产生与$x$轴夹角为$45^\circ$，因此该线偏振光对应的两个方向分量相位相同。在经过第一个四分之一玻片后，由于快轴在$x$方向，因此$y$方向相位落后$\dfrac{\pi}{2}$。正对光线传播方向，可见偏振态为左旋圆偏振光。
+
+    (b) 考虑最终垂直的偏振方向，此时偏振方向与$x$轴夹角为$135^\circ$，对应两个轴方向分量应该相差$\pi$相位。在经过第一个玻片后$y$方向相位落后$\dfrac{\pi}{2}$，因此第二个四分之一玻片应该让这个相位继续相差$\dfrac{\pi}{2}$，所以与第一个玻片一样快轴沿$x$轴方向。
+
+    (c) 根据题目给的信息，快轴沿$x$轴方向的玻片对应的琼斯矩阵为：
+    \[J = \left(\begin{matrix}1 & 0\\ 0 & i\end{matrix}\right)\]
+
+    经过起偏器后的偏振光的琼斯矢量可以表示为：
+    \[E_0 = \dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ 1\end{matrix}\right)\]
+
+    根据计算规则，经过第一个玻片后：
+    \[E_1 = JE_0 = \dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ i\end{matrix}\right)\]
+
+    对应左旋圆偏振光，再继续经过第二个玻片后：
+    \[E_2 = JE_1 = \dfrac{1}{\sqrt{2}}\left(\begin{matrix}1\\ -1\end{matrix}\right)\]
+
+    对应线偏振光，且方向与最初经过起偏器的光偏振方向垂直。
+\end{solution}
+% {\LARGE \centering \color{red}\itshape
+%   BLANK\\
+%   期待你的建设
+
+% }

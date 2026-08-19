@@ -160,7 +160,7 @@
   \[f = f' = \dfrac{1}{(n_L - 1)(\dfrac{1}{r_1} - \dfrac{1}{r_2})}\]
 \end{prove}
 
-\begin{prove}\itr{Newton’s law of refraction}{牛顿公式}
+\begin{prove}[\itr{Newton’s law of refraction}{牛顿公式}]
   \begin{singlefigure}[牛顿公式示意图]{chapter9_牛顿公式}[0.9]
   \end{singlefigure}
 
@@ -174,7 +174,7 @@
   \[xx' = ff'\]
 \end{prove}
 
-\begin{prove}\itr{Double-Slit Interference}{双缝干涉}
+\begin{prove}[\itr{Double-Slit Interference}{双缝干涉}]
   \begin{singlefigure}[双缝干涉]{chapter9_双缝干涉}[0.8]
   \end{singlefigure}
   我们已经得到两个波的叠加结果为：
@@ -194,7 +194,100 @@
 \end{prove}
 
 \begin{prove}[\itr{Half-Wave Loss of Reflecting Light}{反射光的半波损失}]
+  对于空间中任意的平面电磁波，其可以分解为垂直于该平面的分量与在该平面内的分量，我们分别称他们是s波和p波。
   
+  当电场取s波时：
+  \begin{singlefigure}[电场s波的情况]{chapter9_电场s波的情况}[0.7]
+  \end{singlefigure}
+
+  三个电场的表达式可写为：
+  \[\vec{E}_{1,s} = \vec{a}_y E_{1,s} e^{i\vec{k}\cdot\vec{r}} = \vec{a}_y E_{1,s} e^{i(k_{1,s}\sin\theta_1 \hat{x} + k_{1,s}\cos\theta_1 \hat{z})}\]
+  \[\vec{E'}_{1,s} = \vec{a}_y E'_{1,s} e^{i\vec{k}\cdot\vec{r}} = \vec{a}_y E'_{1,s} e^{i(k'_{1,s}\sin\theta'_1 \hat{x} - k'_{1,s}\cos\theta'_1 \hat{z})}\]
+  \[\vec{E}_{2,s} = \vec{a}_y E_{2,s} e^{i\vec{k}\cdot\vec{r}} = \vec{a}_y E_{2,s} e^{i(k_{2,s}\sin\theta_2 \hat{x} + k_{2,s}\cos\theta_2 \hat{z})}\]
+  
+  根据电磁波的速度$v = \dfrac{1}{\sqrt{\varepsilon\mu}}$、关系式$E = vB$、$B = \mu H$，可得：
+  \[H = \sqrt{\dfrac{\varepsilon}{\mu}}E\]
+
+  因此可以得到三个磁场的表达式：
+  \[\vec{H}_{1,s} = (-\vec{a}_x\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E_{1,s}\cos\theta_1 + \vec{a}_z\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E_{1,s}\sin\theta_1) e^{i(k_{1,s}\sin\theta_1 \hat{x} + k_{1,s}\cos\theta_1 \hat{z})}\]
+  \[\vec{H'}_{1,s} = (\vec{a}_x\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E'_{1,s}\cos\theta'_1 + \vec{a}_z\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E'_{1,s}\sin\theta'_1) e^{i(k'_{1,s}\sin\theta'_1 \hat{x} - k'_{1,s}\cos\theta'_1 \hat{z})}\]
+  \[\vec{H}_{2,s} = (-\vec{a}_x\sqrt{\dfrac{\varepsilon_2}{\mu_2}}E_{2,s}\cos\theta_2 + \vec{a}_z\sqrt{\dfrac{\varepsilon_2}{\mu_2}}E_{2,s}\sin\theta_2) e^{i(k_{2,s}\sin\theta_2 \hat{x} + k_{2,s}\cos\theta_2 \hat{z})}\]
+
+  在交界面处，我们划定一个很薄的矩形，取其环路，根据麦克斯韦方程组要求，有$\oint \vec{E}\cdot d\vec{l} = -\iint\dfrac{\partial \vec{B}}{\partial t}\cdot\dif{\vec{S}}$，因为可以无限薄，所以可知电场应当满足连续性条件；同理，$\oint \vec{H}\cdot d\vec{l} = \iint\dfrac{\partial \vec{D}}{\partial t}\cdot\dif{\vec{S}}$，磁场也应当满足连续性条件。取$z = 0$，可得：
+  \begin{align*}
+    \begin{cases}
+      E_{1,s} e^{ik_{1,s}\sin\theta_1\hat{x}} + E'_{1,s} e^{ik'_{1,s}\sin\theta'_1\hat{x}} = E_{2,s} e^{ik_{2,s}\sin\theta_2\hat{x}}\\
+      -\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E_{1,s}\cos\theta_1 e^{ik_{1,s}\sin\theta_1\hat{x}} + \sqrt{\dfrac{\varepsilon_1}{\mu_1}}E'_{1,s}\cos\theta'_1 e^{ik'_{1,s}\sin\theta'_1\hat{x}}\\
+      \hspace{12em} = -\sqrt{\dfrac{\varepsilon_2}{\mu_2}}E_{2,s}\cos\theta_2 e^{ik_{2,s}\sin\theta_2\hat{x}}
+    \end{cases}
+  \end{align*}
+
+  注意到，这两个等式应当对任意的$x$均成立，对于复指数而言，要求指数部分完全一致才可以满足，因此：
+  \[k'_1\sin\theta_1 = k'_{1,s}\sin\theta'_1 = k_{2,s}\sin\theta_2\]
+
+  由振动与波的要求，$k = \dfrac{2\pi n}{\lambda}$，这可以得到几何光学的反射和折射定律$\theta_1 = \theta'_1$以及$n_1\sin\theta_1 = n_2\sin\theta_2$。
+
+  因此可以约去一些不必要的部分，得到简化的方程组：
+  \begin{align*}
+    \begin{cases}
+      E_{1,s} + E'_{1,s} = E_{2,s}\\
+      -\sqrt{\dfrac{\varepsilon_1}{\mu_1}}E_{1,s}\cos\theta_1 + \sqrt{\dfrac{\varepsilon_1}{\mu_1}}E'_{1,s}\cos\theta'_1 = -\sqrt{\dfrac{\varepsilon_2}{\mu_2}}E_{2,s}\cos\theta_2
+    \end{cases}
+  \end{align*}
+
+  在光学中，各个介质的磁导率近似相等且近似于1，介电常数可以近似表示为：
+  \[\sqrt{\varepsilon_1} \approx n_1\sqrt{\varepsilon_0}\qquad\sqrt{\varepsilon_2} \approx n_2\sqrt{\varepsilon_0}\]
+
+  进一步得到更加简化的方程组：
+  \begin{align*}
+    \begin{cases}
+      E_{1,s} + E'_{1,s} = E_{2,s}\\
+      -n_1 E_{1,s}\cos\theta_1 + n_1 E'_{1,s}\cos\theta'_1 = -n_2 E_{2,s}\cos\theta_2
+    \end{cases}
+  \end{align*}
+
+  定义反射系数$r_s = \dfrac{E'_{1,s}}{E_{1,s}}$和透射系数$t_s = \dfrac{E_{2,s}}{E_{1,s}}$，根据方程组可解得：
+  \[r_s = \dfrac{n_1\cos\theta_1 - n_2\cos\theta_2}{n_1\cos\theta_1 + n_2\cos\theta_2} = \dfrac{\sin\theta_2\cos\theta_1 - \sin\theta_1\cos\theta_2}{\sin\theta_2\cos\theta_1 + \sin\theta_1\cos\theta_2} = \dfrac{\sin(\theta_2 - \theta_1)}{\sin(\theta_2 + \theta_1)}\]
+  \[t_s = 1 + r_s = \dfrac{2n_1\cos\theta_1}{n_1\cos\theta_1 + n_2\cos\theta_2}\]
+
+  若为正入射的情况，$r_s = \dfrac{n_1 - n_2}{n_1 + n_2}$，因此$n_1 < n_2$时$r_s < 0$，因此入射电场与反射电场相差相位$\pi$，即有半波损失。否则没有半波损失。
+
+  当电场取p波时：
+  \begin{singlefigure}[电场p波的情况]{chapter9_电场p波的情况}[0.7]
+  \end{singlefigure}
+  
+  同理，我们可以得到以下关于电场和磁场的方程：
+  \[\vec{E}_{1,p} = (\vec{a}_x E_{1,p} \cos\theta_1 - \vec{a}_z E{1,p}\sin\theta_1) e^{i(k_{1,p}\sin\theta_1 \hat{x} + k_{1,p}\cos\theta_1 \hat{z})}\]
+  \[\vec{E'}_{1,p} = (-\vec{a}_x E'_{1,p} \cos\theta'_1 - \vec{a}_z E'_{1,p}\sin\theta'_1) e^{i(k'_{1,p}\sin\theta'_1 \hat{x} - k'_{1,p}\cos\theta'_1 \hat{z})}\]
+  \[\vec{E}_{2,p} = (\vec{a}_x E_{2,p} \cos\theta_2 - \vec{a}_z E_{2,p}\sin\theta_2) e^{i(k_{2,p}\sin\theta_2 \hat{x} + k_{2,p}\cos\theta_2 \hat{z})}\]
+  \[\vec{H}_{1,p} = \vec{a}_y \sqrt{\dfrac{\varepsilon_1}{\mu_1}} E_{1,p} e^{i(k_{1,p}\sin\theta_1 \hat{x} + k_{1,p}\cos\theta_1 \hat{z})}\]
+  \[\vec{H'}_{1,p} = \vec{a}_y \sqrt{\dfrac{\varepsilon_1}{\mu_1}} E'_{1,p} e^{i(k'_{1,p}\sin\theta'_1 \hat{x} - k'_{1,p}\cos\theta'_1 \hat{z})}\]
+  \[\vec{H}_{2,p} = \vec{a}_y \sqrt{\dfrac{\varepsilon_2}{\mu_2}} E_{2,p} e^{i(k_{2,p}\sin\theta_2 \hat{x} + k_{2,p}\cos\theta_2 \hat{z})}\]
+
+  代入边界条件，同样的处理，可得：
+  \begin{align*}
+    \begin{cases}
+      \theta_1 = \theta'_1\qquad n_1\sin\theta_1 = n_2\sin\theta_2\\
+      E_{1,p}\cos\theta_1 - E'_{1,p}\cos\theta'_1 = E_{2,p}\cos\theta_2\\
+      \sqrt{\dfrac{\varepsilon_1}{\mu_1}}E_{1,p} + \sqrt{\dfrac{\varepsilon_1}{\mu_1}}E'_{1,p} = \sqrt{\dfrac{\varepsilon_2}{\mu_2}}E_{2,p}\\
+    \end{cases}
+  \end{align*}
+
+  即:
+  \begin{align*}
+    \begin{cases}
+      (E_{1,p} - E'_{1,p})\cos\theta_1 = E_{2,p}\cos\theta_2\\
+      n_1 E_{1,p} + n_1 E'_{1,p} = n_2 E_{2,p}
+    \end{cases}
+  \end{align*}
+
+  采用同样的反射系数和透射系数定义，可得：
+  \[r_p = \dfrac{E'_{1,p}}{E_{1,p}} = \dfrac{n_2\cos\theta_1 - n_1\cos\theta_2}{n_2\cos\theta_1 + n_1\cos\theta_2} = \dfrac{\tan(\theta_1 - \theta_2)}{\tan(\theta_1 + \theta_2)}\]
+  \[t_p = \dfrac{2 n_1 \cos\theta_1}{n_2\cos\theta_1 + n_1\cos\theta_2}\]
+
+  若为正入射的情况，$r_p = \dfrac{n_2 - n_1}{n_1 + n_2}$，$n_1 < n_2$时由于我们上图规定的电场起偏方向本身是相反的（考虑正入射时上图入射光电场向右，反射光电场向左），本身自带有一个负号，因此半波损失情况与$s$波时相同。
+
+  综上，正入射的光当从$n_1$介质到$n_2$介质时，若$n_1 < n_2$则反射光有半波损失。同时可得透射光无半波损失。
 \end{prove}
 
 \begin{prove}[牛顿环的曲率半径]
@@ -217,5 +310,55 @@
 \end{prove}
 
 \begin{prove}[\itr{Multi-slit diffraction}{多缝衍射}]
-  
+  \begin{singlefigure}[多缝衍射]{chapter9_多缝衍射}[0.99]
+  \end{singlefigure}
+
+  我们仍然假设最上面一个点的相位为0，作为参考相位。根据单缝衍射的结论，每一个缝对应的电场结果为：
+  \[E_{\theta} = E_0\dfrac{\sin\alpha}{\alpha}e^{i\alpha}\qquad \alpha = \dfrac{\pi}{\lambda}a\sin\theta\]
+
+  由图可知，相邻两个缝的相位差为$\dfrac{2\pi}{\lambda}d\sin\theta$，假设一共$N$个缝，则：
+  \begin{align*}
+    E_1 &= E_{\theta} e^{i\cdot 0}\\
+    E_2 &= E_{\theta} e^{i\cdot \frac{2\pi}{\lambda}\cdot d \sin \theta}\\
+    E_3 &= E_{\theta} e^{i\cdot 2\cdot \frac{2\pi}{\lambda}\cdot 2d\sin \theta}\\
+    &\cdots\\
+    E_N &= E_{\theta} e^{i\cdot (N-1)\cdot \frac{2\pi}{\lambda}\cdot (N-1)d\sin \theta}
+  \end{align*}
+
+  对以上作级数求和，可得：
+  \begin{align*}
+    E &= \sum_{n=1}^{N}E_{\theta}e^{i(n-1)\frac{2\pi}{\lambda}d\sin\theta}\\
+    &= E_{\theta}\dfrac{1-e^{i\frac{2\pi}{\lambda} Nd\sin\theta}}{1-e^{i\frac{2\pi}{\lambda} d\sin\theta}}\\
+    &= E_{\theta}\dfrac{(e^{-i\frac{\pi}{\lambda} Nd\sin\theta}- e^{i\frac{\pi}{\lambda} Nd\sin\theta})e^{i\frac{\pi}{\lambda} Nd\sin\theta}}{(e^{-i\frac{\pi}{\lambda} d\sin\theta}-e^{i\frac{\pi}{\lambda} d\sin\theta})e^{i\frac{\pi}{\lambda} d\sin\theta}}\\
+    &= E_{\theta}\dfrac{-2i\sin(\frac{\pi}{\lambda}Nd\sin\theta)}{-2i\sin(\frac{\pi}{\lambda}d\sin\theta)}e^{i(N-1)\frac{\pi}{\lambda}d\sin\theta}
+  \end{align*}
+
+  令$\beta = \dfrac{\pi}{\lambda}d\sin\theta$，则：
+  \[E = E_{\theta}\dfrac{\sin(N\beta)}{\sin(\beta)}e^{i(N-1)\beta} = E_0\dfrac{\sin\alpha}{\alpha}e^{i\alpha}\dfrac{\sin(N\beta)}{\sin(\beta)}e^{i(N-1)\beta}\]
+\end{prove}
+
+\begin{prove}[\itr{Resolving power of diffraction grating}{光栅的分辨能力}]
+  根据正文部分的推导，多缝衍射主极大的半角宽度$\Delta\theta$可以如下表示：
+  \[\Delta\theta = \dfrac{\lambda}{Nd\cos\theta}\]
+
+  根据光栅方程的结论：
+  \[\dfrac{\Delta\theta}{\Delta\lambda} = \dfrac{m}{d\cos\theta}\]
+
+  代入，整理，可得：
+  \[\dfrac{\lambda}{Nd\cos\theta\Delta\lambda} = \dfrac{m}{d\cos\theta}\]
+
+  因此：
+  \[A = \dfrac{\lambda}{\Delta\lambda} = mN\]
+\end{prove}
+
+\begin{prove}[\itr{Brewster’s angle}{布儒斯特角}]
+  与上面半波损失相关的推导一致，假设s波电场垂直纸面，p波电场平行于纸面。任意表示光的电场矢量可以被分解为s波和p波两个分量。另外我们也得到如下结果：
+  \[r_s = \dfrac{n_1\cos\theta_1 - n_2\cos\theta_2}{n_1\cos\theta_1 + n_2\cos\theta_2} = \dfrac{\sin(\theta_2 - \theta_1)}{\sin(\theta_2 + \theta_1)}\]
+  \[t_s = 1 + r_s = \dfrac{2n_1\cos\theta_1}{n_1\cos\theta_1 + n_2\cos\theta_2}\]
+  \[r_p = \dfrac{n_2\cos\theta_1 - n_1\cos\theta_2}{n_2\cos\theta_1 + n_1\cos\theta_2} = \dfrac{\tan(\theta_1 - \theta_2)}{\tan(\theta_1 + \theta_2)}\]
+  \[t_p = \dfrac{2 n_1 \cos\theta_1}{n_2\cos\theta_1 + n_1\cos\theta_2}\]
+
+  考虑反射系数，可以发现，当$\theta_1 + \theta_2 = \pi$时，反射系数$r_p$趋于0，即反射光的p波分量的强度反射率$R_p = |r_p|^2 = 0$。表明此时p波没有被反射的部分，即出现布儒斯特角。
+
+  同样我们可以得知，s波同时存在被反射和透射的部分，因此反射波的偏振方向仅含p波分量，而折射光同时存在两个方向的偏振态。
 \end{prove}

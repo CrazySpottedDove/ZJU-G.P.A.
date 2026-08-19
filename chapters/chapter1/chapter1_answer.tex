@@ -1,4 +1,4 @@
-\chapter[测量]{\itr{Measurement}{测量}}
+\chapter[基础知识]{\itr{Basic Knowledge}{基础知识}}
 \begin{solution}[量纲分析]
     The \itr{displacement}{位移} of a particle moving under \itr{uniform
         acceleration}{匀加速度} is some function of the \itr{elapsed time}{经历的时间} and
@@ -20,4 +20,87 @@
     \[m=1,n=2\]
     \par
     (2) 不能，量纲分析只是定性分析，无法解决值上的问题。
+\end{solution}
+
+\begin{solution}[微分方程]
+    A raindrop can be regarded as an ideal sphere with initial radius $r_0$ and density $\rho_0$. At $t = 0$, it starts from rest in still air and falls vertically. During its fall, it absorbs still dust. The mass absorbed per unit time is $\dfrac{\dif m}{\dif t} = k\rho r^3$, where $k$ is a constant, $\rho$ is the dust density (which remains constant), and $r$ is the raindrop radius, which increases due to dust absorption. The air resistance is $f = cv r^3$, where $v$ is the fall speed and $c$ is a constant related to air properties (ignore air buoyancy and other factors). The gravitational acceleration is $g$. Suppose the density of raindrops and dust particles satisfies $\rho_0 = \rho$.
+
+    (a) Find the radius of the raindrop $r(t)$ as a function of time.\\
+    (b) Find the velocity $v(t)$ and the falling height $y(t)$ of the raindrop as functions of time, with initial height $y = 0$ and downward direction taken as positive. Does the raindrop's speed have a limit velocity $v_m$?\\
+
+    \tcbrule
+
+    该题目原题曾有雨滴密度是否变化的歧义。当密度变化时即$\rho \neq \rho_0$时由于微分方程结构原因，我们的知识基础无法求解$v(t)$的具体解析式，因此下述仅考虑灰尘与雨滴密度一致的情况。
+
+    (a) 由于涉及雨滴和灰尘的密度是否相等的问题，前两问先以密度不等列式。首先考虑灰尘包裹在雨滴周围，在包裹过程中雨滴半径变大，受到的阻力变大。取任一时刻$t$，此时对应整体半径为$r$，则总体质量表示为：
+    \[m = \dfrac{4}{3}\pi (r^3 - r_0^3) \rho + \dfrac{4}{3}\pi r_0^3\rho_0\]
+    
+    因此其微分为：
+    \[\dfrac{\dif m}{\dif t} = 4\pi r^2\rho\dfrac{\dif r}{\dif t} = k\rho r^3\]
+
+    求解，得：
+    \[r = r_0 e^{kt/4\pi}\]
+
+    (b) 这是变质量物体的运动，因此满足：
+    \[\dfrac{\dif (mv)}{\dif t} = m\dfrac{\dif v}{\dif t} + v\dfrac{\dif m}{\dif t} = mg - f\]
+
+    代入已经求出的以及题目已知的条件，得到：
+    \[4\pi\left[e^{\alpha t}\rho + \rho_0 - \rho\right]\dfrac{\dif v}{\dif t} + 3e^{\alpha t}(c + k\rho)v = 4\pi\left[e^{\alpha t}\rho + \rho_0 - \rho\right]g\]
+
+    其中$\alpha = \dfrac{3k}{4\pi}$。在密度相等条件下，简化为：
+    \[4\pi\rho\dfrac{\dif v}{\dif t} + 3(c + k\rho)v = 4\pi \rho g\]
+
+    令常数部分$\beta = \dfrac{3(c+k\rho)}{4\pi\rho}$，分离变量，得到：
+    \[\dfrac{\dif v}{g - \beta v} = \dif t\]
+
+    两边积分，并代入初值条件$v(0) = 0$，得到：
+    \[v = \dfrac{4\pi\rho g}{3(c+k\rho)}(1 - e^{-\frac{3(c+k\rho)}{4\pi\rho}t})\]
+
+    取$t\rightarrow \infty$，可得到最大速度：
+    \[v_m = \dfrac{4\pi\rho g}{3(c+k\rho)}\]
+
+    再积分一次，并代入初值条件解出积分结果的常数项，得到：
+    \[y(t) = \dfrac{4\pi\rho g}{3(c+k\rho)}t + \dfrac{16\pi^2\rho^2 g}{9(c+k\rho)^2}(e^{-\frac{3(c+k\rho)}{4\pi\rho}t}-1)\]
+\end{solution}
+
+\begin{solution}[三角函数、复数与矢量]
+    (a) Two harmonic motions of the same frequency are given by：
+    \[x_1(t) = 4\cos(t + 45^\circ)\qquad x_2(t) = 3\cos(t-30^\circ)\]
+    Find the resultant $x(t) = x_1(t) + x_2(t)$ in the form $x(t) = A\cos(t + \varphi_1)$\\
+    (b) The resultant $x(t)$ from part (a) is fed into a linear system described by:
+    \[y = x(t) + 2\dfrac{\dif x}{\dif t} + 3\int_{0}^{t} x(\tau)\dif \tau\]
+
+    Determine the steady‑state output $y(t) = B\cos(t + \varphi_2)$\\
+    (c) The same resultant $x(t)$ is now fed into a different linear system whose response to a past input decays exponentially:
+    \[z(t) = \int_{0}^{+\infty} e^{-\tau} x(t-\tau)\dif \tau\]
+
+    Find the steady‑state output $z(t) = C\cos(t + \varphi_3)$
+    
+    \tcbrule
+    
+    (a) 用相量表示两个三角函数，下述解答按工程习惯，以$j$表示单位虚数$i$：
+    \[\dot{X}_1 = 4e^{j 45^\circ} = 2\sqrt{2} + 2\sqrt{2}j\]
+    \[\dot{X}_2 = 3e^{-j 30^\circ} = \dfrac{3\sqrt{3}}{2} - \dfrac{3}{2}j\]
+
+    根据相量加法原理，和相量的实部为$2\sqrt{2}+\dfrac{3\sqrt{3}}{2}$，虚部为$2\sqrt{2}-\dfrac{3}{2}$，因此：
+    \[\left|\dot{X}\right| = \sqrt{(2\sqrt{2}+\dfrac{3\sqrt{3}}{2})^2 + (2\sqrt{2}-\dfrac{3}{2})^2} = 5.59\]
+    \[\varphi_1 = \arctan\left(\dfrac{2\sqrt{2}-\dfrac{3}{2}}{2\sqrt{2}+\dfrac{3\sqrt{3}}{2}}\right) = 13.76^\circ\]
+
+    因此三角函数之和可写作：
+    \[x(t) = 5.59\cos(t + 13.76^\circ)\]
+
+    (b) 微分过程对应相量逆时针旋转$90^\circ$，积分过程对应顺时针旋转 $90^\circ$，分别等价于乘除虚数单位，用相量表示$y(t)$表达式，可得：
+    \[\dot{Y} = \dot{X}(1 + 2j + \dfrac{3}{j}) = (1-j)\dot{X}\]
+
+    其中$1-j$\mgnote{$i-j$在系统中称为频率响应，该值与输入函数的频率有关，此处为$\omega = 1$}部分模长为$\sqrt{2}$，幅角为$-45^\circ$。与前一问求得的结果进行复指数相乘，可得：
+    \[y(t) = 5.59\sqrt{2}(t + 13.76^\circ - 45^\circ) = 7.90(t - 31.24^\circ)\]
+
+    (c) 复平面上的旋转矢量以$\omega = 1$逆时针旋转，$x(t-\tau)$表示存在一段时间的延时（也称时移），等价于相量顺时针旋转$-\tau$角度，因此该积分式等价于：
+    \[\dot{Z} = \int_{0}^{+\infty} e^{-\tau} \dot{X}e^{-j\tau}\dif \tau\]
+
+    提取相量$\dot{X}$，对其余部分积分得到结果为：
+    \[\int_{0}^{+\infty} e^{-\tau} e^{-j\tau}\dif \tau = \dfrac{1}{1+j} = \dfrac{1}{\sqrt{2}}e^{j -45^\circ}\]
+
+    与原相量相乘，得到：
+    \[z(t) = \dfrac{5.59}{\sqrt{2}}\cos(t + 13.76^\circ - 45^\circ) = 3.95(t - 31.24^\circ)\]
 \end{solution}

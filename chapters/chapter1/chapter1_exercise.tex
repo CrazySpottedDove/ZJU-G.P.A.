@@ -1,4 +1,4 @@
-\section{课后习题:测量}
+\section{课后习题:基础知识}
 
 \begin{example}[量纲分析---\refleaftext{solution1.1}]
     The \itr{displacement}{位移} of a particle moving under \itr{uniform
@@ -11,5 +11,23 @@
     (2)Can this analysis give the value of $k$?
 \end{example}
 
+\begin{example}[微分方程---\refleaftext{solution1.2}]
+    A raindrop can be regarded as an ideal sphere with initial radius $r_0$ and density $\rho_0$. At $t = 0$, it starts from rest in still air and falls vertically. During its fall, it absorbs still dust. The mass absorbed per unit time is $\dfrac{\dif m}{\dif t} = k\rho r^3$, where $k$ is a constant, $\rho$ is the dust density (which remains constant), and $r$ is the raindrop radius, which increases due to dust absorption. The air resistance is $f = cv r^3$, where $v$ is the fall speed and $c$ is a constant related to air properties (ignore air buoyancy and other factors). The gravitational acceleration is $g$. Suppose the density of raindrops and dust particles satisfies $\rho_0 = \rho$.
 
+    (a) Find the radius of the raindrop $r(t)$ as a function of time.\\
+    (b) Find the velocity $v(t)$ and the falling height $y(t)$ of the raindrop as functions of time, with initial height $y = 0$ and downward direction taken as positive. Does the raindrop's speed have a limit velocity $v_m$?\\
+\end{example}
 
+\begin{example}[三角函数、复数与矢量---\refleaftext{solution1.3}]
+    (a) Two harmonic motions of the same frequency are given by：
+    \[x_1(t) = 4\cos(t + 45^\circ)\qquad x_2(t) = 3\cos(t-30^\circ)\]
+    Find the resultant $x(t) = x_1(t) + x_2(t)$ in the form $x(t) = A\cos(t + \varphi_1)$\\
+    (b) The resultant $x(t)$ from part (a) is fed into a linear system described by:
+    \[y = x(t) + 2\dfrac{\dif x}{\dif t} + 3\int_{0}^{t} x(\tau)\dif \tau\]
+
+    Determine the steady‑state output $y(t) = B\cos(t + \varphi_2)$\\
+    (c) The same resultant $x(t)$ is now fed into a different linear system whose response to a past input decays exponentially:
+    \[z(t) = \int_{0}^{+\infty} e^{-\tau} x(t-\tau)\dif \tau\]
+
+    Find the steady‑state output $z(t) = C\cos(t + \varphi_3)$
+\end{example}
